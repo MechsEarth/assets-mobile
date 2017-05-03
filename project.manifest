@@ -5,10 +5,6 @@
     "version": "2.0.4",
     "engineVersion": "3.15",
     "assets": {
-        "CNAME": {
-            "md5": "66df396e471d5eb119d43dd8ffb37dbd",
-            "size": 22
-        },
         "ClientConfig.xml": {
             "md5": "da94767ee032987221c6ffe587b47cbc",
             "size": 172
@@ -21,9 +17,9 @@
             "md5": "cfad8583b00a304106aa734f5e13ff38",
             "size": 5683
         },
-        "README.md": {
-            "md5": "9a30ca6f5c268e62f0685a061a93e9ba",
-            "size": 122
+        "GenerateManifestsIgnore": {
+            "md5": "37d52aca2b10034395634722136a1d18",
+            "size": 85
         },
         "fonts/BasicFonts.xml": {
             "md5": "3d103039fe79f4cc4c7f1d7272611101",

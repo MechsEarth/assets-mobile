@@ -1,0 +1,6 @@
+.gitattributes
+.gitignore
+CNAME
+GenerateManifests.exe
+README.md
+version.manifest
