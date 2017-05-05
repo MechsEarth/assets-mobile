@@ -1,6 +1,7 @@
 .gitattributes
 .gitignore
 CNAME
+GenerateManifestsIgnore
 GenerateManifests.exe
 README.md
 version.manifest
