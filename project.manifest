@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.0.5.3",
+    "version": "2.0.6.0",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -2734,7 +2734,7 @@
             "size": 65580
         },
         "textures/game/range_max.tga": {
-            "md5": "22c3e77e53913baf823c68c12536eb0d",
+            "md5": "02c20b09d53af61e1a5ac42144750849",
             "size": 262188
         },
         "textures/game/range_min.tga": {
@@ -5578,8 +5578,8 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "672be2f97d820ffcbffcfc6d7280dd2f",
-            "size": 3408
+            "md5": "989b332a87ca72293d2509f0014533c6",
+            "size": 3654
         },
         "ui/dialogs/main/MainContacts.xml": {
             "md5": "1c4630118fb0b6bd8d1e99da6931f625",
@@ -5658,7 +5658,7 @@
             "size": 701
         },
         "ui/dialogs/net/Login.xml": {
-            "md5": "746c05b7c085ddd1126cb41f194ed4f4",
+            "md5": "e72a362db4d7df263ed67092674e9f69",
             "size": 8352
         },
         "ui/dialogs/tools.xml": {
@@ -5670,12 +5670,12 @@
             "size": 14305
         },
         "ui/localization/ru.xml": {
-            "md5": "79a16dd1d26aa5af8c1eea326a3dbae3",
-            "size": 94572
+            "md5": "46b8fe70db91955682c35689c811d68d",
+            "size": 94137
         },
         "ui/ui.xml": {
-            "md5": "e466b4b40eab162cba922a9c0c85625d",
-            "size": 37656
+            "md5": "21d12e3230d2d2461eea746fc480e35a",
+            "size": 37768
         },
         "ui/ui_launcher.xml": {
             "md5": "62e9d3e087889605d3bf2c144862db53",
@@ -5694,8 +5694,8 @@
             "size": 2101250
         },
         "worlds/1/World.xml": {
-            "md5": "76b233b07f334a0496e6b511818c2677",
-            "size": 4047
+            "md5": "305dac11b0fb3ae5bb877a83f3212966",
+            "size": 4049
         },
         "worlds/1/map.jpg": {
             "md5": "d1f9c4f2558f4309e465c7b3f1b1d1b3",
@@ -5794,8 +5794,8 @@
             "size": 2101250
         },
         "worlds/3/World.xml": {
-            "md5": "bdd357ea328d16b5d1bf566addca6a71",
-            "size": 2521
+            "md5": "54de0d3c087d28f21f84dfa5ea753ed1",
+            "size": 2523
         },
         "worlds/3/map.jpg": {
             "md5": "39893b7f7158fddf765a5edc045ea0a3",
@@ -5950,8 +5950,8 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "dc18ab41a03ffc03af88fec8c728a159",
-            "size": 710546
+            "md5": "897e4a8cdf1398156cbe28fe9f009c22",
+            "size": 711013
         },
         "worlds/Nations.xml": {
             "md5": "a45472572b73cd514db8d020d69bb195",

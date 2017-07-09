@@ -529,6 +529,7 @@
 	<Buttons>
 		<Style Name="default" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
 		<Style Name="text" FontSet="button_text" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
+    <Style Name="text_small" FontSet="normal" ColorARGB="255 202 231 236" ActiveColorARGB="255 222 251 255" />
 		<Style Name="game_unit" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 150 150 150" ActiveColorARGB="255 255 255 255" />
 		<Style Name="chat_unit" FontSet="button_default" Normal="458;459;460" Active="461;462;463" ColorARGB="255 150 150 150" ActiveColorARGB="255 255 255 255" />
     <Style Name="checkbox" Normal="453" Active="492" Check="454" />

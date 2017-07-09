@@ -23,7 +23,7 @@
         <Item Name="HeroesPanel" X="36" Y="0" W="134" H="341" VpX="31" VpY="0" VpW="745" VpH="600" VIS="1" ENB="1">
             <Image Shader="317" X="36" Y="125" W="132" H="343" VpX="31" VpY="0" VpW="745" VpH="600" VIS="1" ENB="0" />
             <Text FontSet="button" Text="login_heroes_panel" ColorARGB="1 0.4 0.4 0.4" X="41" Y="127" W="114" H="14" VpX="30" VpY="0" VpW="744" VpH="599" VIS="1" ENB="0" />
-            <List Name="UserList" Gap="10" VIS="1" ENB="0" X="41" Y="144" W="114" H="310" VpX="34" VpY="96" VpW="130" VpH="317">
+            <List Name="UserList" Gap="10" VIS="1" ENB="1" X="41" Y="144" W="114" H="310" VpX="34" VpY="96" VpW="130" VpH="317">
                 <Button Name="Prototype" FontSet="button" InnerBorderW="1" InnerBorderH="6" ColorARGB="1 0.5 0.5 0.5" ActiveColorARGB="1 0.5 0.5 0.5" Active="3" Check="3" Align="LEFT" WordWrap="1" VIS="0" ENB="0" X="236" Y="276" W="50" H="50"  />
                 <Image Shader="86" VIS="1" ENB="0" X="156" Y="130" W="10" H="333" VpX="30" VpY="0" VpW="744" VpH="599" />
                 <Slider Name="Slider" LineRect="HeroesList_Scroll" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Normal="87" Active="87" Vertical="1" SliderPos="0" X="156" Y="135" W="10" H="20" VpX="31" VpY="0" VpW="745" VpH="600" VIS="1" ENB="1" />
