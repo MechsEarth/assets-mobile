@@ -539,7 +539,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="Cупер акция! Только 1 апреля\nCкидки: Прокачка роботов до 50%%%%%.\nРоботы 95 уровня - 75%%%%%.\nРегл. патроны - 50%%%%%.\nНажми что бы узнать подробнее." />
+  <Text Key="mainmenu_sale" Value="------ Осенняя распродажа 2017 ------\n -----   \c&lt;243 230 30&gt;30 сентября и 1 октября\b  ----- \n  ----          Скидки до 92 %%%%         ----  \n   •••      Узнать подробнее      •••   " />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
