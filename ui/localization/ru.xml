@@ -380,7 +380,7 @@
 
   <Text Key="research_title" Value="ЗАВОД МОДИФИКАЦИИ ОБОРУДОВАНИЯ" />
   <Text Key="research_title_list" Value="ВЫБЕРИТЕ УЛУЧШЕНИЕ" />
-  <Text Key="research_sale" Value="ЧЕРНАЯ ПЯТНИЦА\nЦЕНА -20%%%%" />
+  <Text Key="research_sale" Value="ЧЕРНАЯ ПЯТНИЦА\nАПГРЕЙД 1-5 -80%%%%\nАПГРЕЙД 6 -30%%%%" />
   <Text Key="research_show_list" Value="ВЫБРАТЬ" />
   <Text Key="research_research" Value="АПГРЕЙД" />
   <Text Key="research_close" Value="ЗАКРЫТЬ" />
@@ -539,7 +539,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="------ Осенняя распродажа 2017 ------\n -----   \c&lt;243 230 30&gt;30 сентября и 1 октября\b  ----- \n  ----          Скидки до 92 %%%%         ----  \n   •••      Узнать подробнее      •••   " />
+  <Text Key="mainmenu_sale" Value="------   \c&lt;0 0 0&gt;ЧЕРНАЯ ПЯТНИЦА 2017\b    ------\n -----           \c&lt;243 230 30&gt;24 и 25 ноября\b          ----- \n  ----          Скидки до 80 %%%%         ----  \n   •••      Узнать подробнее      •••   " />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
@@ -667,7 +667,7 @@
   <Text Key="tooltip_repair_mech_city" Value="РЕМОНТ МЕХА ИСПОЛЬЗУЯ РЕАКТОР ТЕРМИНАЛА" />
 
   <Text Key="upgrade_title" Value="МОДИФИКАЦИЯ МЕХА" />
-  <Text Key="upgrade_sale" Value="ЧЕРНАЯ ПЯТНИЦА\nЦЕНА НА ВСЕ -30%%%%\nНА СКОРОСТЬ -50%%%%" />
+  <Text Key="upgrade_sale" Value="ЧЕРНАЯ ПЯТНИЦА\nНА ЦЕНУ И КОЛ-ВО -40%%%%" />
   <Text Key="upgrade_type" Value="ТИП МОДИФИКАЦИИ" />
   <Text Key="upgrade_need_money" Value="ТРЕБУЕТСЯ БОН" />
   <Text Key="upgrade_need_money1" Value="ТРЕБУЕТСЯ РЕГЛОВ" />
