@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.0.7.7",
+    "version": "2.0.7.6",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -5434,8 +5434,8 @@
             "size": 132
         },
         "ui/dialogs/game/UpgradeRobot.xml": {
-            "md5": "db573c3e6b94e87db016f5c4295774dc",
-            "size": 6118
+            "md5": "48a8d5b80a41040625907c0e434ba418",
+            "size": 6137
         },
         "ui/dialogs/game/clan/ClanMain.xml": {
             "md5": "68e9a934db9d8316097e67e954cccbcf",
@@ -5486,8 +5486,8 @@
             "size": 1970
         },
         "ui/dialogs/game/location/LocResearch.xml": {
-            "md5": "802406e3be6daa16883fb8ebd4d95755",
-            "size": 8638
+            "md5": "278efe266227f75d62b426cdb144b181",
+            "size": 8657
         },
         "ui/dialogs/game/location/LocRobotStoreHouse.xml": {
             "md5": "6df1492c836c581583a48422061d7152",
@@ -5578,8 +5578,8 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "4808ed76991117643aecac9b191c4abc",
-            "size": 3688
+            "md5": "6a4cb4698dfcc13d505d3723217fb68b",
+            "size": 3682
         },
         "ui/dialogs/main/MainContacts.xml": {
             "md5": "1c4630118fb0b6bd8d1e99da6931f625",
@@ -5670,8 +5670,8 @@
             "size": 14305
         },
         "ui/localization/ru.xml": {
-            "md5": "6763631e74507c3565d68dfa86ea451e",
-            "size": 94179
+            "md5": "d743eb97d833997b69f89ee5ca652820",
+            "size": 94154
         },
         "ui/ui.xml": {
             "md5": "21d12e3230d2d2461eea746fc480e35a",
@@ -5950,8 +5950,8 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "c95c886065eb45db424a1dfb1df3bf35",
-            "size": 711269
+            "md5": "e776538dfe0ed076dc8177ccec9e89cb",
+            "size": 711048
         },
         "worlds/Nations.xml": {
             "md5": "a45472572b73cd514db8d020d69bb195",
