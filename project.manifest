@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.1.0",
+    "version": "2.1.1.1",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -2614,52 +2614,52 @@
             "size": 465
         },
         "textures/atlas/begin.plist": {
-            "md5": "a2e617cc5cd562421591003cc69fc1b1",
-            "size": 14534
+            "md5": "b811882880692d55ca1f0a1ff701dc88",
+            "size": 14672
         },
         "textures/atlas/begin.png": {
-            "md5": "4c8bde90ab5129581cfe94eca9bb8154",
-            "size": 4548646
+            "md5": "1e25d77191158bcdecd0e36f41418aa5",
+            "size": 4285081
         },
         "textures/atlas/icons.plist": {
-            "md5": "7da96547951aacee607efc67328b8add",
-            "size": 764012
+            "md5": "b5237addd6b9f93854706c9d9e0fb6dd",
+            "size": 40991
         },
         "textures/atlas/icons.png": {
-            "md5": "d824d87f21040719dfc8d73c6c66b1cd",
-            "size": 5007902
+            "md5": "d52ea3b78bdbc1e7706335298daa007f",
+            "size": 151279
         },
         "textures/atlas/ui.plist": {
-            "md5": "c14527435d9f95ad15acfe065b2d33ad",
-            "size": 241809
+            "md5": "0261419b945e1ef5fd40548053a29d0c",
+            "size": 638897
         },
         "textures/atlas/ui.png": {
-            "md5": "ae72e7085bdd00bd0904c2e4fe70252c",
-            "size": 1083955
+            "md5": "04dbe00b2149a9bdd82d1b4e964abe49",
+            "size": 4381673
         },
         "textures/atlas/ui_new.plist": {
-            "md5": "3fffef50f7dc49fcb261a157214a9604",
-            "size": 26788
+            "md5": "29b434e2d6bece4b780bd150294edd1f",
+            "size": 26933
         },
         "textures/atlas/ui_new.png": {
-            "md5": "6cf93f964713782b3f5ac15aa3d56a1c",
-            "size": 974272
+            "md5": "1e17f887a6ab36ad6d32563601ec1ed7",
+            "size": 919806
         },
         "textures/atlas/ui_window_0.plist": {
-            "md5": "c45f02aa968b3ddb9bddfb23f815da98",
-            "size": 10401
+            "md5": "104ddf744b0ea8f1c1be66db21fe8460",
+            "size": 10855
         },
         "textures/atlas/ui_window_0.png": {
-            "md5": "5bc2c8e9ef252c0c8defbb8b302a9f3f",
-            "size": 3528676
+            "md5": "d2560d0e378e8f548a85d28e955e0d06",
+            "size": 3808111
         },
         "textures/atlas/ui_window_1.plist": {
-            "md5": "cf6a1539247dc8fef1bd63572c7094c7",
-            "size": 10424
+            "md5": "2631f29f47131307a9954132a7488113",
+            "size": 13104
         },
         "textures/atlas/ui_window_1.png": {
-            "md5": "7258fde05f931b6990850a079d3d4fed",
-            "size": 2378329
+            "md5": "4b2e00f7e6681089a89296ba4f196001",
+            "size": 2345474
         },
         "textures/dark.png": {
             "md5": "c353957f5dafec3a368be60ec6573783",
