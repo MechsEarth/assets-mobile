@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Редактор диалогов -->
+<DialogEditor1 Id="400000">
+    <Item ENB="0" X="-800" Y="-600" W="2400" H="1800"/>
+    <Image Name="MainPanel" Style="window" X="-71" Y="50" W="335" H="400" ENB="1" Move="1" Angle="180">
+        <Image Style="window" X="-71" Y="82" W="335" H="400" ENB="1" VpX="-71" VpY="89" VpW="335" VpH="400"/>
+        <Item Name="ButtonsPanel" RadioGroup="1">
+            <Button Style="editor_inset" Name="CB1" Text="editor_edit_panel1" ENB="1" X="-56" Y="68" W="86" H="18"/>
+            <Button Style="editor_inset" Name="CB2" Text="editor_edit_panel2" ENB="1" X="34" Y="68" W="86" H="18"/>
+            <Button Style="editor_inset" Name="CB3" Text="editor_edit_panel3" ENB="1" X="124" Y="68" W="86" H="18"/>
+        </Item>
+        <Button FontSet="normal" Normal="219" Active="218" ColorARGB="1 0.91 0.73 0" ActiveColorARGB="1 0.91 0.83 0.44" Command="quit;" X="236" Y="65" W="16" H="16"/>
+        <Image Name="Platform" Style="window" X="-71" Y="154" W="335" H="400" ENB="1" Move="1" VpX="-71" VpY="475" VpW="335" VpH="80">
+            <Text Align="LEFT" Text="editor_edit_show_platform" Style="editor_label" X="-50" Y="477" W="312" H="14"/>
+            <Button Name="Desktop" Style="editor_inset" Text="Desktop" ENB="1" X="-45" Y="492" W="50" H="18"/>
+            <Button Name="Mobile" Style="editor_inset" Text="Mobile" ENB="1" X="-44" Y="516" W="50" H="18"/>
+            <Button Name="Win32" Style="editor_inset" Text="Win32" ENB="1" X="35" Y="492" W="50" H="18"/>
+            <Button Name="Linux" Style="editor_inset" Text="Linux" ENB="1" X="145" Y="492" W="50" H="18"/>
+            <Button Name="OSX" Style="editor_inset" Text="OSX" ENB="1" X="196" Y="492" W="50" H="18"/>
+            <Button Name="WinRT_PC" Style="editor_inset" Text="WinRT_PC" ENB="1" X="87" Y="492" W="56" H="18"/>
+            <Button Name="WinRT_Mobile" Style="editor_inset" Text="WinRT_M" ENB="1" X="87" Y="516" W="56" H="18"/>
+            <Button Name="Android" Style="editor_inset" Text="Android" ENB="1" X="35" Y="516" W="50" H="18"/>
+            <Button Name="iOS" Style="editor_inset" Text="iOS" ENB="1" X="145" Y="516" W="50" H="18"/>
+        </Image>
+        <Item Name="Panel1">
+            <Item Name="Platform">
+                <Button Name="Desktop" Style="editor_inset" Text="Desktop" ENB="1" X="-45" Y="141" W="50" H="18"/>
+                <Button Name="Mobile" Style="editor_inset" Text="Mobile" ENB="1" X="-44" Y="190" W="50" H="18"/>
+                <Button Name="Win32" Style="editor_inset" Text="Win32" ENB="1" X="15" Y="156" W="50" H="18"/>
+                <Button Name="Linux" Style="editor_inset" Text="Linux" ENB="1" X="135" Y="156" W="50" H="18"/>
+                <Button Name="OSX" Style="editor_inset" Text="OSX" ENB="1" X="191" Y="156" W="50" H="18"/>
+                <Button Name="WinRT_PC" Style="editor_inset" Text="WinRT_PC" ENB="1" X="72" Y="156" W="56" H="18" Platform="32"/>
+                <Button Name="WinRT_Mobile" Style="editor_inset" Text="WinRT_M" ENB="1" X="72" Y="205" W="56" H="18"/>
+                <Button Name="Android" Style="editor_inset" Text="Android" ENB="1" X="15" Y="205" W="50" H="18"/>
+                <Button Name="iOS" Style="editor_inset" Text="iOS" ENB="1" X="135" Y="205" W="50" H="18" Platform="256"/>
+            </Item>
+            <Button Style="editor_default" Name="SaveAndShildrenSetting" Text="editor_edit_apply_and_child" X="103" Y="440" W="146" H="24"/>
+            <Button Style="editor_default" Name="SaveSetting" Text="editor_edit_apply" X="-58" Y="440" W="146" H="24"/>
+            <Image Style="div" X="-55" Y="107" W="300" H="32" ENB="0"/>
+            <Item Name="ItemType" RadioGroup="1">
+                <Button Name="SupportPlatform" Style="editor_inset" Text="editor_edit_support_platform" ENB="1" VIS="1" X="179" Y="102" W="70" H="15"/>
+                <Button Name="type1" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+                <Button Name="type2" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+                <Button Name="type3" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+                <Button Name="type4" Style="editor_inset" ENB="1" VIS="1" X="-26" Y="102" W="40" H="15"/>
+            </Item>
+        </Item>
+    </Image>
+</DialogEditor1>

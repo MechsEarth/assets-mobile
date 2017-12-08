@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.0.7.10",
+    "version": "2.1.1.0",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -268,6 +268,154 @@
         "models/mech/turret/03.mdl": {
             "md5": "bc710bd06c4118f332843e583f80aebd",
             "size": 819954
+        },
+        "models/world/assets/buildings_pack/bld-01-1.mdl": {
+            "md5": "ec22a32f0caaa91c27c8b27d756c5089",
+            "size": 11032
+        },
+        "models/world/assets/buildings_pack/bld-01.mdl": {
+            "md5": "e2534856cdebb489838f2650336be25e",
+            "size": 346720
+        },
+        "models/world/assets/buildings_pack/bld-02.mdl": {
+            "md5": "f46950b9046d2ff2b5e1099bdd12da04",
+            "size": 252848
+        },
+        "models/world/assets/buildings_pack/bld-03-1.mdl": {
+            "md5": "683016b816e6cc91be55b36e779dbe00",
+            "size": 896
+        },
+        "models/world/assets/buildings_pack/bld-03-2.mdl": {
+            "md5": "e27d8c595fa20c6fe1bf2fe99509e863",
+            "size": 896
+        },
+        "models/world/assets/buildings_pack/bld-03.mdl": {
+            "md5": "cb32b68b4241d0ef4f9bf9a649564ad8",
+            "size": 307688
+        },
+        "models/world/assets/buildings_pack/bld-04-1.mdl": {
+            "md5": "0363235de1a99619e1479b21611e9b99",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-04.mdl": {
+            "md5": "f66bdfb213f86314effe0605294820fe",
+            "size": 191360
+        },
+        "models/world/assets/buildings_pack/bld-05-1.mdl": {
+            "md5": "5234a1625a253db2df8abee314c77186",
+            "size": 10016
+        },
+        "models/world/assets/buildings_pack/bld-05-2.mdl": {
+            "md5": "fece2b1aca41a64b3d9b8ffd11e27478",
+            "size": 8864
+        },
+        "models/world/assets/buildings_pack/bld-05-teleport.mdl": {
+            "md5": "88e2541e21def5741a19abdb5d141164",
+            "size": 67004
+        },
+        "models/world/assets/buildings_pack/bld-05.mdl": {
+            "md5": "76d49c2c2b32bf10c598cd9b6d577b85",
+            "size": 153800
+        },
+        "models/world/assets/buildings_pack/bld-06-1.mdl": {
+            "md5": "0279487fe5284bc95f97bf191f100479",
+            "size": 31928
+        },
+        "models/world/assets/buildings_pack/bld-06-2.mdl": {
+            "md5": "78b9990535d13777acf131ccb1db33a0",
+            "size": 10088
+        },
+        "models/world/assets/buildings_pack/bld-06-3.mdl": {
+            "md5": "30c30bb469e3a7256698b323bd3f0fab",
+            "size": 9512
+        },
+        "models/world/assets/buildings_pack/bld-06-4.mdl": {
+            "md5": "f0bd5f28c9d6f539f9013d9e040a785f",
+            "size": 2384
+        },
+        "models/world/assets/buildings_pack/bld-06.mdl": {
+            "md5": "d22876bf8e9a91832c75ed3909afc01a",
+            "size": 191648
+        },
+        "models/world/assets/buildings_pack/bld-07-1.mdl": {
+            "md5": "3dae03d48058735a0da1da27f66c461d",
+            "size": 12668
+        },
+        "models/world/assets/buildings_pack/bld-07-2.mdl": {
+            "md5": "c48d8a501aec7a6d08298336adad01c3",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-07-3.mdl": {
+            "md5": "0e8225225dd0333cea8e30474808aeea",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-07-4.mdl": {
+            "md5": "6d7875e437b365201e6a567ef3ea1206",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-07-5.mdl": {
+            "md5": "ba8f5f05f78b721143e4f24c471b4120",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-07-6.mdl": {
+            "md5": "1b0638f002373877831b615e9478eb2a",
+            "size": 40076
+        },
+        "models/world/assets/buildings_pack/bld-07.mdl": {
+            "md5": "f183cd7687dcb8f70739585c9f1c48c1",
+            "size": 426284
+        },
+        "models/world/assets/buildings_pack/bld-08-1.mdl": {
+            "md5": "1be894c964d092b2f3765aa68ace24d2",
+            "size": 2600
+        },
+        "models/world/assets/buildings_pack/bld-08.mdl": {
+            "md5": "6a112d3d11739bd32ae4ded7c37bcadc",
+            "size": 213404
+        },
+        "models/world/assets/buildings_pack/bld-09-1.mdl": {
+            "md5": "ef60389d2ca5666de735ec2e22d28af2",
+            "size": 2096
+        },
+        "models/world/assets/buildings_pack/bld-09-2.mdl": {
+            "md5": "0ceeb718f90f5d95459a432de37ef733",
+            "size": 50192
+        },
+        "models/world/assets/buildings_pack/bld-09.mdl": {
+            "md5": "ddfa461575c9af6696461299cb73dccc",
+            "size": 344504
+        },
+        "models/world/assets/buildings_pack/bld-10-1.mdl": {
+            "md5": "b65106603c66a1768f9755f6405aee4d",
+            "size": 6416
+        },
+        "models/world/assets/buildings_pack/bld-10-2.mdl": {
+            "md5": "b029dc86ebb0f729898a14c3f091f9bc",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-10-3.mdl": {
+            "md5": "d02a6458451f67bed74eec4dfb6c57b9",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-10-4.mdl": {
+            "md5": "9d25c90e758320cd58c766348045559c",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-10-5.mdl": {
+            "md5": "3ec8d11864f12aff2d7e36613d4b06b9",
+            "size": 1832
+        },
+        "models/world/assets/buildings_pack/bld-10-6.mdl": {
+            "md5": "0f2c25717081c2d1842645f2bd8e409c",
+            "size": 9728
+        },
+        "models/world/assets/buildings_pack/bld-10-7.mdl": {
+            "md5": "3b31d58436766e9c9f5084737151fce8",
+            "size": 95312
+        },
+        "models/world/assets/buildings_pack/bld-10.mdl": {
+            "md5": "ea57c469503c57087241fd54cbab0d11",
+            "size": 256952
         },
         "models/world/box.mdl": {
             "md5": "a3865f3df0cd87146833693503518d63",
@@ -1618,8 +1766,8 @@
             "size": 1991
         },
         "shaders/shaders.all": {
-            "md5": "6cb1a76812caead98b9ee90996d9396a",
-            "size": 24051
+            "md5": "d0ce055c308c7230e7a83e6973498da1",
+            "size": 25477
         },
         "sounds/ogg/monsters/01/death01.ogg": {
             "md5": "0fc570978b7e4038ad275622ff302d10",
@@ -2741,879 +2889,879 @@
             "md5": "a6da5f93c7e4b8e18b43d6e6593e3289",
             "size": 262188
         },
-        "textures/icons/trafaret/01.png": {
+        "textures/game/trafaret/01.png": {
             "md5": "729849671df46fe76f02f28c081f1c6f",
             "size": 278
         },
-        "textures/icons/trafaret/01x2.png": {
+        "textures/game/trafaret/01x2.png": {
             "md5": "7e56837860505f9730d6f279eaf8a190",
             "size": 667
         },
-        "textures/icons/trafaret/01x3.png": {
+        "textures/game/trafaret/01x3.png": {
             "md5": "e8e6397c48d621b892c7345265bede1c",
             "size": 1636
         },
-        "textures/icons/trafaret/02.png": {
+        "textures/game/trafaret/02.png": {
             "md5": "66127a24c6787ea034000e224eccf835",
             "size": 452
         },
-        "textures/icons/trafaret/02x2.png": {
+        "textures/game/trafaret/02x2.png": {
             "md5": "a8a94f81bfff1ad320bbfb438579a5ad",
             "size": 1083
         },
-        "textures/icons/trafaret/02x3.png": {
+        "textures/game/trafaret/02x3.png": {
             "md5": "50cf41985764c41217364fecc8462457",
             "size": 2531
         },
-        "textures/icons/trafaret/03.png": {
+        "textures/game/trafaret/03.png": {
             "md5": "5a2a8541937f435acb6a3d000793d1c0",
             "size": 882
         },
-        "textures/icons/trafaret/03x3.png": {
+        "textures/game/trafaret/03x3.png": {
             "md5": "14c69ab22164e7385b1bd3f75b97553f",
             "size": 279
         },
-        "textures/icons/trafaret/05.png": {
+        "textures/game/trafaret/05.png": {
             "md5": "0ef742a8c2377d7bf6d9379e11811f69",
             "size": 288
         },
-        "textures/icons/trafaret/05x2.png": {
+        "textures/game/trafaret/05x2.png": {
             "md5": "478883c79997b22ed7f57daa2649b103",
             "size": 663
         },
-        "textures/icons/trafaret/05x3.png": {
+        "textures/game/trafaret/05x3.png": {
             "md5": "de1bb03a7d4e2d06a9d80ac3afb8daf8",
             "size": 1639
         },
-        "textures/icons/trafaret/06.png": {
+        "textures/game/trafaret/06.png": {
             "md5": "2b36a7ea65d2f66610d6b507fc51aa41",
             "size": 341
         },
-        "textures/icons/trafaret/06x2.png": {
+        "textures/game/trafaret/06x2.png": {
             "md5": "e00e25579bc89dea987243a2cc3b234d",
             "size": 750
         },
-        "textures/icons/trafaret/06x3.png": {
+        "textures/game/trafaret/06x3.png": {
             "md5": "5746e5af420bc4101eab3e4d1bc3b9a8",
             "size": 1923
         },
-        "textures/icons/trafaret/07.png": {
+        "textures/game/trafaret/07.png": {
             "md5": "8336b0e5ebec496e861a59c1e951f095",
             "size": 341
         },
-        "textures/icons/trafaret/07x2.png": {
+        "textures/game/trafaret/07x2.png": {
             "md5": "bb64fbcbaf38baa9ab2315a3dc9dd8f2",
             "size": 968
         },
-        "textures/icons/trafaret/07x3.png": {
+        "textures/game/trafaret/07x3.png": {
             "md5": "6804a1465518f00fd7997453fb01c23f",
             "size": 2594
         },
-        "textures/icons/trafaret/08.png": {
+        "textures/game/trafaret/08.png": {
             "md5": "9792b6a001be208e595bc3bc9b055c75",
             "size": 319
         },
-        "textures/icons/trafaret/08x2.png": {
+        "textures/game/trafaret/08x2.png": {
             "md5": "358c87479fefa2e8d75ff7b519c869e5",
             "size": 850
         },
-        "textures/icons/trafaret/08x3.png": {
+        "textures/game/trafaret/08x3.png": {
             "md5": "08b29fa5223250db34a98a4b57c92b48",
             "size": 2125
         },
-        "textures/icons/trafaret/09.png": {
+        "textures/game/trafaret/09.png": {
             "md5": "bbaf4e0746527168e55b84e9bfd274f9",
             "size": 352
         },
-        "textures/icons/trafaret/09x2.png": {
+        "textures/game/trafaret/09x2.png": {
             "md5": "e95adb2ca4dde8a0c6d5b4cb43a38801",
             "size": 938
         },
-        "textures/icons/trafaret/09x3.png": {
+        "textures/game/trafaret/09x3.png": {
             "md5": "a26b2d958cbc5046dad24ea29f2a7887",
             "size": 2539
         },
-        "textures/icons/trafaret/10.png": {
+        "textures/game/trafaret/10.png": {
             "md5": "3109c7d36508a21480303da2be1aae0e",
             "size": 255
         },
-        "textures/icons/trafaret/10x2.png": {
+        "textures/game/trafaret/10x2.png": {
             "md5": "8536004c35b362afa6873bd04f85d10c",
             "size": 715
         },
-        "textures/icons/trafaret/10x3.png": {
+        "textures/game/trafaret/10x3.png": {
             "md5": "2e0cbbfc0af9c107c319b5599c245ac2",
             "size": 1701
         },
-        "textures/icons/trafaret/11.png": {
+        "textures/game/trafaret/11.png": {
             "md5": "c1dcfbd01eb47d0e11953107c7679b31",
             "size": 304
         },
-        "textures/icons/trafaret/11x2.png": {
+        "textures/game/trafaret/11x2.png": {
             "md5": "25bde6751e15a6d5532fe498b0113b53",
             "size": 830
         },
-        "textures/icons/trafaret/11x3.png": {
+        "textures/game/trafaret/11x3.png": {
             "md5": "98a3c3448c45ec9d005897032aa99367",
             "size": 2132
         },
-        "textures/icons/trafaret/12.png": {
+        "textures/game/trafaret/12.png": {
             "md5": "bdc90551c1bed557b5d98127e3888450",
             "size": 317
         },
-        "textures/icons/trafaret/12x2.png": {
+        "textures/game/trafaret/12x2.png": {
             "md5": "e7b4423bfbb88f062d26c5dbfe337e3b",
             "size": 805
         },
-        "textures/icons/trafaret/12x3.png": {
+        "textures/game/trafaret/12x3.png": {
             "md5": "c5117608ee8c1d088d60718c2872eca9",
             "size": 1909
         },
-        "textures/icons/trafaret/14.png": {
+        "textures/game/trafaret/14.png": {
             "md5": "b2ec9b5cd361346b973fa6d6befa50ec",
             "size": 279
         },
-        "textures/icons/trafaret/14x2.png": {
+        "textures/game/trafaret/14x2.png": {
             "md5": "457cd75f20d921dc2a3aa721f9dab9b6",
             "size": 723
         },
-        "textures/icons/trafaret/14x3.png": {
+        "textures/game/trafaret/14x3.png": {
             "md5": "4d259257e54bf1290fa8bfc2f7ff95f6",
             "size": 1958
         },
-        "textures/icons/trafaret/15.png": {
+        "textures/game/trafaret/15.png": {
             "md5": "a29f98f1dc205bf7f8eb26c896e1a5e2",
             "size": 353
         },
-        "textures/icons/trafaret/15x2.png": {
+        "textures/game/trafaret/15x2.png": {
             "md5": "fd54213cc0271f296a83cf4d28591d59",
             "size": 1061
         },
-        "textures/icons/trafaret/15x3.png": {
+        "textures/game/trafaret/15x3.png": {
             "md5": "9dcd4084d813889964b29bed766fec41",
             "size": 2882
         },
-        "textures/icons/trafaret/16.png": {
+        "textures/game/trafaret/16.png": {
             "md5": "8f932f7746aeb3dc926d2ea80a287d6c",
             "size": 349
         },
-        "textures/icons/trafaret/16x2.png": {
+        "textures/game/trafaret/16x2.png": {
             "md5": "9e74de44a7d11ecadef6a83b731194ed",
             "size": 926
         },
-        "textures/icons/trafaret/16x3.png": {
+        "textures/game/trafaret/16x3.png": {
             "md5": "21f9111090d860e479903cab9aa3abf4",
             "size": 2415
         },
-        "textures/icons/trafaret/17.png": {
+        "textures/game/trafaret/17.png": {
             "md5": "4b41c0aaf86fa3c6711e56b0c4e4ae26",
             "size": 392
         },
-        "textures/icons/trafaret/17x2.png": {
+        "textures/game/trafaret/17x2.png": {
             "md5": "582427c77f4089dd4a410fe6687c74ed",
             "size": 1191
         },
-        "textures/icons/trafaret/17x3.png": {
+        "textures/game/trafaret/17x3.png": {
             "md5": "96765e501dc2ad81395baf7269adfb6c",
             "size": 3145
         },
-        "textures/icons/trafaret/18.png": {
+        "textures/game/trafaret/18.png": {
             "md5": "4dc9b360153e5430255e7fa400a45511",
             "size": 305
         },
-        "textures/icons/trafaret/18x2.png": {
+        "textures/game/trafaret/18x2.png": {
             "md5": "3c4e8ea0275d5e4a9bdc339fd1386ae6",
             "size": 827
         },
-        "textures/icons/trafaret/18x3.png": {
+        "textures/game/trafaret/18x3.png": {
             "md5": "5f9c9c863c01250015145453c9e5790d",
             "size": 2081
         },
-        "textures/icons/trafaret/19.png": {
+        "textures/game/trafaret/19.png": {
             "md5": "7f33c841738e2e5795f8d86268f65516",
             "size": 372
         },
-        "textures/icons/trafaret/19x2.png": {
+        "textures/game/trafaret/19x2.png": {
             "md5": "0745481ed59e7d4ee010bf183af9018d",
             "size": 976
         },
-        "textures/icons/trafaret/19x3.png": {
+        "textures/game/trafaret/19x3.png": {
             "md5": "65001a80c9d9e2b48a7e74d2c4154edb",
             "size": 2601
         },
-        "textures/icons/trafaret/20.png": {
+        "textures/game/trafaret/20.png": {
             "md5": "0fec728411ce1eb1e5ef017249f46750",
             "size": 343
         },
-        "textures/icons/trafaret/20x2.png": {
+        "textures/game/trafaret/20x2.png": {
             "md5": "19fe8d46acaf1ae6296896cb5b37634c",
             "size": 983
         },
-        "textures/icons/trafaret/20x3.png": {
+        "textures/game/trafaret/20x3.png": {
             "md5": "190b64ce9ddea52dfe603eab682d23bb",
             "size": 2553
         },
-        "textures/icons/trafaret/21.png": {
+        "textures/game/trafaret/21.png": {
             "md5": "70fb91af4678da60ea02998e9be90e19",
             "size": 343
         },
-        "textures/icons/trafaret/21x2.png": {
+        "textures/game/trafaret/21x2.png": {
             "md5": "478356c375c357d3cdf7c2acab0f62fa",
             "size": 942
         },
-        "textures/icons/trafaret/21x3.png": {
+        "textures/game/trafaret/21x3.png": {
             "md5": "ace820bb04eb3d5c5010c64c0eb80bc8",
             "size": 2327
         },
-        "textures/icons/trafaret/22.png": {
+        "textures/game/trafaret/22.png": {
             "md5": "84c30f9f259ab451bc817847d203f21e",
             "size": 340
         },
-        "textures/icons/trafaret/22x2.png": {
+        "textures/game/trafaret/22x2.png": {
             "md5": "e086adb43b3d0ed0400b497c10eab041",
             "size": 882
         },
-        "textures/icons/trafaret/22x3.png": {
+        "textures/game/trafaret/22x3.png": {
             "md5": "e35852beefb9e56d08ccc000d58391b4",
             "size": 2197
         },
-        "textures/icons/trafaret/23.png": {
+        "textures/game/trafaret/23.png": {
             "md5": "8a755a29570423db46bf27b575867b80",
             "size": 382
         },
-        "textures/icons/trafaret/23x2.png": {
+        "textures/game/trafaret/23x2.png": {
             "md5": "ca7e4bcc73c5576172627d83c5ac7036",
             "size": 1065
         },
-        "textures/icons/trafaret/23x3.png": {
+        "textures/game/trafaret/23x3.png": {
             "md5": "075903ba6bc7407fcbf8c1786bda739a",
             "size": 2674
         },
-        "textures/icons/trafaret/24.png": {
+        "textures/game/trafaret/24.png": {
             "md5": "82dcc7912e36852de0e1c995066126da",
             "size": 373
         },
-        "textures/icons/trafaret/24x2.png": {
+        "textures/game/trafaret/24x2.png": {
             "md5": "d500dda3be18b32c6463371e2042be24",
             "size": 944
         },
-        "textures/icons/trafaret/24x3.png": {
+        "textures/game/trafaret/24x3.png": {
             "md5": "ecfe01b89c001111c171faea5202ff49",
             "size": 2340
         },
-        "textures/icons/trafaret/25.png": {
+        "textures/game/trafaret/25.png": {
             "md5": "d92e06553d2ee36ed6c37a0d5043854f",
             "size": 378
         },
-        "textures/icons/trafaret/25x2.png": {
+        "textures/game/trafaret/25x2.png": {
             "md5": "40db6b3f853f3a2045e1ea1fec50378d",
             "size": 1065
         },
-        "textures/icons/trafaret/25x3.png": {
+        "textures/game/trafaret/25x3.png": {
             "md5": "43e33d553fd522b698273299499823e4",
             "size": 2759
         },
-        "textures/icons/trafaret/26.png": {
+        "textures/game/trafaret/26.png": {
             "md5": "a655a179aa4444d08cc17678c74d5abd",
             "size": 358
         },
-        "textures/icons/trafaret/26x2.png": {
+        "textures/game/trafaret/26x2.png": {
             "md5": "e5f159236baf48210b82517311cbd523",
             "size": 923
         },
-        "textures/icons/trafaret/26x3.png": {
+        "textures/game/trafaret/26x3.png": {
             "md5": "22cafe128d2d362acb2d1945b9ec78b4",
             "size": 2330
         },
-        "textures/icons/trafaret/27.png": {
+        "textures/game/trafaret/27.png": {
             "md5": "37ed221b4b7f4787954c8306ff8d694a",
             "size": 334
         },
-        "textures/icons/trafaret/27x2.png": {
+        "textures/game/trafaret/27x2.png": {
             "md5": "2562fbb58afc78ac968b48ead959d134",
             "size": 907
         },
-        "textures/icons/trafaret/27x3.png": {
+        "textures/game/trafaret/27x3.png": {
             "md5": "c4080f36e1398b252e90977614dd12cc",
             "size": 2325
         },
-        "textures/icons/trafaret/28.png": {
+        "textures/game/trafaret/28.png": {
             "md5": "90c7d896971ca2d5657be8bc527493ce",
             "size": 376
         },
-        "textures/icons/trafaret/28x2.png": {
+        "textures/game/trafaret/28x2.png": {
             "md5": "e80ca5ce33e4c01ee7ca61dd9788745a",
             "size": 1089
         },
-        "textures/icons/trafaret/28x3.png": {
+        "textures/game/trafaret/28x3.png": {
             "md5": "079cb042987dabbe4d0a744e366aeeac",
             "size": 2857
         },
-        "textures/icons/trafaret/29.png": {
+        "textures/game/trafaret/29.png": {
             "md5": "3d0e9e019edad8a98fb1ac9ae3ad57b0",
             "size": 345
         },
-        "textures/icons/trafaret/29x2.png": {
+        "textures/game/trafaret/29x2.png": {
             "md5": "eee3dfc7d5b37685233e37da5ebc4a9b",
             "size": 890
         },
-        "textures/icons/trafaret/29x3.png": {
+        "textures/game/trafaret/29x3.png": {
             "md5": "952c71b5c851d010f879739d8f8f688a",
             "size": 2291
         },
-        "textures/icons/trafaret/30.png": {
+        "textures/game/trafaret/30.png": {
             "md5": "ef75cbadec2dc375cb8c793b1e93d44f",
             "size": 381
         },
-        "textures/icons/trafaret/30x2.png": {
+        "textures/game/trafaret/30x2.png": {
             "md5": "03e6053ec93ca9341ab5f036e7736530",
             "size": 1074
         },
-        "textures/icons/trafaret/30x3.png": {
+        "textures/game/trafaret/30x3.png": {
             "md5": "1cb69996c75e68215b0359d18931ad38",
             "size": 2744
         },
-        "textures/icons/trafaret/31.png": {
+        "textures/game/trafaret/31.png": {
             "md5": "58b67d500c8145a33738fc9f7a5bbfad",
             "size": 420
         },
-        "textures/icons/trafaret/31x2.png": {
+        "textures/game/trafaret/31x2.png": {
             "md5": "82675f445f27daf1d9347b73351369d7",
             "size": 1102
         },
-        "textures/icons/trafaret/31x3.png": {
+        "textures/game/trafaret/31x3.png": {
             "md5": "81805d24ae79a618147a0b0247155554",
             "size": 2792
         },
-        "textures/icons/trafaret/32.png": {
+        "textures/game/trafaret/32.png": {
             "md5": "63caddc67fcbe72fe0c215d520f80594",
             "size": 391
         },
-        "textures/icons/trafaret/32x2.png": {
+        "textures/game/trafaret/32x2.png": {
             "md5": "ffcdd88efd43bc4448424ae7e195d63f",
             "size": 1124
         },
-        "textures/icons/trafaret/32x3.png": {
+        "textures/game/trafaret/32x3.png": {
             "md5": "6ec81a46da6e5a397330238ba71a5ed4",
             "size": 3069
         },
-        "textures/icons/trafaret/33.png": {
+        "textures/game/trafaret/33.png": {
             "md5": "2bfe153bb40ed37ab1a44cec3e4d68f3",
             "size": 451
         },
-        "textures/icons/trafaret/33x2.png": {
+        "textures/game/trafaret/33x2.png": {
             "md5": "d7d54a37bd72dd98eeac16cedca2fb98",
             "size": 1360
         },
-        "textures/icons/trafaret/33x3.png": {
+        "textures/game/trafaret/33x3.png": {
             "md5": "7a4b552996dc0fbd89915017b06f4e1c",
             "size": 3813
         },
-        "textures/icons/trafaret/34.png": {
+        "textures/game/trafaret/34.png": {
             "md5": "9cc4e9269ec01fc6c9578097d2c779f9",
             "size": 436
         },
-        "textures/icons/trafaret/34x2.png": {
+        "textures/game/trafaret/34x2.png": {
             "md5": "bc52c77b7687cd63b4285588e2e832a3",
             "size": 1291
         },
-        "textures/icons/trafaret/34x3.png": {
+        "textures/game/trafaret/34x3.png": {
             "md5": "20e3ba76c6b9e20ddd1e30d7d5bafd39",
             "size": 3533
         },
-        "textures/icons/trafaret/35.png": {
+        "textures/game/trafaret/35.png": {
             "md5": "754aa3d86d0fe0ca3f2c170059f79e72",
             "size": 446
         },
-        "textures/icons/trafaret/35x2.png": {
+        "textures/game/trafaret/35x2.png": {
             "md5": "da3001c8b481163f6d5bfafc968b5b44",
             "size": 1420
         },
-        "textures/icons/trafaret/35x3.png": {
+        "textures/game/trafaret/35x3.png": {
             "md5": "01a1297ad7846e4a59752e4c1df4b701",
             "size": 3994
         },
-        "textures/icons/trafaret/36.png": {
+        "textures/game/trafaret/36.png": {
             "md5": "0f2729621d24c5799e1b9b3ccf0a46ec",
             "size": 344
         },
-        "textures/icons/trafaret/36x2.png": {
+        "textures/game/trafaret/36x2.png": {
             "md5": "86d17423112d1ca98ff157c8fa098fcc",
             "size": 954
         },
-        "textures/icons/trafaret/36x3.png": {
+        "textures/game/trafaret/36x3.png": {
             "md5": "d04bf1a04f14c96c02ff72ded715726a",
             "size": 2522
         },
-        "textures/icons/trafaret/37.png": {
+        "textures/game/trafaret/37.png": {
             "md5": "8dd845b098438ebcffb25d8011392bb9",
             "size": 383
         },
-        "textures/icons/trafaret/37x2.png": {
+        "textures/game/trafaret/37x2.png": {
             "md5": "1961df33ab4d9e1a39b57ff4bf1d66a0",
             "size": 1034
         },
-        "textures/icons/trafaret/37x3.png": {
+        "textures/game/trafaret/37x3.png": {
             "md5": "ece02ccfd2c52236bcb24b78818cc354",
             "size": 2728
         },
-        "textures/icons/trafaret/38.png": {
+        "textures/game/trafaret/38.png": {
             "md5": "c2ee918f7ea60ef73a66a1d25c3416cc",
             "size": 468
         },
-        "textures/icons/trafaret/38x2.png": {
+        "textures/game/trafaret/38x2.png": {
             "md5": "4a986171a823d4738673e712de99f479",
             "size": 1412
         },
-        "textures/icons/trafaret/38x3.png": {
+        "textures/game/trafaret/38x3.png": {
             "md5": "b6ea2e0569c69673202e669d63267bfc",
             "size": 3755
         },
-        "textures/icons/trafaret/39.png": {
+        "textures/game/trafaret/39.png": {
             "md5": "e7da733e52cb29e92172aca6183d2d0b",
             "size": 272
         },
-        "textures/icons/trafaret/39x2.png": {
+        "textures/game/trafaret/39x2.png": {
             "md5": "7c0ef492564d4c0ca364db60d547f598",
             "size": 709
         },
-        "textures/icons/trafaret/39x3.png": {
+        "textures/game/trafaret/39x3.png": {
             "md5": "b0687eba7b7ed5439f40d3643c6e279c",
             "size": 1918
         },
-        "textures/icons/trafaret/40.png": {
+        "textures/game/trafaret/40.png": {
             "md5": "00497c9be8bcd74047c914899d672644",
             "size": 474
         },
-        "textures/icons/trafaret/40x2.png": {
+        "textures/game/trafaret/40x2.png": {
             "md5": "59993a0f83eb51dea1381682d7f48c0f",
             "size": 1422
         },
-        "textures/icons/trafaret/40x3.png": {
+        "textures/game/trafaret/40x3.png": {
             "md5": "de02ffae176ec8f8defbe4c87868241c",
             "size": 3917
         },
-        "textures/icons/trafaret/41.png": {
+        "textures/game/trafaret/41.png": {
             "md5": "ce917ff7843c3c7a9fc310b88c2b5426",
             "size": 300
         },
-        "textures/icons/trafaret/41x2.png": {
+        "textures/game/trafaret/41x2.png": {
             "md5": "6a4c063fbfcb6f28b864f6355344d37a",
             "size": 741
         },
-        "textures/icons/trafaret/41x3.png": {
+        "textures/game/trafaret/41x3.png": {
             "md5": "0d0e48dee897845a78141e310164a6e3",
             "size": 1782
         },
-        "textures/icons/trafaret/42.png": {
+        "textures/game/trafaret/42.png": {
             "md5": "2b73e7e34ba893df65dc1fcdc8a4956a",
             "size": 315
         },
-        "textures/icons/trafaret/42x2.png": {
+        "textures/game/trafaret/42x2.png": {
             "md5": "b8ad57bb63ebabe7aeb95217961a91f4",
             "size": 821
         },
-        "textures/icons/trafaret/42x3.png": {
+        "textures/game/trafaret/42x3.png": {
             "md5": "d3a970adb1bfdfc80b29645c46fa88c8",
             "size": 2047
         },
-        "textures/icons/trafaret/43.png": {
+        "textures/game/trafaret/43.png": {
             "md5": "4d39d933b5941d2d76f1b705eeb730ec",
             "size": 434
         },
-        "textures/icons/trafaret/43x2.png": {
+        "textures/game/trafaret/43x2.png": {
             "md5": "110e810fbf5b877ae0008df20aea1900",
             "size": 1101
         },
-        "textures/icons/trafaret/43x3.png": {
+        "textures/game/trafaret/43x3.png": {
             "md5": "086024ebe7941bce9cbe5789aed18c41",
             "size": 2832
         },
-        "textures/icons/trafaret/44.png": {
+        "textures/game/trafaret/44.png": {
             "md5": "dc407a5073848574d158ddea82d77ac0",
             "size": 208
         },
-        "textures/icons/trafaret/44x2.png": {
+        "textures/game/trafaret/44x2.png": {
             "md5": "44e20d2cd7ecdb79ff47126f8c4a1533",
             "size": 465
         },
-        "textures/icons/trafaret/44x3.png": {
+        "textures/game/trafaret/44x3.png": {
             "md5": "0b2fc8decc5c6f093c4b59522ee9fbe7",
             "size": 1182
         },
-        "textures/icons/trafaret/45.png": {
+        "textures/game/trafaret/45.png": {
             "md5": "b92f7a564391f9869849199e0e13aca5",
             "size": 344
         },
-        "textures/icons/trafaret/45x2.png": {
+        "textures/game/trafaret/45x2.png": {
             "md5": "e0f0df70640cefc0b8f1bbe3bfbe82f6",
             "size": 875
         },
-        "textures/icons/trafaret/45x3.png": {
+        "textures/game/trafaret/45x3.png": {
             "md5": "352fe3f09bfe9f659c23904a8ebb6472",
             "size": 2304
         },
-        "textures/icons/trafaret/46.png": {
+        "textures/game/trafaret/46.png": {
             "md5": "e79635783fcab8fd7a2af3d006e48a6e",
             "size": 393
         },
-        "textures/icons/trafaret/46x2.png": {
+        "textures/game/trafaret/46x2.png": {
             "md5": "09ce51e2f1d061794438720133e7e317",
             "size": 1136
         },
-        "textures/icons/trafaret/46x3.png": {
+        "textures/game/trafaret/46x3.png": {
             "md5": "dcee77a683582de0fed9154db733951b",
             "size": 3053
         },
-        "textures/icons/trafaret/47.png": {
+        "textures/game/trafaret/47.png": {
             "md5": "009f9e0a43b2fab49b8eecf7d36ff075",
             "size": 395
         },
-        "textures/icons/trafaret/47x2.png": {
+        "textures/game/trafaret/47x2.png": {
             "md5": "da793ebe6c405a57af73227a2a38f236",
             "size": 1095
         },
-        "textures/icons/trafaret/47x3.png": {
+        "textures/game/trafaret/47x3.png": {
             "md5": "85fd26fc668d41619075a0fa3ff6d3af",
             "size": 2938
         },
-        "textures/icons/trafaret/48.png": {
+        "textures/game/trafaret/48.png": {
             "md5": "416b383da3a577ea349442d536305194",
             "size": 308
         },
-        "textures/icons/trafaret/48x2.png": {
+        "textures/game/trafaret/48x2.png": {
             "md5": "d2876d445ce92ee40cac9ba068fcfac3",
             "size": 799
         },
-        "textures/icons/trafaret/48x3.png": {
+        "textures/game/trafaret/48x3.png": {
             "md5": "d7f5f0075413b28f642b1bcb9e964d17",
             "size": 2001
         },
-        "textures/icons/trafaret/49.png": {
+        "textures/game/trafaret/49.png": {
             "md5": "d58da62cbdeb82c82e7c3bd6e63d34ff",
             "size": 310
         },
-        "textures/icons/trafaret/49x2.png": {
+        "textures/game/trafaret/49x2.png": {
             "md5": "64ced64630a2bf0d414362b3cdb77b50",
             "size": 909
         },
-        "textures/icons/trafaret/49x3.png": {
+        "textures/game/trafaret/49x3.png": {
             "md5": "15a597599104cf17ef24da546508a477",
             "size": 2278
         },
-        "textures/icons/trafaret/50.png": {
+        "textures/game/trafaret/50.png": {
             "md5": "0b861e194bb6cab19d253efe01db53c2",
             "size": 365
         },
-        "textures/icons/trafaret/50x2.png": {
+        "textures/game/trafaret/50x2.png": {
             "md5": "4b661f3f06c3f43322b45bcf3781bb17",
             "size": 1031
         },
-        "textures/icons/trafaret/50x3.png": {
+        "textures/game/trafaret/50x3.png": {
             "md5": "2652b224f0f6dd7d33463c93b4b311fd",
             "size": 2674
         },
-        "textures/icons/trafaret/51.png": {
+        "textures/game/trafaret/51.png": {
             "md5": "28b4e998be0e4f6c6195d6a1b49b05b8",
             "size": 300
         },
-        "textures/icons/trafaret/51x2.png": {
+        "textures/game/trafaret/51x2.png": {
             "md5": "aadcc721a9a6745203e502a28293c213",
             "size": 796
         },
-        "textures/icons/trafaret/51x3.png": {
+        "textures/game/trafaret/51x3.png": {
             "md5": "d951667e8c33e32d2582a8b74d976974",
             "size": 2020
         },
-        "textures/icons/trafaret/52.png": {
+        "textures/game/trafaret/52.png": {
             "md5": "de4d465beb6e4970f42b1a05848da51e",
             "size": 323
         },
-        "textures/icons/trafaret/52x2.png": {
+        "textures/game/trafaret/52x2.png": {
             "md5": "07bb2675d22ad961608f6cee0252c3b2",
             "size": 922
         },
-        "textures/icons/trafaret/52x3.png": {
+        "textures/game/trafaret/52x3.png": {
             "md5": "2bb7891786e842b118c1ccbc0e6a3893",
             "size": 2356
         },
-        "textures/icons/trafaret/53.png": {
+        "textures/game/trafaret/53.png": {
             "md5": "d591b1cbdc63df8e1c2f7354182f70a1",
             "size": 344
         },
-        "textures/icons/trafaret/53x2.png": {
+        "textures/game/trafaret/53x2.png": {
             "md5": "581cb8d0841ea8e58809f33c05b6f0e0",
             "size": 905
         },
-        "textures/icons/trafaret/53x3.png": {
+        "textures/game/trafaret/53x3.png": {
             "md5": "d46c0a0a6817ee63242e89bcff8eaec2",
             "size": 2334
         },
-        "textures/icons/trafaret/54.png": {
+        "textures/game/trafaret/54.png": {
             "md5": "42b732cf186d254b319943531248ff17",
             "size": 356
         },
-        "textures/icons/trafaret/54x2.png": {
+        "textures/game/trafaret/54x2.png": {
             "md5": "586d91b3c16aa1c72a174771d9deb3ef",
             "size": 1015
         },
-        "textures/icons/trafaret/54x3.png": {
+        "textures/game/trafaret/54x3.png": {
             "md5": "6ce856c1115e72da80bdcc535f722ae9",
             "size": 2594
         },
-        "textures/icons/trafaret/55.png": {
+        "textures/game/trafaret/55.png": {
             "md5": "23e654c82558e4e7fead3fe4ce8a5bc5",
             "size": 369
         },
-        "textures/icons/trafaret/55x2.png": {
+        "textures/game/trafaret/55x2.png": {
             "md5": "6cc4e72e0260688233ab4fccb057321a",
             "size": 981
         },
-        "textures/icons/trafaret/55x3.png": {
+        "textures/game/trafaret/55x3.png": {
             "md5": "fced4e3f18ed58befe1b02b28f50627c",
             "size": 2512
         },
-        "textures/icons/trafaret/56.png": {
+        "textures/game/trafaret/56.png": {
             "md5": "2c94d780cbd518a1bf8e28d3d42c3e47",
             "size": 333
         },
-        "textures/icons/trafaret/56x2.png": {
+        "textures/game/trafaret/56x2.png": {
             "md5": "b1747302b2e44735eb03e80fcb853b27",
             "size": 793
         },
-        "textures/icons/trafaret/56x3.png": {
+        "textures/game/trafaret/56x3.png": {
             "md5": "c99477c6ae6802c85718eae978925b45",
             "size": 2022
         },
-        "textures/icons/trafaret/57.png": {
+        "textures/game/trafaret/57.png": {
             "md5": "02760ddb7d84e6cc19b5f1044041e437",
             "size": 338
         },
-        "textures/icons/trafaret/57x2.png": {
+        "textures/game/trafaret/57x2.png": {
             "md5": "a0ea218db6c455908a494692c031319a",
             "size": 958
         },
-        "textures/icons/trafaret/57x3.png": {
+        "textures/game/trafaret/57x3.png": {
             "md5": "647e16ec79b35eb9e553e7825cb53a0f",
             "size": 2460
         },
-        "textures/icons/trafaret/58.png": {
+        "textures/game/trafaret/58.png": {
             "md5": "0e1b6b5e6ff0715042f709c285458d9f",
             "size": 279
         },
-        "textures/icons/trafaret/58x2.png": {
+        "textures/game/trafaret/58x2.png": {
             "md5": "08944e3a1e1556bb3f6625dc76dec2a7",
             "size": 685
         },
-        "textures/icons/trafaret/58x3.png": {
+        "textures/game/trafaret/58x3.png": {
             "md5": "b580be67488e18b7edad21a505106eba",
             "size": 1657
         },
-        "textures/icons/trafaret/59.png": {
+        "textures/game/trafaret/59.png": {
             "md5": "640dcee1cd137d4f66818747114a2464",
             "size": 391
         },
-        "textures/icons/trafaret/59x2.png": {
+        "textures/game/trafaret/59x2.png": {
             "md5": "e2967c1ea2b4c3ead398862f05b3a4ab",
             "size": 1092
         },
-        "textures/icons/trafaret/59x3.png": {
+        "textures/game/trafaret/59x3.png": {
             "md5": "5fe11e6d53b8b2ec68308af102270151",
             "size": 2831
         },
-        "textures/icons/trafaret/60.png": {
+        "textures/game/trafaret/60.png": {
             "md5": "05138f05b26cb635ff4a0c3f090da423",
             "size": 454
         },
-        "textures/icons/trafaret/60x2.png": {
+        "textures/game/trafaret/60x2.png": {
             "md5": "9cf03058e99a1776452a49c3b0691e2b",
             "size": 1206
         },
-        "textures/icons/trafaret/60x3.png": {
+        "textures/game/trafaret/60x3.png": {
             "md5": "59e98ca2584efa20ea9dd1bbd98b27fe",
             "size": 3189
         },
-        "textures/icons/trafaret/61.png": {
+        "textures/game/trafaret/61.png": {
             "md5": "9447112b5a78916950eccf4c623e496d",
             "size": 325
         },
-        "textures/icons/trafaret/61x2.png": {
+        "textures/game/trafaret/61x2.png": {
             "md5": "7f8e6ffc81cc1d849970b09f3a3c2baa",
             "size": 894
         },
-        "textures/icons/trafaret/61x3.png": {
+        "textures/game/trafaret/61x3.png": {
             "md5": "7e2d97c746637ebc40cb079b1730da88",
             "size": 2242
         },
-        "textures/icons/trafaret/62.png": {
+        "textures/game/trafaret/62.png": {
             "md5": "5a8f071412b5840746be16a00dd2a537",
             "size": 425
         },
-        "textures/icons/trafaret/62x2.png": {
+        "textures/game/trafaret/62x2.png": {
             "md5": "e9132a7594c19639b39075efd24885b1",
             "size": 1164
         },
-        "textures/icons/trafaret/62x3.png": {
+        "textures/game/trafaret/62x3.png": {
             "md5": "44dc428554acef4f4bcbbed546613420",
             "size": 3093
         },
-        "textures/icons/trafaret/63.png": {
+        "textures/game/trafaret/63.png": {
             "md5": "fd77d2f0abf87aad2b323ed2ec537052",
             "size": 316
         },
-        "textures/icons/trafaret/63x2.png": {
+        "textures/game/trafaret/63x2.png": {
             "md5": "e5ee64fd2f83c8385892c36f995f1544",
             "size": 779
         },
-        "textures/icons/trafaret/63x3.png": {
+        "textures/game/trafaret/63x3.png": {
             "md5": "bf0197da31f1106d66649327522f2e7e",
             "size": 2012
         },
-        "textures/icons/trafaret/64.png": {
+        "textures/game/trafaret/64.png": {
             "md5": "d2f6db4523cae2bc5309e485bfefd692",
             "size": 343
         },
-        "textures/icons/trafaret/64x2.png": {
+        "textures/game/trafaret/64x2.png": {
             "md5": "38f6b211d7b9e215563a0ed780feb3d7",
             "size": 916
         },
-        "textures/icons/trafaret/64x3.png": {
+        "textures/game/trafaret/64x3.png": {
             "md5": "8d5f4f9b8318860f27f60fc38302eeb0",
             "size": 2353
         },
-        "textures/icons/trafaret/65.png": {
+        "textures/game/trafaret/65.png": {
             "md5": "c44caf52e233de62c76ec5f69fdd80b1",
             "size": 366
         },
-        "textures/icons/trafaret/65x2.png": {
+        "textures/game/trafaret/65x2.png": {
             "md5": "f0be82fc555cd1b9511aae1b2497ca3f",
             "size": 1022
         },
-        "textures/icons/trafaret/65x3.png": {
+        "textures/game/trafaret/65x3.png": {
             "md5": "c83bf95dec31ae64021d2f034a4380e9",
             "size": 2616
         },
-        "textures/icons/trafaret/66.png": {
+        "textures/game/trafaret/66.png": {
             "md5": "c2b56b3473cc1a24890b2e557f809de9",
             "size": 329
         },
-        "textures/icons/trafaret/66x2.png": {
+        "textures/game/trafaret/66x2.png": {
             "md5": "baec1d8e0934c21af6317fd0442f9223",
             "size": 916
         },
-        "textures/icons/trafaret/66x3.png": {
+        "textures/game/trafaret/66x3.png": {
             "md5": "64f3bc4650d8532679ab543c06ffb30c",
             "size": 2352
         },
-        "textures/icons/trafaret/67.png": {
+        "textures/game/trafaret/67.png": {
             "md5": "edc6d50fb307ef279e48eb3708768180",
             "size": 328
         },
-        "textures/icons/trafaret/67x2.png": {
+        "textures/game/trafaret/67x2.png": {
             "md5": "98e74f55943cd54bc5b3e3b154c0805c",
             "size": 849
         },
-        "textures/icons/trafaret/67x3.png": {
+        "textures/game/trafaret/67x3.png": {
             "md5": "73ce69fe3d6b37af671ac62077f5aaf5",
             "size": 2247
         },
-        "textures/icons/trafaret/68.png": {
+        "textures/game/trafaret/68.png": {
             "md5": "76c1c69b3ae3ade42fa5ef21a4c456ed",
             "size": 444
         },
-        "textures/icons/trafaret/68x2.png": {
+        "textures/game/trafaret/68x2.png": {
             "md5": "f580da52541bccef3f3f926481434bf8",
             "size": 1253
         },
-        "textures/icons/trafaret/68x3.png": {
+        "textures/game/trafaret/68x3.png": {
             "md5": "a96c788062ad6d40dd3657094d19ef15",
             "size": 3223
         },
-        "textures/icons/trafaret/69.png": {
+        "textures/game/trafaret/69.png": {
             "md5": "db65005814770433d2cbb34b5cb80cf4",
             "size": 329
         },
-        "textures/icons/trafaret/69x2.png": {
+        "textures/game/trafaret/69x2.png": {
             "md5": "6cb4e141242dc1dece1916a811521d68",
             "size": 920
         },
-        "textures/icons/trafaret/69x3.png": {
+        "textures/game/trafaret/69x3.png": {
             "md5": "6f48fb440680a58760feae36acb22e3c",
             "size": 2338
         },
-        "textures/icons/trafaret/70.png": {
+        "textures/game/trafaret/70.png": {
             "md5": "b6f167be73ed9f2fac7fbb3d95ca682a",
             "size": 271
         },
-        "textures/icons/trafaret/70x2.png": {
+        "textures/game/trafaret/70x2.png": {
             "md5": "3c8ec1576478e6f755048b7876d4bc0c",
             "size": 632
         },
-        "textures/icons/trafaret/70x3.png": {
+        "textures/game/trafaret/70x3.png": {
             "md5": "1860b0ca32ebba3f2bc0a4e08713bf33",
             "size": 1622
         },
-        "textures/icons/trafaret/71.png": {
+        "textures/game/trafaret/71.png": {
             "md5": "6bd19b40642f2b8cad57d775ab510090",
             "size": 146
         },
-        "textures/icons/trafaret/71x2.png": {
+        "textures/game/trafaret/71x2.png": {
             "md5": "4aaf288ec6c3213d8acc4c951515d503",
             "size": 374
         },
-        "textures/icons/trafaret/71x3.png": {
+        "textures/game/trafaret/71x3.png": {
             "md5": "bcf237a16a8f57ff3240f9ce92cbccdf",
             "size": 781
         },
-        "textures/icons/trafaret/72.png": {
+        "textures/game/trafaret/72.png": {
             "md5": "db8941c060f714f42f905240da356e50",
             "size": 237
         },
-        "textures/icons/trafaret/72x2.png": {
+        "textures/game/trafaret/72x2.png": {
             "md5": "2d1d08b0d502c823c8654d452e0ac5c6",
             "size": 617
         },
-        "textures/icons/trafaret/72x3.png": {
+        "textures/game/trafaret/72x3.png": {
             "md5": "7b487c7aa731a6541ff4774ebc645145",
             "size": 1460
         },
-        "textures/icons/trafaret/73.png": {
+        "textures/game/trafaret/73.png": {
             "md5": "733873afd9a866e6eb9c2a34ea322fb8",
             "size": 266
         },
-        "textures/icons/trafaret/73x2.png": {
+        "textures/game/trafaret/73x2.png": {
             "md5": "197751233ba5de04779df49324324eee",
             "size": 664
         },
-        "textures/icons/trafaret/73x3.png": {
+        "textures/game/trafaret/73x3.png": {
             "md5": "4d7bff3b599a4fb4ba139a89ac29a2ba",
             "size": 1656
         },
-        "textures/icons/trafaret/74.png": {
+        "textures/game/trafaret/74.png": {
             "md5": "e8412e60ebbe2d7b9779f73d26dfd09c",
             "size": 273
         },
-        "textures/icons/trafaret/74x2.png": {
+        "textures/game/trafaret/74x2.png": {
             "md5": "7eab905ab253d6eb48a441331f78de4b",
             "size": 821
         },
-        "textures/icons/trafaret/74x3.png": {
+        "textures/game/trafaret/74x3.png": {
             "md5": "8def5117e956a40453fc4f71749d62fc",
             "size": 1973
         },
-        "textures/icons/trafaret/75.png": {
+        "textures/game/trafaret/75.png": {
             "md5": "377f3dbdec881520c188c43eb8f4d421",
             "size": 273
         },
-        "textures/icons/trafaret/75x2.png": {
+        "textures/game/trafaret/75x2.png": {
             "md5": "c64367067d951104eea0b5fc375e4c25",
             "size": 670
         },
-        "textures/icons/trafaret/75x3.png": {
+        "textures/game/trafaret/75x3.png": {
             "md5": "93c042c8fbab31879f0cb247c65cbb7e",
             "size": 1560
         },
-        "textures/icons/trafaret/slot.png": {
+        "textures/game/trafaret/slot.png": {
             "md5": "169f48def4f41d6199aaf445b606dbfe",
             "size": 229
         },
@@ -4320,6 +4468,58 @@
         "textures/world/architect/palette_0.jpg": {
             "md5": "b1b18533f13a9fb5c0697e95a4533034",
             "size": 33681
+        },
+        "textures/world/assets/buildings_pack/bld-01-blue.jpg": {
+            "md5": "8141c824260041d405341e318c06b616",
+            "size": 177340
+        },
+        "textures/world/assets/buildings_pack/bld-01-green.jpg": {
+            "md5": "b85a4c546d0c147ac3aec958dcbcdd84",
+            "size": 178458
+        },
+        "textures/world/assets/buildings_pack/bld-01-red.jpg": {
+            "md5": "bfa0747e58b1c5b713ab13a41c40ae0c",
+            "size": 177269
+        },
+        "textures/world/assets/buildings_pack/bld-01-yellow.jpg": {
+            "md5": "f308cee8091590361704d911448eb8e2",
+            "size": 179647
+        },
+        "textures/world/assets/buildings_pack/bld-02-blue-wall.jpg": {
+            "md5": "294e68548b71dfd3f7d53a2c80d23367",
+            "size": 30526
+        },
+        "textures/world/assets/buildings_pack/bld-02-blue.jpg": {
+            "md5": "a9a9510acf7d6c9b40892aa9a90ebb75",
+            "size": 176189
+        },
+        "textures/world/assets/buildings_pack/bld-02-green.jpg": {
+            "md5": "410ec91b0cbe28f9a5f78da1b3208dc8",
+            "size": 176788
+        },
+        "textures/world/assets/buildings_pack/bld-02-red.jpg": {
+            "md5": "4cb0eea49da7bee46f0d9696d0a99a5f",
+            "size": 175443
+        },
+        "textures/world/assets/buildings_pack/bld-02-yellow.jpg": {
+            "md5": "82c6916712d4594acef4922358763630",
+            "size": 176338
+        },
+        "textures/world/assets/buildings_pack/bld-03-blue.jpg": {
+            "md5": "d1bf59c6912ea405049b8f771ba557ba",
+            "size": 192027
+        },
+        "textures/world/assets/buildings_pack/bld-03-green.jpg": {
+            "md5": "78d34b12f14eb14ef95a85722a3219c4",
+            "size": 193043
+        },
+        "textures/world/assets/buildings_pack/bld-03-orange.jpg": {
+            "md5": "8b4b7346e37f8ce41dc40199509cac5c",
+            "size": 192783
+        },
+        "textures/world/assets/buildings_pack/bld-03-red.jpg": {
+            "md5": "c8b3eb4a450d9bb053d4ba3443946c53",
+            "size": 191999
         },
         "textures/world/box.jpg": {
             "md5": "f2782ed89d9b30433a2ef0cf6dc6fb0b",
@@ -5366,15 +5566,15 @@
             "size": 427
         },
         "ui/dialogs/game/Game.xml": {
-            "md5": "ff8ef912db6cbb4e43db7f03dbce10fc",
-            "size": 27107
+            "md5": "43b652c819c020d9ea184b7baa761a54",
+            "size": 28674
         },
         "ui/dialogs/game/GlobalMap.xml": {
             "md5": "61002b6db8a36666649d41be14678cd7",
             "size": 2058
         },
         "ui/dialogs/game/Help.xml": {
-            "md5": "53c8948126d155dc51936d80a3016d96",
+            "md5": "5f115db2a94ae69cd15d69dd9a83cc64",
             "size": 2077
         },
         "ui/dialogs/game/HelpMsg1.xml": {
@@ -5390,8 +5590,8 @@
             "size": 1331
         },
         "ui/dialogs/game/InvCargo.xml": {
-            "md5": "2a32793cc7307c09ef32861d24cbe34c",
-            "size": 9866
+            "md5": "f67b408ed029b7c0d7c37ac1dbb37f1f",
+            "size": 10284
         },
         "ui/dialogs/game/InvContainer.xml": {
             "md5": "0c871375d49b91e5681fed0c09eac181",
@@ -5410,12 +5610,12 @@
             "size": 14947
         },
         "ui/dialogs/game/ParamsRobot.xml": {
-            "md5": "3bdc626cfc025b38c222c8fa1c698bc8",
-            "size": 4790
+            "md5": "53d1d7651d0bcd9ce3ba3499e7d6312b",
+            "size": 4783
         },
         "ui/dialogs/game/Poll.xml": {
-            "md5": "75dbaa14e422903915f8a04908f972fd",
-            "size": 4114
+            "md5": "31e5619f243f82c15258b166f9e9b5df",
+            "size": 4113
         },
         "ui/dialogs/game/PremiumAccount.xml": {
             "md5": "7b19e19f074948afd3e7b06cf3a324bf",
@@ -5570,7 +5770,7 @@
             "size": 944
         },
         "ui/dialogs/game/trade/Trade.xml": {
-            "md5": "1a947018129c9f6f0129ddd27f5723f3",
+            "md5": "9c3e7bb6541a2ce067c15d1cb561a229",
             "size": 22824
         },
         "ui/dialogs/main.xml": {
@@ -5578,16 +5778,16 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "6a4cb4698dfcc13d505d3723217fb68b",
-            "size": 3682
+            "md5": "81cebe5a8930e3f46164e67adf3e4f49",
+            "size": 3684
         },
         "ui/dialogs/main/MainContacts.xml": {
             "md5": "1c4630118fb0b6bd8d1e99da6931f625",
             "size": 2384
         },
         "ui/dialogs/main/Options.xml": {
-            "md5": "2bd07f4633963d65784267d78f78cd19",
-            "size": 6303
+            "md5": "fb39695d950686d7f63686859d6b4939",
+            "size": 7652
         },
         "ui/dialogs/msg.xml": {
             "md5": "6b2a2034903ef453272e5ece0ac4a71b",
@@ -5658,35 +5858,43 @@
             "size": 701
         },
         "ui/dialogs/net/Login.xml": {
-            "md5": "e72a362db4d7df263ed67092674e9f69",
-            "size": 8352
+            "md5": "776052936389caf82a849db163ab8e29",
+            "size": 8614
         },
         "ui/dialogs/tools.xml": {
-            "md5": "b99e06761186ba623a9a2d94857c76d4",
-            "size": 242
+            "md5": "485212da079f9cba0aa3c9969157ecd5",
+            "size": 392
         },
         "ui/dialogs/tools/DialogEditor.xml": {
             "md5": "45f453c96a6c141d9060567da9ff6437",
             "size": 14305
         },
+        "ui/dialogs/tools/DialogEditor1.xml": {
+            "md5": "051f4d390e8936fbc0424e87a6384a48",
+            "size": 4409
+        },
+        "ui/localization/en.xml": {
+            "md5": "356fac0c1dfef79ba93b66a0ce4a2a39",
+            "size": 76433
+        },
         "ui/localization/ru.xml": {
-            "md5": "d743eb97d833997b69f89ee5ca652820",
-            "size": 94154
+            "md5": "7047f7e5bbebb787d44e79b52349aec0",
+            "size": 97483
         },
         "ui/ui.xml": {
-            "md5": "21d12e3230d2d2461eea746fc480e35a",
-            "size": 37768
+            "md5": "2ef5beb1cd8746c68113d1bfb4ac61c6",
+            "size": 38011
         },
         "ui/ui_launcher.xml": {
             "md5": "62e9d3e087889605d3bf2c144862db53",
             "size": 3437
         },
         "worlds/1/Layer.mz": {
-            "md5": "89657acd0383877a0f3b239de093c82c",
+            "md5": "03f03df408f5a00e7ea38e1abd1e3a12",
             "size": 1716128
         },
         "worlds/1/PassiveEntities.bin": {
-            "md5": "b00f9987d97c6a4595c80eec68da2260",
+            "md5": "edd3eb7092088bd0be47b4f0b674a350",
             "size": 158684
         },
         "worlds/1/Terrain.mz": {
@@ -5694,16 +5902,16 @@
             "size": 2101250
         },
         "worlds/1/World.xml": {
-            "md5": "305dac11b0fb3ae5bb877a83f3212966",
-            "size": 4049
+            "md5": "dd2c69f07cff55020542fb6499a50fbf",
+            "size": 4157
         },
         "worlds/1/map.jpg": {
-            "md5": "d1f9c4f2558f4309e465c7b3f1b1d1b3",
-            "size": 1051627
+            "md5": "a53aae8feaace97a1f1c5dac84b90d71",
+            "size": 1054057
         },
         "worlds/1/map_mini.jpg": {
-            "md5": "2cb3ada15538b77c5ff37282bcf30dcd",
-            "size": 998423
+            "md5": "fd99e5b782821505cdd5dfe3406156e2",
+            "size": 1001024
         },
         "worlds/1/terrain.jpg": {
             "md5": "72d9472b6049baae7d709e90a58139d2",
@@ -5794,7 +6002,7 @@
             "size": 2101250
         },
         "worlds/3/World.xml": {
-            "md5": "54de0d3c087d28f21f84dfa5ea753ed1",
+            "md5": "9694cdda6c8d81387f79ce4f5da5c106",
             "size": 2523
         },
         "worlds/3/map.jpg": {
@@ -5854,7 +6062,7 @@
             "size": 1193284
         },
         "worlds/6/Layer.mz": {
-            "md5": "668c21125a04fbefb0a7400d738da421",
+            "md5": "0a3d84a1a59767c53857abffd78aec0e",
             "size": 1716128
         },
         "worlds/6/PassiveEntities.bin": {
@@ -5878,7 +6086,7 @@
             "size": 1120686
         },
         "worlds/7/Layer.mz": {
-            "md5": "7b2b427826d69ae7063803f2e67136b6",
+            "md5": "17ad4632a3dee10808f69044ae2f7186",
             "size": 1716128
         },
         "worlds/7/PassiveEntities.bin": {
@@ -5890,8 +6098,8 @@
             "size": 2101250
         },
         "worlds/7/World.xml": {
-            "md5": "a823fe882b30c41ffeddfd0a42df6926",
-            "size": 3728
+            "md5": "1dd6f8750f20fb632074c88504015810",
+            "size": 3560
         },
         "worlds/7/map.jpg": {
             "md5": "980cc068e2a32c5d0d8dfb3aca50b2a5",
@@ -5926,7 +6134,7 @@
             "size": 970858
         },
         "worlds/9/Layer.mz": {
-            "md5": "bcfa6ab6db481a01a9bc970abaea51a6",
+            "md5": "745d79a4ab43ddcd1dbef1839311746d",
             "size": 1716128
         },
         "worlds/9/PassiveEntities.bin": {
@@ -5938,8 +6146,8 @@
             "size": 2101250
         },
         "worlds/9/World.xml": {
-            "md5": "ae3db161d0ee8a05f9cbb3ba8a33970e",
-            "size": 3499
+            "md5": "78632c9d9b5b985f7688cb2360029978",
+            "size": 3497
         },
         "worlds/9/map.jpg": {
             "md5": "3b1bbe546d23561f2957f28d8af2e872",
@@ -5950,16 +6158,16 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "e776538dfe0ed076dc8177ccec9e89cb",
-            "size": 711048
+            "md5": "8039b025b0a4b73b5e8c244ed04f231b",
+            "size": 727784
         },
         "worlds/Nations.xml": {
-            "md5": "a45472572b73cd514db8d020d69bb195",
-            "size": 3190
+            "md5": "b9425f035e7bedf9b19099f9c83a8f9b",
+            "size": 3208
         },
         "worlds/Resources.xml": {
-            "md5": "c88b520ea1f4f2162e20f81abe46967a",
-            "size": 176827
+            "md5": "1bb8e319c8ae1888ffb55682519f182c",
+            "size": 170616
         }
     },
     "searchPaths": []

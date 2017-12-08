@@ -45,6 +45,7 @@
    <Nation Id="4" Name="Krada" FullName="КРАДА" Shader="ui/nation/nation_4">
       <FriendList>
          <Friend Name="Krada_security" />
+         <Friend Name="Opora_security" />
          <Friend Name="Common" />
          <Friend Name="Newbie" />
          <Friend Name="Opora" />
@@ -54,6 +55,7 @@
    <Nation Id="5" Name="Treba" FullName="ТРЕБА" Shader="ui/nation/nation_5">
       <FriendList>
          <Friend Name="Treba_security" />
+         <Friend Name="Opora_security" />
          <Friend Name="Common" />
          <Friend Name="Newbie" />
          <Friend Name="Opora" />
@@ -76,8 +78,6 @@
          <Friend Name="Common" />
          <Friend Name="Monster" />
          <Friend Name="Newbie" />
-         <Friend Name="Treba" />
-         <Friend Name="Krada" />
       </FriendList>
    </Nation>
 

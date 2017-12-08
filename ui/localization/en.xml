@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localization>
+  <Text Key="app_name" Value="Mechs.Earth" />
+  <Text Key="app_description" Value="MMORPG game about robots" />
+  <Text Key="empty" Value="" />
+  <Text Key="ok" Value="ОК" />
+  <Text Key="cancel" Value="CANСEL" />
+  <Text Key="yes" Value="YES" />
+  <Text Key="no" Value="NO" />
+  <Text Key="apply" Value="Apply" />
+  <Text Key="resume" Value="Back" />
+  <Text Key="next" Value="Later" />
+  <Text Key="prev" Value="Back" />
+  <Text Key="next_sym" Value="&gt;" />
+  <Text Key="prev_sym" Value="&lt;" />
+  <Text Key="version" Value="version" />
+  <Text Key="common_count_holder" Value="enter the number of" />
+  <Text Key="common_text_holder" Value="Enter text" />
+  <Text Key="test_mode" Value="Test version" />
+
+  <Text Key="disconnect" Value="NO server connection" />
+  <Text Key="registration_wrong_symbols" Value="In the character name used invalid characters.\nUse only characters 0-9, a-z, A-Z, '_'." />
+
+  <Text Key="connecting_wnd_title" Value="connection to server" />
+  <Text Key="connecting_wnd_load_data" Value="Wait… " />
+
+
+
+  <Text Key="poll_add_answer" Value="To offer an answer" />
+  <Text Key="poll_your_answer" Value="Your answer" />
+  <Text Key="poll_poll" Value="Vote" />
+
+  <Text Key="itemsamount_title" Value="Number of items" />
+
+  <Text Key="robot_death" Value="The robot was destroyed" />
+
+  <Text Key="robot_buy_confirm" Value="Bay robot?" />
+  <Text Key="robot_sell_confirm" Value="Sell robot?" />
+
+  <Text Key="interface_change_move_type_speed" Value="Movement mode changed: Speed"/>
+  <Text Key="interface_change_move_type_precision" Value="Movement mode changed: Accuracy" />
+  <Text Key="interface_auto_aim_enable" Value="Activated the auto-targetting mode" />
+  <Text Key="interface_auto_aim_disable" Value="The auto-targetting mode is disabled" />
+  <Text Key="interface_auto_fire_enable" Value="Auto fire shooting is activated" />
+  <Text Key="interface_auto_fire_disable" Value="Auto fire shooting is disabled" />
+  <Text Key="interface_select_command_file" Value="Select file chat commands" />
+  <Text Key="interface_select_command_file_mask" Value="Files chat commands (*.cmd)" />
+
+  <Text Key="command_auto_fire_enable" Value="Auto fire shooting" />
+  <Text Key="command_auto_fire_disable" Value="Auto fire shooting disable" />
+  <Text Key="command_auto_aim_enable" Value="The auto-targetting mode" />
+  <Text Key="command_auto_aim_disable" Value="The auto-targetting mode disable" />
+  <Text Key="command_auto_collect_enable" Value="Auto picking mode" />
+  <Text Key="command_auto_collect_disable" Value="Auto picking mode disable" />
+  <Text Key="command_auto_repair_enable" Value="Auto repair mode" />
+  <Text Key="command_auto_repair_disable" Value="Auto repair mode disable" />
+  <Text Key="command_attach_container" Value="container" />
+  <Text Key="command_chat_trade" Value="trade" />
+  <Text Key="command_move_to" Value="follow" />
+  <Text Key="command_stop_move" Value="stop" />
+  <Text Key="command_attack_to" Value="attack" />
+  <Text Key="command_change_weapon" Value="change weapon" />
+  <Text Key="command_nation_invite" Value="Invite in nation" />
+
+
+  <Text Key="command_chat_copy" Value="copy to clipboard" />
+  <Text Key="command_chat_enter_text_field" Value="insert into chat" />
+  <Text Key="command_chat_nick_enter_text_field" Value="insert name into chat" />
+  <Text Key="command_chat_reply" Value="to answer" />
+  <Text Key="command_chat_private_message" Value="send private message" />
+  <Text Key="command_chat_gm_message" Value="The answer to player as GM" />
+  <Text Key="command_text_open_url" Value="open link" />
+
+  <Text Key="notification_chat_receive_private" Value="Mechs.Earth> «%s» draws your attention" />
+  <Text Key="notification_chat_robot_damage_to_you" Value="Mechs.Earth> you attacked" />
+
+
+  <Text Key="ingame_exit" Value="Quit the game" />
+  <Text Key="ingame_options" Value="Customise" />
+  <Text Key="ingame_resume" Value="Back in game" />
+
+  <Text Key="inv_container_pick_all" Value="In hold" />
+  <Text Key="inv_container_weight_all" Value="Total weight:" />
+  <Text Key="inv_cargo_out_all" Value="Drop everything" />
+  <Text Key="inv_cargo_confirm_out_all" Value="Are you sure you want to drop out all?" />
+  <Text Key="tooltip_inv_cargo_capacity" Value="the level of occupancy of the hold" />
+  <Text Key="tooltip_inv_cargo_out_all" Value="to upload the contents\nof the hold to the ground" />
+
+  <Text Key="tooltip_exp" Value="experience: %.3f%%%" />
+  <Text Key="tooltip_life" Value="Hit-points:\n%d/%d" />
+  <Text Key="tooltip_energy" Value="the charge level of the battery:\n%d/%d" />
+  <Text Key="tooltip_capacity" Value="the level of occupancy of the hold" />
+  <Text Key="tooltip_capacity_full" Value="the hold is full" />
+  <Text Key="tooltip_money" Value="BONS" />
+  <Text Key="tooltip_extract" Value="start mining" />
+  <Text Key="tooltip_extract_cancel" Value="stop mining" />
+  <Text Key="tooltip_enter_loc" Value="Enter in building" />
+  <Text Key="tooltip_exit_loc" Value="Exit from building" />
+  <Text Key="tooltip_teleport" Value="teleport now" />
+  <Text Key="tooltip_teleport_cancel" Value="cancel teleporting" />
+  <Text Key="tooltip_action_repair" Value="connect to a maintenance terminal" />
+  <Text Key="tooltip_action_repair_cancel" Value="disconnect from the maintenance terminal" />
+  <Text Key="tooltip_action_restore" Value="repair broken devises" />
+  <Text Key="tooltip_action_restore_cancel" Value="cancel repair" />
+  <Text Key="tooltip_action_upgrade" Value="the range of modifications of the robot" />
+  <Text Key="tooltip_action_upgrade_cancel" Value="close the selection panel modifications robot" />
+  <Text Key="tooltip_action_unmount" Value="dismantle the installed object" />
+  <Text Key="tooltip_robot_buy" Value="Bay" />
+  <Text Key="tooltip_robot_change" Value="Change" />
+  <Text Key="tooltip_robot_sell" Value="Sell" />
+  <Text Key="tooltip_robot_price" Value="Bons" />
+  <Text Key="tooltip_robot_jet_price" Value="Regls" />
+  <Text Key="tooltip_get_quests" Value="Authority" />
+  <Text Key="tooltip_craft" Value="Plant equipment" />
+  <Text Key="tooltip_color" Value="painting workshop" />
+  <Text Key="tooltip_shop_robot" Value="salon sales of robots" />
+  <Text Key="tooltip_shop" Value="Shop" />
+  <Text Key="tooltip_insurance" Value="insurance" />
+  <Text Key="tooltip_research" Value="laboratory" />
+  <Text Key="tooltip_storehouse" Value="Warehouse" />
+  <Text Key="tooltip_storerobots" Value="Hangar of your robots" />
+  <Text Key="tooltip_teleport_before_location" Value="teleportation" />
+  <Text Key="tooltip_exit" Value="Close" />
+  <Text Key="tooltip_exit_cargo" Value="close the hold" />
+  <Text Key="tooltip_open_cargo" Value="open the hold" />
+  <Text Key="tooltip_exit_inst" Value="close equipment compartment" />
+  <Text Key="tooltip_open_inst" Value="open equipment compartment" />
+  <Text Key="tooltip_exit_world_map" Value="Close world map" />
+  <Text Key="tooltip_open_world_map" Value="Open world map" />
+  <Text Key="tooltip_exit_loc" Value="Exit from building" />
+  <Text Key="tooltip_item_health" Value="endurance" />
+  <Text Key="tooltip_item_reload" Value="the readiness of the weapon to fire" />
+  <Text Key="tooltip_item_ammunition" Value="ammo" />
+  <Text Key="tooltip_zone01" Value="safe area, to attack the robots of allies is forbidden" />
+  <Text Key="tooltip_zone02" Value="PvP area" />
+  <Text Key="tooltip_zone03" Value="Teleporting is not working" />
+  <Text Key="tooltip_zone04" Value="A hazardous area,\ndo not leave the robot outside the building\nit can be destroyed" />
+  <Text Key="tooltip_zone05" Value="Area without the earning and redemption of points criminal" />
+  <Text Key="tooltip_zone06" Value="Reactors here is not woking" />
+  <Text Key="tooltip_zone07" Value="if you disconnect the player from the server,\nminerals and organic loot from the hold of the robot,\nwill be thrown to the ground" />
+  <Text Key="tooltip_game_info_x_exp_2" Value="INCREASED EXPERIENCE COEFFICIENT X2\nEXPERIENCE ARE TWO TIMES MORE\nBOSS, STRONG CRITICS AND MOBY APPEAR FASTERLY" />
+  <Text Key="tooltip_game_info_x_exp_3" Value="INCREASED EXPERIENCE COEFFICIENT X3\nEXPERIENCE ARE THREE TIMES MORE\nBOSS, STRONG CRITICS AND MOBY APPEAR FASTERLY" />
+  <Text Key="tooltip_game_info_anomaly" Value="DANGEROUS! NATURAL ANOMALIES FIXED\nPOSSIBLE PROBLEMS WITH EQUIPMENT AND ROBOT\nTHE EXPERIENCE GOES TWICE TIME MORE" />
+  <Text Key="tooltip_game_info_max_params" Value="THE MODE OF MAXIMUM PARAMETERS IS ACTIVATED\nALL ROBOTS TEMPORARILY UPGRADE IN MAXIMUM\nALL SKILLS ON EQUIPMENT - MAXIMUM" />
+
+
+  <Text Key="game_chat_holder" Value="Enter message" />
+  <Text Key="game_auto_fire" Value="Auto" />
+
+  <Text Key="global_north" Value="North" />
+  <Text Key="global_south" Value="South" />
+  <Text Key="global_west" Value="West" />
+  <Text Key="global_east" Value="East" />
+
+
+  <Text Key="tooltip_query" Value="invitations" />
+  <Text Key="tooltip_query_ok" Value="accept" />
+  <Text Key="tooltip_query_cancel" Value="decline" />
+  <Text Key="query_trade_empty" Value="No new\nrequests\nfor trade" />
+  <Text Key="query_party_empty" Value="No new\nrequests\nto join the group" />
+  <Text Key="query_clan_empty" Value="No new\nrequests\nfor membership in the squad" />
+  <Text Key="query_nation_empty" Value="No new\nrequests\nfor membership in the nation" />
+  <Text Key="query_trade_invite" Value="Received a request to trade from the pilot:\n\c&lt;50 200 255&gt;%s\b" />
+  <Text Key="query_party_invite" Value="Received a request to join the group from the pilot:\n\c&lt;50 200 255&gt;%s\b" />
+  <Text Key="query_clan_invite" Value="Received a request to join the squad from the pilot:\n\c&lt;50 200 255&gt;%s\b" />
+  <Text Key="query_clan_union_invite" Value="Named the squad\nwants to be your ally:\n\c&lt;50 200 255&gt;%s\b" />
+  <Text Key="query_clan_piece_invite" Value="Named the squad\nwishes to make peace with you:\n\c&lt;50 200 255&gt;%s\b" />
+  <Text Key="query_nation_invite" Value="The request to enter\ninto the nation from:\n\c&lt;50 200 255&gt;%s\b" />
+
+  <Text Key="tooltip_quest_close" Value="Close task list" />
+
+  <Text Key="tooltip_params_quests" Value="Task" />
+  <Text Key="tooltip_params_hero" Value="Character panel" />
+  <Text Key="tooltip_params_robot" Value="Parameters of the robot" />
+  <Text Key="tooltip_params_help" Value="Help" />
+  <Text Key="tooltip_params_poll" Value="Vote" />
+
+
+  <Text Key="tooltip_params_robot_name" Value="international model name of the robot" />
+  <Text Key="tooltip_params_robot_type" Value="Type is a very important feature of the model robot\nThere are 4 types:\n- Fighter, has good armor and durability,\n- Spy, fast and agile,\n- Transport, spacious\n- Miner, useful in mining" />
+
+  <Text Key="tooltip_params_robot_health" Value="The strength of the robot - how much damage\nyou can get up to complete destruction" />
+  <Text Key="tooltip_params_robot_capacity" Value="Hold the robot-how much you can\ncarry on board cargo and equipment." />
+  <Text Key="tooltip_params_robot_speed" Value="The robot's speed - how fast\nmovement occurs, depends\non the power of the propulsion system" />
+  <Text Key="tooltip_params_robot_energyparams" Value="Sensor robot equipment as well\nas total power reactors and the capacity of the drives" />
+  <Text Key="tooltip_params_robot_power" Value="The total capacity of all reactors,\ninvolved in the system\nof the power equipment of the robot" />
+  <Text Key="tooltip_params_robot_energy" Value="The total capacity of all drives\ninvolved in the system\nof the power equipment of the robot" />
+  <Text Key="tooltip_params_robot_defence" Value="Mechanisms to ensure additional protection,\nwith their help, the robot receives less damage" />
+  <Text Key="tooltip_params_robot_armour" Value="Additional Platinum steel,\nto protect from direct shock damage" />
+  <Text Key="tooltip_params_robot_shield" Value="Creates a shield on the chassis of the robot,\nstrengthens the structure of the metal.\n\nIt was designed as protection from energy weapons -\nit secretes nanoparticles, which interact \nwith the crystal lattice substances,\npreventing the penetration of energy" />
+
+  <Text Key="tooltip_mod_robot_health" Value="ПРОЧНОСТЬ" />
+  <Text Key="tooltip_mod_robot_capacity" Value="ТРЮМ" />
+  <Text Key="tooltip_mod_robot_speed" Value="СКОРОСТЬ" />
+  <Text Key="tooltip_mod_robot_energyparams" Value="ЭНЕРГОСНАБЖЕНИЕ" />
+  <Text Key="tooltip_mod_robot_power" Value="МОЩНОСТЬ" />
+  <Text Key="tooltip_mod_robot_energy" Value="ЭНЕРГИЯ" />
+  <Text Key="tooltip_mod_robot_defence" Value="ПАРАМЕТРЫ ЗАЩИТЫ" />
+  <Text Key="tooltip_mod_robot_armour" Value="БРОНЯ" />
+  <Text Key="tooltip_mod_robot_shield" Value="ЭНЕРГЕТИЧЕСКИЙ ЩИТ" />
+  <Text Key="tooltip_mod_robot_weapon_fire" Value="ОГН. ПОВРЕЖДЕНИЕ" />
+  <Text Key="tooltip_mod_robot_weapon_energy" Value="ЭНЕРГЕТИЧЕСКОЕ ПОВРЕЖДЕНИЕ" />
+  <Text Key="tooltip_mod_robot_weapon_rockets" Value="РК ПОВРЕЖДЕНИЕ" />
+  <Text Key="tooltip_mod_robot_weapon_long_range" Value="ДАЛЬНОБОЙНОЕ ПОВРЕЖДЕНИЕ" />
+  <Text Key="tooltip_mod_robot_weapon_long_range_eng" Value="ДАЛЬНОБОЙНОЕ ЭНЕРГЕТИЧЕСКОЕ ПОВРЕЖДЕНИЕ" />
+  <Text Key="tooltip_mod_robot_repair" Value="РЕМОНТ" />
+  <Text Key="tooltip_mod_robot_extract" Value="ДОБЫЧА" />
+
+
+  <Text Key="tooltip_mod_skill_precision" Value="Accuracy" />
+  <Text Key="tooltip_mod_skill_extraction" Value="Mining" />
+  <Text Key="tooltip_mod_skill_trade" Value="Trade" />
+  <Text Key="tooltip_mod_skill_engineering" Value="Specialist" />
+  <Text Key="tooltip_mod_skill_weapon_fire" Value="Cannon, Machine gun" />
+  <Text Key="tooltip_mod_skill_weapon_energy" Value="EMPC, Phaser" />
+  <Text Key="tooltip_mod_skill_weapon_rockets" Value="Ml, ML Enrg" />
+  <Text Key="tooltip_mod_skill_weapon_long_range" Value="Rocket launcher, Howitzer" />
+  <Text Key="tooltip_mod_skill_weapon_fire_2" Value="Mortar, Heavy Machine gun" />
+  <Text Key="tooltip_mod_skill_weapon_energy_2" Value="Cannon Enrg, Machine gun Enrg" />
+  <Text Key="tooltip_mod_skill_weapon_long_range_eng" Value="Rocket launcher Enrg, Howitzer Enrg" />
+
+  <Text Key="tooltip_mod_skill_shield" Value="Shields" />
+  <Text Key="tooltip_mod_skill_armour" Value="Armor" />
+  <Text Key="tooltip_mod_skill_hold" Value="Hold" />
+  <Text Key="tooltip_mod_skill_energy" Value="Power supply" />
+
+  <Text Key="robot_case_fighter" Value="Fighter" />
+  <Text Key="robot_case_scout" Value="Spy" />
+  <Text Key="robot_case_trader" Value="Transport" />
+  <Text Key="robot_case_miner" Value="Miner" />
+
+
+  <Text Key="params_robot_level" Value="Level" />
+  <Text Key="params_robot_current" Value="Current robot" />
+  <Text Key="params_robot_type" Value="Type" />
+
+  <Text Key="params_robot_health" Value="Hull" />
+  <Text Key="params_robot_capacity" Value="Hold" />
+  <Text Key="params_robot_speed" Value="Speed" />
+
+  <Text Key="params_robot_energyparams" Value="Energy provision" />
+  <Text Key="params_robot_power" Value="Reactor power" />
+  <Text Key="params_robot_energy" Value="Capacity of the drive" />
+
+  <Text Key="params_robot_defence" Value="Protection systems" />
+  <Text Key="params_robot_armour" Value="Armor" />
+  <Text Key="params_robot_shield" Value="Shields" />
+
+
+  <Text Key="game_action_enter_loc" Value="Enter" />
+  <Text Key="game_action_exit_loc" Value="Exit" />
+  <Text Key="game_action_teleport" Value="Teleport" />
+  <Text Key="game_action_teleport_cancel" Value="Cancel" />
+  <Text Key="game_action_extract" Value="Mining" />
+  <Text Key="game_action_extract_cancel" Value="Abort" />
+  <Text Key="game_action_repair" Value="Repair" />
+  <Text Key="game_action_repair_cancel" Value="Close" />
+  <Text Key="game_action_upgrade" Value="Upgrade" />
+  <Text Key="game_action_upgrade_cancel" Value="Close" />
+  <Text Key="game_action_unmount" Value="Remove" />
+
+  <Text Key="game_robot_cost" Value="Bons:" />
+  <Text Key="game_robot_cost_jet" Value="Regls:" />
+  <Text Key="game_robot_amount" Value="The number:" />
+  <Text Key="game_item_cost" Value="Price:" />
+  <Text Key="game_item_cost_jet" Value="Price in regls:" />
+  <Text Key="game_item_weight" Value="Weight:" />
+  <Text Key="game_item_health" Value="Endurance:" />
+  <Text Key="game_item_broke" Value="Broken" />
+  <Text Key="game_item_destruct" Value="Destroyed" />
+  <Text Key="game_item_bullets" Value="Bullets:" />
+  <Text Key="game_item_bullets_missile" Value="Shells:" />
+  <Text Key="game_item_bullets_plasma" Value="Plasma charges:" />
+  <Text Key="game_item_bullets_grenade" Value="Missiles:" />
+  <Text Key="game_item_bullets_repair" Value="Repair parts:" />
+  <Text Key="game_item_bullets_eng" Value="Bullets enrg:" />
+  <Text Key="game_item_bullets_missile_eng" Value="Shells enrg:" />
+
+  <Text Key="game_item_weapon_repair" Value="Repair:" />
+  <Text Key="game_item_weapon_impact_damage" Value="Strike:" />
+  <Text Key="game_item_weapon_energy_damage" Value="Strike enrg:" />
+  <Text Key="game_item_weapon_range" Value="Range:" />
+  <Text Key="game_item_weapon_damage_area" Value="Radius:" />
+  <Text Key="game_item_weapon_cost" Value="Energy use:" />
+  <Text Key="game_item_weapon_firetime" Value="Firing rate:" />
+
+  <Text Key="game_item_energy_accumulator_capacity" Value="Volume:" />
+
+  <Text Key="game_item_energy_generator_capacity" Value="Power:" />
+
+  <Text Key="game_item_defence_shield_forcefield" Value="Power of the protecting shield:" />
+  <Text Key="game_item_special_shield" Value="Protecting shield:" />
+
+  <Text Key="game_item_defence_repair_hp" Value="HP:" />
+
+  <Text Key="game_item_special_mining_amount" Value="The amount of mined minerals:" />
+
+  <Text Key="game_item_special_cargo_amount" Value="Hold:" />
+
+  <Text Key="game_item_special_engine_velocity" Value="Speed:" />
+
+  <Text Key="game_item_special_armour_armour" Value="Armor:" />
+
+  <Text Key="game_item_used_repair_hp" Value="HP:" />
+
+  <Text Key="game_item_used_energy_energy" Value="Energy:" />
+
+  <Text Key="game_item_used_teleport_energy" Value="Needed energy:" />
+  <Text Key="game_item_used_teleport_time" Value="Time:" />
+
+  <Text Key="game_item_used_set_object_energy" Value="Needed energy:" />
+  <Text Key="game_item_used_upgrade_robot_energy" Value="Needed energy:" />
+  <Text Key="game_item_used_invisible_energy" Value="Consumes energy:" />
+
+  <Text Key="game_item_cargo_amount" Value="The number:" />
+  <Text Key="game_item_robot_case" Value="Only for" />
+  <Text Key="game_item_hero_level" Value="Character level" />
+  <Text Key="game_item_heroskill_engineering_level" Value="Specialist skill level" />
+
+  <Text Key="quest_short" Value="Tasks list" />
+  <Text Key="quest_detail" Value="Description" />
+  <Text Key="quest_cancel" Value="To refuse" />
+
+  <Text Key="global_map_coordinates" Value="ABCDEFGHIJ" />
+
+  <Text Key="history_title" Value="__/-- LOGBOOK --\__" />
+  <Text Key="tooltip_history_close" Value="Close" />
+  <Text Key="tooltip_history_ctrl_quote" Value="Quote" />
+  <Text Key="tooltip_history_ctrl_selected_works" Value="In Favorites" />
+  <Text Key="tooltip_history_ctrl_delete" Value="Delete" />
+  <Text Key="tooltip_history_ctrl_clear" Value="Clear" />
+
+
+
+  <Text Key="location_exit" Value="Exit" />
+  <Text Key="location_convert_money1" Value="REGLS change" />
+  <Text Key="location_text_convert_money1" Value="Exchange regls to bons with rate 1:%d" />
+  <Text Key="location_hero_list" Value="In the building there are::" />
+
+
+  <Text Key="shop_item_type_all" Value="ALL" />
+  <Text Key="shop_item_type_weapon" Value="Weapons" />
+  <Text Key="shop_item_type_energy" Value="Power equipment" />
+  <Text Key="shop_item_type_defence" Value="Protective systems" />
+  <Text Key="shop_item_type_computer" Value="Chips" />
+  <Text Key="shop_item_type_special" Value="Additional equipment" />
+  <Text Key="shop_item_type_used" Value="Used items" />
+  <Text Key="shop_item_type_resource" Value="Cargo" />
+  <Text Key="shop_item_type_bullets" Value="Ammo" />
+  <Text Key="shop_item_type_color" Value="Stencils" />
+
+
+  <Text Key="color_title" Value="Painting workshop" />
+  <Text Key="color_title_change" Value="set the color of the stencil" />
+  <Text Key="color_color" Value="colorize" />
+  <Text Key="color_apply" Value="apply" />
+  <Text Key="color_close" Value="Close" />
+  <Text Key="color_change" Value="set the color" />
+  <Text Key="color_delete" Value="delete" />
+  <Text Key="color_clear" Value="cancel" />
+  <Text Key="color_scale_add" Value="+" />
+  <Text Key="color_scale_remove" Value="-" />
+  <Text Key="color_rotate_right" Value="&gt;" />
+  <Text Key="color_rotate_left" Value="&lt;" />
+  <Text Key="color_rotate_up" Value="/\\" />
+  <Text Key="color_rotate_down" Value="\//" />
+  <Text Key="color_trafaret_right" Value="&gt;" />
+  <Text Key="color_trafaret_left" Value="&lt;" />
+  <Text Key="color_trafaret_up" Value="/\\" />
+  <Text Key="color_trafaret_down" Value="\//" />
+  <Text Key="color_trafaret_rotate" Value="&lt;&gt;" />
+  <Text Key="color_trafaret_plus" Value="+" />
+  <Text Key="color_trafaret_minus" Value="-" />
+
+  <Text Key="craft_title" Value="Plant equipment" />
+  <Text Key="craft_craft" Value="Create" />
+  <Text Key="craft_close" Value="Close" />
+  <Text Key="craft_design_info" Value="insert a drawing or item" />
+  <Text Key="craft_need_money" Value="Needed bons" />
+  <Text Key="craft_need_money1" Value="Needed regls" />
+  <Text Key="craft_need_engineering" Value="required skill level 'specialist'" />
+
+  <Text Key="quest_get_get" Value="obtain" />
+  <Text Key="quest_get_title" Value="Avaliable tasks" />
+  <Text Key="quest_get_detail" Value="Description" />
+
+  <Text Key="research_title" Value="Plant equipment modification" />
+  <Text Key="research_title_list" Value="Choose improvement" />
+  <Text Key="research_sale" Value="BLACK FRIDAY\nPRISE -20%%%%" />
+  <Text Key="research_show_list" Value="Choose" />
+  <Text Key="research_research" Value="Upgrade" />
+  <Text Key="research_close" Value="Close" />
+  <Text Key="research_item_info" Value="insert item" />
+  <Text Key="research_need_money" Value="Needed bons" />
+  <Text Key="research_need_money1" Value="Needed regls" />
+  <Text Key="research_stage" Value="Current level" />
+  <Text Key="research_bonus_info" Value="Insert \c&lt;200 200 200&gt;%s\b\nwhich is given for completing the quest 'Upgrade'.\nWhen you insert the upgrade, additional\nresources, bons and regls not required." />
+  <Text Key="research_item_personal" Value="Attention! The item will be personal" />
+  <Text Key="tooltip_research_item_personal" Value="The peculiarity of personal item that,\nhe cannot be traded to other players.\nThis item can only be transferred to character of your account.\nItem will be personal when you install the 7th stage skills." />
+
+  <Text Key="restore_title" Value="Equipment repair" />
+  <Text Key="restore_execute" Value="Recover" />
+  <Text Key="restore_need_money" Value="Needed bons" />
+  <Text Key="restore_need_money1" Value="Needed regls" />
+  <Text Key="restore_need_engineering" Value="Required skill level 'specialist'" />
+
+  <Text Key="params_hero_name_alias" Value="Change the alias" />
+  <Text Key="params_hero_change_name" Value="Change account nickname" />
+  <Text Key="params_hero_change_alias" Value="Change character alias" />
+  <Text Key="params_hero_change_name_holder" Value="Enter account nickname" />
+  <Text Key="params_hero_change_alias_holder" Value="Enter character alias" />
+  <Text Key="params_hero_level" Value="Level" />
+  <Text Key="params_hero_exp" Value="Exp." />
+  <Text Key="params_hero_nation" Value="Nation" />
+  <Text Key="params_hero_level_nation" Value="Rank" />
+  <Text Key="params_hero_status" Value="Status" />
+  <Text Key="params_hero_status_ranger" Value="Mercenary" />
+  <Text Key="params_hero_status_clean" Value="Neutral" />
+  <Text Key="params_hero_status_crime" Value="Violator" />
+  <Text Key="params_hero_status_pirate" Value="Rioter" />
+  <Text Key="params_hero_money" Value="Bons" />
+  <Text Key="params_hero_ex_money" Value="Regls" />
+  <Text Key="params_hero_skills" Value="Skills levels" />
+  <Text Key="params_hero_skill_precision" Value="Sniper" />
+  <Text Key="params_hero_skill_extraction" Value="Mining" />
+  <Text Key="params_hero_skill_engineering" Value="Specialist" />
+  <Text Key="params_hero_skill_trade" Value="Trade" />
+  <Text Key="params_hero_skill_missile" Value="Cannon" />
+  <Text Key="params_hero_skill_bullet" Value="Machine gun" />
+  <Text Key="params_hero_skill_empp" Value="EMPC" />
+  <Text Key="params_hero_skill_faser" Value="Phaser" />
+  <Text Key="params_hero_skill_rk" Value="Ml" />
+  <Text Key="params_hero_skill_rk_eng" Value="Ml enrg" />
+  <Text Key="params_hero_skill_howitzer" Value="Howitzer" />
+  <Text Key="params_hero_skill_launcher" Value="Rocket launcher" />
+  <Text Key="params_hero_skill_howitzereng" Value="Howitzer enrg" />
+  <Text Key="params_hero_skill_launchereng" Value="Rocket launcher enrg" />
+  <Text Key="params_hero_skill_bulleteng" Value="Machine gun enrg" />
+  <Text Key="params_hero_skill_missileeng" Value="Cannon enrg" />
+  <Text Key="params_hero_skill_mortar" Value="Mortar" />
+  <Text Key="params_hero_skill_bulletheavy" Value="Heavy Machine gun" />
+  <Text Key="params_hero_more_skill_exp" Value="Others" />
+  <Text Key="params_hero_weapon" Value="Strike" />
+  <Text Key="params_hero_used" Value="Abilitys" />
+  <Text Key="params_hero_used_armour" Value="Armor" />
+  <Text Key="params_hero_used_shield" Value="Shields" />
+  <Text Key="params_hero_used_hold" Value="Hold" />
+  <Text Key="params_hero_used_energy" Value="Energy" />
+  <Text Key="params_hero_no_premium" Value="Basic account" />
+  <Text Key="params_hero_premium" Value="Premium account" />
+  <Text Key="params_hero_buy_premium_account" Value="Obtain premium" />
+  <Text Key="params_hero_extend_premium_account" Value="Prolong premium" />
+
+  <Text Key="options_tmp" Value="9" />
+  <Text Key="options_tmp2" Value="2x" />
+  <Text Key="options_tmp_language" Value="English" />
+  <Text Key="options_title" Value="Customize" />
+  <Text Key="options_soundvolume" Value="Sounds" />
+  <Text Key="options_musicvolume" Value="Music" />
+  <Text Key="options_disable_sound" Value="Disadle sound" />
+  <Text Key="options_disable_snow" Value="Disadle snow" />
+  <Text Key="options_disable_color" Value="Disadle robots painting" />
+  <Text Key="options_disable_detail" Value="Disadle detalization" />
+  <Text Key="options_disable_effect" Value="Disadle effects" />
+  <Text Key="options_disable_vsync" Value="Disadle VSync" />
+  <Text Key="options_use_min_fps" Value="Limit 30 FPS" />
+  <Text Key="options_enable_debug" Value="Enable debugger" />
+  <Text Key="options_distance" Value="Range of visibility" />
+  <Text Key="options_distance_active" Value="Range of players" />
+  <Text Key="options_resolution" Value="Screen resolution" />
+  <Text Key="options_range_antialiasing" Value="Anti-aliasing" />
+  <Text Key="options_range_anisotropying" Value="Msaa" />
+  <Text Key="options_range_language" Value="Select language" />
+  <Text Key="options_fullscreen" Value="Fullscreen mode" />
+  <Text Key="options_move_type" Value="Method of travel" />
+  <Text Key="options_move_type_control" Value="accuracy" />
+  <Text Key="options_move_type_speed" Value="speed" />
+  <Text Key="options_ping" Value="Ping: %d middle: %d FPS: %.1f" />
+  <Text Key="options_note" Value="FOR THESE SETTINGS TO TAKE EFFECT, RESTART THE GAME" />
+
+  <Text Key="LGN_RSP_VERSION_WRONG" Value="\nRequired version \c&lt;190 60 60&gt;%.1d.%d.x\b upgrade the game client" />
+  <Text Key="LGN_RSP_LGN_PWD_WRONG" Value="\nIncorrect identity" />
+  <Text Key="LGN_RSP_HERO_EXIST" Value="\nIdentification completed." />
+  <Text Key="LGN_RSP_HERO_LOAD" Value="\nLoading profile:\n\c&lt;40 40 240&gt;%s.\b" />
+  <Text Key="LGN_RSP_HERO_NOT_EXIST" Value="\nProfile &apos;\c&lt;240 40 40&gt;%s\b&apos; is not found." />
+  <Text Key="LGN_RSP_HERO_NOT_EXIST_REG_BAN" Value="\nCreating a new profile is not available,\ntry later." />
+  <Text Key="LGN_RSP_HERO_NAME_WRONG" Value="\nThe profile name is incorrect.\n\c&lt;240 40 40&gt;You have entered invalid characters!\b\nUse 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="LGN_RSP_HERO_EMAIL_WRONG" Value="\nEntered email is incorrect\nCorrect for examle: user@mail.ru" />
+  <Text Key="LGN_RSP_HERO_NAME_EXIST" Value="\nA profile with this name already exists" />
+  <Text Key="LGN_RSP_HERO_LGN_NOT_EXIST" Value="\nAccount with so email does not exist" />
+  <Text Key="LGN_RSP_HERO_LGN_EXIST" Value="\nA profile with entered email already exists." />
+  <Text Key="LGN_RSP_HERO_BUSY" Value="\n\c&lt;40 40 240&gt;The character is already connected to a different profile.\b" />
+  <Text Key="LGN_RSP_HERO_PWD_WRONG" Value="\n\c&lt;240 40 40&gt;The logon credentials are incorrect.\b" />
+  <Text Key="LGN_RSP_HERO_CANT_CREATE" Value="\n\c&lt;240 40 40&gt;Failed to create profile.\b" />
+  <Text Key="LGN_RSP_PSWD_NOT_CHECKED" Value="\n\c&lt;240 40 40&gt;Identification error occurred.\b" />
+  <Text Key="LGN_RSP_LOGIN_OK" Value="\nLoading information about the world № &apos;\c&lt;40 40 240&gt;%s\b&apos;." />
+  <Text Key="LGN_RSP_LOGIN_OK_BAN" Value="\n\c&lt;240 40 40&gt;Profile is blocked\b\nReason: %s\nPlease contact support!" />
+  <Text Key="LGN_RSP_LOGIN_OK_BAN_ON_HOURS" Value="\n\c&lt;240 40 40&gt;Profile temporarily blocked,\b time left %dд %dч %dм\nReason: %s" />
+  <Text Key="LGN_RSP_LOGIN_WRONG_HERO" Value="\nThere is no access to this character." />
+  <Text Key="LGN_RSP_LOGIN_NO_MONEY" Value="\nInsufficient funds." />
+  <Text Key="CONNECT_ERROR_CANT_CONNECT" Value="A connection cannot be established" />
+  <Text Key="CONNECT_ERROR_CANCEL" Value="Cancel the command server connection" />
+  <Text Key="ACCESS_ALLOW" Value="Allowed" />
+  <Text Key="ACCESS_DENIED_NO_REASON" Value="Forbidden without explanation" />
+  <Text Key="ACCESS_DENIED_NO_MONEY" Value="The server is temporarily not working" />
+  <Text Key="ACCESS_DENIED_CANT_CONNECT_BILLING" Value="Prohibited. The server is unable to connect to the server billing" />
+  <Text Key="DISCONNECT_REASON_SERVER_STOP" Value="The server is stopped" />
+  <Text Key="DISCONNECT_REASON_CANT_CONNECT_BILLING" Value="The server is unable to access the billing center" />
+  <Text Key="DISCONNECT_REASON_LOST_CONNECTION" Value="Connection is broken" />
+  <Text Key="DISCONNECT_REASON_MODIFIED_PACKETS" Value="Connection is broken, received invalid packet" />
+  <Text Key="DISCONNECT_REASON_CONNECT_FAILED" Value="The server is not available" />
+  <Text Key="login_connecting" Value="Connecting to server..." />
+  <Text Key="login_connecting_test" Value="Connecting to \c&lt;200 200 200&gt;TEST\b server..." />
+  <Text Key="login_on_connect" Value="\nThe connection is established." />
+  <Text Key="login_no_connect" Value="\nNo connection [\c&lt;240 40 40&gt;%s\b]." />
+  <Text Key="login_auth_wait_response" Value="Please wait while we waiting/getting a response." />
+  <Text Key="login_authorization" Value="\nIdentification..." />
+  <Text Key="login_load_world" Value="\nLoading world &apos;\c&lt;40 40 240&gt;%s\b&apos;." />
+  <Text Key="login_in_game" Value="Loading" />
+  <Text Key="login_cancel" Value="Back" />
+  <Text Key="login_create" Value="Create" />
+  <Text Key="login_reg" Value="Registration" />
+  <Text Key="login_reg_title" Value="Creating profile" />
+  <Text Key="login_reg_name_holder" Value="Enter the name of the profile" />
+  <Text Key="login_reg_use_symbols" Value="Use the symbols 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="login_reg_empty_name" Value="\c&lt;240 40 40&gt;You have not entered the name of the character!\b Use the symbols 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="login_reg_wrong_symbols" Value="\c&lt;240 40 40&gt;You have entered invalid characters!\b Use the symbols 0-9, a-z, A-Z, &apos;_&apos;." />
+  <Text Key="login_reg_help" Value="For registration character, click &apos;\c&lt;40 40 240&gt;%s\b&apos; and enter name" />
+  <Text Key="login_reg_help1" Value="To register, enter your desired Email/password, and click Enter/Create" />
+  <Text Key="login_auth_title" Value="Identification" />
+  <Text Key="login_auth_reg_title" Value="Registration" />
+  <Text Key="login_auth_login_holder" Value="Enter your email" />
+  <Text Key="login_auth_password_holder" Value="Enter your password" />
+  <Text Key="login_auth_send" Value="Enter" />
+  <Text Key="login_auth_save_data" Value="Save password" />
+  <Text Key="tooltip_login_auth_save_data" Value="Save email and secure password for quick login" />
+  <Text Key="login_heroes_panel" Value="Select character" />
+  <Text Key="login_auth_show_pass" Value="*" />
+  <Text Key="login_auth_show_user_list" Value="Л" />
+  <Text Key="tooltip_login_auth_show_pass" Value="Show/Hide password" />
+  <Text Key="tooltip_login_auth_show_user_list" Value="To choose a profile from the list" />
+  <Text Key="login_auth_no_connect" Value="\c&lt;240 40 40&gt;The connection is still not installed!\b" />
+  <Text Key="login_auth" Value="Authorization" />
+  <Text Key="login_auth_login_use" Value="Enter your email" />
+  <Text Key="login_auth_password_use" Value="Enter your password (at least %d characters long, \c&lt;90 90 240&gt;this is case-sensitive!\b )" />
+  <Text Key="login_auth_login_wrong" Value="Email is incorrect" />
+  <Text Key="login_auth_password_wrong" Value="Password is to short (enter at least %d characters long)" />
+
+  <Text Key="mainmenu_connect" Value="Connect" />
+  <Text Key="mainmenu_register" Value="Registration" />
+  <Text Key="mainmenu_options" Value="Options" />
+  <Text Key="mainmenu_exit" Value="Exit" />
+  <Text Key="mainmenu_wiki" Value="Knowledge base" />
+  <Text Key="main_get_info" Value="Receiving data..." />
+
+  <Text Key="mainmenu_sale" Value="------ Autumn sale 2017 ------\n -----   \c&lt;243 230 30&gt;30 September и 1 October\b  ----- \n  ----          Скидки до 92 %%%%         ----  \n   •••      Узнать подробнее      •••   " />
+
+  <Text Key="tooltip_mainmenu_facebook" Value="Our page on Facebook" />
+  <Text Key="tooltip_mainmenu_google-plus" Value="Our group in Google+" />
+  <Text Key="tooltip_mainmenu_instagram" Value="Our Instagram" />
+  <Text Key="tooltip_mainmenu_twitter" Value="Our page 1n Twitter" />
+  <Text Key="tooltip_mainmenu_ok" Value="Our page in Одноклассники" />
+  <Text Key="tooltip_mainmenu_vk" Value="Our group in VK" />
+  <Text Key="tooltip_mainmenu_youtube" Value="Our channel on YouTube" />
+  <Text Key="tooltip_mainmenu_skype" Value="Contact us with Skype" />
+  <Text Key="tooltip_mainmenu_mail" Value="Contact us with email" />
+  <Text Key="tooltip_mainmenu_site" Value="Go to the website of the game" />
+  <Text Key="tooltip_mainmenu_wiki" Value="Go to the knowledge base of the game" />
+
+  <Text Key="mainmenu_contacts_title" Value="Contact us" />
+  <Text Key="mainmenu_contacts_mainmenu_skype" Value="Skype chat" />
+  <Text Key="mainmenu_contacts_mainmenu_mail" Value="Email" />
+  <Text Key="mainmenu_contacts_mainmenu_site" Value="Go to the website of the game" />
+  <Text Key="mainmenu_contacts_back" Value="Back" />
+  <Text Key="mainmenu_contacts_open_info" Value="*tap for open" />
+
+  <Text Key="startmsg_title" Value="Government" />
+  <Text Key="startmsg_text" Value=" Pilot, you on the Earth.\n\n To familiarize yourself with the control and the basics of the game, complete the FIRST task that you have already added. \n\n Mobile version of the game has not yet fully adapted to small screens, on the site https://mechs.su you can download full version game for PC and laptop.\n\n Survivors of the colony people returned to the planet of their ancestors. Many died that you felt here. Return necessary, because colonies are crowded and resources which possesses Earth, are very important. Won't pull time, move on to the main.\n\n Mining operations-your main goal, command good pay for them, but there are a lot of obstacles: this mutated animals of planet and ' moles ' (people who for some reason could not be evacuated and survived all cataclysms here on Earth). Constantly arriving reinforcements and you don't stay alone, but the world is cruel-be ready for anything. Press F1 to find out the details of managing your robot and its devices." />
+
+  <Text Key="premium_account_title" Value="Buy premium account" />
+  <Text Key="premium_account_buy" Value="Prolong premium account:" />
+  <Text Key="premium_account_info" Value="Premium account increases the resulting experience, rank and experience of owning weapons \c&lt;100 250 100&gt; 50%%%%%\b. Also increases to\c&lt;100 250 100&gt; 12 hours\b the time spent in offline in hazardous areas.\n\n Available functions:\n- Follow the selected target \n- AutoFit containers \n- automatic use sets of spare parts from the hold" />
+  <Text Key="premium_account_ok" Value="Bay" />
+  <Text Key="premium_account_cancel" Value="Cancel" />
+
+  <Text Key="tooltip_params_hero_params_apply" Value="Apply" />
+  <Text Key="tooltip_params_hero_params_point" Value="NUMBER OF UNALLOCATED STAT-POINTS \n\n THEY ARE ISSUED WHEN YOU REACH A NEW LEVEL \n AND ALLOWS YOU TO IMPROVE THE SKILLS OF YOUR CHARACTER\n" />
+  <Text Key="tooltip_params_hero_params_point_free" Value="THE NUMBER OF STAT-POINTS THAT CAN BE \n\n FREE TO REALLOCATE\n" />
+  <Text Key="tooltip_params_hero_name" Value="NICKNAME of the ACCOUNT, click to change" />
+  <Text Key="tooltip_params_hero_name_alias" Value="ALIAS CHARACTER, click to change" />
+  <Text Key="tooltip_params_hero_level" Value="CHARACTER LEVEL \n\n THE HIGHER THE LEVEL, THE MORE OPPORTUNITIES \n AND SKILLS, YOU CAN CONTROL A STRONGER ROBOT,\n ALSO AVAILABLE MORE POWERFUL WEAPONS\n" />
+  <Text Key="tooltip_params_hero_exp" Value="AMOUNT OF EXPERIENCE \n\n THIS IS ANOTHER CHARACTERISTIC OF THE CHARACTER LEVEL,\n ONLY IN THE LARGER VERSION;\n WHEN A THRESHOLD CURRENT EXPERIENCE,\n LEVEL INCREASES." />
+  <Text Key="tooltip_params_hero_nation" Value="A NATION IN WHICH YOU ARE" />
+  <Text Key="tooltip_params_hero_level_nation" Value="YOUR RANK IN THE NATION \n\n INCREASES WHEN YOU DESTROY \n ENEMY ROBOTS OR PERFORM \n NATIONAL TASKS" />
+  <Text Key="tooltip_params_hero_premium" Value="Premium account \n\n increases the resulting experience, rank and experience of owning weapons \c&lt;100 250 100&gt; 50%%%%%\b. Also increases to\c&lt;100 250 100&gt; 12 hours\b the time spent in offline in hazardous areas.\n\n Available functions:\n- Follow the selected target \n- AutoFit containers \n- automatic use sets of spare parts from the hold" />
+  <Text Key="tooltip_params_params_hero_buy_premium_account" Value="Premium account \n\n increases the resulting experience, rank and experience of owning weapons \c&lt;100 250 100&gt; 50%%%%%\b. Also increases to\c&lt;100 250 100&gt; 12 hours\b the time spent in offline in hazardous areas." />
+  <Text Key="tooltip_params_hero_extend_premium_account" Value="Premium account, click to prolong" />
+
+  <Text Key="tooltip_params_hero_status" Value="YOUR CRIMINAL STATUS \n\n SUGGESTS THAT, WHETHER YOU ARE IN BREACH OF THE LAW \n OR ON THE CONTRARY, FIGHT WITH VIOLATORS. \n IN SOME CITIES IT IS POSSIBLE TO ENTER \n ONLY WITH A SPECIFIC STATUS" />
+  <Text Key="tooltip_params_hero_status_ranger" Value="YOU'RE KNOWN AS A MERCENARY AND ACT TO ERADICATE THE REBELLION" />
+  <Text Key="tooltip_params_hero_status_clean" Value="NEUTRAL PILOT" />
+  <Text Key="tooltip_params_hero_status_crime" Value="YOU HAVE COMMITTED A WRONGFUL ACT AND ARE CONSIDERED A VIOLATOR" />
+  <Text Key="tooltip_params_hero_status_pirate" Value="YOU'RE KNOWN AS RIOTER" />
+  <Text Key="tooltip_params_hero_money" Value="LOCAL MONEY \n\n IT IS THE PRIMARY MEANS OF PAYMENT ON THE PLANET \n, ANY PURCHASE/SALE OPERATIONS \n ONLY POSSIBLE FOR BONS" />
+  <Text Key="tooltip_params_hero_ex_money" Value="EXTRA MONEY \n\n REQUIRED TO PURCHASE ANY \n UNIQUE SERVICES/ITEMS" />
+  <Text Key="tooltip_params_hero_skill_precision" Value="SNIPER SKILL IS VERY IMPORTANT,\n IT WILL HELP YOU TO FIGHT MONSTERS AND PLAYERS WHO ARE OLDER THAN YOU ON THE LEVEL" />
+  <Text Key="tooltip_params_hero_skill_extraction" Value="MINING IS AN IMPORTANT SKILL.\n INCREASING YOUR MINING SKILL YOU WILL BE ABLE TO MORE EFFECTIVELY USE THE SPECIALS  EQUIPMENT,\n THAT WILL SIGNIFICANTLY HELP IN THE PROCESS OF EXTRACTION, SAVES YOU TIME AND MONEY." />
+  <Text Key="tooltip_params_hero_skill_engineering" Value="POSSESSION OF THIS SKILL WILL INCREASE YOUR SKILLS \n OF REPAIR AND CRAFTING EQUIPMENT" />
+  <Text Key="tooltip_params_hero_skill_trade" Value="TRADE SKILL WILL HELP YOU TO PRODUCE \nSALES OPERATION IN STORES MORE PROFITABLE" />
+  <Text Key="tooltip_params_hero_weapon" Value="Strike skill:\nINCREASES DAMAGE DEALT TO ALL WEAPONS EXCEPT THE LASERS" />
+  <Text Key="tooltip_params_hero_used_armour" Value="ARMOR  \n THIS SKILL WILL GREATLY INCREASE THE PHYSICAL PROTECTION OF YOUR ROBOT." />
+  <Text Key="tooltip_params_hero_used_shield" Value="ENERGY PROTECTION - \n THIS SKILL WILL ALLOW MORE EFFICIENT USE OF PROTECTIVE FIELDS AND INCREASE ENERGY PROTECTION OF YOUR ROBOT." />
+  <Text Key="tooltip_params_hero_used_hold" Value="LOGISTICIAN - THIS SKILL WILL INCREASE THE CAPACITY OF THE HOLD." />
+  <Text Key="tooltip_params_hero_used_energy" Value="LIFE SUPPORT SYSTEM OF YOUR ROBOT,\n INCREASES THE VOLUME OF YOUR DRIVES AND REACTORS POWER." />
+  <Text Key="tooltip_params_hero_skill_missile" Value="CANNON:\nFIREARMS GUN, HIGH DAMAGE AT MEDIUM AND LONG RANGE,\n THERE IS A DEAD ZONE NEAR, THE AVERAGE RATE." />
+  <Text Key="tooltip_params_hero_skill_bullet" Value="MACHINE GUN:\nFIREARMS GUN, AVERAGE DAMAGE AT MEDIUM AND CLOSE RANGE,\n GREAT RATE" />
+  <Text Key="tooltip_params_hero_skill_empp" Value="EMPC:\nENERGY GUN, GREAT DAMAGE AT MEDIUM AND CLOSE RANGE,\nTHE AVERAGE RATE" />
+  <Text Key="tooltip_params_hero_skill_faser" Value="PHASER:\nENERGY GUN, AVERAGE DAMAGE AT LONG RANGE,\nGREAT RATE" />
+  <Text Key="tooltip_params_hero_skill_rk" Value="MISSILE SYSTEM:\nMISSILE WEAPON,\nTHE AVERAGE DAMAGE THROUGHOUT THE RACE, GREAT RATE" />
+  <Text Key="tooltip_params_hero_skill_rk_eng" Value="ENERGY MISSILE SYSTEM:\nMISSILE WEAPON,\nTHE AVERAGE DAMAGE THROUGHOUT THE RACE, GREAT RATE" />
+  <Text Key="tooltip_params_hero_skill_howitzer" Value="HOWITZER:\nFIREARMS GUN, A LARGE AREA OF EFFECT DAMAGE ONLY AT LONG RANGE,\nTHERE IS A DEAD ZONE NEAR, VERY LOW RATE OF FIRE, SHOOTS A CANOPY" />
+  <Text Key="tooltip_params_hero_skill_launcher" Value="ROCKET LAUNCHER:\nMISSILE WEAPON, AVERAGE DAMAGE ONLY AT LONG RANGE,\nTHERE IS A DEAD ZONE NEAR, THE AVERAGE RATE" />
+  <Text Key="tooltip_params_hero_skill_howitzereng" Value="ENERGY HOWITZER:\nENERGY GUN, A LARGE AREA OF EFFECT DAMAGE ONLY AT LONG RANGE,\nTHERE IS A DEAD ZONE NEAR, VERY LOW RATE OF FIRE, SHOOTS A CANOPY" />
+  <Text Key="tooltip_params_hero_skill_launchereng" Value="ENERGY ROCKET LAUNCHER:\nMISSILE WEAPON, AVERAGE DAMAGE ONLY AT LONG RANGE,\nTHERE IS A DEAD ZONE NEAR, THE AVERAGE RATE" />
+  <Text Key="tooltip_params_hero_skill_bulleteng" Value="ENERGY MACHINE GUN:\nENERGY GUN, AVERAGE DAMAGE AT MEDIUM RANGE\nGREAT RATE" />
+  <Text Key="tooltip_params_hero_skill_missileeng" Value="ENERGY CANNON:\nENERGY GUN, HIGH DAMAGE AT MEDIUM AND LONG RANGE,\nTHERE IS A DEAD ZONE NEAR, THE AVERAGE RATE" />
+  <Text Key="tooltip_params_hero_skill_mortar" Value="MORTAR:\nFIREARMS GUN, GREAT DAMAGE AT MEDIUM AND CLOSE RANGE,\nTHE AVERAGE RATE" />
+  <Text Key="tooltip_params_hero_skill_bulletheavy" Value="HEAVY MACHINE GUN:\nFIREARMS GUN, AVERAGE DAMAGE AT LONG RANGE,\nGREAT RATE" />
+
+  <Text Key="tooltip_params_hero_more_skill_exp" Value="SHOW OTHER TYPES OF GUNS" />
+
+
+  <Text Key="insurance_title" Value="Select type of insurance" />
+  <Text Key="insurance_info" Value="Insured %d^ modules" />
+  <Text Key="insurance_ok" Value="To insure" />
+  <Text Key="insurance_min" Value="Minimum [%d^ ]: %d" />
+  <Text Key="insurance_mid" Value="Middle [%d^ ]: %d" />
+  <Text Key="insurance_max" Value="Maximum [%d^ ]: %d" />
+
+  <Text Key="tel_bef_loc_teleported" Value="Teleport" />
+  <Text Key="tel_bef_loc_close" Value="Close" />
+  <Text Key="tel_bef_loc_title" Value="Select the place of teleportation" />
+
+  <Text Key="tel_bef_loc_need_money" Value="Needed bons" />
+  <Text Key="tel_bef_loc_need_money1" Value="Needed regls" />
+
+  <Text Key="reserch_chance_breakage" Value="%i^" />
+  <Text Key="tooltip_reserch_chance_breakage" Value="THE CHANCE OF FAILURE WHILE IMPROVING" />
+  <Text Key="tooltip_reserch_skill" Value="THE CURRENT NUMBER OF INSTALLED SKILLS" />
+
+  <Text Key="reserch_need_money" Value="%i bons" />
+  <Text Key="tooltip_reserch_need_money" Value="THE NUMBER OF BONS, NEEDED TO IMPROVE" />
+
+  <Text Key="reserch_need_jets" Value="%i regls" />
+  <Text Key="tooltip_reserch_need_jets" Value="THE NUMBER OF REGLS, NEEDED TO IMPROVE" />
+
+  <Text Key="trade_addmoney" Value="BONS" />
+  <Text Key="trade_addmoney1" Value="REGLS" />
+  <Text Key="trade_agree" Value="I AGREE" />
+  <Text Key="trade_offer_money" Value="To offer BONS" />
+  <Text Key="trade_offer_money1" Value="To offer REGLS" />
+  <Text Key="trade_wnd_text" Value="TRADE" />
+  <Text Key="trade_select_robot" Value="Robots" />
+
+  <Text Key="repair_title" Value="Repair terminal" />
+  <Text Key="repair_price_mech" Value="Price of repair:" />
+  <Text Key="repair_price" Value="%d bons" />
+  <Text Key="repair_price_item_mech" Value="Price of all:" />
+  <Text Key="repair_price_item" Value="Price of selected:" />
+  <Text Key="repair_price_not" Value="No" />
+  <Text Key="repair_price_mech_not_need" Value="NOT REQUIRED" />
+  <Text Key="tooltip_repair_all_mech_item" Value="REPAIR OF ALL INSTALLED EQUIPMENT" />
+  <Text Key="repair_all_mech_item" Value="Repair on the robot" />
+  <Text Key="repair_all_item" Value="REPAIR" />
+  <Text Key="tooltip_repair_all_item" Value="REPAIR OF THE SELECTED EQUIPMENT" />
+  <Text Key="repair_load_weapon_mech" Value="LOAD ALL WEAPONS" />
+  <Text Key="tooltip_repair_load_weapon_mech" Value="CHARGE THE AMMUNITION OF THE GUNS ON THE ROBOT" />
+  <Text Key="repair_load_weapon" Value="LOAD WEAPON" />
+  <Text Key="tooltip_repair_load_weapon" Value="CHARGE AMMUNITION SELECTED GUNS" />
+  <Text Key="repair_mech_city" Value="REPAIR(BONS)" />
+  <Text Key="tooltip_repair_mech_city" Value="REPAIR OF THE ROBOT USING THE REACTOR OF THE TERMINAL" />
+
+  <Text Key="upgrade_title" Value="MODIFICATION OF THE ROBOT" />
+  <Text Key="upgrade_sale" Value="BLACK FRIDAY\nPRICE TO ALL -30%%%%\nON THE SPEED -50%%%%" />
+  <Text Key="upgrade_type" Value="TYPE OF MODIFICATION" />
+  <Text Key="upgrade_need_money" Value="NEEDED BONS" />
+  <Text Key="upgrade_need_money1" Value="NEEDED REGLS" />
+  <Text Key="upgrade_upgrade" Value="To MODIFY" />
+  <Text Key="tooltip_upgrade_upgrade" Value="APPLY THE SELECTED MODIFICATION" />
+  <Text Key="upgrade_type_armour" Value="ARMOR" />
+  <Text Key="upgrade_type_shield" Value="SHIELDS" />
+  <Text Key="upgrade_type_health" Value="HULL" />
+  <Text Key="upgrade_type_capacity" Value="HOLD" />
+  <Text Key="upgrade_type_speed" Value="SPEED" />
+
+  <Text Key="chat_my_send_message" Value="from you=&gt; %s" />
+  <Text Key="chat_my_receive_message" Value="%s=&gt; to you" />
+
+  <Text Key="chat_my_send_message_pattern_for_find" Value="from you=&gt; " />
+  <Text Key="chat_my_receive_message_pattern_for_find" Value="=&gt; to you" />
+  <Text Key="chat_my_receive_gmhelp_message_pattern_for_find" Value="Help: " />
+
+
+  <Text Key="chat_entity_changes_hero_experience" Value="Experience: %+d" />
+  <Text Key="chat_entity_changes_hero_params_points" Value="Stats: %+d" />
+  <Text Key="chat_entity_changes_hero_free_re_sp" Value="Stats redistribution: %+d" />
+  <Text Key="chat_entity_changes_hero_money" Value="Bons: %+d" />
+  <Text Key="chat_entity_changes_hero_money_1" Value="Regls: %+d" />
+  <Text Key="chat_entity_changes_heroskills_precision" Value="Sniper: %+d" />
+  <Text Key="chat_entity_changes_heroskills_extraction" Value="Mining skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_trade" Value="Trade skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_engineering" Value="Specialist skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_weapon" Value="Stike skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_shield" Value="Shields skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_armour" Value="Armor skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_hold" Value="Hold skill: %+d" />
+  <Text Key="chat_entity_changes_heroskills_energy" Value="Power supply skill: %+d" />
+  <Text Key="chat_entity_changes_hero_insurance" Value="Insuranse: %+d" />
+  <Text Key="chat_entity_changes_robot_speed" Value="Speed: %+d" />
+  <Text Key="chat_entity_changes_hero_nation_experience" Value="Rank: %+d" />
+  <Text Key="chat_entity_changes_heroskills_missile" Value="Experience shooting cannon: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bullet" Value="Experience shooting machine gun: %+d" />
+  <Text Key="chat_entity_changes_heroskills_empp" Value="Experience shooting EMPC: %+d" />
+  <Text Key="chat_entity_changes_heroskills_faser" Value="Experience shooting phaser: %+d" />
+  <Text Key="chat_entity_changes_heroskills_rk" Value="Experience shooting ml: %+d" />
+  <Text Key="chat_entity_changes_heroskills_rkeng" Value="Experience shooting ml energ: %+d" />
+  <Text Key="chat_entity_changes_heroskills_howitzer" Value="Experience shooting howitzer: %+d" />
+  <Text Key="chat_entity_changes_heroskills_launcher" Value="Experience shooting rocket launcher: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bulleteng" Value="Experience shooting machine gun energ: %+d" />
+  <Text Key="chat_entity_changes_heroskills_missileeng" Value="Experience shooting cannon energ: %+d" />
+  <Text Key="chat_entity_changes_heroskills_howitzereng" Value="Experience shooting howitzer energ: %+d" />
+  <Text Key="chat_entity_changes_heroskills_launchereng" Value="Experience shooting rocket launcher energ: %+d" />
+  <Text Key="chat_entity_changes_heroskills_mortar" Value="Experience shooting mortar: %+d" />
+  <Text Key="chat_entity_changes_heroskills_bulletheavy" Value="Experience shooting heavy machine gun: %+d" />
+
+  <Text Key="chat_shot_far" Value="Shooting is impossible, the target away" />
+  <Text Key="chat_shot_near" Value="Shooting is impossible, a target too close" />
+  <Text Key="chat_shot_havnt_energy" Value="Shooting is impossible, not have enough energy" />
+  <Text Key="chat_shot_havnt_bullets" Value="Shooting is impossible without ammunition" />
+  <Text Key="chat_shot_missed" Value="Выстрел был неточен [промах]" />
+  <Text Key="chat_shot_to_safe_zone" Value="Shooting is impossible, the target in the security zone" />
+  <Text Key="chat_shot_from_safe_zone" Value="Shooting is impossible, you in the security zone" />
+  <Text Key="chat_no_money" Value="Insufficient funds" />
+  <Text Key="chat_not_enough_jets" Value="insufficient regls" />
+  <Text Key="chat_robot_buy_need_money" Value="insufficient funds for to buy robot" />
+  <Text Key="chat_robot_buy_low_level" Value="You have enough experience to control this robot" />
+  <Text Key="chat_robot_store_need_space" Value="Hangar robots can not accommodate more" />
+  <Text Key="chat_name_container" Value="[cointainer]" />
+  <Text Key="chat_name_robot" Value="[robot &lt;%s&gt;]" />
+  <Text Key="chat_name_hero" Value="[hero &lt;%s&gt;]" />
+  <Text Key="chat_name_city" Value="[location &lt;%s&gt;]" />
+  <Text Key="chat_name_deposit" Value="[deposit]" />
+  <Text Key="chat_robot_death" Value="Your robot destroyed by \c&lt;200 50 50&gt;%s\b" />
+  <Text Key="chat_robot_damage_to_you" Value="%s has caused you %d damage" />
+  <Text Key="chat_robot_damage_from_you" Value="You caused the %s %d damage" />
+  <Text Key="chat_robot_damage_itself" Value="You caused yourself  %d damage" />
+  <Text Key="chat_robot_damage_from_unknown" Value="You got %d damage" />
+  <Text Key="chat_monster_death" Value="You killed a \c&lt;50 50 200&gt;%s\b" />
+  <Text Key="chat_extract_mineral" Value="Mined %d minerals with %d energy" />
+  <Text Key="chat_extract_metal" Value="Mined %d metal with %d energy" />
+  <Text Key="chat_extract_crystal" Value="Mined %d krystals with %d energy" />
+  <Text Key="chat_extract_interrupted" Value="Mining stopped" />
+  <Text Key="chat_extract_need_energy" Value="Mining is impossible without energy" />
+  <Text Key="chat_extract_resources" Value="Mined %d resources, spent %d energy" />
+  <Text Key="chat_extract_empty" Value="Source resources devastated" />
+  <Text Key="chat_buy_premium" Value="Premium account is prolonged (days: %d hours: %d)" />
+  <Text Key="chat_game_settings_x_exp_up" Value="Experience up: %d" />
+  <Text Key="chat_game_settings_x_exp_down" Value="Experience down: %d" />
+  <Text Key="chat_game_settings_full_params_enable" Value="Mode of maximum parameters is activated" />
+  <Text Key="chat_game_settings_full_params_disable" Value="Mode of maximum parameters is disabled" />
+  <Text Key="chat_new_quest" Value="You got a new task" />
+  <Text Key="chat_quest_complete" Value="Task is complete" />
+  <Text Key="chat_quest_cancel_reject" Value="Now is not the time to stop the task" />
+  <Text Key="chat_item_level_low" Value="Installation/Use of the object impossible - not enough experience" />
+  <Text Key="chat_item_skill_level_low" Value="Installation is not possible - not enough skill in this type of guns" />
+  <Text Key="chat_item_wrong_case" Value="Installation/Use of the object impossible - type of robot is not suitable" />
+  <Text Key="chat_party_cant_invite_wait_you_confirm" Value="You can't invite, has not yet responded to an invitation from %s" />
+  <Text Key="chat_party_cant_invite_wait_he_response" Value="You can't invite until received a response from %s" />
+  <Text Key="chat_party_cant_invite_you_not_leader" Value="The leader of the group is %s, you can't invite" />
+  <Text Key="chat_party_cant_invite_he_wait_confirm" Value="You can't invite %s because he has already been invited" />
+  <Text Key="chat_party_cant_invite_he_already_in" Value="You can't invite %s because he is already in the group" />
+  <Text Key="chat_party_cant_invite_yourself" Value="You can't invite yourself" />
+  <Text Key="chat_party_invite_you" Value="You are invited to the group %s" />
+  <Text Key="chat_party_invite" Value="You was been invited to the group %s" />
+  <Text Key="chat_party_cant_confirm_you_not_invite" Value="You were not invited to the group and can not confirm the invitation" />
+  <Text Key="chat_party_join" Value="Have you joined %s" />
+  <Text Key="chat_party_joined" Value="You joined the group" />
+  <Text Key="chat_party_he_not_join" Value="%s refused to join you" />
+  <Text Key="chat_party_you_not_join" Value="You refused to join %s" />
+  <Text Key="chat_party_he_not_join_timeout" Value="%s not joined you in the time of the invitation has expired" />
+  <Text Key="chat_party_you_not_join_timeout" Value="You have not joined the%s time elapsed invitations" />
+  <Text Key="chat_wrong_nick" Value="Pilot %s does not exist" />
+  <Text Key="chat_party_cant_leave_wait_confirm" Value="You can't leave the group until you get confirmation of invitation from %s" />
+  <Text Key="chat_party_cant_leave_you_not_in" Value="You are not in a group, and are unable to get out of it" />
+  <Text Key="chat_party_he_leave" Value="%s left the group" />
+  <Text Key="chat_party_you_leave" Value="You left the group" />
+  <Text Key="chat_party_destroy" Value="The group disbanded" />
+  <Text Key="chat_party_created" Value="You have created a new group" />
+  <Text Key="chat_party_change_leader" Value="The group's new leader is %s" />
+  <Text Key="chat_party_cant_expel_not_in" Value="You can't kick, because you do not belong in the group" />
+  <Text Key="chat_party_cant_expel_not_leader" Value="The leader of the group is %s, you can't kick" />
+  <Text Key="chat_party_cant_expel_he_not_in" Value="You can't kick because %s is not in your group" />
+  <Text Key="chat_party_expel" Value="You were expelled from the group" />
+  <Text Key="chat_party_you_no_consist" Value="You are not a member of anyone group" />
+  <Text Key="chat_party_have_max_size" Value="You can't invite %s, reached maximum group size" />
+  <Text Key="chat_he_offline" Value="You can't invite %s , it is out of reach" />
+  <Text Key="chat_party_list" Value="%s" />
+
+
+  <Text Key="chat_nation_invite_you" Value="You are invited to join the nation %s" />
+  <Text Key="chat_nation_invite" Value="You were offered to join in nation %s" />
+  <Text Key="chat_clan_cant_invite_you_not_leader" Value="The squad leader is %s, you can't invite" />
+  <Text Key="chat_clan_cant_invite_he_already_in" Value="You can't invite %s because he is in another squad" />
+  <Text Key="chat_clan_invite_you" Value="You invited to the squad %s" />
+  <Text Key="chat_clan_invite" Value="You have been invited to the squad %s" />
+  <Text Key="chat_clan_union_invite_you" Value="You suggested Allied relations to squad %s" />
+  <Text Key="chat_clan_union_invite" Value="Squad %s suggested Allied relations to you" />
+  <Text Key="chat_clan_piece_invite_you" Value="You have proposed a peace treaty with squad %s" />
+  <Text Key="chat_clan_piece_invite" Value="Squad %s invites you to conclude a peace treaty with him" />
+  <Text Key="chat_clan_wrong_invite_time" Value="You can't invite %s because he has not expired a fine of %d min." />
+  <Text Key="chat_set_object_need_energy" Value="Not enough energy for the installation" />
+
+  <Text Key="chat_clan_cant_confirm_you_not_invite" Value="You were not invited to the squad and can't accept the invitation" />
+  <Text Key="chat_clan_joined" Value="You joined the squad" />
+  <Text Key="chat_clan_create" Value="You have created a squad" />
+  <Text Key="chat_clan_you_not_in" Value="You are not in the squad" />
+  <Text Key="chat_clan_you_leave" Value="You left the squad" />
+  <Text Key="chat_clan_expel" Value="You were expelled from the squad" />
+  <Text Key="chat_clan_cant_expel_you_not_leader" Value="The squad leader is %s, you can't kick" />
+  <Text Key="chat_clan_destroy" Value="Leader disband the squad" />
+  <Text Key="chat_clan_leader_change" Value="The squad leader now is %s" />
+  <Text Key="chat_clan_have_max_size" Value="You can't invite %s,reached the maximum size of the squad" />
+  <Text Key="chat_clan_wrong_lvl" Value="You must have %i level" />
+  <Text Key="chat_clan_wrong_name" Value="The squad name is unacceptable!\nUse next simbols only:\n 0-9 a-z A-Z" />
+  <Text Key="chat_clan_name_already_used" Value="Squad with this name already exists." />
+  <Text Key="chat_clan_declare_war" Value="Your squad began fighting against %s" />
+  <Text Key="chat_clan_make_piece" Value="Your squad is now neutral to %s" />
+  <Text Key="chat_clan_make_union" Value="Your squad made an Alliance with %s" />
+
+
+  <Text Key="chat_enter_loc_reject_pirates" Value="Ангары этой базы для вас закрыты - здесь не любят повстанцев" />
+  <Text Key="chat_enter_loc_reject_pirates_by_pirates" Value="Сюда пускают только повстанцев" />
+  <Text Key="chat_enter_loc_reject_rangers" Value="Это повстанческая база, наёмникам тут не место" />
+  <Text Key="chat_enter_loc_reject_rangers_by_rangers" Value="В этот город допускаются только наёмники" />
+  <Text Key="chat_tel_reject_pirates" Value="Телепорт контролируется наёмниками" />
+  <Text Key="chat_tel_reject_pirates_by_pirates" Value="Телепорт пускает только опытных повстанцев" />
+  <Text Key="chat_tel_reject_rangers" Value="Телепорт контролируется повстанцами" />
+  <Text Key="chat_tel_reject_rangers_by_rangers" Value="Телепорт пускает только опытных наёмников" />
+  <Text Key="chat_teleport_close" Value="Teleport is closed" />
+  <Text Key="chat_teleport_close_open_from" Value="Teleport is closed, open later %d min" />
+  <Text Key="chat_teleport_open_from" Value="Teleport '%s' will open later %d min." />
+  <Text Key="chat_teleport_open" Value="Teleport '%s' open for %d min" />
+  <Text Key="chat_teleport_close_on" Value="Teleport '%s' is closed, next opening later %d min" />
+  <Text Key="chat_lose_item" Value="You lost equpment: %s" />
+  <Text Key="chat_broken_weapon" Value="\c&lt;205 150 150&gt;Weapon is broken\b" />
+  <Text Key="chat_broke_weapon" Value="\c&lt;205 150 150&gt;Weapons broke\b" />
+  <Text Key="chat_broke_accum" Value="\c&lt;205 150 150&gt;One of the installed drives is broken\b" />
+  <Text Key="chat_broke_generator" Value="\c&lt;205 150 150&gt;Reactor refusal\b" />
+  <Text Key="chat_broke_repair" Value="\c&lt;205 150 150&gt;Repair module is damaged\b" />
+  <Text Key="chat_broke_shield" Value="\c&lt;205 150 150&gt;Shield damaged\b" />
+  <Text Key="chat_broke_armour" Value="\c&lt;205 150 150&gt;Armor broke\b" />
+  <Text Key="chat_broke_computer" Value="\c&lt;205 150 150&gt;One of the chips failed\b" />
+  <Text Key="chat_broke_extractor" Value="\c&lt;205 150 150&gt;Mining installation has failed\b" />
+  <Text Key="chat_broke_hold" Value="\c&lt;205 150 150&gt;Punched extra cargo space\b" />
+  <Text Key="chat_broke_engine" Value="\c&lt;205 150 150&gt;Engine is broken\b" />
+  <Text Key="chat_destr_weapon" Value="\c&lt;205 150 150&gt;Weapon is destroyed\b" />
+  <Text Key="chat_destr_accum" Value="\c&lt;205 150 150&gt;Dive is destroyed\b" />
+  <Text Key="chat_destr_generator" Value="\c&lt;205 150 150&gt;Reactor is destroyed\b" />
+  <Text Key="chat_destr_repair" Value="\c&lt;205 150 150&gt;Repair module is destroyed\b" />
+  <Text Key="chat_destr_shield" Value="\c&lt;205 150 150&gt;Shield is destroyed\b" />
+  <Text Key="chat_destr_armour" Value="\c&lt;205 150 150&gt;Armor is destroyed\b" />
+  <Text Key="chat_destr_computer" Value="\c&lt;205 150 150&gt;Chip is destroyed\b" />
+  <Text Key="chat_destr_extractor" Value="\c&lt;205 150 150&gt;Mining installation is destroyed\b" />
+  <Text Key="chat_destr_hold" Value="\c&lt;205 150 150&gt;Cargo bay is destroyed\b" />
+  <Text Key="chat_destr_engine" Value="\c&lt;205 150 150&gt;Engine is destroyed\b" />
+  <Text Key="chat_destr_bullets" Value="\c&lt;205 150 150&gt;No more shells\b" />
+
+  <Text Key="chat_teleport_from_no_teleport_zone" Value="Movement impossible - abnormal area" />
+  <Text Key="chat_item_need_energy" Value="Use impossible - not enough energy" />
+  <Text Key="chat_teleport_interrupted" Value="Movement aborted" />
+
+  <Text Key="chat_trade_invite_you" Value="You're offered %s to trade" />
+  <Text Key="chat_trade_invite" Value="%s want to trade with you" />
+  <Text Key="chat_trade_cant_invite_already_in" Value="You can't invite because you busy with trade" />
+  <Text Key="chat_trade_cant_invite_he_already_in" Value="You can't invite %s because he's busy with trade" />
+  <Text Key="chat_trade_cant_confirm_you_not_invite" Value="You didn't invite to trade and you can not confirm the invitation" />
+  <Text Key="chat_trade_he_not_join" Value="%s refused to trade with you" />
+  <Text Key="chat_trade_you_not_join" Value="You refused to trade with %s" />
+  <Text Key="chat_trade_he_not_join_timeout" Value="%s refused to trade with you, inviting expired" />
+  <Text Key="chat_trade_you_not_join_timeout" Value="You refused to trade with %s, the time of the invitation has expired" />
+  <Text Key="chat_trade_freeze" Value="During immobilization it is impossible to trade" />
+  <Text Key="chat_trade_nonreachable" Value="You can't trade with %s because it is out of reach" />
+
+  <Text Key="chat_research_item_modifier_true" Value="Item successfully improved" />
+  <Text Key="chat_research_item_modifier_false" Value="The item failed to improve" />
+  <Text Key="chat_research_item_modifier_break" Value="A item while improvement was damaged by one step down" />
+  <Text Key="chat_research_item_modifier_max_level" Value="Achieved the highest level of improvements" />
+
+  <Text Key="chat_research_robot_modifier_true" Value="The robot successfully modified" />
+  <Text Key="chat_research_robot_modifier_false" Value="Robot to modify failed" />
+  <Text Key="chat_research_robot_modifier_break" Value="Robot while modification has been damaged by one step down" />
+
+  <Text Key="chat_ban" Value="Chat banned for %dd %dh %dm, reason: %s" />
+  <Text Key="chat_ban_on" Value="You are not allowed to send messages to the chat" />
+  <Text Key="chat_ban_off" Value="You are allowed to write messages in chat" />
+  <Text Key="chat_change_weapon_ok" Value="Guns successfully rearranged" />
+  <Text Key="chat_player_other_nation" Value="%s is another nation" />
+  <Text Key="chat_nation_only" Value="Available only to members of the nation %s" />
+
+  <Text Key="chat_link_created" Value="The shortcut was successfully created" />
+
+  <Text Key="trade_invite_confirm" Value="%s предложил вам торговать.\nВы согласны?" />
+  <Text Key="tooltip_trade_invite_confirm" Value="Confirm trade" />
+  <Text Key="party_invite_confirm" Value="%s предложил вам присоединиться к партии.\nВы согласны?" />
+  <Text Key="tooltip_party_invite_confirm" Value="CONFIRM JOINING GROUP" />
+  <Text Key="tooltip_nation_invite_confirm" Value="CONFIRM JOINING NATION" />
+
+  <Text Key="tooltip_party" Value="GROUP" />
+  <Text Key="tooltip_party_invite" Value="INVITE A CHARACTER TO THE GROUP" />
+  <Text Key="tooltip_party_leave" Value="TO LEAVE THE GROUP" />
+  <Text Key="tooltip_party_expel" Value="TO EXPEL FROM THE GROUP" />
+  <Text Key="tooltip_party_list" Value="THE LIST OF PLAYERS IN THE GROUP" />
+  <Text Key="tooltip_trade" Value="TRADE" />
+  <Text Key="tooltip_trade_invite" Value="OFFER TO TRADE" />
+  <Text Key="tooltip_clan" Value="SQUAD" />
+  <Text Key="tooltip_clan_dlg_open" Value="SQUAD PANEL" />
+  <Text Key="tooltip_clan_main" Value="SQUAD" />
+  <Text Key="tooltip_clan_politic" Value="THE POLICY OF SQUAD" />
+  <Text Key="tooltip_clan_invite" Value="INVITE TO SQUAD" />
+
+  <Text Key="clan_wnd_title" Value="The management squad" />
+  <Text Key="no_clan" Value="No squad" />
+  <Text Key="clan_name" Value="%s(%i level)" />
+  <Text Key="clan_create_btn" Value="Create" />
+  <Text Key="clan_destroy_btn" Value="Disband" />
+  <Text Key="clan_leave_btn" Value="Leave" />
+  <Text Key="clan_expel_btn" Value="Expel" />
+  <Text Key="clan_ch_leader_btn" Value="To transfer control" />
+  <Text Key="clan_set_icon_btn" Value="Choose the banner" />
+  <Text Key="clan_invite_confirm" Value="%s invited you to join the squad.\nCost - %i bons. You agree?" />
+  <Text Key="clan_declare_war" Value="To declare war" />
+  <Text Key="clan_make_piece" Value="To offer the peace" />
+  <Text Key="clan_make_union" Value="To offer the ally" />
+  <Text Key="clan_break_union" Value="To break the ally" />
+  <Text Key="clan_politic_title" Value="The policy of squad" />
+  <Text Key="clan_politic_war" Value="war" />
+  <Text Key="clan_politic_union" Value="ally" />
+  <Text Key="clan_politic_piece" Value="neutrality" />
+  <Text Key="tooltip_clan_invite_confirm" Value="CONFIRM THE ENTRY INTO SQUAD" />
+  <Text Key="tooltip_clan_invite" Value="INVITE TO SQUAD" />
+  <Text Key="tooltip_clan_create" Value="CREATE A SQUAD" />
+  <Text Key="tooltip_clan_destroy" Value="DISBAND A SQUAD" />
+  <Text Key="tooltip_clan_leave" Value="WITHDRAW FROM THE SQUAD" />
+  <Text Key="tooltip_clan_expel" Value="TO KICK FROM THE SQUAD" />
+  <Text Key="tooltip_clan_ch_leader" Value="TRANSFER CONTROL" />
+  <Text Key="tooltip_clan_set_icon" Value="SET THE SYMBOL" />
+  <Text Key="clan_enter_name_holder" Value="Enter the name of the squad" />
+  <Text Key="clan_enter_name" Value="\c&lt;232 186 0&gt;The cost of registering a new squad - %s%i \bbons.\nYour level must be at least %s%i\b." />
+  <Text Key="clan_create_can" Value="\c&lt;232 232 150&gt;You have enough skill and money to create a squad,\nenter the name of the squad and click &quot;create&quot;!" />
+  <Text Key="clan_create_name_info" Value="\c&lt;232 232 150&gt;The name of the squad can consist of characters:\n\c&lt;100 250 100&gt;0-9 a-z A-Z" />
+  <Text Key="clan_create_cant_no_money" Value="\c&lt;250 120 120&gt;Not enough %i bonss for creatment of squad." />
+  <Text Key="clan_create_cant_no_lvl" Value="\c&lt;250 120 120&gt;You have an insufficient level." />
+  <Text Key="clan_create_cant" Value="\c&lt;250 120 120&gt;You can't create squad:" />
+  <Text Key="clan_create_color_good" Value="\c&lt;100 250 100&gt;" />
+  <Text Key="clan_create_color_bad" Value="\c&lt;255 0 50&gt;" />
+  <Text Key="clan_ask_destroy" Value="You are sure !?\nThe operation is irreversible!\n\c&lt;250 120 120&gt;The squad will be disbanded forever!!\b" />
+  <Text Key="clan_ask_leave" Value="You are sure !?\n\c&lt;250 120 120&gt;Ago may not take!\b" />
+  <Text Key="clan_ask_expel" Value="Do you really want to exclude\n\c&lt;100 250 100&gt;%s\b from the squad?" />
+  <Text Key="clan_ask_clan_ch_ld" Value="Do you really want to transfer\ncontrol \c&lt;50 200 255&gt;%s\b!?" />
+  <Text Key="clan_set_icon" Value="The choice of icons for the squad. File format - jpg, resolution 32x32, size up 2 Кб" />
+  <Text Key="clan_set_icon_mask" Value="Image files (*.jpg)" />
+  <Text Key="clan_set_icon_file_not_found" Value="File not found." />
+  <Text Key="clan_set_icon_wrong_file_size" Value="The file is too large - %.2f, maximum 2 Кб." />
+  <Text Key="clan_set_icon_wrong_file_resolution" Value="You need resolution 32x32, and of this file is %dx%d." />
+  <Text Key="clan_set_icon_wrong_file_format" Value="Incorrect file format, required jpg." />
+  <Text Key="clan_member_online" Value="\c&lt;100 250 100&gt;%s\b" />
+  <Text Key="clan_member_offline" Value="\c&lt;250 120 120&gt;%s\b" />
+  <Text Key="clan_member_leader" Value="\c&lt;50 200 255&gt;%s%s &lt;- comandor\b" />
+  <Text Key="question_decrease_skills_for_jets" Value="Redistribution of skills is irreversible operation,\nwhich may affect the fighting qualities of Your robot both positively and negatively.\Command is not responsible for the efficiency of this operation,\nthe responsibility lies with the pilot of the robot.\n\nThe reallocation of skill points\nwill cost you in %d regls.\nYou agree?" />
+
+
+  <Text Key="world_robot_head_state_teleportation" Value="TELEPORTATION" />
+  <Text Key="world_robot_head_state_extract" Value="MINING" />
+  <Text Key="world_robot_head_state_restore" Value="RECOVERY" />
+
+  <Text Key="chat_ch_info_1" Value="International" />
+  <Text Key="chat_ch_info_2" Value="National" />
+  <Text Key="chat_ch_info_3" Value="Trade" />
+  <Text Key="chat_ch_info_4" Value="PM" />
+  <Text Key="chat_ch_info_5" Value="Squad" />
+  <Text Key="chat_ch_info_6" Value="Group" />
+  <Text Key="chat_ch_info_7" Value="Private" />
+  <Text Key="chat_ch_info_8" Value="Kills" />
+  <Text Key="chat_ch_info_9" Value="Server" />
+  <Text Key="chat_ch_info_10" Value="Quests" />
+  <Text Key="chat_ch_info_11" Value="Ally" />
+
+  <Text Key="chat_ch_0" Value="Favorites" />
+  <Text Key="chat_ch_1" Value="International" />
+  <Text Key="chat_ch_2" Value="National" />
+  <Text Key="chat_ch_3" Value="Trade" />
+  <Text Key="chat_ch_4" Value="PM" />
+  <Text Key="chat_ch_5" Value="Squad" />
+  <Text Key="chat_ch_6" Value="Group" />
+  <Text Key="chat_ch_7" Value="Private" />
+  <Text Key="chat_ch_8" Value="Kills" />
+  <Text Key="chat_ch_9" Value="Server" />
+  <Text Key="chat_ch_10" Value="Quests" />
+  <Text Key="chat_ch_11" Value="Ally" />
+  <Text Key="chat_change_notification" Value="ON/OFF notification about private messages" />
+  <Text Key="chat_open_history" Value="Open logbook" />
+  <Text Key="tooltip_chat_send" Value="Send message" />
+  <Text Key="editor_edit_x" Value="X" />
+  <Text Key="editor_edit_y" Value="Y" />
+  <Text Key="editor_edit_w" Value="WIDTH" />
+  <Text Key="editor_edit_h" Value="HEIGHT" />
+  <Text Key="editor_edit_apply" Value="Save" />
+  <Text Key="editor_edit_apply_and_child" Value="Save with daughters" />
+  <Text Key="editor_edit_panel1" Value="edit" />
+  <Text Key="editor_edit_panel2" Value="open" />
+  <Text Key="editor_edit_panel3" Value="elements" />
+  <Text Key="editor_edit_support_platform" Value="Platforms" />
+  <Text Key="editor_edit_show_platform" Value="SHOW PLATFORM" />
+  <Text Key="editor_edit_panel3_info" Value="DESCRIPTION" />
+  <Text Key="editor_edit_panel3_dialog" Value="DIALOGUE" />
+  <Text Key="editor_edit_panel3_group" Value="GROUP" />
+  <Text Key="editor_edit_panel3_file" Value="FILE DIALOG" />
+  <Text Key="editor_edit_panel3_file_info" Value="FILE OF DESCRIPTION" />
+  <Text Key="editor_edit_panel2_groups" Value="CHOOSE A GROUP" />
+  <Text Key="editor_edit_panel2_group" Value="CHOOSE A DIALOG" />
+  <Text Key="editor_edit_open_dialog" Value="Open dialog" />
+  <Text Key="editor_moving" Value="draggable" />
+  <Text Key="editor_show_hide" Value="SHOW/HIDE" />
+  <Text Key="editor_show_tools" Value="SHOW FRAME" />
+  <Text Key="editor_edit_rect1" Value="Size" />
+  <Text Key="editor_edit_rect2" Value="The scope of the visible" />
+  <Text Key="editor_edit_rect3" Value="Texture buttons" />
+  <Text Key="editor_edit_inner_border_w" Value="INDENT X" />
+  <Text Key="editor_edit_inner_border_h" Value="INDENT Y" />
+  <Text Key="editor_edit_key" Value="BUTTON" />
+  <Text Key="editor_edit_info" Value="HINT" />
+  <Text Key="editor_edit_debug_info" Value="DESCRIPTION" />
+  <Text Key="editor_edit_name" Value="NAME" />
+  <Text Key="editor_edit_work_function" Value="HANDLER" />
+  <Text Key="editor_edit_open_child" Value="daughters" />
+  <Text Key="editor_edit_open_parent" Value="Higher level" />
+  <Text Key="editor_edit_panel1_item" Value="Item" />
+  <Text Key="editor_edit_panel1_image" Value="Image" />
+  <Text Key="editor_edit_panel1_text" Value="Text" />
+  <Text Key="editor_edit_panel1_model" Value="Model" />
+  <Text Key="editor_edit_panel1_tool_tips" Value="ToolTips" />
+  <Text Key="editor_edit_panel1_progress" Value="Progress" />
+  <Text Key="editor_edit_panel1_window" Value="Window" />
+  <Text Key="editor_edit_panel1_edit_text" Value="EditText" />
+  <Text Key="editor_edit_panel1_button" Value="Button" />
+  <Text Key="editor_edit_panel1_list" Value="List" />
+  <Text Key="editor_edit_panel1_progress_control" Value="ProgressControl" />
+  <Text Key="editor_edit_panel1_slider" Value="Slider" />
+  <Text Key="editor_edit_image_shader" Value="TEXTURE" />
+  <Text Key="editor_edit_image_angle" Value="ANGLE OF ROTATION" />
+  <Text Key="editor_edit_slider_scroll_size" Value="SIZE" />
+
+  <Text Key="server_login_hero_tooltip_world" Value="WORLD:" />
+  <Text Key="server_login_hero_tooltip_pos" Value="LOCATION:" />
+  <Text Key="server_login_hero_tooltip_robot" Value="ROBOT:" />
+  <Text Key="server_login_hero_tooltip_robot_dead" Value="ROBOT: death" />
+  <Text Key="server_login_create_hero" Value="Create new character" />
+  <Text Key="server_login_create_hero_for" Value="for" />
+  <Text Key="server_login_create_hero_regls" Value="regls" />
+  <Text Key="server_login_hero" Value="Character" />
+  <Text Key="server_login_hero_lvl" Value="lvl" />
+  <Text Key="server_login_hero_online" Value="online" />
+  <Text Key="server_login_create_hero_tooltip" Value="Create another character in your account" />
+</Localization>

@@ -7,6 +7,13 @@
     <Text Name="ZoneName" Text="empty" FontSet="zonename" ColorARGB="1 1 1 1" ENB="0" VIS="0" X="180" Y="88" W="440" H="44" DebugInfo="Отображает название зоны"/>
     <Text Name="TestMode" Text="test_mode" Font="3" Size="54" ColorARGB="0.3 1 1 1" ENB="0" VIS="0" X="0" Y="60" W="800" H="50"/>
     <!--<Group Id="LeftTop" HAlignAdd="LEFT" VAlignAdd="TOP">-->
+    <!-- Панель миникарты -->
+    <Image HAlignAdd="LEFT" VAlignAdd="TOP" Name="MapImage" Shader="1" VIS="1" ENB="0" X="0" Y="0" W="1024" H="1024" VpX="4" VpY="4" VpW="120" VpH="120"/>
+    <Image Name="MapCompas" HAlignAdd="LEFT" VAlignAdd="TOP" Shader="74" ENB="0" VIS="1" X="7" Y="7" W="116" H="116"/>
+    <Button Name="OpenWorldMap" HAlignAdd="LEFT" VAlignAdd="TOP" Normal="1" Active="1" Key="m" X="7" Y="7" W="116" H="116" VIS="1" ENB="1" DebugInfo="кнопка открытия большой карты"/>
+    <Item Name="MapView" HAlignAdd="LEFT" VAlignAdd="TOP" WorkerShow="Item_MapView_Show" ENB="0" X="10" Y="9" W="110" H="110" VIS="1" DebugInfo="Миникарта. отвечает за вывод объектов на ней"/>
+    <Image HAlignAdd="LEFT" VAlignAdd="TOP" Shader="27" ENB="0" X="0" Y="0" W="128" H="128" VIS="1" DebugInfo="задник миникарты"/>
+	  <!-- Панель миникарты конец -->
     <Item HAlignAdd="LEFT" VAlignAdd="TOP" X="132" Y="25" W="103" H="64" Name="CommandsPanel" ENB="0" VIS="0" DebugInfo="Содержит все управляющие кнопки">
         <Item Name="QueryPanel" X="133" Y="27" W="104" H="128" ENB="0" VIS="0">
             <Image Shader="307" ENB="1" X="134" Y="31" W="126" H="100" VIS="1" DebugInfo="фоновое изображени">
@@ -64,12 +71,6 @@
     <Button Name="ClanOpen" HAlignAdd="LEFT" VAlignAdd="TOP" Info1="tooltip_clan" Normal="294" Active="295" Check="296" Flash="297" TimeToFlash="5" CountFlash="10" ENB="1" X="184" Y="0" W="25" H="25" VIS="1" DebugInfo="открыть окно кнопок отряда"/>
     <Button Name="PartyOpen" HAlignAdd="LEFT" VAlignAdd="TOP" Info1="tooltip_party" Normal="298" Active="299" Check="300" Flash="301" TimeToFlash="5" CountFlash="10" ENB="1" X="209" Y="0" W="25" H="25" VIS="1" DebugInfo="открыть окно кнопок группы"/>
     <Button Name="TradeOpen" HAlignAdd="LEFT" VAlignAdd="TOP" Info1="tooltip_trade" Normal="302" Active="303" Check="304" Flash="305" TimeToFlash="5" CountFlash="10" ENB="1" X="156" Y="0" W="28" H="25" VIS="1" DebugInfo="открыть окно кнопок торговли"/>
-    <!-- Панель миникарты -->
-    <Image HAlignAdd="LEFT" VAlignAdd="TOP" Name="MapImage" Shader="1" VIS="1" ENB="0" X="0" Y="0" W="1024" H="1024" VpX="4" VpY="4" VpW="120" VpH="120"/>
-    <Image HAlignAdd="LEFT" VAlignAdd="TOP" Shader="27" ENB="0" X="0" Y="0" W="128" H="128" VIS="1" DebugInfo="задник миникарты"/>
-    <Image Name="MapCompas" HAlignAdd="LEFT" VAlignAdd="TOP" Shader="74" ENB="0" VIS="1" X="7" Y="7" W="116" H="116"/>
-    <Button Name="OpenWorldMap" HAlignAdd="LEFT" VAlignAdd="TOP" Normal="1" Active="1" Key="m" X="7" Y="7" W="116" H="116" VIS="1" ENB="1" DebugInfo="кнопка открытия большой карты"/>
-    <Item Name="MapView" HAlignAdd="LEFT" VAlignAdd="TOP" WorkerShow="Item_MapView_Show" ENB="0" X="10" Y="9" W="110" H="110" VIS="1" DebugInfo="Миникарта. отвечает за вывод объектов на ней"/>
     <Button Name="HeroParams" HAlignAdd="LEFT" VAlignAdd="TOP" Info="tooltip_params_hero" Normal="268" Active="269" Check="270" Flash="271" TimeToFlash="5" CountFlash="50" ENB="1" Key="h" X="1" Y="127" W="32" H="32" VIS="1" DebugInfo="открыть информацию о герое"/>
     <Button Name="RobotParams" HAlignAdd="LEFT" VAlignAdd="TOP" Info="tooltip_params_robot" Normal="272" Active="273" Check="274" Flash="275" TimeToFlash="5" CountFlash="4" ENB="1" Key="r" X="33" Y="127" W="32" H="32" VIS="1" DebugInfo="открыть информацию о роботе"/>
     <Button Name="Quests" HAlignAdd="LEFT" VAlignAdd="TOP" Info="tooltip_params_quests" Normal="133" Active="134" Check="135" Flash="136" ENB="1" X="65" Y="127" W="32" H="32" VIS="1" DebugInfo="кнопка открыть квесты"/>
@@ -77,15 +78,23 @@
     <Button Name="Poll" HAlignAdd="LEFT" VAlignAdd="TOP" Info="tooltip_params_poll" Normal="126" Active="127" Check="128" ENB="1" X="242" Y="1" W="25" H="25" VIS="1" DebugInfo="кнопка открыть голосование"/>
     <Progress Name="ExpProgress" HAlignAdd="LEFT" VAlignAdd="TOP" Shader="214" Vertical="1" VIS="1" X="125" Y="5" W="4" H="118" ENB="1" DebugInfo="Индикатор опыта"/>
     <Image HAlignAdd="LEFT" VAlignAdd="TOP" Shader="215" X="124" Y="4" W="6" H="121" ENB="0" VIS="1" DebugInfo="Обрамление индикатора опыта"/>
+    <!--  Информационные панели -->
+    <Item Name="InfoXExp2" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+        <Image Info="tooltip_game_info_x_exp_2" Shader="522" X="376" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор x2"/>
+    </Item>
+    <Item Name="InfoXExp3" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+      <Image Info="tooltip_game_info_x_exp_3" Shader="523" X="376" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор x3"/>
+    </Item>
+    <Item Name="InfoAnomaly" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+        <Image Info="tooltip_game_info_anomaly" Shader="520" X="410" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор аномалии"/>
+    </Item>
+    <Item Name="InfoMaxParams" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+        <Image Info="tooltip_game_info_max_params" Shader="521" X="444" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор макс параметров"/>
+    </Item>
     <!--  </Group> -->
     <!-- <Group Id="RightTop" HAlignAdd="RIGHT" VAlignAdd="TOP">	-->
     <Button Name="OpenInvCrg" HAlignAdd="RIGHT" VAlignAdd="TOP" Normal="251" Active="252" Check="253" Key="i" X="767" Y="109" W="32" H="32" VIS="1" ENB="1" DebugInfo="кнопка открыть Трюм"/>
     <Button Name="OpenInvInst" HAlignAdd="RIGHT" VAlignAdd="TOP" Normal="254" Active="255" Check="256" Key="o" X="767" Y="73" W="32" H="32" VIS="1" ENB="1" DebugInfo="кнопка открыть модули"/>
-    <Item Name="ActionGroup" HAlignAdd="RIGHT" VAlignAdd="TOP" DebugInfo="группа элементов кнопки действия" X="692" Y="146" W="108" H="47" VIS="1" ENB="1">
-        <Image Name="ActionImage" Shader="261" X="674" Y="141" W="128" H="64" VIS="1" ENB="1" DebugInfo="задник кнопки действия"/>
-        <Button Name="Action" X="700" Y="162" W="77" H="16" VIS="1" ENB="1" DebugInfo="кнопка действия"/>
-        <Text Name="ActionText" Text="empty" FontSet="small" VIS="1" ENB="0" X="695" Y="160" W="84" H="20" DebugInfo="текст кнопки действия"/>
-    </Item>
     <Image HAlignAdd="RIGHT" VAlignAdd="TOP" Shader="5" X="640" Y="2" W="38" H="63" ENB="0" VIS="1" DebugInfo="Обрамление индикаторов"/>
     <Image HAlignAdd="RIGHT" VAlignAdd="TOP" Shader="233" X="638" Y="1" W="50" H="66" ENB="0" VIS="1" DebugInfo="Обрамление индикаторов"/>
     <Progress Name="RobotHP" HAlignAdd="RIGHT" VAlignAdd="TOP" Shader="235" Vertical="1" X="640" Y="2" W="11" H="63" VIS="1" ENB="1" DebugInfo="индикатор прочности робота">
@@ -98,8 +107,39 @@
     <Progress Name="Capacity" HAlignAdd="RIGHT" VAlignAdd="TOP" Vertical="1" X="667" Y="2" W="11" H="63" VIS="1" ENB="1" DebugInfo="индикатор загруженности">
         <Button Name="FrameRobotCapacity" Normal="0" Flash="232" TimeToFlash="5" CountFlash="4" X="666" Y="2" W="11" H="63" ENB="0" VIS="1" DebugInfo="Обрамление индикаторо вместимости"/>
     </Progress>
-    <!-- Панель слотов -->
     <Image Shader="208" HAlignAdd="RIGHT" VAlignAdd="TOP" ENB="0" X="675" Y="-14" W="129" H="128" VIS="1" DebugInfo="задник задника для оружия"/>
+    <!--  </Group> -->
+    <Item Name="BulletsSelect">
+        <Image Name="Sel_0" Shader="316" ENB="1" X="319" Y="39" W="26" H="26" VIS="1"/>
+        <Image Name="Sel_1" Shader="316" ENB="1" X="357" Y="48" W="30" H="30" VIS="1"/>
+        <Image Name="Sel_2" Shader="316" ENB="1" X="397" Y="57" W="38" H="38" VIS="1"/>
+        <Image Name="Sel_3" Shader="316" ENB="1" X="447" Y="48" W="30" H="30" VIS="1"/>
+        <Image Name="Sel_4" Shader="316" ENB="1" X="487" Y="39" W="26" H="26" VIS="1"/>
+        <Image Name="SelProt" Shader="316" ENB="0" VIS="0" DebugInfo="прототип нет"/>
+    </Item>
+    <!-- <Group Id="LeftBottom" HAlignAdd="LEFT" VAlignAdd="BOTTOM">-->
+    <Item Name="Zone01" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone01" Shader="329" ENB="1" X="10" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 01"/>
+    </Item>
+    <Item Name="Zone02" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone02" Shader="330" ENB="1" X="36" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 02"/>
+    </Item>
+    <Item Name="Zone03" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone03" Shader="331" ENB="1" X="62" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 03"/>
+    </Item>
+    <Item Name="Zone04" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone04" Shader="332" ENB="1" X="88" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 04"/>
+    </Item>
+    <Item Name="Zone05" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone05" Shader="333" ENB="1" X="114" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 05"/>
+    </Item>
+    <Item Name="Zone06" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone06" Shader="334" ENB="1" X="140" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 06"/>
+    </Item>
+    <Item Name="Zone07" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
+        <Image Info="tooltip_zone07" Shader="335" ENB="1" X="166" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 07"/>
+    </Item>
+    <!-- Панель слотов -->
     <Item Name="Weapon1" HAlignAdd="RIGHT" VAlignAdd="TOP">
         <Item Name="Weapon" X="692" Y="10" W="40" H="40" ENB="1" VIS="1" Worker="Item_Weapon" Param1="0">
             <Image ENB="0" X="688" Y="8" W="48" H="48" VIS="1"/>
@@ -117,23 +157,11 @@
         <Progress Name="Ammunition" Info="tooltip_item_ammunition" Shader="209" ProgressValue="1.0" Vertical="1" VIS="1" X="792" Y="11" W="6" H="36" ENB="1" DebugInfo="Индикатор патронов оружия 2"/>
     </Item>
     <Image HAlignAdd="RIGHT" VAlignAdd="TOP" Shader="205" ENB="0" X="675" Y="-14" W="129" H="128" VIS="1" DebugInfo="задник для оружия"/>
-    <Text Name="AutoFire" HAlignAdd="RIGHT" VAlignAdd="TOP" X="720" Y="53" W="40" H="10" Text="game_auto_fire" Align="CENTER" FontSet="small" VIS="1" ENB="1" ColorARGB="1 1 1 1"/>
-    <!--  </Group> -->
-    <Item Name="BulletsSelect">
-        <Image Name="Sel_0" Shader="316" ENB="1" X="319" Y="39" W="26" H="26" VIS="1"/>
-        <Image Name="Sel_1" Shader="316" ENB="1" X="357" Y="48" W="30" H="30" VIS="1"/>
-        <Image Name="Sel_2" Shader="316" ENB="1" X="397" Y="57" W="38" H="38" VIS="1"/>
-        <Image Name="Sel_3" Shader="316" ENB="1" X="447" Y="48" W="30" H="30" VIS="1"/>
-        <Image Name="Sel_4" Shader="316" ENB="1" X="487" Y="39" W="26" H="26" VIS="1"/>
-        <Image Name="SelProt" Shader="316" ENB="0" VIS="0" DebugInfo="прототип нет"/>
-    </Item>
     <Item Name="Chat" VAlignAdd="BOTTOM" X="200" Y="454" W="400" H="125" ENB="1" VIS="1">
         <Image Shader="239" VIS="1" ENB="0" X="200" Y="454" W="400" H="108" DebugInfo="окно чата"/>
         <Image Shader="240" VIS="1" ENB="0" X="201" Y="562" W="356" H="30" DebugInfo="подложка под  поле ввода чат"/>
         <Image Name="ChatShaderBack" Shader="422" VIS="1" ENB="0" X="203" Y="564" W="351" H="28" DebugInfo="подсветка под  поле ввода чат"/>
-        <TextField Style="chat" Name="Message" Worker="Edit_Chat" PlaceHolderKey="game_chat_holder" Align="LEFT" VAlign="TOP" WordWrap="1" MaxLength="128" X="206" Y="565" W="343" H="30" VIS="1" ENB="1"/>
         <Button Name="Send" Text="empty" Info="tooltip_chat_send" Normal="443" Active="444" Check="444" X="560" Y="562" W="40" H="30" VIS="1" ENB="1"/>
-        <Text Name="ChatDisplay" Text="empty" FontSet="chat" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="5" ColorARGB="1 1.0 0.0 0.0" X="203" Y="460" W="372" H="96" VIS="1" ENB="1" VpX="0" VpY="0" VpW="0" VpH="0"/>
         <Item Name="FlagsChannel">
             <Button Name="Ch1" Text="empty" Info="chat_ch_1" Normal="340" Active="341" Check="342" Flash="343" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="184" Y="454" W="16" H="16" VIS="1" ENB="1"/>
             <Button Name="Ch2" Text="empty" Info="chat_ch_2" Normal="344" Active="345" Check="346" Flash="347" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="184" Y="470" W="16" H="16" VIS="1" ENB="1"/>
@@ -158,29 +186,15 @@
         </Item>
         <Button Name="OpenHistory" Text="empty" Info="chat_open_history" Normal="394" Active="395" Check="396" Flash="397" TimeToFlash="8" CountFlash="15" FlashEndStateOn="1" X="600" Y="534" W="16" H="16" VIS="1" ENB="1"/>
         <Button Name="ChangeNotification" Text="empty" Info="chat_change_notification" Normal="440" Active="441" Check="442" X="600" Y="517" W="16" H="16" VIS="1" ENB="1"/>
+        <TextField Style="chat" Name="Message" Worker="Edit_Chat" PlaceHolderKey="game_chat_holder" Align="LEFT" VAlign="TOP" WordWrap="1" MaxLength="128" X="206" Y="565" W="343" H="30" VIS="1" ENB="1"/>
+        <Text Name="ChatDisplay" Text="empty" FontSet="chat" Align="LEFT" VAlign="TOP" WordWrap="1" InnerBorderW="5" ColorARGB="1 1.0 0.0 0.0" X="203" Y="460" W="372" H="96" VIS="1" ENB="1" VpX="0" VpY="0" VpW="0" VpH="0"/>
     </Item>
-    <!-- <Group Id="LeftBottom" HAlignAdd="LEFT" VAlignAdd="BOTTOM">-->
-    <Item Name="Zone01" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone01" Shader="329" ENB="1" X="10" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 01"/>
+    <Item Name="ActionGroup" HAlignAdd="RIGHT" VAlignAdd="TOP" DebugInfo="группа элементов кнопки действия" X="692" Y="146" W="108" H="47" VIS="1" ENB="1">
+        <Image Name="ActionImage" Shader="261" X="674" Y="141" W="128" H="64" VIS="1" ENB="1" DebugInfo="задник кнопки действия"/>
+        <Button Name="Action" X="700" Y="162" W="77" H="16" VIS="1" ENB="1" DebugInfo="кнопка действия"/>
+        <Text Name="ActionText" HAlignAdd="RIGHT" VAlignAdd="TOP" Text="empty" FontSet="small" VIS="1" ENB="0" X="695" Y="160" W="84" H="20" DebugInfo="текст кнопки действия"/>
     </Item>
-    <Item Name="Zone02" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone02" Shader="330" ENB="1" X="36" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 02"/>
-    </Item>
-    <Item Name="Zone03" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone03" Shader="331" ENB="1" X="62" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 03"/>
-    </Item>
-    <Item Name="Zone04" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone04" Shader="332" ENB="1" X="88" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 04"/>
-    </Item>
-    <Item Name="Zone05" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone05" Shader="333" ENB="1" X="114" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 05"/>
-    </Item>
-    <Item Name="Zone06" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone06" Shader="334" ENB="1" X="140" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 06"/>
-    </Item>
-    <Item Name="Zone07" HAlignAdd="LEFT" VAlignAdd="BOTTOM" X="0" Y="577" W="24" H="24">
-        <Image Info="tooltip_zone07" Shader="335" ENB="1" X="166" Y="577" W="24" H="24" VIS="1" DebugInfo="индикатор зоны 07"/>
-    </Item>
+    <Text Name="AutoFire" HAlignAdd="RIGHT" VAlignAdd="TOP" X="720" Y="53" W="40" H="10" Text="game_auto_fire" Align="CENTER" FontSet="small" VIS="1" ENB="1" ColorARGB="1 1 1 1"/>
     <!-- </Group> -->
     <!-- Всплывающие подсказки -->
     <ToolTips Name="ToolTips">
@@ -236,4 +250,16 @@
             </Frame>
         </Frames>
     </AnimationZones>
+    <AnimationInfos>
+        <DeltaYPosInit Value="-40"/>
+        <DeltaXPosInit Value="0"/>
+        <Frames>
+            <Frame Name="Begin">
+                <Point MinX="0" MinY="-1" MaxX="0" MaxY="-1" Speed0="1.5" Acceleration="1.0"/>
+            </Frame>
+            <Frame Name="End">
+                <Point MinX="0" MinY="-41" MaxX="0" MaxY="-31" Speed0="2.0" Acceleration="2.0"/>
+            </Frame>
+        </Frames>
+    </AnimationInfos>
 </DialogData>

@@ -75,7 +75,7 @@
             <Image Id="166" Shader="3" VIS="0" ENB="0" X="328" Y="302" W="32" H="30" />
             <Image Id="167" Shader="83" VIS="1" ENB="0" X="318" Y="305" W="40" H="12" />
             <Text Id="168" Align="RIGHT" FontSet="small" VIS="0" ENB="0" ColorARGB="1 1 1 1" X="318" Y="305" W="40" H="12" />
-            <Image Id="195" Shader="131" VIS="0" ENB="0" X="315" Y="273" W="46" H="46" />
+            <Image Id="195" Shader="131" VIS="0" ENB="0" X="315" Y="273" W="32" H="30" />
         </Image>
         <Image Id="107" Worker="Image_SlotItem" WorkerShow="ImageDefaultWorkShow" X="238" Y="344" W="32" H="30" VIS="1" ENB="1">
             <Image Id="169" Shader="3" VIS="0" ENB="0" X="237" Y="344" W="32" H="30" />

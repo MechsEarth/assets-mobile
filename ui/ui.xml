@@ -23,7 +23,7 @@
    <Resource Idx="17 " Name="ui/invpanelenbe" />
    <Resource Idx="18 " Name="ui/invpanelenb" />
    <Resource Idx="19 " Name="ui/invpaneldis" />
-   <Resource Idx="20 " Name="ui_window/inventory_cargo" />
+   <Resource Idx="20 " Name="ui/inventory_cargo" />
    <Resource Idx="21 " Name="ui_window/inventory_container" />
    <Resource Idx="22 " Name="ui/empty" />
    <Resource Idx="23 " Name="ui/empty" />
@@ -522,7 +522,11 @@
    <Resource Idx="516" Name="ui/new/main/main/site" />
    <Resource Idx="517" Name="ui/new/main/main/site_active" />
    <Resource Idx="518" Name="ui_new/tooltip/default" />
-   <Resource Idx="519" Name="ui_new/pixel" ColorARGB="255 255 0 0" />
+   <Resource Idx="519" Name="ui_new/pixel" ColorARGB="255 255 0 0" />   
+   <Resource Idx="520" Name="ui/game/panel/info/anomaly" />
+   <Resource Idx="521" Name="ui/game/panel/info/max_params" />
+   <Resource Idx="522" Name="ui/game/panel/info/x_exp_2" />
+   <Resource Idx="523" Name="ui/game/panel/info/x_exp_3" />
  </Shaders>
  
  <Styles>

@@ -4,7 +4,7 @@
     <Button Text="mainmenu_sale" FontSet="button_text" Normal="518" Active="518" Align="CENTER" ColorARGB="1 0.9 0.9 0.9" ActiveColorARGB="1 0.9 0.4 0.4" MouseShader="153" Command="open_url https://new.mechs.su/news/2017-09-26-autumn-sale" X="140" Y="459" W="520" H="130" VIS="0" ENB="0"/>
     <Image Style="window" X="240" Y="140" W="320" H="330"/>
     <Button Style="default" Text="mainmenu_connect" Command="delete_menu Main;create_menu Login;" Key="enter" X="275" Y="197" W="250" H="45"/>
-    <Button Style="default" Text="mainmenu_register" Command="delete_menu Main;create_menu Login;" X="275" Y="249" W="250" H="45"/>
+    <Button Style="default" Text="mainmenu_register" Command="delete_menu Main;create_menu Login 1;" X="275" Y="249" W="250" H="45"/>
     <Button Style="default" Text="mainmenu_options" Command="create_menu Options;" X="275" Y="301" W="250" H="45"/>
     <Button Style="default" Text="mainmenu_exit" Command="quit;" Key="escape" X="275" Y="353" W="250" H="45"/>
     <Text Name="Version" HAlignAdd="RIGHT" VAlignAdd="BOTTOM" X="600" Y="582" W="196" H="16" Text="version" FontSet="signature" Align="RIGHT" VAlign="TOP" ColorARGB="1 1 1 1"/>

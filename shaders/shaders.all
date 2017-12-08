@@ -777,7 +777,7 @@ world/tree/ny
 	cull none
 	sort 8.000
 	{
-		tex frames 0.800 5.000 world/tree/ny world/tree/ny_01 world/tree/ny_02 world/tree/ny_03 world/tree/ny_04
+		tex frames 1.500 5.000 world/tree/ny world/tree/ny_01 world/tree/ny_02 world/tree/ny_03 world/tree/ny_04
 	}
 }
 world/ut/tube/01
@@ -1475,7 +1475,90 @@ world/house/snow/house_57
 		tex frames 1.000 2.000 world/house/snow/house_57 world/house/snow/house_57_1
 	}
 }
-
+world/assets/buildings_pack/bld-01-blue
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-01-blue
+	}
+}
+world/assets/buildings_pack/bld-01-green
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-01-green
+	}
+}
+world/assets/buildings_pack/bld-01-red
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-01-red
+	}
+}
+world/assets/buildings_pack/bld-01-yellow
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-01-yellow
+	}
+}
+world/assets/buildings_pack/bld-02-blue
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-02-blue
+	}
+}
+world/assets/buildings_pack/bld-02-green
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-02-green
+	}
+}
+world/assets/buildings_pack/bld-02-red
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-02-red
+	}
+}
+world/assets/buildings_pack/bld-02-yellow
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-02-yellow
+	}
+}
+world/assets/buildings_pack/bld-03-blue
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-03-blue
+	}
+}
+world/assets/buildings_pack/bld-03-green
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-03-green
+	}
+}
+world/assets/buildings_pack/bld-03-orange
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-03-orange
+	}
+}
+world/assets/buildings_pack/bld-03-red
+{
+	cull none
+	{
+		tex map world/assets/buildings_pack/bld-03-red
+	}
+}
 world/floor/layer/lava/01
 {
 	cull none

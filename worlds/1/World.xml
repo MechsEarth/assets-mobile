@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <World>
     <WorldName Name="База новобранцев" />
-    <WorldNation Nation="9" UseWorldNationOnly="1" WorldMaxLvl="90" xExp="1.5" />
+    <WorldNation Nation="9" UseWorldNationOnly="1" WorldMaxLvl="80" xExp="1.5" />
     <Terrain Use="1">
         <Size X="1025" Y="1025" Cell="128" DeltaHeight="32768" HeightScale="2.000000" />
         <Texture Name="worlds/1/terrain" />
@@ -22,31 +22,32 @@
     <Zone Type="None" Id="10" Name="ПРОБА ОРУДИЙ" X1="-9500" Y1="6700" X2="-4200" Y2="11200" />
     <Zone Type="None" Id="11" Name="РЕМ СТАНЦИЯ" X1="2700" Y1="7000" X2="4400" Y2="10400" />
     <Zone Type="None" Id="12" Name="ПАУКИ МОХНАТЫЕ" X1="43778" Y1="-48628" X2="49077" Y2="-43334" />
+    <Zone Type="None" Id="13" Name="" Safe="1" Enable="0" X1="-65000" Y1="-65000" X2="65000" Y2="65000" />
 </Zones>
 <GlobalMap>
     <Center X="512" Y="512" />
     <Limit X1="0" Y1="0" X2="1024" Y2="1024" />
     <Marks>
-        <Mark Type="1" Name="ПРАВИТЕЛЬСТВО" X="-1914" Y="5326" />
-        <Mark Type="1" Name="НАУЧНАЯ СТАНЦИЯ" X="-7748" Y="-4445" />
-        <Mark Type="1" Name="МАГАЗИН МЕХОВ" X="-7654" Y="1521" />
+        <Mark Type="1" Name="ПРАВИТЕЛЬСТВО" X="-1904" Y="6726" />
+        <Mark Type="1" Name="НАУЧНАЯ СТАНЦИЯ" X="-7318" Y="-4235" />
+        <Mark Type="1" Name="МАГАЗИН МЕХОВ" X="-7334" Y="1391" />
         <Mark Type="2" Name="ОПОРА" X="2793" Y="334" />
-        <Mark Type="1" Name="МАГАЗИН" X="968" Y="10438" />
+        <Mark Type="1" Name="МАГАЗИН" X="1708" Y="9808" />
         <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-31291" Y="-55313" />
         <Mark Type="3" Name="КРИСТАЛЛЫ  " X="-34878" Y="-57310" />
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-50666" Y="-36473" />
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-50298" Y="-36479" />
         <Mark Type="3" Name="КРИСТАЛЛЫ " X="-35704" Y="-18518" />
         <Mark Type="3" Name="КРИСТАЛЛЫ " X="-36500" Y="-18501" />
-        <Mark Type="1" Name="АПГРЕЙД МЕХОВ" X="-9091" Y="-1202" />
+        <Mark Type="1" Name="АПГРЕЙД МЕХОВ" X="-8821" Y="-1287" />
         <Mark Type="2" Name="БАЗА НОВОБРАНЦЕВ" X="-5155" Y="12918" />
         <Mark Type="2" Name="КРАДА" X="976" Y="-1285" />
         <Mark Type="2" Name="ТРЕБА" X="4633" Y="1888" />
         <Mark Type="2" Name="ВАРАНЫ" X="-45930" Y="46190" />
         <Mark Type="2" Name="ПАУКИ" X="46450" Y="46690" />
         <Mark Type="2" Name="ПАУКИ МОХНАТЫЕ" X="46650" Y="-45890" />
-        <Mark Type="2" Name="МЕСТОРОЖДЕНИЯ" X="-44700" Y="-45260" />
-        <Mark Type="1" Name="ЗАВОД" X="-5280" Y="-3880" />
+        <Mark Type="2" Name="МЕСТОРОЖДЕНИЯ" X="-44610" Y="-45470" />
+        <Mark Type="1" Name="ЗАВОД" X="-4830" Y="-3110" />
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-46503" Y="-20900" />
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-46496" Y="-21507" />
         <Mark Type="3" Name="КРИСТАЛЛЫ" X="-29283" Y="-43720" />

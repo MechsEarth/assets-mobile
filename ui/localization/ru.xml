@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Localization>
   <Text Key="app_name" Value="МЕХИ. Земля" />
+  <Text Key="app_description" Value="MMORPG игра про роботов" />
   <Text Key="empty" Value="" />
   <Text Key="ok" Value="ОК" />
   <Text Key="cancel" Value="ОТМЕНИТЬ" />
@@ -137,6 +138,10 @@
   <Text Key="tooltip_zone05" Value="ЗОНА БЕЗ НАЧИСЛЕНИЯ И СПИСАНИЯ КРИМИНАЛЬНЫХ ОЧКОВ" />
   <Text Key="tooltip_zone06" Value="РЕАКТОРЫ НЕ РАБОТАЮТ" />
   <Text Key="tooltip_zone07" Value="ПРИ ОТКЛЮЧЕНИИ ПИЛОТА ОТ СЕРВЕРА\nГРУЗ ПЕРЕГРУЖАЮЩИЙ МЕХА\nОСТАЕТСЯ НА ПОВЕРХНОСТИ" />
+  <Text Key="tooltip_game_info_x_exp_2" Value="ПОВЫШЕННЫЙ КОЭФФИЦИЕНТ ОПЫТА X2\nОПЫТА ПОЛУЧАЕТСЯ В ДВА РАЗА БОЛЬШЕ\nБОССЫ, СИЛЬНЫЕ КРОТЫ И МОБЫ ПОЯВЛЯЮТСЯ БЫСТРЕЕ" />
+  <Text Key="tooltip_game_info_x_exp_3" Value="ПОВЫШЕННЫЙ КОЭФФИЦИЕНТ ОПЫТА X3\nОПЫТА ПОЛУЧАЕТСЯ В ТРИ РАЗА БОЛЬШЕ\nБОССЫ, СИЛЬНЫЕ КРОТЫ И МОБЫ ПОЯВЛЯЮТСЯ БЫСТРЕЕ" />
+  <Text Key="tooltip_game_info_anomaly" Value="ОПАСНО! ЗАФИКСИРОВАНЫ ПРИРОДНЫЕ АНОМАЛИИ\nВОЗМОЖНЫ ПРОБЛЕМЫ С ОБОРУДОВАНИЕМ И РОБОТОМ\nОПЫТА ИДЕТ В ДВА РАЗА БОЛЬШЕ" />
+  <Text Key="tooltip_game_info_max_params" Value="АКТИВИРОВАН РЕЖИМ МАКСИМАЛЬНЫХ ПАРАМЕТРОВ\nВСЕ РОБОТЫ ВРЕМЕННО ПРОКАЧАНЫ В МАКСИМУМ\nВСЕ УМЕНИЯ НА ОБОРУДОВАНИИ - МАКСИМАЛЬНЫ" />
 
   <Text Key="game_chat_holder" Value="Введите сообщение" />
   <Text Key="game_auto_fire" Value="авто" />
@@ -447,6 +452,7 @@
 
   <Text Key="options_tmp" Value="9" />
   <Text Key="options_tmp2" Value="2x" />
+  <Text Key="options_tmp_language" Value="Русский" />
   <Text Key="options_title" Value="Настройки" />
   <Text Key="options_soundvolume" Value="Звуки" />
   <Text Key="options_musicvolume" Value="Музыка" />
@@ -456,17 +462,20 @@
   <Text Key="options_disable_detail" Value="Отключить детализацию" />
   <Text Key="options_disable_effect" Value="Отключить эффекты" />
   <Text Key="options_disable_vsync" Value="Отключить VSync" />
+  <Text Key="options_use_min_fps" Value="Ограничить 30 FPS" />
   <Text Key="options_enable_debug" Value="Включить отладку" />
   <Text Key="options_distance" Value="Дальность вида" />
+  <Text Key="options_distance_active" Value="Дальность игроков" />
   <Text Key="options_resolution" Value="Разрешение" />
   <Text Key="options_range_antialiasing" Value="Сглаживание моделей" />
   <Text Key="options_range_anisotropying" Value="Сглаживание текстур" />
+  <Text Key="options_range_language" Value="Выбор языка" />
   <Text Key="options_fullscreen" Value="Полноэкранный режим" />
   <Text Key="options_move_type" Value="Способ передвижения" />
   <Text Key="options_move_type_control" Value="точность" />
   <Text Key="options_move_type_speed" Value="скорость" />
   <Text Key="options_ping" Value="Ping: %d средний: %d FPS: %.1f" />
-  <Text Key="options_note" Value="ЧТОБЫ НАСТРОЙКИ ВСТУПИЛИ В СИЛУ ТРЕБУЕТСЯ ПЕРЕЗАПУСК ИГРЫ" />
+  <Text Key="options_note" Value="ТРЕБУЕТСЯ ПЕРЕЗАПУСК ИГРЫ, ДЛЯ ПРИМИНЕНИЯ НАСТРОЕК" />
 
   <Text Key="LGN_RSP_VERSION_WRONG" Value="\nТребуется версия \c&lt;190 60 60&gt;%.1d.%d.x\b Обновите клиент" />
   <Text Key="LGN_RSP_LGN_PWD_WRONG" Value="\nНеверные идентификационные данные" />
@@ -500,6 +509,7 @@
   <Text Key="DISCONNECT_REASON_MODIFIED_PACKETS" Value="Соединение разорвано, получен некорректный пакет" />
   <Text Key="DISCONNECT_REASON_CONNECT_FAILED" Value="Сервер недоступен" />
   <Text Key="login_connecting" Value="Подключение к серверу..." />
+  <Text Key="login_connecting_test" Value="Подключение к \c&lt;200 200 200&gt;ТЕСТОВОМУ\b серверу..." />
   <Text Key="login_on_connect" Value="\nПодключение установлено." />
   <Text Key="login_no_connect" Value="\nНет связи [\c&lt;240 40 40&gt;%s\b]." />
   <Text Key="login_auth_wait_response" Value="Подождите, идет ожидание/получение ответа." />
@@ -517,9 +527,12 @@
   <Text Key="login_reg_help" Value="Для регистрации персонажа, нажмите кнопку &apos;\c&lt;40 40 240&gt;%s\b&apos; и введите имя" />
   <Text Key="login_reg_help1" Value="Для регистрации введите желаемый Email/пароль, и жмите Войти/Создать" />
   <Text Key="login_auth_title" Value="Идентификация" />
+  <Text Key="login_auth_reg_title" Value="Регистрация" />
   <Text Key="login_auth_login_holder" Value="Введите ваш email" />
   <Text Key="login_auth_password_holder" Value="Введите ваш пароль" />
   <Text Key="login_auth_send" Value="Войти" />
+  <Text Key="login_auth_save_data" Value="Сохранить пароль" />
+  <Text Key="tooltip_login_auth_save_data" Value="Сохранить email и безопасно пароль для быстрого входа" />
   <Text Key="login_heroes_panel" Value="Выбор персонажа" />
   <Text Key="login_auth_show_pass" Value="*" />
   <Text Key="login_auth_show_user_list" Value="Л" />
@@ -684,7 +697,7 @@
 
   <Text Key="chat_my_send_message_pattern_for_find" Value="вы=&gt; " />
   <Text Key="chat_my_receive_message_pattern_for_find" Value="=&gt; вы" />
-  <Text Key="chat_my_receive_gmhelp_message_pattern_for_find" Value="Нужна помощь: " />
+  <Text Key="chat_my_receive_gmhelp_message_pattern_for_find" Value="Help: " />
 
 
   <Text Key="chat_entity_changes_hero_experience" Value="Опыт: %+d" />
@@ -750,6 +763,10 @@
   <Text Key="chat_extract_resources" Value="Добыто %d ресурсов, потрачено %d энергии" />
   <Text Key="chat_extract_empty" Value="Источник ресурсов опустошен" />
   <Text Key="chat_buy_premium" Value="Премиум аккаунт продлен(дней: %d часов: %d)" />
+  <Text Key="chat_game_settings_x_exp_up" Value="Коэффициент опыта повышен: %d" />
+  <Text Key="chat_game_settings_x_exp_down" Value="Коэффициент опыта понижен: %d" />
+  <Text Key="chat_game_settings_full_params_enable" Value="Активирован режим максимальных параметров" />
+  <Text Key="chat_game_settings_full_params_disable" Value="Режим максимальных параметров отключен" />
   <Text Key="chat_new_quest" Value="Вы получили новое задание" />
   <Text Key="chat_quest_complete" Value="Задание выполнено" />
   <Text Key="chat_quest_cancel_reject" Value="Сейчас нельзя прекратить выполнение задания" />
@@ -888,6 +905,8 @@
   <Text Key="chat_change_weapon_ok" Value="Орудия успешно переставлены" />
   <Text Key="chat_player_other_nation" Value="%s состоит в другой нации" />
   <Text Key="chat_nation_only" Value="Доступно только нации %s" />
+  
+  <Text Key="chat_link_created" Value="Ярлык быстрого запуска успешно создан" />
 
   <Text Key="trade_invite_confirm" Value="%s предложил вам торговать.\nВы согласны?" />
   <Text Key="tooltip_trade_invite_confirm" Value="ПОДТВЕРДИТЬ ТОРГОВЛЮ" />
@@ -1039,4 +1058,16 @@
   <Text Key="editor_edit_image_shader" Value="ТЕКСТУРА" />
   <Text Key="editor_edit_image_angle" Value="УГОЛ ПОВОРОТА" />
   <Text Key="editor_edit_slider_scroll_size" Value="РАЗМЕР" />
+
+  <Text Key="server_login_hero_tooltip_world" Value="ЛОКАЦИЯ:" />
+  <Text Key="server_login_hero_tooltip_pos" Value="РАСПОЛОЖЕНИЕ:" />
+  <Text Key="server_login_hero_tooltip_robot" Value="РОБОТ:" />
+  <Text Key="server_login_hero_tooltip_robot_dead" Value="РОБОТ: уничтожен" />
+  <Text Key="server_login_create_hero" Value="Создать нового персонажа" />
+  <Text Key="server_login_create_hero_for" Value="за" />
+  <Text Key="server_login_create_hero_regls" Value="реглов" />
+  <Text Key="server_login_hero" Value="Персонаж" />
+  <Text Key="server_login_hero_lvl" Value="ур." />
+  <Text Key="server_login_hero_online" Value="онлайн" />
+  <Text Key="server_login_create_hero_tooltip" Value="Создать ещё одного персонажа в аккаунте" />
 </Localization>

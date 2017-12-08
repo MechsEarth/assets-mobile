@@ -2,8 +2,13 @@
 <DialogsInfo>
 
 	<DialogEditor	Id="500000">		
-		<Info Value="Диалог: Редактор диалогов"/>
+		<Info Value="Редактор диалогов"/>
 		<NameFileDialog Value="tools/DialogEditor.xml"/>
 	</DialogEditor>
+
+  <DialogEditor1	Id="400000">
+    <Info Value="Редактор диалогов1"/>
+    <NameFileDialog Value="tools/DialogEditor1.xml"/>
+  </DialogEditor1>
 
 </DialogsInfo>
