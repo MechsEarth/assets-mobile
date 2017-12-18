@@ -82,7 +82,7 @@
   <Text Key="inv_container_pick_all" Value="В Трюм" />
   <Text Key="inv_container_weight_all" Value="Общий вес:" />
   <Text Key="inv_cargo_out_all" Value="Скинуть все" />
-  <Text Key="inv_cargo_confirm_out_all" Value="Вы уверены, что хотите скинуть все?" />
+  <Text Key="inv_cargo_confirm_out_all" Value="Вы уверены что хотите скинуть все?" />
   <Text Key="tooltip_inv_cargo_capacity" Value="ЗАГРУЖЕННОСТЬ" />
   <Text Key="tooltip_inv_cargo_out_all" Value="ВЫГРУЗИТЬ СОДЕРЖИМОЕ\nТРЮМА НА ЗЕМЛЮ" />
 
@@ -137,7 +137,7 @@
   <Text Key="tooltip_zone04" Value="ЗОНА ПОВЫШЕННОЙ ОПАСНОСТИ\nНЕ ОСТАВЛЯЙТЕ МЕХА НА ПОВЕРХНОСТИ\nОН МОЖЕТ БЫТЬ УНИЧТОЖЕН" />
   <Text Key="tooltip_zone05" Value="ЗОНА БЕЗ НАЧИСЛЕНИЯ И СПИСАНИЯ КРИМИНАЛЬНЫХ ОЧКОВ" />
   <Text Key="tooltip_zone06" Value="РЕАКТОРЫ НЕ РАБОТАЮТ" />
-  <Text Key="tooltip_zone07" Value="ПРИ ОТКЛЮЧЕНИИ ПИЛОТА ОТ СЕРВЕРА\nГРУЗ, ПЕРЕГРУЖАЮЩИЙ МЕХА,\nОСТАЕТСЯ НА ПОВЕРХНОСТИ" />
+  <Text Key="tooltip_zone07" Value="ПРИ ОТКЛЮЧЕНИИ ПИЛОТА ОТ СЕРВЕРА\nГРУЗ ПЕРЕГРУЖАЮЩИЙ МЕХА\nОСТАЕТСЯ НА ПОВЕРХНОСТИ" />
   <Text Key="tooltip_game_info_x_exp_2" Value="ПОВЫШЕННЫЙ КОЭФФИЦИЕНТ ОПЫТА X2\nОПЫТА ПОЛУЧАЕТСЯ В ДВА РАЗА БОЛЬШЕ\nБОССЫ, СИЛЬНЫЕ КРОТЫ И МОБЫ ПОЯВЛЯЮТСЯ БЫСТРЕЕ" />
   <Text Key="tooltip_game_info_x_exp_3" Value="ПОВЫШЕННЫЙ КОЭФФИЦИЕНТ ОПЫТА X3\nОПЫТА ПОЛУЧАЕТСЯ В ТРИ РАЗА БОЛЬШЕ\nБОССЫ, СИЛЬНЫЕ КРОТЫ И МОБЫ ПОЯВЛЯЮТСЯ БЫСТРЕЕ" />
   <Text Key="tooltip_game_info_anomaly" Value="ОПАСНО! ЗАФИКСИРОВАНЫ ПРИРОДНЫЕ АНОМАЛИИ\nВОЗМОЖНЫ ПРОБЛЕМЫ С ОБОРУДОВАНИЕМ И РОБОТОМ\nОПЫТА ИДЕТ В ДВА РАЗА БОЛЬШЕ" />
@@ -552,7 +552,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="------ Предновогодняя акция ------\n--   Бонус покупки реглов 35 %%%%  --\n-              \c&lt;243 230 30&gt;17 и 18 декабря\b              -\n•••        Узнать подробнее       •••" />
+  <Text Key="mainmenu_sale" Value="------ Осенняя распродажа 2017 ------\n -----   \c&lt;243 230 30&gt;30 сентября и 1 октября\b  ----- \n  ----          Скидки до 92 %%%%         ----  \n   •••      Узнать подробнее      •••   " />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
@@ -574,7 +574,7 @@
   <Text Key="mainmenu_contacts_open_info" Value="*Тап для открытия" />
 
   <Text Key="startmsg_title" Value="Правительство" />
-  <Text Key="startmsg_text" Value=" Пилот, ты на Земле.\n\n Для ознакомления с управлением и основами игры, выполни ПЕРВОЕ задание, которое уже добавлено тебе.\n\n Мобильная версия игры пока не полностью адаптирована под маленькие экраны, на сайте https://mechs.su можно скачать полную версию игры для ПК и ноутбуков.\n\n Выжившие колонии людей возвращаются на планету предков. Многие погибли, чтобы ты чувствовал себя здесь в безопасности. Возвращение необходимо, ибо колонии переполнены и ресурсы, которыми обладает Земля, очень важны. Не будем тянуть время, перейдем к главному.\n\n Добыча ресурсов твоя основная цель, командование хорошо заплатит за них, но есть масса препятствий: это мутировавшая живность планеты и кроты, (те, кто по каким-то причинам не смогли эвакуироваться и пережили все катаклизмы здесь на Земле). Постоянно прибывает подкрепление и ты не останешься один, но здешний мир жесток - будь готов ко всему. Нажми F1, чтобы узнать подробности управления своим роботом и его приборами." />
+  <Text Key="startmsg_text" Value=" Пилот, ты на Земле.\n\n Для ознакомления с управлением и основами игры, выполни ПЕРВОЕ задание, которое уже добавлено тебе.\n\n Мобильная версия игры пока не полностью адаптирована под маленькие экраны, на сайте https://mechs.su можно скачать полную версию игры для ПК и ноутбуков.\n\n Выжившие колонии людей возвращаются на планету предков. Многие погибли, чтобы ты чувствовал себя здесь в безопасности. Возвращение необходимо, ибо колонии переполнены и ресурсы, которыми обладает земля, очень важны. Не будем тянуть время, перейдем к главному.\n\n Добыча ресурсов твоя основная цель, командование хорошо заплатит за них, но есть масса препятствий: это мутировавшая живность планеты и кроты, (те, кто по каким то причинам не с могли эвакуироваться и пережили все катаклизмы здесь на земле). Постоянно прибывает подкрепление и ты не останешься один, но здешний мир жесток - будь готов ко всему. Нажми F1, чтобы узнать подробности управления своим роботом и его приборами." />
 
   <Text Key="premium_account_title" Value="Приобрести премиум аккаунт" />
   <Text Key="premium_account_buy" Value="Продлить премиум аккаунт:" />
@@ -584,14 +584,14 @@
 
   <Text Key="tooltip_params_hero_params_apply" Value="ПРИМЕНИТЬ" />
   <Text Key="tooltip_params_hero_params_point" Value="КОЛИЧЕСТВО НЕРАСПРЕДЕЛЕННЫХ ОЧКОВ\n\nОНИ ДАЮТСЯ ПРИ ДОСТИЖЕНИИ НОВОГО УРОВНЯ\nИ ПОЗВОЛЯЮТ УЛУЧШИТЬ УМЕНИЯ ВАШЕГО ПЕРСОНАЖА\n" />
-  <Text Key="tooltip_params_hero_params_point_free" Value="КОЛИЧЕСТВО ОЧКОВ, КОТОРЫЕ МОЖНО\n\nБЕСПЛАТНО ПЕРЕРАСПРЕДЕЛИТЬ\n" />
+  <Text Key="tooltip_params_hero_params_point_free" Value="КОЛИЧЕСТВО ОЧКОВ КОТОРЫЕ МОЖНО\n\nБЕСПЛАТНО ПЕРЕРАСПРЕДЕЛИТЬ\n" />
   <Text Key="tooltip_params_hero_name" Value="НИК АККАУНТА, нажмите что бы изменить" />
   <Text Key="tooltip_params_hero_name_alias" Value="ПСЕВДОНИМ ПЕРСОНАЖА, нажмите что бы изменить" />
-  <Text Key="tooltip_params_hero_level" Value="УРОВЕНЬ ПЕРСОНАЖА\n\nЧЕМ БОЛЬШЕ УРОВЕНЬ, ТЕМ БОЛЬШЕ ВОЗМОЖНОСТЕЙ\nИ УМЕНИЙ, БОЛЕЕ СИЛЬНЫМ МЕХОМ МОЖНО УПРАВЛЯТЬ,\nТАКЖЕ ДОСТУПНО БОЛЕЕ МОЩНОЕ ВООРУЖЕНИЕ\n" />
+  <Text Key="tooltip_params_hero_level" Value="УРОВЕНЬ ПЕРСОНАЖА\n\nЧЕМ БОЛЬШЕ УРОВЕНЬ, ТЕМ БОЛЬШЕ ВОЗМОЖНОСТЕЙ\nИ УМЕНИЙ, БОЛЕЕ СИЛЬНЫМ МЕХОМ МОЖНО УПРАВЛЯТЬ,\nТАКЖЕ ДОСТУПНО БОЛЕЕ СИЛЬНОЕ ВООРУЖЕНИЕ\n" />
   <Text Key="tooltip_params_hero_exp" Value="КОЛИЧЕСТВО ОПЫТА\n\nЭТО ЕЩЁ ОДНА МЕРА УРОВНЯ ПЕРСОНАЖА,\nТОЛЬКО В БОЛЕЕ ШИРОКОМ ВАРИАНТЕ;\nПРИ ДОСТИЖЕНИИ ПОРОГА ТЕКУЩЕГО ОПЫТА,\nУРОВЕНЬ ПОВЫШАЕТСЯ." />
   <Text Key="tooltip_params_hero_nation" Value="НАЦИЯ, В КОТОРОЙ ВЫ СОСТОИТЕ" />
   <Text Key="tooltip_params_hero_level_nation" Value="ВАШ РАНГ В НАЦИИ\n\nПОВЫШАЕТСЯ КОГДА ВЫ УНИЧТОЖАЕТЕ\nВРАЖЕСКИХ МЕХОВ ИЛИ ВЫПОЛНЯЕТЕ\nНАЦИОНАЛЬНЫЕ ЗАДАНИЯ" />
-  <Text Key="tooltip_params_hero_premium" Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ, РАНГ И ОПЫТ ВЛАДЕНИЯ ОРУЖИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ.\n\nДОСТУПНЫ ФУНКЦИИ:\n- СЛЕДОВАТЬ ЗА ВЫБРАННОЙ ЦЕЛЬЮ\n- АВТОПОДБОР КОНТЕЙНЕРОВ\n- АВТОИСПОЛЬЗОВАНИЕ КОМПЛЕКТОВ ЗАПЧАСТЕЙ ИЗ ТРЮМА" />
+  <Text Key="tooltip_params_hero_premium" Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ, РАНГ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ.\n\nДОСТУПНЫ ФУНКЦИИ:\n- СЛЕДОВАТЬ ЗА ВЫБРАННОЙ ЦЕЛЬЮ\n- АВТО ПОДБОР КОНТЕЙНЕРОВ\n- АВТО ИСПОЛЬЗОВАНИЕ КОМПЛЕКТОВ ЗАПЧАСТЕЙ ИЗ ТРЮМА" />
   <Text Key="tooltip_params_params_hero_buy_premium_account" Value="ПРЕМИУМ АККАУНТ\n\nУВЕЛИЧИВАЕТ ПОЛУЧАЕМЫЙ ОПЫТ, РАНГ И ОПЫТ ВЛАДЕНИЯ ОРУДИЕМ НА \c&lt;100 250 100&gt;50%%%%%\b \nУВЕЛИЧИВАЕТ ДО \c&lt;100 250 100&gt;12 ЧАСОВ\b ВРЕМЯ ВЫХОДА В ОПАСНЫХ ЗОНАХ" />
   <Text Key="tooltip_params_hero_extend_premium_account" Value="ПРЕМИУМ АККАУНТ, нажмите что бы продлить" />
 
@@ -601,12 +601,12 @@
   <Text Key="tooltip_params_hero_status_crime" Value="ВЫ СОВЕРШИЛИ ПРОТИВОПРАВНОЕ ДЕЙСТВИЕ И СЧИТАЕТЕСЬ НАРУШИТЕЛЕМ" />
   <Text Key="tooltip_params_hero_status_pirate" Value="ВЫ ИЗВЕСТНЫ КАК ПОВСТАНЕЦ" />
   <Text Key="tooltip_params_hero_money" Value="МЕСТНЫЕ ДЕНЬГИ\n\nЭТО ОСНОВНОЙ РЕСУРС НА ПЛАНЕТЕ\n, ЛЮБЫЕ ОПЕРАЦИИ КУПЛИ/ПРОДАЖИ \nВОЗМОЖНЫ ТОЛЬКО ЗА БОНЫ" />
-  <Text Key="tooltip_params_hero_ex_money" Value="ДОПОЛНИТЕЛЬНЫЕ ДЕНЬГИ\n\nТРЕБУЮТСЯ ДЛЯ ПОКУПКИ КАКИХ-ЛИБО\nУНИКАЛЬНЫХ УСЛУГ/ПРЕДМЕТОВ" />
+  <Text Key="tooltip_params_hero_ex_money" Value="ДОПОЛНИТЕЛЬНЫЕ ДЕНЬГИ\n\nТРЕБУЮТСЯ ДЛЯ ПОКУПКИ КАКИХ ЛИБО\nУНИКАЛЬНЫХ УСЛУГ/ПРЕДМЕТОВ" />
   <Text Key="tooltip_params_hero_skill_precision" Value="НАВЫК СНАЙПЕРА ОЧЕНЬ ВАЖЕН,\nОН ПОМОЖЕТ ВАМ В БОРЬБЕ С МОНСТРАМИ И ПРОТИВНИКАМИ, КОТОРЫЕ СТАРШЕ ВАС ПО УРОВНЮ" />
   <Text Key="tooltip_params_hero_skill_extraction" Value="ДОБЫЧА ИСКОПАЕМЫХ – НАВЫК ВАЖЕН,\nУВЕЛИЧИВ СВОЁ УМЕНИЕ ДОБЫЧИ ПОМОЖЕТ ВАМ БОЛЕЕ ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ СПЕЦ. ОБОРУДОВАНИЕ .\n ЧТО ЗНАЧИТЕЛЬНО ПОМОЖЕТ В ПРОЦЕССЕ, СОХРАНИТ ВАМ ВРЕМЯ И СРЕДСТВА." />
   <Text Key="tooltip_params_hero_skill_engineering" Value="ВЛАДЕНИЕ ДАННЫМ НАВЫКОМ ЗНАЧИТЕЛЬНО ОБЛЕГЧИТ ВАМ ЖИЗНЬ,\n ПОВЫСИТ ВАШЕ УМЕНИЕ, ЧТО ПОЗВОЛИТ УВЕЛИЧИТЬ СКОРОСТЬ РАБОТЫ РЕМ. ДРОЙДОВ" />
   <Text Key="tooltip_params_hero_skill_trade" Value="НАВЫК ТОРГОВЛИ ПОМОЖЕТ ВАМ ПРОИЗВОДИТЬ\nОПЕРАЦИИ ПРОДАЖ В МАГАЗИНЫ БОЛЕЕ ВЫГОДНО " />
-  <Text Key="tooltip_params_hero_weapon" Value="НАВЫК УДАР:\nУВЕЛИЧИВАЕТ ПОВРЕЖДЕНИЯ, НАНОСИМЫЕ ВСЕМИ ВИДАМИ ОРУЖИЯ, КРОМЕ ЛАЗЕРОВ " />
+  <Text Key="tooltip_params_hero_weapon" Value="НАВЫК УДАР:\nУВЕЛИЧИВАЕТ ПОВРЕЖДЕНИЯ, НАНОСИМЫЕ ВСЕМИ ВИДАМИ ОРУЖИЯ КРОМЕ ЛАЗЕРОВ " />
   <Text Key="tooltip_params_hero_used_armour" Value="БРОНЯ - СИСТЕМА БРОНИРОВАНИЯ - \nЭТОТ НАВЫК ЗНАЧИТЕЛЬНО УВЕЛИЧИТ ФИЗИЧЕСКУЮ ЗАЩИТУ ВАШЕГО МЕХА." />
   <Text Key="tooltip_params_hero_used_shield" Value="ЭНЕРГЕТИЧЕСКАЯ ЗАЩИТА - \nЭТОТ НАВЫК ПОЗВОЛИТ БОЛЕЕ ЭФФЕКТИВНО ИСПОЛЬЗОВАТЬ ЗАЩИТНЫЕ ПОЛЯ И УВЕЛИЧИТ ЭНЕРГЕТИЧЕСКУЮ ЗАЩИТУ ВАШЕГО МЕХА." />
   <Text Key="tooltip_params_hero_used_hold" Value="ЛОГИСТ - \nЭТОТ НАВЫК ПОЗВОЛИТ БЛАГОРАЗУМНО ИСПОЛЬЗОВАТЬ ВАШИ ТРЮМА (УВЕЛИЧЕНИЕ ЁМКОСТИ ТРЮМА)." />
@@ -618,9 +618,9 @@
   <Text Key="tooltip_params_hero_skill_rk" Value="РАКЕТНЫЙ КОМПЛЕКС:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ОГНЕСТРЕЛЬНЫЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
   <Text Key="tooltip_params_hero_skill_rk_eng" Value="РАКЕТНЫЙ КОМПЛЕКС ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, ОСНОВНОЙ УДАР ЭНЕРГЕТИЧЕСКИЙ,\nСРЕДНИЙ УРОН НА ВСЕЙ ДИСТАНЦИИ, БОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
   <Text Key="tooltip_params_hero_skill_howitzer" Value="ГАУБИЦА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН ПО ПЛОЩАДИ ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ, СТРЕЛЯЕТ НАВЕСОМ" />
-  <Text Key="tooltip_params_hero_skill_launcher" Value="ГРАНАТОМЕТ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_launcher" Value="ГРАНАТОМЕТ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
   <Text Key="tooltip_params_hero_skill_howitzereng" Value="ГАУБИЦА ЭНЕРГЕТИЧЕСКАЯ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН ПО ПЛОЩАДИ ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ, СТРЕЛЯЕТ НАВЕСОМ" />
-  <Text Key="tooltip_params_hero_skill_launchereng" Value="ГРАНАТОМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
+  <Text Key="tooltip_params_hero_skill_launchereng" Value="ГРАНАТОМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nРАКЕТНОЕ ОРУДИЕ, СРЕДНИЙ УРОН ТОЛЬКО НА ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, ОЧЕНЬ НИЗКАЯ СКОРОСТРЕЛЬНОСТЬ" />
   <Text Key="tooltip_params_hero_skill_bulleteng" Value="ПУЛЕМЕТ ЭНЕРГЕТИЧЕСКИЙ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, СРЕДНИЙ УРОН НА СРЕДНЕЙ ДИСТАНЦИИ\nБОЛЬШАЯ СКОРОСТРЕЛЬНОСТЬ" />
   <Text Key="tooltip_params_hero_skill_missileeng" Value="ПУШКА ЭНЕРГЕТИЧЕСКАЯ:\nЭНЕРГЕТИЧЕСКОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И ДАЛЬНЕЙ ДИСТАНЦИИ,\nЕСТЬ МЕРТВАЯ ЗОНА ВБЛИЗИ, СРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
   <Text Key="tooltip_params_hero_skill_mortar" Value="МОРТИРА:\nОГНЕСТРЕЛЬНОЕ ОРУДИЕ, БОЛЬШОЙ УРОН НА СРЕДНЕЙ И БЛИЖНЕЙ ДИСТАНЦИИ,\nСРЕДНЯЯ СКОРОСТРЕЛЬНОСТЬ" />
@@ -677,7 +677,7 @@
   <Text Key="repair_load_weapon" Value="ЗАРЯДИТЬ" />
   <Text Key="tooltip_repair_load_weapon" Value="ЗАРЯДИТЬ БОЕКОМПЛЕКТ ВЫБРАННЫХ ОРУДИЙ" />
   <Text Key="repair_mech_city" Value="РЕМОНТ(БОНЫ)" />
-  <Text Key="tooltip_repair_mech_city" Value="РЕМОНТ МЕХА, ИСПОЛЬЗУЯ РЕАКТОР ТЕРМИНАЛА" />
+  <Text Key="tooltip_repair_mech_city" Value="РЕМОНТ МЕХА ИСПОЛЬЗУЯ РЕАКТОР ТЕРМИНАЛА" />
 
   <Text Key="upgrade_title" Value="МОДИФИКАЦИЯ МЕХА" />
   <Text Key="upgrade_sale" Value="ЧЕРНАЯ ПЯТНИЦА\nЦЕНА НА ВСЕ -30%%%%\nНА СКОРОСТЬ -50%%%%" />
@@ -755,7 +755,7 @@
   <Text Key="chat_robot_damage_itself" Value="Вы ударили себя на %d урона" />
   <Text Key="chat_robot_damage_from_unknown" Value="Вы получили %d урона" />
   <Text Key="chat_monster_death" Value="Вы убили \c&lt;50 50 200&gt;%s\b" />
-  <Text Key="chat_extract_mineral" Value="Добыто %d минерал[ов] за %d энергии" />
+  <Text Key="chat_extract_mineral" Value="Добыто %d минерол[ов] за %d энергии" />
   <Text Key="chat_extract_metal" Value="Добыто %d металла[ов] за %d энергии" />
   <Text Key="chat_extract_crystal" Value="Добыто %d кристалл[ов] за %d энергии" />
   <Text Key="chat_extract_interrupted" Value="Добыча прервана" />
@@ -773,8 +773,8 @@
   <Text Key="chat_item_level_low" Value="Установка/Использование предмета не возможна [не достаточно опыта]" />
   <Text Key="chat_item_skill_level_low" Value="Установка не возможна [не достаточно навыка использования данного вида орудий]" />
   <Text Key="chat_item_wrong_case" Value="Установка/Использование предмета не возможна [тип робота не подходит]" />
-  <Text Key="chat_party_cant_invite_wait_you_confirm" Value="Вы не можете приглашать, пока не ответили на приглашение от %s" />
-  <Text Key="chat_party_cant_invite_wait_he_response" Value="Вы не можете приглашать, пока не получили ответа от %s" />
+  <Text Key="chat_party_cant_invite_wait_you_confirm" Value="Вы не можете приглашать пока не ответили на приглашение от %s" />
+  <Text Key="chat_party_cant_invite_wait_he_response" Value="Вы не можете приглашать пока не получили ответа от %s" />
   <Text Key="chat_party_cant_invite_you_not_leader" Value="Лидером группы является %s, вы не можете приглашать" />
   <Text Key="chat_party_cant_invite_he_wait_confirm" Value="Вы не можете пригласить %s, потому что он уже приглашен" />
   <Text Key="chat_party_cant_invite_he_already_in" Value="Вы не можете пригласить %s, потому что он уже в группе" />
@@ -789,18 +789,18 @@
   <Text Key="chat_party_he_not_join_timeout" Value="%s не присоединился к вам, время приглашения истекло" />
   <Text Key="chat_party_you_not_join_timeout" Value="Вы не присоединились к %s, время приглашения истекло" />
   <Text Key="chat_wrong_nick" Value="Пилота %s не существует" />
-  <Text Key="chat_party_cant_leave_wait_confirm" Value="Вы не можете выйти из группы, пока не дождетесь подтверждения на приглашение от %s" />
+  <Text Key="chat_party_cant_leave_wait_confirm" Value="Вы не можете выйти из группы пока не дождетесь подтверждения на приглашение от %s" />
   <Text Key="chat_party_cant_leave_you_not_in" Value="Вы не состоите в группе, и не можете из нее выйти" />
   <Text Key="chat_party_he_leave" Value="%s покинул группу" />
   <Text Key="chat_party_you_leave" Value="Вы покинули группу" />
-  <Text Key="chat_party_destroy" Value="Группа расформирована" />
+  <Text Key="chat_party_destroy" Value="Группа распалась, в ней осталось меньше одного человека" />
   <Text Key="chat_party_created" Value="Вы создали новую группу" />
   <Text Key="chat_party_change_leader" Value="У группы новый лидер %s" />
-  <Text Key="chat_party_cant_expel_not_in" Value="Вы не можете выгнать, потому что не состоите в группе" />
+  <Text Key="chat_party_cant_expel_not_in" Value="Вы не можете выгнать потому что не состоите в группе" />
   <Text Key="chat_party_cant_expel_not_leader" Value="Лидером группы является %s, вы не можете выгнать" />
-  <Text Key="chat_party_cant_expel_he_not_in" Value="Вы не можете выгнать потому, что %s не состоит в вашей группе" />
+  <Text Key="chat_party_cant_expel_he_not_in" Value="Вы не можете выгнать потому что %s не состоит в вашей группе" />
   <Text Key="chat_party_expel" Value="Вас исключили из группы" />
-  <Text Key="chat_party_you_no_consist" Value="Вы не состоите ни в одной группе" />
+  <Text Key="chat_party_you_no_consist" Value="Вы не состоите не в одной группе" />
   <Text Key="chat_party_have_max_size" Value="Вы не можете пригласить %s, достигнут максимальный размер группы" />
   <Text Key="chat_he_offline" Value="Вы не можете пригласить %s [он вне досягаемости]" />
   <Text Key="chat_party_list" Value="%s" />
@@ -839,8 +839,8 @@
 
   <Text Key="chat_enter_loc_reject_pirates" Value="Ангары этой базы для вас закрыты - здесь не любят повстанцев" />
   <Text Key="chat_enter_loc_reject_pirates_by_pirates" Value="Сюда пускают только повстанцев" />
-  <Text Key="chat_enter_loc_reject_rangers" Value="Это повстанческая база, наёмникам тут не место" />
-  <Text Key="chat_enter_loc_reject_rangers_by_rangers" Value="В этот город допускаются только наёмники" />
+  <Text Key="chat_enter_loc_reject_rangers" Value="Это повстанческая база, наёмников тут не место" />
+  <Text Key="chat_enter_loc_reject_rangers_by_rangers" Value="В этом городе допускаются только наёмники" />
   <Text Key="chat_tel_reject_pirates" Value="Телепорт контролируется наёмниками" />
   <Text Key="chat_tel_reject_pirates_by_pirates" Value="Телепорт пускает только опытных повстанцев" />
   <Text Key="chat_tel_reject_rangers" Value="Телепорт контролируется повстанцами" />
@@ -880,8 +880,8 @@
 
   <Text Key="chat_trade_invite_you" Value="Вы предложили %s торговать" />
   <Text Key="chat_trade_invite" Value="%s предложили вам торговать" />
-  <Text Key="chat_trade_cant_invite_already_in" Value="Вы не можете приглашать, потому что заняты торговлей" />
-  <Text Key="chat_trade_cant_invite_he_already_in" Value="Вы не можете пригласить %s, потому что он занят торговлей" />
+  <Text Key="chat_trade_cant_invite_already_in" Value="Вы не можете приглашать, потому уже торгуете" />
+  <Text Key="chat_trade_cant_invite_he_already_in" Value="Вы не можете пригласить %s, потому что он уже торгует" />
   <Text Key="chat_trade_cant_confirm_you_not_invite" Value="Вас не приглашали торговать, и не можете подтвердить приглашение" />
   <Text Key="chat_trade_he_not_join" Value="%s отказался торговать с вами" />
   <Text Key="chat_trade_you_not_join" Value="Вы отказались торговать с %s" />
@@ -955,7 +955,7 @@
   <Text Key="tooltip_clan_set_icon" Value="УСТАНОВИТЬ СИМВОЛ" />
   <Text Key="clan_enter_name_holder" Value="Введите имя отряда" />
   <Text Key="clan_enter_name" Value="\c&lt;232 186 0&gt;Стоимость регистрации нового отряда - %s%i \bбонов.\nВаш уровень должен быть не меньше %s%i\b." />
-  <Text Key="clan_create_can" Value="\c&lt;232 232 150&gt;У вас достаточно мастерства и средств, чтобы создать отряд,\nвведите название отряда и нажмите кнопку &quot;создать&quot;!" />
+  <Text Key="clan_create_can" Value="\c&lt;232 232 150&gt;У вас достаточно мастерства и средств что бы создать отряд,\nвведите название отряда и нажмите кнопку создать!" />
   <Text Key="clan_create_name_info" Value="\c&lt;232 232 150&gt;Название отряда может состоять из символов:\n\c&lt;100 250 100&gt;0-9 a-z A-Z" />
   <Text Key="clan_create_cant_no_money" Value="\c&lt;250 120 120&gt;Не хватает %i бонов для создания отряда." />
   <Text Key="clan_create_cant_no_lvl" Value="\c&lt;250 120 120&gt;У вас не достаточный уровень." />
@@ -975,7 +975,7 @@
   <Text Key="clan_member_online" Value="\c&lt;100 250 100&gt;%s\b" />
   <Text Key="clan_member_offline" Value="\c&lt;250 120 120&gt;%s\b" />
   <Text Key="clan_member_leader" Value="\c&lt;50 200 255&gt;%s%s &lt;- командор\b" />
-  <Text Key="question_decrease_skills_for_jets" Value="Перераспределение навыков является необратимой операцией,\nкоторая может сказаться на боевых качествах Вашего робота как положительно, так и отрицательно.\Командование не несёт ответственности за эффективность проведения данной операции,\nответственность лежит на самом пилоте робота.\n\nПерераспределение очков навыка\nобойдется вам в %d реглов.\nСогласны ли вы?" />
+  <Text Key="question_decrease_skills_for_jets" Value="Перераспределение навыков является необратимой операцией,\nкоторая может сказаться на боевых качествах Вашего робота как положительно, так и отрицательно.\командование не несёт ответственность за эффективность проведения данной операции,\nответственность лежит на самом пилоте робота.\n\nПерераспределение очков навыка\nобойдется вам в %d реглов.\nСогласны ли вы?" />
 
 
   <Text Key="world_robot_head_state_teleportation" Value="ТЕЛЕПОРТАЦИЯ" />
