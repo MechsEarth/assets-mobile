@@ -79,16 +79,16 @@
     <Progress Name="ExpProgress" HAlignAdd="LEFT" VAlignAdd="TOP" Shader="214" Vertical="1" VIS="1" X="125" Y="5" W="4" H="118" ENB="1" DebugInfo="Индикатор опыта"/>
     <Image HAlignAdd="LEFT" VAlignAdd="TOP" Shader="215" X="124" Y="4" W="6" H="121" ENB="0" VIS="1" DebugInfo="Обрамление индикатора опыта"/>
     <!--  Информационные панели -->
-    <Item Name="InfoXExp2" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+    <Item Name="InfoXExp2" VAlignAdd="TOP" X="376" Y="-1" W="32" H="32" ENB="0">
         <Image Info="tooltip_game_info_x_exp_2" Shader="522" X="376" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор x2"/>
     </Item>
-    <Item Name="InfoXExp3" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+    <Item Name="InfoXExp3" VAlignAdd="TOP" X="376" Y="-1" W="32" H="32" ENB="0">
       <Image Info="tooltip_game_info_x_exp_3" Shader="523" X="376" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор x3"/>
     </Item>
-    <Item Name="InfoAnomaly" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+    <Item Name="InfoAnomaly" VAlignAdd="TOP" X="376" Y="-1" W="32" H="32" ENB="0">
         <Image Info="tooltip_game_info_anomaly" Shader="520" X="410" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор аномалии"/>
     </Item>
-    <Item Name="InfoMaxParams" VAlignAdd="TOP" X="0" Y="-1" W="32" H="32">
+    <Item Name="InfoMaxParams" VAlignAdd="TOP" X="376" Y="-1" W="32" H="32" ENB="0">
         <Image Info="tooltip_game_info_max_params" Shader="521" X="444" Y="-1" W="32" H="32" VIS="1" ENB="1" DebugInfo="индикатор макс параметров"/>
     </Item>
     <!--  </Group> -->
@@ -255,10 +255,10 @@
         <DeltaXPosInit Value="0"/>
         <Frames>
             <Frame Name="Begin">
-                <Point MinX="0" MinY="-1" MaxX="0" MaxY="-1" Speed0="1.5" Acceleration="1.0"/>
+                <Point MinX="376" MinY="-1" MaxX="376" MaxY="-1" Speed0="1.5" Acceleration="1.0"/>
             </Frame>
             <Frame Name="End">
-                <Point MinX="0" MinY="-41" MaxX="0" MaxY="-31" Speed0="2.0" Acceleration="2.0"/>
+                <Point MinX="376" MinY="-41" MaxX="376" MaxY="-31" Speed0="2.0" Acceleration="2.0"/>
             </Frame>
         </Frames>
     </AnimationInfos>

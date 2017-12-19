@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.1.4",
+    "version": "2.1.1.5",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -5566,8 +5566,8 @@
             "size": 427
         },
         "ui/dialogs/game/Game.xml": {
-            "md5": "43b652c819c020d9ea184b7baa761a54",
-            "size": 28674
+            "md5": "7f9add108901594816dcc3f5558950da",
+            "size": 28722
         },
         "ui/dialogs/game/GlobalMap.xml": {
             "md5": "61002b6db8a36666649d41be14678cd7",
@@ -5874,12 +5874,12 @@
             "size": 4409
         },
         "ui/localization/en.xml": {
-            "md5": "356fac0c1dfef79ba93b66a0ce4a2a39",
-            "size": 76433
+            "md5": "d4984f94ae12ff34ac175257a5727a62",
+            "size": 76402
         },
         "ui/localization/ru.xml": {
-            "md5": "7047f7e5bbebb787d44e79b52349aec0",
-            "size": 97483
+            "md5": "6730e5137ffeaa423ee0abcf59b02afd",
+            "size": 97435
         },
         "ui/ui.xml": {
             "md5": "2ef5beb1cd8746c68113d1bfb4ac61c6",

@@ -553,7 +553,7 @@
   <Text Key="mainmenu_wiki" Value="Knowledge base" />
   <Text Key="main_get_info" Value="Receiving data..." />
 
-  <Text Key="mainmenu_sale" Value="------ Autumn sale 2017 ------\n -----   \c&lt;243 230 30&gt;30 September и 1 October\b  ----- \n  ----          Скидки до 92 %%%%         ----  \n   •••      Узнать подробнее      •••   " />
+  <Text Key="mainmenu_sale" Value="------   New Year Promotion   ------\n--   Purchase Bonus regls 35 %%%%  --\n-          \c&lt;243 230 30&gt;17 and 18 December\b         -\n•••            Learn more            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Our page on Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Our group in Google+" />
