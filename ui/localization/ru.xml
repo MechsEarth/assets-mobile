@@ -552,7 +552,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="------ Предновогодняя акция ------\n--   Бонус покупки реглов 35 %%%%  --\n-              \c&lt;243 230 30&gt;17 и 18 декабря\b              -\n•••        Узнать подробнее       •••" />
+  <Text Key="mainmenu_sale" Value="------ Новогодний розыгрыш  ------\n--   Выиграй ценный приз 2018   --\n-        \c&lt;243 230 30&gt;31 декабря в 20:00 МСК\b       -\n•••        Узнать подробнее       •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
