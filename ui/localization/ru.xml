@@ -1070,9 +1070,4 @@
   <Text Key="server_login_hero_lvl" Value="ур." />
   <Text Key="server_login_hero_online" Value="онлайн" />
   <Text Key="server_login_create_hero_tooltip" Value="Создать ещё одного персонажа в аккаунте" />
-  
-  
-  <Text Key="entity_description_2928" Value="\c<200 50 50>НОВАЯ\b ЦЕНА В РЕГЛАХ: \c<50 200 255>7\b\n30 ДЕКАБРЯ СКИДКА 30^" />
-  <Text Key="entity_description_3642" Value="\c<200 50 50>НОВАЯ\b ЦЕНА В РЕГЛАХ: \c<50 200 255>70\b\n30 ДЕКАБРЯ СКИДКА 30^" />
-  <Text Key="entity_description_3918" Value="\c<200 50 50>НОВАЯ\b ЦЕНА В РЕГЛАХ: \c<50 200 255>700\b\n30 ДЕКАБРЯ СКИДКА 30^" />
 </Localization>
