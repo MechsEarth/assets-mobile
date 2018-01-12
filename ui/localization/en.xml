@@ -553,7 +553,7 @@
   <Text Key="mainmenu_wiki" Value="Knowledge base" />
   <Text Key="main_get_info" Value="Receiving data..." />
 
-  <Text Key="mainmenu_sale" Value="------  New Year's drawing  ------\n--    Win valuable prize  2018   --\n-        \c&lt;243 230 30&gt;December 31 at 20:00\b      -\n•••           Learn more           •••" />
+  <Text Key="mainmenu_sale" Value="-> Promotion to old New Year <-\n        Get more regs on 40%%%%     \n-     \c&lt;243 230 30&gt;Only on January 13 and 14\b   -\n•••            Learn more            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Our page on Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Our group in Google+" />
