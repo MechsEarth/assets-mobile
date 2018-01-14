@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.1.11",
+    "version": "2.1.1.12",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -5778,7 +5778,7 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "ea24078c91c40169d07e1b97970869a0",
+            "md5": "082248850b46b7b5d4c2d367876a6a9f",
             "size": 3666
         },
         "ui/dialogs/main/MainContacts.xml": {
@@ -5890,12 +5890,12 @@
             "size": 3437
         },
         "worlds/1/Layer.mz": {
-            "md5": "e4507090d2945596f69639fe9e3d6be1",
+            "md5": "741f7ff372baf9522b2760dda1ff2062",
             "size": 1716128
         },
         "worlds/1/PassiveEntities.bin": {
-            "md5": "2689ab1be383832f639158c26a5bda9d",
-            "size": 158756
+            "md5": "3a2c60e4b775a28ae6a7c3bdd338da7c",
+            "size": 158692
         },
         "worlds/1/Terrain.mz": {
             "md5": "eaa72778ade56d73ce7446410eb7dd76",
@@ -5966,12 +5966,12 @@
             "size": 1107044
         },
         "worlds/2/Layer.mz": {
-            "md5": "858c23d0d3c16d6d86f6096d8da2b922",
+            "md5": "17fb93530448134394191c79f595c87f",
             "size": 1716128
         },
         "worlds/2/PassiveEntities.bin": {
-            "md5": "e57aad2dcc2386ee6b3eff66658ba084",
-            "size": 487612
+            "md5": "015e94825d8ab8e1d483cbca28ed04d4",
+            "size": 487548
         },
         "worlds/2/Terrain.mz": {
             "md5": "9ffa2396950078b88bf608599dedc0cc",
@@ -6038,12 +6038,12 @@
             "size": 793580
         },
         "worlds/5/Layer.mz": {
-            "md5": "d42351c6dd4e67d7a4d6006949ec521b",
+            "md5": "a7a8bd52e0cabe36482f0fd82fdff1eb",
             "size": 1716128
         },
         "worlds/5/PassiveEntities.bin": {
-            "md5": "03391419c227e2afd2d1dfadf56bf3cf",
-            "size": 325740
+            "md5": "d76c7d6d852ed045b3386bcf78205cf1",
+            "size": 325676
         },
         "worlds/5/Terrain.mz": {
             "md5": "30cf9dfc3e3500ca11e5b85714718009",
@@ -6062,12 +6062,12 @@
             "size": 1193284
         },
         "worlds/6/Layer.mz": {
-            "md5": "ceac82a84bd8dc90331bb6af710dad4c",
+            "md5": "9289e8c3ec0b470d4e2cf3ca5088a12f",
             "size": 1716128
         },
         "worlds/6/PassiveEntities.bin": {
-            "md5": "d8e07ee66482bfc44f4b06515d1088df",
-            "size": 183596
+            "md5": "652ec4696e8442076269ae467dce269e",
+            "size": 183532
         },
         "worlds/6/Terrain.mz": {
             "md5": "b27228af88bfdc8ad2fe656e772b3b5a",
@@ -6110,20 +6110,20 @@
             "size": 1237839
         },
         "worlds/8/Layer.mz": {
-            "md5": "f2544d375a5659663242ae9e7f1ae9b0",
+            "md5": "1292f9b9ef043d930519ad6fc1cbb9ad",
             "size": 1716128
         },
         "worlds/8/PassiveEntities.bin": {
-            "md5": "5f9ca6c74c9c2238c70a43e07f6d2a1b",
-            "size": 233760
+            "md5": "51b52f0d3eef4d13d9f36959b22a898b",
+            "size": 233696
         },
         "worlds/8/Terrain.mz": {
             "md5": "9bed62f363cbda7aa43a0501548b33e9",
             "size": 2101250
         },
         "worlds/8/World.xml": {
-            "md5": "51a205c74932948974a391669ec3bea1",
-            "size": 2261
+            "md5": "e764a3e60e2e2d17a811d1ddea5688d8",
+            "size": 2263
         },
         "worlds/8/map.jpg": {
             "md5": "f1c1534b6fd1b740173aeaca526ad678",
@@ -6158,8 +6158,8 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "a1e6d2427006db98c501dbe7f53daca7",
-            "size": 727784
+            "md5": "fe0716ea4f2ad6a627064b0fa97f1789",
+            "size": 727766
         },
         "worlds/Nations.xml": {
             "md5": "b9425f035e7bedf9b19099f9c83a8f9b",
