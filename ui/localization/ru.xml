@@ -552,7 +552,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="--> Акция на старый Новый Год <--\n  Получи реглов больше на 40%%%%  \n-          \c&lt;243 230 30&gt;Только 13 и 14 января\b       -\n•••        Узнать подробнее       •••" />
+  <Text Key="mainmenu_sale" Value="--> Поднятие на заводе -30%%%% <--\n   Установку навыков 6 -30%%%%  \n-          \c&lt;243 230 30&gt;Только 26 и 27 января\b      -\n•••        Узнать подробнее      •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
