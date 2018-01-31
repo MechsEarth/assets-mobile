@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.1.17",
+    "version": "2.1.1.18",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -2614,12 +2614,12 @@
             "size": 465
         },
         "textures/atlas/begin.plist": {
-            "md5": "b811882880692d55ca1f0a1ff701dc88",
+            "md5": "44ae7fc80157d1726d8022e674e2c32a",
             "size": 14672
         },
         "textures/atlas/begin.png": {
-            "md5": "1e25d77191158bcdecd0e36f41418aa5",
-            "size": 4285081
+            "md5": "60d651e032ab6e6fc0d2a2159ce53c93",
+            "size": 4502084
         },
         "textures/atlas/icons.plist": {
             "md5": "b5237addd6b9f93854706c9d9e0fb6dd",
@@ -5778,7 +5778,7 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "9af1269380d0b836e80a810b362f2ed4",
+            "md5": "61c9b0a2e6bc111a4c542458337bb37d",
             "size": 3656
         },
         "ui/dialogs/main/MainContacts.xml": {
