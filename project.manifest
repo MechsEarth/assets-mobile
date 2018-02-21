@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.4.0",
+    "version": "2.1.4.1",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -5778,7 +5778,7 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "1439e24af2294671f53edbe31aaa0009",
+            "md5": "a5e5b08cbf251337334b43a38b7d0a67",
             "size": 3691
         },
         "ui/dialogs/main/MainContacts.xml": {
@@ -5874,12 +5874,12 @@
             "size": 4409
         },
         "ui/localization/en.xml": {
-            "md5": "81566e4502ccdc6310281b1705426820",
-            "size": 76367
+            "md5": "34e30377a1ef79413325cd8dd5381551",
+            "size": 76368
         },
         "ui/localization/ru.xml": {
-            "md5": "d48e18f02cd213faee2dd51704915604",
-            "size": 97442
+            "md5": "18361e5a3138c2b9a2749075eaab1cd9",
+            "size": 97449
         },
         "ui/ui.xml": {
             "md5": "2ef5beb1cd8746c68113d1bfb4ac61c6",
@@ -6158,7 +6158,7 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "fe0716ea4f2ad6a627064b0fa97f1789",
+            "md5": "dc57cf97f0af8f6432a6bbcd17bd90f7",
             "size": 727766
         },
         "worlds/Nations.xml": {
