@@ -553,7 +553,7 @@
   <Text Key="mainmenu_wiki" Value="Knowledge base" />
   <Text Key="main_get_info" Value="Receiving data..." />
 
-  <Text Key="mainmenu_sale" Value="----->     %%%% Mega Sale %%%%     <-----\n\n-     \c&lt;243 230 30&gt;Only on February 22, 23, 24\b   -\n•••            Learn more            •••" />
+  <Text Key="mainmenu_sale" Value="----->     %%%% Mega Sale %%%%     <-----\n\n-       \c&lt;243 230 30&gt;Only on March 8, 9, 10\b     -\n•••            Learn more            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Our page on Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Our group in Google+" />
