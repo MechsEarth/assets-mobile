@@ -361,12 +361,12 @@
   <Text Key="color_scale_remove" Value="-" />
   <Text Key="color_rotate_right" Value="&gt;" />
   <Text Key="color_rotate_left" Value="&lt;" />
-  <Text Key="color_rotate_up" Value="/\\" />
-  <Text Key="color_rotate_down" Value="\//" />
+  <Text Key="color_rotate_up" Value="/|" />
+  <Text Key="color_rotate_down" Value="|/" />
   <Text Key="color_trafaret_right" Value="&gt;" />
   <Text Key="color_trafaret_left" Value="&lt;" />
-  <Text Key="color_trafaret_up" Value="/\\" />
-  <Text Key="color_trafaret_down" Value="\//" />
+  <Text Key="color_trafaret_up" Value="/|" />
+  <Text Key="color_trafaret_down" Value="|/" />
   <Text Key="color_trafaret_rotate" Value="&lt;&gt;" />
   <Text Key="color_trafaret_plus" Value="+" />
   <Text Key="color_trafaret_minus" Value="-" />
@@ -473,7 +473,18 @@
   <Text Key="options_fullscreen" Value="Полноэкранный режим" />
   <Text Key="options_move_type" Value="Способ передвижения" />
   <Text Key="options_move_type_control" Value="точность" />
-  <Text Key="options_move_type_speed" Value="скорость" />
+  <Text Key="options_move_type_speed" Value="скорость" />  
+  <Text Key="options_disable_light" Value="Отключить освещение" />
+  <Text Key="options_shadow" Value="Качество теней" />
+  <Text Key="options_shadow_0" Value="выключены" />
+  <Text Key="options_shadow_1" Value="низкое" />
+  <Text Key="options_shadow_2" Value="среднее" />
+  <Text Key="options_shadow_3" Value="хорошее" />
+  <Text Key="options_shadow_4" Value="отличное" />
+  <Text Key="options_shadow_5" Value="ультра" />
+  <Text Key="options_shadow_6" Value="ультра+" />
+  <Text Key="options_gamma" Value="Яркость" />
+  
   <Text Key="options_ping" Value="Ping: %d средний: %d FPS: %.1f" />
   <Text Key="options_note" Value="ТРЕБУЕТСЯ ПЕРЕЗАПУСК ИГРЫ, ДЛЯ ПРИМЕНЕНИЯ НАСТРОЕК" />
 
@@ -552,7 +563,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="-->      Поздравляем с \c&lt;243 100 100&gt;8 марта\b!      <--\n-40%%%% на скорость / +35%%%% на реглы\n            \c&lt;243 230 30&gt;Акция 8, 9 и 10 марта\b         \n•••  И другое, узнать подробнее  •••" />
+  <Text Key="mainmenu_sale" Value="•• Огромный бонус покупки реглов ••\n            \c&lt;243 100 100&gt; +40%%%% на любую сумму\b\n                \c&lt;243 230 30&gt;Акция 19 и 20 марта\b\n•••           Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
@@ -1070,4 +1081,1958 @@
   <Text Key="server_login_hero_lvl" Value="ур." />
   <Text Key="server_login_hero_online" Value="онлайн" />
   <Text Key="server_login_create_hero_tooltip" Value="Создать ещё одного персонажа в аккаунте" />
+   <!-- economy/components -->
+  <Text Key="entity_name_671" Value="Лантан" />
+  <Text Key="entity_description_671" Value="Редкоземельный металл, используется для \nкрафта оборудования" />
+  <Text Key="entity_name_1813" Value="Плата" />
+  <Text Key="entity_description_1813" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1815" Value="Конденсатор" />
+  <Text Key="entity_description_1815" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1817" Value="Стоктор" />
+  <Text Key="entity_description_1817" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1819" Value="Химическое соединение" />
+  <Text Key="entity_description_1819" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1821" Value="Хим раствор" />
+  <Text Key="entity_description_1821" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1823" Value="Кислота" />
+  <Text Key="entity_description_1823" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1825" Value="Ядохимикат" />
+  <Text Key="entity_description_1825" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1893" Value="Корпус" />
+  <Text Key="entity_description_1893" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1895" Value="Шнек" />
+  <Text Key="entity_description_1895" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1897" Value="Передатчик" />
+  <Text Key="entity_description_1897" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1899" Value="Оптическое устройство" />
+  <Text Key="entity_description_1899" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1913" Value="Держатель" />
+  <Text Key="entity_description_1913" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1915" Value="Крептойды" />
+  <Text Key="entity_description_1915" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1917" Value="Схема наведения" />
+  <Text Key="entity_description_1917" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1919" Value="Блок слежения расширенный" />
+  <Text Key="entity_description_1919" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1921" Value="Обьектив" />
+  <Text Key="entity_description_1921" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1923" Value="Кронштейн" />
+  <Text Key="entity_description_1923" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1925" Value="Деталь" />
+  <Text Key="entity_description_1925" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1927" Value="Блок" />
+  <Text Key="entity_description_1927" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1929" Value="Корпус ствола" />
+  <Text Key="entity_description_1929" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1931" Value="Затвор" />
+  <Text Key="entity_description_1931" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1933" Value="Хранилище патронов" />
+  <Text Key="entity_description_1933" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1935" Value="Механизм Подачи" />
+  <Text Key="entity_description_1935" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1950" Value="Броня СПЛАВ v.13" />
+  <Text Key="entity_description_1950" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1982" Value="Турбина" />
+  <Text Key="entity_description_1982" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1984" Value="Ионизатор" />
+  <Text Key="entity_description_1984" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1986" Value="Визор кротов" />
+  <Text Key="entity_description_1986" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1988" Value="Видиофон" />
+  <Text Key="entity_description_1988" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1992" Value="Блок Слежения" />
+  <Text Key="entity_description_1992" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1994" Value="Кольпограф" />
+  <Text Key="entity_description_1994" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_1996" Value="форсунка" />
+  <Text Key="entity_description_1996" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <Text Key="entity_name_2084" Value="Броня" />
+  <Text Key="entity_description_2084" Value="Компонент, используемый для \nкрафта оружия и оборудования" />
+  <!-- economy/design/components -->
+  <Text Key="entity_name_1812" Value="Чертеж Плата" />
+  <Text Key="entity_description_1812" Value="Чертеж для крафта плат. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1814" Value="Чертеж Конденсатор" />
+  <Text Key="entity_description_1814" Value="Чертеж для крафта конденсаторов. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1816" Value="Чертеж Стоктор" />
+  <Text Key="entity_description_1816" Value="Чертеж для крафта стокторов. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1818" Value="Чертеж Химическое соединение" />
+  <Text Key="entity_description_1818" Value="Чертеж для крафта химсоединений. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1820" Value="Чертеж Хим раствор" />
+  <Text Key="entity_description_1820" Value="Чертеж для крафта химраствора. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1822" Value="Чертеж Кислота" />
+  <Text Key="entity_description_1822" Value="Чертеж для крафта кислоты. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1824" Value="Чертеж Ядохимикат" />
+  <Text Key="entity_description_1824" Value="Чертеж для крафта ядохимиката. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1892" Value="Чертеж Корпус" />
+  <Text Key="entity_description_1892" Value="Чертеж для крафта корпусов. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1894" Value="Чертеж Шнек" />
+  <Text Key="entity_description_1894" Value="Чертеж для крафта шнеков. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1896" Value="Чертеж Передатчик" />
+  <Text Key="entity_description_1896" Value="Чертеж для крафта передатчиков. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1898" Value="Чертеж Оптическое устройство" />
+  <Text Key="entity_description_1898" Value="Чертеж для крафта оптического устройства. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1912" Value="Чертеж Держатель" />
+  <Text Key="entity_description_1912" Value="Чертеж для крафта держателя. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1914" Value="Чертеж Крептойды" />
+  <Text Key="entity_description_1914" Value="Чертеж для крафта крептойдов. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1916" Value="Чертеж Схема наведения" />
+  <Text Key="entity_description_1916" Value="Чертеж для крафта схем наведения. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1918" Value="Чертеж Блок слежения расширенный" />
+  <Text Key="entity_description_1918" Value="Чертеж для крафта \nблока слежения расширенного. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1920" Value="Чертеж Обьектив" />
+  <Text Key="entity_description_1920" Value="Чертеж для крафта объектива. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1922" Value="Чертеж Кронштейн" />
+  <Text Key="entity_description_1922" Value="Чертеж для крафта кронштейна. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1924" Value="Чертеж Деталь" />
+  <Text Key="entity_description_1924" Value="Чертеж для крафта детали. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1926" Value="Чертеж Блок" />
+  <Text Key="entity_description_1926" Value="Чертеж для крафта блоков. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1928" Value="Чертеж Корпус ствола" />
+  <Text Key="entity_description_1928" Value="Чертеж для крафта корпуса ствола. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1930" Value="Чертеж Затвор" />
+  <Text Key="entity_description_1930" Value="Чертеж для крафта затвора. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1932" Value="Чертеж Хранилище патронов" />
+  <Text Key="entity_description_1932" Value="Чертеж для крафта хранилища патронов. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1934" Value="Чертеж Механизм Подачи" />
+  <Text Key="entity_description_1934" Value="Чертеж для крафта механизма подачи. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1981" Value="Чертеж Турбина" />
+  <Text Key="entity_description_1981" Value="Чертеж для крафта турбин. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1983" Value="Чертеж Ионизатор" />
+  <Text Key="entity_description_1983" Value="Чертеж для крафта ионизатора. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1985" Value="Чертеж Визор кротов" />
+  <Text Key="entity_description_1985" Value="Чертеж для крафта визора кротов. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1987" Value="Чертеж Видиофон" />
+  <Text Key="entity_description_1987" Value="Чертеж для крафта видиофона. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1989" Value="Чертеж Комплекс_Z" />
+  <Text Key="entity_description_1989" Value="Чертеж для крафта Комплекса_Z. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1991" Value="Чертеж Блок Слежения" />
+  <Text Key="entity_description_1991" Value="Чертеж для крафта блока слежения. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1993" Value="Чертеж Кольпограф" />
+  <Text Key="entity_description_1993" Value="Чертеж для крафта кольпографа. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_1995" Value="Чертеж форсунка" />
+  <Text Key="entity_description_1995" Value="Чертеж для крафта форсунок. \nДобывается как лут из кротов" />
+  <Text Key="entity_name_3684" Value="Чертеж ЖЕЛЕЗО" />
+  <Text Key="entity_description_3684" Value="Чертеж для крафта железа. \nДобывается как лут из \nкротов и Псов огромных" />
+  <!-- economy/design/drawings-packs -->
+  <Text Key="entity_name_2934" Value="Чертеж Подарок" />
+  <Text Key="entity_description_2934" Value="Чертеж для крафта новогодних подарков. \nДобывается как лут из снежных мобов" />
+  <Text Key="entity_name_3643" Value="Чертеж Подарок Большой" />
+  <Text Key="entity_description_3643" Value="Чертеж для крафта новогодних подарков. \nДобывается как лут из снежных мобов" />
+  <Text Key="entity_name_3661" Value="Чертеж РЕМПАК ОГРОМНЫЙ" />
+  <Text Key="entity_description_3661" Value="Чертеж для крафта ремпака. Добывается \nкак лут из жуков-сенокосцев и боссов" />
+  <Text Key="entity_name_3745" Value="Чертеж ПАК БРОНЯ 100" />
+  <Text Key="entity_description_3745" Value="Чертеж для крафта усилителя брони. \nДобывается как лут из кротов и боссов" />
+  <Text Key="entity_name_3746" Value="Чертеж ПАК ЗАЩИТА 100" />
+  <Text Key="entity_description_3746" Value="Чертеж для крафта усилителя брони и полей. \nДобывается как лут из кротов и боссов" />
+  <Text Key="entity_name_3747" Value="Чертеж ПАК ПОЛЯ 100" />
+  <Text Key="entity_description_3747" Value="Чертеж для крафта усилителя полей. \nДобывается как лут из кротов и боссов" />
+  <Text Key="entity_name_3748" Value="Чертеж ПАК ПРОЧНОСТЬ 100" />
+  <Text Key="entity_description_3748" Value="Чертеж для крафта пака-усилителя прочности. \nДобывается как лут из кротов и боссов" />
+  <Text Key="entity_name_3749" Value="Чертеж ПАК СКОРОСТЬ 100" />
+  <Text Key="entity_description_3749" Value="Чертеж для крафта усилителя скорости. \nДобывается как лут из кротов и боссов" />
+  <!-- economy/design/drawings-tp -->
+  <Text Key="entity_name_606" Value="Чертеж ТЕЛЕПОРТАТОР" />
+  <Text Key="entity_description_606" Value="Чертеж для крафта одиночного телепорта. \nДобывается как лут из слизней" />
+  <Text Key="entity_name_3666" Value="Чертеж ТП ГРУППА" />
+  <Text Key="entity_description_3666" Value="Чертеж для крафта телепорта \nнабранной группы. Добывается как лут из слизней" />
+  <Text Key="entity_name_3667" Value="Чертеж ТП ОТРЯД" />
+  <Text Key="entity_description_3667" Value="Чертеж для крафта телепорта всех, \nкто онлайн в отряде. Добывается как лут из слизней" />
+  <Text Key="entity_name_3668" Value="Чертеж ТП СОЮЗ" />
+  <Text Key="entity_description_3668" Value="Чертеж для крафта телепорта всех, \nкто онлайн в союзе. Добывается как лут из слизней" />
+  <!-- economy/design/drawings-upgrades -->
+  <Text Key="entity_name_3589" Value="Чертеж Апгрейд уровень 1" />
+  <Text Key="entity_description_3589" Value="Чертеж для установки 1й ступени \nнавыков. Покупается в магазине \nили дается за квест" />
+  <Text Key="entity_name_3590" Value="Чертеж Апгрейд уровень 2" />
+  <Text Key="entity_description_3590" Value="Чертеж для установки 2й ступени \nнавыков. Покупается в магазине \nили дается за квест" />
+  <Text Key="entity_name_3591" Value="Чертеж Апгрейд уровень 3" />
+  <Text Key="entity_description_3591" Value="Чертеж для установки 3й ступени \nнавыков. Покупается в магазине \nили дается за квест" />
+  <Text Key="entity_name_3716" Value="Чертеж Апгрейд уровень 4" />
+  <Text Key="entity_description_3716" Value="Чертеж для установки 4й ступени \nнавыков. Покупается в магазине \nили дается за квест" />
+  <Text Key="entity_name_3896" Value="Чертеж Апгрейд уровень 5" />
+  <Text Key="entity_description_3896" Value="Чертеж для установки 5й ступени \nнавыков. Покупается в магазине \nили дается за квест" />
+  <!-- economy/design/equipment -->
+  <Text Key="entity_name_2073" Value="Чертеж Накопитель 4" />
+  <Text Key="entity_description_2073" Value="Чертеж для крафта накопителя \nэнергии 4го уровня" />
+  <Text Key="entity_name_2074" Value="Чертеж Накопитель 7" />
+  <Text Key="entity_description_2074" Value="Чертеж для крафта накопителя \nэнергии 7го уровня" />
+  <Text Key="entity_name_2075" Value="Чертеж Накопитель 9" />
+  <Text Key="entity_description_2075" Value="Чертеж для крафта накопителя \nэнергии 9го уровня" />
+  <Text Key="entity_name_2076" Value="Чертеж Накопитель 12" />
+  <Text Key="entity_description_2076" Value="Чертеж для крафта накопителя \nэнергии 12го уровня" />
+  <Text Key="entity_name_2077" Value="Чертеж Накопитель 16" />
+  <Text Key="entity_description_2077" Value="Чертеж для крафта накопителя \nэнергии 16го уровня" />
+  <Text Key="entity_name_2078" Value="Чертеж дефолт Накопитель 20" />
+  <Text Key="entity_description_2078" Value="Чертеж для крафта накопителя \nэнергии 20го уровня" />
+  <Text Key="entity_name_2079" Value="Чертеж Накопитель 24" />
+  <Text Key="entity_description_2079" Value="Чертеж для крафта накопителя \nэнергии 24го уровня" />
+  <Text Key="entity_name_2080" Value="Чертеж Накопитель 27" />
+  <Text Key="entity_description_2080" Value="Чертеж для крафта накопителя \nэнергии 27го уровня" />
+  <Text Key="entity_name_2081" Value="Чертеж Накопитель 30" />
+  <Text Key="entity_description_2081" Value="Чертеж для крафта накопителя \nэнергии 30го уровня" />
+  <Text Key="entity_name_2082" Value="Чертеж Накопитель 34" />
+  <Text Key="entity_description_2082" Value="Чертеж для крафта накопителя \nэнергии 34го уровня" />
+  <Text Key="entity_name_1828" Value="Чертеж Комплект запчастей  МАЛЫЙ" />
+  <Text Key="entity_description_1828" Value="Чертеж для крафта \nмалых запчастей" />
+  <Text Key="entity_name_1829" Value="Чертеж Комплект запчастей СРЕДНИЙ" />
+  <Text Key="entity_description_1829" Value="Чертеж для крафта \nсредних запчастей" />
+  <Text Key="entity_name_1830" Value="Чертеж Комплект запчастей БОЛЬШОЙ" />
+  <Text Key="entity_description_1830" Value="Чертеж для крафта \nбольших запчастей" />
+  <Text Key="entity_name_1827" Value="Чертеж Шокер МАЛЫЙ" />
+  <Text Key="entity_description_1827" Value="Чертеж для крафта аварийных \nвосстановителей энергии" />
+  <Text Key="entity_name_1811" Value="Чертеж Шокер БОЛЬШОЙ" />
+  <Text Key="entity_description_1811" Value="Чертеж для крафта аварийных \nвосстановителей энергии" />
+  <Text Key="entity_name_1826" Value="Чертеж Шокер СРЕДНИЙ" />
+  <Text Key="entity_description_1826" Value="Чертеж для крафта аварийных \nвосстановителей энергии" />
+  <!-- economy/design/equipment/drawing-armor -->
+  <Text Key="entity_name_2085" Value="Чертеж Броня" />
+  <Text Key="entity_description_2085" Value="Чертеж для крафта \nброни 1го уровня" />
+  <Text Key="entity_name_2086" Value="Чертеж Броня 4" />
+  <Text Key="entity_description_2086" Value="Чертеж для крафта \nброни 4го уровня" />
+  <Text Key="entity_name_2087" Value="Чертеж Броня 8" />
+  <Text Key="entity_description_2087" Value="Чертеж для крафта \nброни 8го уровня" />
+  <Text Key="entity_name_2088" Value="Чертеж Броня 13" />
+  <Text Key="entity_description_2088" Value="Чертеж для крафта \nброни 13го уровня" />
+  <Text Key="entity_name_2089" Value="Чертеж Броня 18" />
+  <Text Key="entity_description_2089" Value="Чертеж для крафта \nброни 18го уровня" />
+  <Text Key="entity_name_2090" Value="Чертеж Броня 22" />
+  <Text Key="entity_description_2090" Value="Чертеж для крафта \nброни 22го уровня" />
+  <Text Key="entity_name_2091" Value="Чертеж Броня 26" />
+  <Text Key="entity_description_2091" Value="Чертеж для крафта \nброни 26го уровня" />
+  <Text Key="entity_name_2092" Value="Чертеж Броня 29" />
+  <Text Key="entity_description_2092" Value="Чертеж для крафта \nброни 29го уровня" />
+  <Text Key="entity_name_2093" Value="Чертеж Броня 33" />
+  <Text Key="entity_description_2093" Value="Чертеж для крафта \nброни 33го уровня" />
+  <Text Key="entity_name_2094" Value="Чертеж Броня 35" />
+  <Text Key="entity_description_2094" Value="Чертеж для крафта \nброни 35го уровня" />
+  <Text Key="entity_name_2095" Value="Чертеж Броня 38" />
+  <Text Key="entity_description_2095" Value="Чертеж для крафта \nброни 38го уровня" />
+  <Text Key="entity_name_2096" Value="Чертеж Броня 40" />
+  <Text Key="entity_description_2096" Value="Чертеж для крафта \nброни 40го уровня" />
+  <Text Key="entity_name_2097" Value="Чертеж Броня 42" />
+  <Text Key="entity_description_2097" Value="Чертеж для крафта \nброни 42го уровня" />
+  <Text Key="entity_name_2098" Value="Чертеж Броня 45" />
+  <Text Key="entity_description_2098" Value="Чертеж для крафта \nброни 45го уровня" />
+  <Text Key="entity_name_2099" Value="Чертеж Броня 47" />
+  <Text Key="entity_description_2099" Value="Чертеж для крафта \nброни 47го уровня" />
+  <Text Key="entity_name_2100" Value="Чертеж Броня 50" />
+  <Text Key="entity_description_2100" Value="Чертеж для крафта \nброни 50го уровня" />
+  <Text Key="entity_name_1949" Value="Чертеж Броня СПЛАВ v.13" />
+  <Text Key="entity_description_1949" Value="Чертеж для крафта \nБрони СПЛАВ v.13. \nДобывается как лут из кротов" />
+  <!-- economy/design/equipment/drawing-chip -->
+  <Text Key="entity_name_2151" Value="Чертеж Чип ПОЛЕ" />
+  <Text Key="entity_description_2151" Value="Чертеж для крафта \nусилителя энергополей" />
+  <Text Key="entity_name_2152" Value="Чертеж Чип ЭНЕРГОСНАБЖЕНИЕ" />
+  <Text Key="entity_description_2152" Value="Чертеж для крафта усилителя \nэнергоустановки робота" />
+  <Text Key="entity_name_2153" Value="Чертеж Чип ТРЮМ" />
+  <Text Key="entity_description_2153" Value="Чертеж для крафта \nувеличителя емкости трюма" />
+  <Text Key="entity_name_2154" Value="Чертеж Чип ДОБЫЧА" />
+  <Text Key="entity_description_2154" Value="Чертеж для крафта \nускорителя процесса бурения" />
+  <Text Key="entity_name_2157" Value="Чертеж Чип БРОНЯ" />
+  <Text Key="entity_description_2157" Value="Чертеж для крафта \nусилителя брони робота" />
+  <Text Key="entity_name_2155" Value="Чертеж Чип ПОЛЕ v.2" />
+  <Text Key="entity_description_2155" Value="Чертеж для крафта \nусилителя энергополей" />
+  <Text Key="entity_name_2156" Value="Чертеж Чип БРОНЯ v.2" />
+  <Text Key="entity_description_2156" Value="Чертеж для крафта \nусилителя брони робота" />
+  <Text Key="entity_name_2159" Value="Чертеж Чип ТРЮМ v.2" />
+  <Text Key="entity_description_2159" Value="Чертеж для крафта \nувеличителя емкости трюма" />
+  <Text Key="entity_name_2160" Value="Чертеж Чип ЭНЕРГОСНАБЖЕНИЕ v.2" />
+  <Text Key="entity_description_2160" Value="Чертеж для крафта усилителя \nэнергоустановки робота" />
+  <Text Key="entity_name_2161" Value="Чертеж Чип ДОБЫЧА v.2" />
+  <Text Key="entity_description_2161" Value="Чертеж для крафта \nускорителя процесса бурения" />
+  <Text Key="entity_name_2162" Value="Чертеж Чип БРОНЯ v.3" />
+  <Text Key="entity_description_2162" Value="Чертеж для крафта \nусилителя брони робота" />
+  <Text Key="entity_name_2163" Value="Чертеж Чип ТРЮМ v.3" />
+  <Text Key="entity_description_2163" Value="Чертеж для крафта \nувеличителя емкости трюма" />
+  <Text Key="entity_name_2164" Value="Чертеж Чип ЭНЕРГОСНАБЖЕНИЕ v.3" />
+  <Text Key="entity_description_2164" Value="Чертеж для крафта усилителя \nэнергоустановки робота" />
+  <Text Key="entity_name_2165" Value="Чертеж Чип ДОБЫЧА v.3" />
+  <Text Key="entity_description_2165" Value="Чертеж для крафта ускорителя процесса бурения" />
+  <Text Key="entity_name_2166" Value="Чертеж Чип ПОЛЕ v.3" />
+  <Text Key="entity_description_2166" Value="Чертеж для крафта \nусилителя энергополей" />
+  <Text Key="entity_name_2158" Value="Чертеж Чип БРОНЯ v.4" />
+  <Text Key="entity_description_2158" Value="Чертеж для крафта \nусилителя брони робота" />
+  <Text Key="entity_name_2167" Value="Чертеж Чип ДОБЫЧА v.4" />
+  <Text Key="entity_description_2167" Value="Чертеж для крафта \nускорителя процесса бурения" />
+  <Text Key="entity_name_2169" Value="Чертеж Чип ЭНЕРГОСНАБЖЕНИЕ v.4" />
+  <Text Key="entity_description_2169" Value="Чертеж для крафта усилителя \nэнергоустановки робота" />
+  <Text Key="entity_name_2171" Value="Чертеж Чип ПОЛЕ v.4" />
+  <Text Key="entity_description_2171" Value="Чертеж для крафта \nусилителя энергополей" />
+  <Text Key="entity_name_2172" Value="Чертеж Чип ТРЮМ v.4" />
+  <Text Key="entity_description_2172" Value="Чертеж для крафта \nувеличителя емкости трюма" />
+  <Text Key="entity_name_2174" Value="Чертеж Чип ГДИС" />
+  <Text Key="entity_description_2174" Value="Чертеж для крафта \nусилителя брони робота" />
+  <Text Key="entity_name_2175" Value="Чертеж Чип СБИС" />
+  <Text Key="entity_description_2175" Value="Чертеж для крафта \nусилителя скорости робота" />
+  <Text Key="entity_name_2176" Value="Чертеж Чип ТЕМР" />
+  <Text Key="entity_description_2176" Value="Чертеж для крафта \nусилителя прочности робота" />
+  <!-- economy/design/equipment/drawing-field -->
+  <Text Key="entity_name_2108" Value="Чертеж Защитное поле" />
+  <Text Key="entity_description_2108" Value="Чертеж для крафта \nзащитного поля 1го уровня" />
+  <Text Key="entity_name_2109" Value="Чертеж Защитное поле 4" />
+  <Text Key="entity_description_2109" Value="Чертеж для крафта \nзащитного поля 4го уровня" />
+  <Text Key="entity_name_2110" Value="Чертеж Защитное поле 7" />
+  <Text Key="entity_description_2110" Value="Чертеж для крафта \nзащитного поля 7го уровня" />
+  <Text Key="entity_name_2111" Value="Чертеж Защитное поле 9" />
+  <Text Key="entity_description_2111" Value="Чертеж для крафта \nзащитного поля 9го уровня" />
+  <Text Key="entity_name_2112" Value="Чертеж Защитное поле 12" />
+  <Text Key="entity_description_2112" Value="Чертеж для крафта \nзащитного поля 12го уровня" />
+  <Text Key="entity_name_2113" Value="Чертеж Защитное поле 16" />
+  <Text Key="entity_description_2113" Value="Чертеж для крафта \nзащитного поля 16го уровня" />
+  <Text Key="entity_name_2114" Value="Чертеж Защитное поле 20" />
+  <Text Key="entity_description_2114" Value="Чертеж для крафта \nзащитного поля 20го уровня" />
+  <Text Key="entity_name_2115" Value="Чертеж Защитное поле 24" />
+  <Text Key="entity_description_2115" Value="Чертеж для крафта \nзащитного поля 24го уровня" />
+  <Text Key="entity_name_2116" Value="Чертеж Защитное поле 27" />
+  <Text Key="entity_description_2116" Value="Чертеж для крафта \nзащитного поля 27го уровня" />
+  <Text Key="entity_name_2117" Value="Чертеж Защитное поле 30" />
+  <Text Key="entity_description_2117" Value="Чертеж для крафта \nзащитного поля 30го уровня" />
+  <Text Key="entity_name_2118" Value="Чертеж Защитное поле 34" />
+  <Text Key="entity_description_2118" Value="Чертеж для крафта \nзащитного поля 34го уровня" />
+  <Text Key="entity_name_2119" Value="Чертеж Защитное поле 37" />
+  <Text Key="entity_description_2119" Value="Чертеж для крафта \nзащитного поля 37го уровня" />
+  <Text Key="entity_name_2107" Value="Чертеж Защитное поле 40" />
+  <Text Key="entity_description_2107" Value="Чертеж для крафта \nзащитного поля 40го уровня" />
+  <Text Key="entity_name_2120" Value="Чертеж Защитное поле 43" />
+  <Text Key="entity_description_2120" Value="Чертеж для крафта \nзащитного поля 43го уровня" />
+  <Text Key="entity_name_2121" Value="Чертеж Защитное поле 46" />
+  <Text Key="entity_description_2121" Value="Чертеж для крафта \nзащитного поля 46го уровня" />
+  <Text Key="entity_name_2122" Value="Чертеж Защитное поле 50" />
+  <Text Key="entity_description_2122" Value="Чертеж для крафта \nзащитного поля 50го уровня" />
+  <Text Key="entity_name_2123" Value="Чертеж Защитное поле 55" />
+  <Text Key="entity_description_2123" Value="Чертеж для крафта \nзащитного поля 55го уровня" />
+  <Text Key="entity_name_2124" Value="Чертеж Защитное поле 60" />
+  <Text Key="entity_description_2124" Value="Чертеж для крафта \nзащитного поля 60го уровня" />
+  <!-- economy/design/equipment/drawing-hold -->
+  <Text Key="entity_name_2140" Value="Чертеж Трюм 6" />
+  <Text Key="entity_description_2140" Value="Чертеж для крафта \nдоп.трюма 6го уровня" />
+  <Text Key="entity_name_2141" Value="Чертеж Трюм 12" />
+  <Text Key="entity_description_2141" Value="Чертеж для крафта \nдоп.трюма 12го уровня" />
+  <Text Key="entity_name_2142" Value="Чертеж Трюм 17Т" />
+  <Text Key="entity_description_2142" Value="Чертеж для крафта \nдоп.трюма 17го уровня" />
+  <Text Key="entity_name_2143" Value="Чертеж Трюм 25Т" />
+  <Text Key="entity_description_2143" Value="Чертеж для крафта \nдоп.трюма 25го уровня" />
+  <Text Key="entity_name_2144" Value="Чертеж Трюм 32Т" />
+  <Text Key="entity_description_2144" Value="Чертеж для крафта \nдоп.трюма 32го уровня" />
+  <Text Key="entity_name_2145" Value="Чертеж Трюм 40ТМ1" />
+  <Text Key="entity_description_2145" Value="Чертеж для крафта \nдоп.трюма 40го уровня" />
+  <Text Key="entity_name_2146" Value="Чертеж Трюм 50ТМ1" />
+  <Text Key="entity_description_2146" Value="Чертеж для крафта \nдоп.трюма 50го уровня" />
+  <Text Key="entity_name_2147" Value="Чертеж Трюм 60ТМ1" />
+  <Text Key="entity_description_2147" Value="Чертеж для крафта \nдоп.трюма 60го уровня" />
+  <!-- economy/design/equipment/weapon -->
+  <Text Key="entity_name_1809" Value="Чертеж Пулемёт" />
+  <Text Key="entity_description_1809" Value="Чертеж для крафта \nпулемета 1го уровня" />
+  <Text Key="entity_name_1936" Value="Чертеж Пулемёт" />
+  <Text Key="entity_description_1936" Value="Чертеж для крафта \nпулемета 1го уровня" />
+  <Text Key="entity_name_1938" Value="Чертеж Пулемёт 6Б" />
+  <Text Key="entity_description_1938" Value="Чертеж для крафта \nпулемета 6го уровня" />
+  <Text Key="entity_name_1939" Value="Чертеж Пулемёт 9Б" />
+  <Text Key="entity_description_1939" Value="Чертеж для крафта \nпулемета 9го уровня" />
+  <Text Key="entity_name_1940" Value="Чертеж Пулемёт 11Б" />
+  <Text Key="entity_description_1940" Value="Чертеж для крафта \nпулемета 11го уровня" />
+  <Text Key="entity_name_1941" Value="Чертеж Пулемёт 13Б" />
+  <Text Key="entity_description_1941" Value="Чертеж для крафта \nпулемета 13го уровня" />
+  <Text Key="entity_name_1942" Value="Чертеж Пулемёт 15Б" />
+  <Text Key="entity_description_1942" Value="Чертеж для крафта \nпулемета 15го уровня" />
+  <Text Key="entity_name_1943" Value="Чертеж Пулемёт 18Б" />
+  <Text Key="entity_description_1943" Value="Чертеж для крафта \nпулемета 18го уровня" />
+  <Text Key="entity_name_1944" Value="Чертеж Пулемёт 22Б" />
+  <Text Key="entity_description_1944" Value="Чертеж для крафта \nпулемета 22го уровня" />
+  <Text Key="entity_name_1945" Value="Чертеж Пулемёт 26Б" />
+  <Text Key="entity_description_1945" Value="Чертеж для крафта \nпулемета 26го уровня" />
+  <Text Key="entity_name_1946" Value="Чертеж Пулемёт 30Б" />
+  <Text Key="entity_description_1946" Value="Чертеж для крафта \nпулемета 30го уровня" />
+  <Text Key="entity_name_1947" Value="Чертеж Пулемёт 40Б" />
+  <Text Key="entity_description_1947" Value="Чертеж для крафта \nпулемета 40го уровня" />
+  <Text Key="entity_name_1948" Value="Чертеж Пулемёт 50Б" />
+  <Text Key="entity_description_1948" Value="Чертеж для крафта \nпулемета 50го уровня" />
+  <Text Key="entity_name_2027" Value="Чертеж Пулемёт 60Б" />
+  <Text Key="entity_description_2027" Value="Чертеж для крафта \nпулемета 60го уровня" />
+  <Text Key="entity_name_658" Value="Чертеж Лазер" />
+  <Text Key="entity_description_658" Value="Чертеж для крафта \nлазера 1го уровня" />
+  <Text Key="entity_name_1900" Value="Чертеж Лазер 3" />
+  <Text Key="entity_description_1900" Value="Чертеж для крафта \nлазера 3го уровня" />
+  <Text Key="entity_name_1901" Value="Чертеж Лазер 5" />
+  <Text Key="entity_description_1901" Value="Чертеж для крафта \nлазера 5го уровня" />
+  <Text Key="entity_name_1902" Value="Чертеж Лазер 8" />
+  <Text Key="entity_description_1902" Value="Чертеж для крафта \nлазера 8го уровня" />
+  <Text Key="entity_name_1903" Value="Чертеж Лазер 10" />
+  <Text Key="entity_description_1903" Value="Чертеж для крафта \nлазера 10го уровня" />
+  <Text Key="entity_name_1904" Value="Чертеж Лазер 11" />
+  <Text Key="entity_description_1904" Value="Чертеж для крафта \nлазера 11го уровня" />
+  <Text Key="entity_name_1905" Value="Чертеж Лазер 13" />
+  <Text Key="entity_description_1905" Value="Чертеж для крафта \nлазера 13го уровня" />
+  <Text Key="entity_name_1891" Value="Чертеж Лазер 16" />
+  <Text Key="entity_description_1891" Value="Чертеж для крафта \nлазера 16го уровня" />
+  <Text Key="entity_name_1906" Value="Чертеж Лазер 18" />
+  <Text Key="entity_description_1906" Value="Чертеж для крафта \nлазера 18го уровня" />
+  <Text Key="entity_name_1907" Value="Чертеж Лазер 21" />
+  <Text Key="entity_description_1907" Value="Чертеж для крафта \nлазера 21го уровня" />
+  <Text Key="entity_name_1908" Value="Чертеж Лазер 25" />
+  <Text Key="entity_description_1908" Value="Чертеж для крафта \nлазера 25го уровня" />
+  <Text Key="entity_name_1909" Value="Чертеж Лазер 29" />
+  <Text Key="entity_description_1909" Value="Чертеж для крафта \nлазера 29го уровня" />
+  <Text Key="entity_name_1910" Value="Чертеж Лазер 33" />
+  <Text Key="entity_description_1910" Value="Чертеж для крафта \nлазера 33го уровня" />
+  <Text Key="entity_name_1911" Value="Чертеж Лазер 39" />
+  <Text Key="entity_description_1911" Value="Чертеж для крафта \nлазера 39го уровня" />
+  <Text Key="entity_name_659" Value="Чертеж Лазер 43" />
+  <Text Key="entity_description_659" Value="Чертеж для крафта \nлазера 43го уровня" />
+  <Text Key="entity_name_2031" Value="Чертеж Лазер 60" />
+  <Text Key="entity_description_2031" Value="Чертеж для крафта \nлазера 60го уровня" />
+  <Text Key="entity_name_1966" Value="Чертеж Эмпп" />
+  <Text Key="entity_description_1966" Value="Чертеж для крафта электро-\nмагнитной пушки 1го уровня" />
+  <Text Key="entity_name_1967" Value="Чертеж Эмпп 2" />
+  <Text Key="entity_description_1967" Value="Чертеж для крафта электро-\nмагнитной пушки 2го уровня" />
+  <Text Key="entity_name_1968" Value="Чертеж Эмпп 5" />
+  <Text Key="entity_description_1968" Value="Чертеж для крафта электро-\nмагнитной пушки 5го уровня" />
+  <Text Key="entity_name_1969" Value="Чертеж Эмпп 7Б" />
+  <Text Key="entity_description_1969" Value="Чертеж для крафта электро-\nмагнитной пушки 7го уровня" />
+  <Text Key="entity_name_1970" Value="Чертеж Эмпп 10Б" />
+  <Text Key="entity_description_1970" Value="Чертеж для крафта электро-\nмагнитной пушки 10го уровня" />
+  <Text Key="entity_name_1971" Value="Чертеж Эмпп 13Б" />
+  <Text Key="entity_description_1971" Value="Чертеж для крафта электро-\nмагнитной пушки 13го уровня" />
+  <Text Key="entity_name_1972" Value="Чертеж Эмпп 16Б" />
+  <Text Key="entity_description_1972" Value="Чертеж для крафта электро-\nмагнитной пушки 16го уровня" />
+  <Text Key="entity_name_1973" Value="Чертеж Эмпп 18Б" />
+  <Text Key="entity_description_1973" Value="Чертеж для крафта электро-\nмагнитной пушки 18го уровня" />
+  <Text Key="entity_name_1974" Value="Чертеж Эмпп 21Б" />
+  <Text Key="entity_description_1974" Value="Чертеж для крафта электро-\nмагнитной пушки 21го уровня" />
+  <Text Key="entity_name_1975" Value="Чертеж Эмпп 25Б" />
+  <Text Key="entity_description_1975" Value="Чертеж для крафта электро-\nмагнитной пушки 25го уровня" />
+  <Text Key="entity_name_1976" Value="Чертеж Эмпп 29Б" />
+  <Text Key="entity_description_1976" Value="Чертеж для крафта электро-\nмагнитной пушки 29го уровня" />
+  <Text Key="entity_name_1977" Value="Чертеж Эмпп 33Б" />
+  <Text Key="entity_description_1977" Value="Чертеж для крафта электро-\nмагнитной пушки 33го уровня" />
+  <Text Key="entity_name_1978" Value="Чертеж Эмпп 37Б" />
+  <Text Key="entity_description_1978" Value="Чертеж для крафта электро-\nмагнитной пушки 37го уровня" />
+  <Text Key="entity_name_1979" Value="Чертеж Эмпп 41Б" />
+  <Text Key="entity_description_1979" Value="Чертеж для крафта электро-\nмагнитной пушки 41го уровня" />
+  <Text Key="entity_name_1980" Value="Чертеж Эмпп 45Б" />
+  <Text Key="entity_description_1980" Value="Чертеж для крафта электро-\nмагнитной пушки 45го уровня" />
+  <Text Key="entity_name_2033" Value="Чертеж Эмпп 60Б" />
+  <Text Key="entity_description_2033" Value="Чертеж для крафта электро-\nмагнитной пушки 60го уровня" />
+  <Text Key="entity_name_1997" Value="Чертеж РК" />
+  <Text Key="entity_description_1997" Value="Чертеж для крафта ракетной \nустановки 1го уровня" />
+  <Text Key="entity_name_1998" Value="Чертеж РК 3" />
+  <Text Key="entity_description_1998" Value="Чертеж для крафта ракетной \nустановки 3го уровня" />
+  <Text Key="entity_name_1999" Value="Чертеж РК 5" />
+  <Text Key="entity_description_1999" Value="Чертеж для крафта ракетной \nустановки 5го уровня" />
+  <Text Key="entity_name_2012" Value="Чертеж РК энрг 6Б" />
+  <Text Key="entity_description_2012" Value="Чертеж для крафта ракетной \nустановки энергетической 6го уровня" />
+  <Text Key="entity_name_2013" Value="Чертеж РК энрг 8Б" />
+  <Text Key="entity_description_2013" Value="Чертеж для крафта ракетной \nустановки энергетической 8го уровня" />
+  <Text Key="entity_name_2000" Value="Чертеж РК 9Б" />
+  <Text Key="entity_description_2000" Value="Чертеж для крафта ударной \nракетной установки 9го уровня" />
+  <Text Key="entity_name_2014" Value="Чертеж РК энрг 10Б" />
+  <Text Key="entity_description_2014" Value="Чертеж для крафта ракетной \nустановки энергетической 10го уровня" />
+  <Text Key="entity_name_2001" Value="Чертеж РК 12Б" />
+  <Text Key="entity_description_2001" Value="Чертеж для крафта ударной \nракетной установки 12го уровня" />
+  <Text Key="entity_name_2015" Value="Чертеж РК энрг 13Б" />
+  <Text Key="entity_description_2015" Value="Чертеж для крафта ракетной \nустановки энергетической 13го уровня" />
+  <Text Key="entity_name_2016" Value="Чертеж РК энрг 14Б" />
+  <Text Key="entity_description_2016" Value="Чертеж для крафта ракетной \nустановки энергетической 14го уровня" />
+  <Text Key="entity_name_2002" Value="Чертеж РК 15Б" />
+  <Text Key="entity_description_2002" Value="Чертеж для крафта ударной \nракетной установки 15го уровня" />
+  <Text Key="entity_name_2017" Value="Чертеж РК энрг 16Б" />
+  <Text Key="entity_description_2017" Value="Чертеж для крафта ракетной \nустановки энергетической 16го уровня" />
+  <Text Key="entity_name_2003" Value="Чертеж РК 17Б" />
+  <Text Key="entity_description_2003" Value="Чертеж для крафта ударной \nракетной установки 17го уровня" />
+  <Text Key="entity_name_2004" Value="Чертеж РК 19Б" />
+  <Text Key="entity_description_2004" Value="Чертеж для крафта ударной \nракетной установки 19го уровня" />
+  <Text Key="entity_name_2018" Value="Чертеж РК энрг 19Б" />
+  <Text Key="entity_description_2018" Value="Чертеж для крафта ракетной \nустановки энергетической 19го уровня" />
+  <Text Key="entity_name_2005" Value="Чертеж РК 21Б" />
+  <Text Key="entity_description_2005" Value="Чертеж для крафта ударной \nракетной установки 21го уровня" />
+  <Text Key="entity_name_2019" Value="Чертеж РК энрг 22Б" />
+  <Text Key="entity_description_2019" Value="Чертеж для крафта ракетной \nустановки энергетической 22го уровня" />
+  <Text Key="entity_name_2006" Value="Чертеж РК 24Б" />
+  <Text Key="entity_description_2006" Value="Чертеж для крафта ударной \nракетной установки 24го уровня" />
+  <Text Key="entity_name_2020" Value="Чертеж РК энрг 24Б" />
+  <Text Key="entity_description_2020" Value="Чертеж для крафта ракетной \nустановки энергетической 24го уровня" />
+  <Text Key="entity_name_2007" Value="Чертеж РК 27Б" />
+  <Text Key="entity_description_2007" Value="Чертеж для крафта ударной \nракетной установки 27го уровня" />
+  <Text Key="entity_name_2021" Value="Чертеж РК энрг 27Б" />
+  <Text Key="entity_description_2021" Value="Чертеж для крафта ракетной \nустановки энергетической 27го уровня" />
+  <Text Key="entity_name_2008" Value="Чертеж РК 31Б" />
+  <Text Key="entity_description_2008" Value="Чертеж для крафта ударной \nракетной установки 31го уровня" />
+  <Text Key="entity_name_2022" Value="Чертеж РК энрг 31Б" />
+  <Text Key="entity_description_2022" Value="Чертеж для крафта ракетной \nустановки энергетической 31го уровня" />
+  <Text Key="entity_name_2023" Value="Чертеж РК энрг 35Б" />
+  <Text Key="entity_description_2023" Value="Чертеж для крафта ракетной \nустановки энергетической 35го уровня" />
+  <Text Key="entity_name_2009" Value="Чертеж РК 37Б" />
+  <Text Key="entity_description_2009" Value="Чертеж для крафта ударной \nракетной установки 37го уровня" />
+  <Text Key="entity_name_2024" Value="Чертеж РК энрг 40Б" />
+  <Text Key="entity_description_2024" Value="Чертеж для крафта ракетной \nустановки энергетической 40го уровня" />
+  <Text Key="entity_name_2010" Value="Чертеж РК 41Б" />
+  <Text Key="entity_description_2010" Value="Чертеж для крафта ударной \nракетной установки 41го уровня" />
+  <Text Key="entity_name_2025" Value="Чертеж РК энрг 45Б" />
+  <Text Key="entity_description_2025" Value="Чертеж для крафта ракетной \nустановки энергетической 45го уровня" />
+  <Text Key="entity_name_2011" Value="Чертеж РК 47Б" />
+  <Text Key="entity_description_2011" Value="Чертеж для крафта ударной \nракетной установки 47го уровня" />
+  <Text Key="entity_name_2035" Value="Чертеж РК 60Б" />
+  <Text Key="entity_description_2035" Value="Чертеж для крафта ударной \nракетной установки 60го уровня" />
+  <Text Key="entity_name_2037" Value="Чертеж РК энрг 60Б" />
+  <Text Key="entity_description_2037" Value="Чертеж для крафта ракетной \nустановки энергетической 60го уровня" />
+  <Text Key="entity_name_1951" Value="Чертеж Пушка" />
+  <Text Key="entity_description_1951" Value="Чертеж для крафта \nпушки 1го уровня" />
+  <Text Key="entity_name_1952" Value="Чертеж Пушка 2" />
+  <Text Key="entity_description_1952" Value="Чертеж для крафта \nпушки 2го уровня" />
+  <Text Key="entity_name_1953" Value="Чертеж Пушка 4" />
+  <Text Key="entity_description_1953" Value="Чертеж для крафта \nпушки 4го уровня" />
+  <Text Key="entity_name_1954" Value="Чертеж Пушка 6Б" />
+  <Text Key="entity_description_1954" Value="Чертеж для крафта \nпушки 6го уровня" />
+  <Text Key="entity_name_1955" Value="Чертеж Пушка 9Б" />
+  <Text Key="entity_description_1955" Value="Чертеж для крафта \nпушки 9го уровня" />
+  <Text Key="entity_name_1956" Value="Чертеж Пушка 12Б" />
+  <Text Key="entity_description_1956" Value="Чертеж для крафта \nпушки 12го уровня" />
+  <Text Key="entity_name_1957" Value="Чертеж Пушка 14Б" />
+  <Text Key="entity_description_1957" Value="Чертеж для крафта \nпушки 14го уровня" />
+  <Text Key="entity_name_1958" Value="Чертеж Пушка 16Б" />
+  <Text Key="entity_description_1958" Value="Чертеж для крафта \nпушки 16го уровня" />
+  <Text Key="entity_name_1959" Value="Чертеж Пушка 18Б" />
+  <Text Key="entity_description_1959" Value="Чертеж для крафта \nпушки 18го уровня" />
+  <Text Key="entity_name_1960" Value="Чертеж Пушка 20Б" />
+  <Text Key="entity_description_1960" Value="Чертеж для крафта \nпушки 20го уровня" />
+  <Text Key="entity_name_1961" Value="Чертеж Пушка 24Б" />
+  <Text Key="entity_description_1961" Value="Чертеж для крафта \nпушки 24го уровня" />
+  <Text Key="entity_name_1962" Value="Чертеж Пушка 28Б" />
+  <Text Key="entity_description_1962" Value="Чертеж для крафта \nпушки 28го уровня" />
+  <Text Key="entity_name_1963" Value="Чертеж Пушка 30Б" />
+  <Text Key="entity_description_1963" Value="Чертеж для крафта \nпушки 30го уровня" />
+  <Text Key="entity_name_1964" Value="Чертеж Пушка 40Б" />
+  <Text Key="entity_description_1964" Value="Чертеж для крафта \nпушки 40го уровня" />
+  <Text Key="entity_name_1965" Value="Чертеж Пушка 50Б" />
+  <Text Key="entity_description_1965" Value="Чертеж для крафта \nпушки 50го уровня" />
+  <Text Key="entity_name_2029" Value="Чертеж Пушка 60Б" />
+  <Text Key="entity_description_2029" Value="Чертеж для крафта \nпушки 60го уровня" />
+  <!-- economy/loot-moles -->
+  <Text Key="entity_name_393" Value="Демультиплексатор" />
+  <Text Key="entity_description_393" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_1306" Value="Блокиратор" />
+  <Text Key="entity_description_1306" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_1281" Value="комплект З/П кротов" />
+  <Text Key="entity_description_1281" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_1362" Value="Затвор модифицированный" />
+  <Text Key="entity_description_1362" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_1280" Value="Кротоскоп" />
+  <Text Key="entity_description_1280" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_1030" Value="Компаунд кротов" />
+  <Text Key="entity_description_1030" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_397" Value="Магма контейнер" />
+  <Text Key="entity_description_397" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_398" Value="Крототранслятор" />
+  <Text Key="entity_description_398" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_394" Value="Поликожа крота" />
+  <Text Key="entity_description_394" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_3463" Value="Стимулятор" />
+  <Text Key="entity_description_3463" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_3464" Value="Стокер" />
+  <Text Key="entity_description_3464" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_3465" Value="Верхний ридер" />
+  <Text Key="entity_description_3465" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_3466" Value="Заслон" />
+  <Text Key="entity_description_3466" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <Text Key="entity_name_3467" Value="Захват" />
+  <Text Key="entity_description_3467" Value="Разновидность лута кротов. \nИспользуется для апгрейда \nроботов или крафтинга" />
+  <!-- economy/loot-monsters -->
+  <Text Key="entity_name_1230" Value="Элитра ЖУКа" />
+  <Text Key="entity_description_1230" Value="Лут жуков. \nМожет пригодиться для крафта" />
+  <Text Key="entity_name_2933" Value="Снежный ком" />
+  <Text Key="entity_description_2933" Value="Лут снежных мобов. \nТребуется для крафта подарков. \nЛетом не тает" />
+  <Text Key="entity_name_3920" Value="Сертификат розыгрыш 2018" />
+  <Text Key="entity_description_3920" Value="Лут снежных мобов. \nСохрани - можешь выиграть крутого робота!" />
+  <Text Key="entity_name_3921" Value="Сертификат 90 орудия" />
+  <Text Key="entity_description_3921" Value="В обмен на него Дед Мороз \nвыдает оружие 90го уровня любого типа" />
+  <Text Key="entity_name_3922" Value="Сертификат 85 орудия и ниже" />
+  <Text Key="entity_description_3922" Value="В обмен на него Дед Мороз \nвыдает оружие любого типа \n85го уровня или меньше" />
+  <Text Key="entity_name_1231" Value="Двойная элитра ЖУКа" />
+  <Text Key="entity_description_1231" Value="Лут жуков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1551" Value="Щит Сенокосца" />
+  <Text Key="entity_description_1551" Value="Лут жуков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1556" Value="Двойной щит Сенокосца" />
+  <Text Key="entity_description_1556" Value="Лут жуков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1554" Value="Щит ЖУКа главного" />
+  <Text Key="entity_description_1554" Value="Лут жуков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1553" Value="Жало ЖУКа главного" />
+  <Text Key="entity_description_1553" Value="Лут жуков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1563" Value="Ядовитая железа ПАУКА" />
+  <Text Key="entity_description_1563" Value="Лут пауков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1564" Value="Хилицеры ПАУКа главного" />
+  <Text Key="entity_description_1564" Value="Лут жуков. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1552" Value="Клешня СКОРПИОНА" />
+  <Text Key="entity_description_1552" Value="Лут скорпиона. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1555" Value="Жало СКОРПИОНА" />
+  <Text Key="entity_description_1555" Value="Лут скорпиона. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_414" Value="Усы Богомола" />
+  <Text Key="entity_description_414" Value="Лут богомола. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_415" Value="Лапа Богомола" />
+  <Text Key="entity_description_415" Value="Лут богомола. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_442" Value="Параподии ЧЕРВЯ" />
+  <Text Key="entity_description_442" Value="Лут червей. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_446" Value="Сегмент ЧЕРВЯ" />
+  <Text Key="entity_description_446" Value="Лут червей. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1434" Value="Глаз ВАРАНа" />
+  <Text Key="entity_description_1434" Value="Лут варанов. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1639" Value="Хвост ВАРАНа" />
+  <Text Key="entity_description_1639" Value="Лут варанов. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1642" Value="Капюшон ВАРАНа" />
+  <Text Key="entity_description_1642" Value="Лут варанов. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1010" Value="Коготь медведя" />
+  <Text Key="entity_description_1010" Value="Лут медведя. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_1042" Value="Клыки медведя" />
+  <Text Key="entity_description_1042" Value="Лут медведя. Можно продать \nили сохранить для крафта" />
+  <Text Key="entity_name_3699" Value="Коготь пса" />
+  <Text Key="entity_description_3699" Value="Лут собак. \nЛучше всего продать" />
+  <Text Key="entity_name_3700" Value="Коготь пса большого" />
+  <Text Key="entity_description_3700" Value="Лут собак. \nЛучше всего продать" />
+  <Text Key="entity_name_3701" Value="Коготь пса огромного" />
+  <Text Key="entity_description_3701" Value="Лут собак. Лучше всего продать, \nно и для крафта сгодится" />
+  <!-- economy/minerals -->
+  <Text Key="entity_name_286" Value="КРИСТАЛЛ КРАСНЫЙ" />
+  <Text Key="entity_description_286" Value="Распространенный и востре-\nбованный ресурс на планете. \nДобывается на шахтах или как \nлут из кротов и больших монстров" />
+  <Text Key="entity_name_639" Value="КРИСТАЛЛ СИНИЙ" />
+  <Text Key="entity_description_639" Value="Распространенный и востре-\nбованный ресурс на планете. \nДобывается на шахтах или как \nлут из кротов и больших монстров" />
+  <Text Key="entity_name_640" Value="КРИСТАЛЛ ЗЕЛЕНЫЙ" />
+  <Text Key="entity_description_640" Value="Распространенный и востре-\nбованный ресурс на планете. \nДобывается на шахтах или как \nлут из кротов и больших монстров" />
+  <Text Key="entity_name_673" Value="ГАФНИЙ" />
+  <Text Key="entity_description_673" Value="Редкоземельный элемент, \nдорогой и востребованый. \nТребуется для крафта и апгрейда. \nИногда заменяет игрокам деньги" />
+  <Text Key="entity_name_3681" Value="ЖЕЛЕЗНАЯ РУДА" />
+  <Text Key="entity_description_3681" Value="Добывается на шахте \nили как лут из Псов Огромных. \nНужна для крафта" />
+  <Text Key="entity_name_3683" Value="ЖЕЛЕЗО" />
+  <Text Key="entity_description_3683" Value="Создается путем крафта \nиз руды, кристаллов и гафния \nна основе чертежа" />
+  <!-- items/additional-equipment/extractor -->
+  <Text Key="entity_name_620" Value="Доб. модуль ШАХТА" />
+  <Text Key="entity_description_620" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <Text Key="entity_name_280" Value="Доб. модуль ШНЕК" />
+  <Text Key="entity_description_280" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <Text Key="entity_name_621" Value="Доб. модуль БУР" />
+  <Text Key="entity_description_621" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <Text Key="entity_name_623" Value="Доб. модуль НАСОС" />
+  <Text Key="entity_description_623" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <Text Key="entity_name_622" Value="Доб. модуль ШНЕК v.2" />
+  <Text Key="entity_description_622" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <Text Key="entity_name_624" Value="Доб. модуль БУР v.2" />
+  <Text Key="entity_description_624" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <Text Key="entity_name_2724" Value="Доб. модуль НАСОС v.2" />
+  <Text Key="entity_description_2724" Value="Буровое оборудование. \nБез его установки на мех-добытчик \nбурение невозможно" />
+  <!-- items/additional-equipment/hold -->
+  <Text Key="entity_name_626" Value="Трюм 6" />
+  <Text Key="entity_description_626" Value="Дополнительный трюм, \nдля любого робота" />
+  <Text Key="entity_name_625" Value="Трюм 12" />
+  <Text Key="entity_description_625" Value="Дополнительный трюм, \nдля любого робота" />
+  <Text Key="entity_name_281" Value="Трюм 17Т" />
+  <Text Key="entity_description_281" Value="Дополнительный трюм \nдля транспортного робота" />
+  <Text Key="entity_name_3929" Value="Трюм 24" />
+  <Text Key="entity_description_3929" Value="Дополнительный трюм, \nдля любого робота" />
+  <Text Key="entity_name_627" Value="Трюм 25Т" />
+  <Text Key="entity_description_627" Value="Дополнительный трюм \nдля транспортного робота" />
+  <Text Key="entity_name_628" Value="Трюм 32Т" />
+  <Text Key="entity_description_628" Value="Дополнительный трюм\nдля транспортного робота" />
+  <Text Key="entity_name_2149" Value="Трюм 40ТМ1" />
+  <Text Key="entity_description_2149" Value="Дополнительный трюм \nдля транспортного робота" />
+  <Text Key="entity_name_3930" Value="Трюм 48" />
+  <Text Key="entity_description_3930" Value="Дополнительный трюм \nдля любого робота" />
+  <Text Key="entity_name_2150" Value="Трюм 50ТМ1" />
+  <Text Key="entity_description_2150" Value="Дополнительный трюм \n для транспортного робота" />
+  <Text Key="entity_name_2148" Value="Трюм 60ТМ1" />
+  <Text Key="entity_description_2148" Value="Дополнительный трюм \nдля транспортного робота" />
+  <Text Key="entity_name_3931" Value="Трюм 70ТМ1" />
+  <Text Key="entity_description_3931" Value="Дополнительный трюм \nдля транспортного робота" />
+  <!-- items/ammo -->
+  <Text Key="entity_name_2601" Value="Пулемёт Стандарт" />
+  <Text Key="entity_description_2601" Value="Патроны для пулемета \nстандартной мощности" />
+  <Text Key="entity_name_2634" Value="Пулемёт +15" />
+  <Text Key="entity_description_2634" Value="Патроны для пулемета \n+15 мощности" />
+  <Text Key="entity_name_2635" Value="Пулемёт +25" />
+  <Text Key="entity_description_2635" Value="Патроны для пулемета \n+25 мощности" />
+  <Text Key="entity_name_2911" Value="Фазер Стандарт" />
+  <Text Key="entity_description_2911" Value="Патроны для фазера \nстандартной мощности" />
+  <Text Key="entity_name_2913" Value="Фазер +15" />
+  <Text Key="entity_description_2913" Value="Патроны для фазера \n+15 мощности" />
+  <Text Key="entity_name_2914" Value="Фазер +25" />
+  <Text Key="entity_description_2914" Value="Патроны для фазера \n+25 мощности" />
+  <Text Key="entity_name_2605" Value="Эмпп Стандарт" />
+  <Text Key="entity_description_2605" Value="Патроны для электромагнитной \nпушки стандартной мощности" />
+  <Text Key="entity_name_2636" Value="Эмпп +10" />
+  <Text Key="entity_description_2636" Value="Патроны для электромагнитной \nпушки +10 мощности" />
+  <Text Key="entity_name_2637" Value="Эмпп +20" />
+  <Text Key="entity_description_2637" Value="Патроны для электромагнитной \nпушки +20 мощности" />
+  <Text Key="entity_name_2607" Value="РК Стандарт" />
+  <Text Key="entity_description_2607" Value="Кассета для ракетного оружия \nстандартной мощности" />
+  <Text Key="entity_name_2638" Value="РК +20" />
+  <Text Key="entity_description_2638" Value="Кассета для ударного \nракетного оружия +20 мощности" />
+  <Text Key="entity_name_2639" Value="РК +30" />
+  <Text Key="entity_description_2639" Value="Кассета для ударного \nракетного оружия +30 мощности" />
+  <Text Key="entity_name_2640" Value="РК энрг +20" />
+  <Text Key="entity_description_2640" Value="Кассета для энергетического \nракетного оружия +20 мощности" />
+  <Text Key="entity_name_2641" Value="РК энрг +30" />
+  <Text Key="entity_description_2641" Value="Кассета для ударного \nракетного оружия +30 мощности" />
+  <Text Key="entity_name_2610" Value="Запчасти Стандарт" />
+  <Text Key="entity_description_2610" Value="Рабочие модули для ремонтной \nпушки стандартной мощности" />
+  <Text Key="entity_name_2632" Value="Запчасти Улучшенные +15" />
+  <Text Key="entity_description_2632" Value="Рабочие модули для ремонтной \nпушки +15 мощности" />
+  <Text Key="entity_name_2633" Value="Запчасти Улучшенные +30" />
+  <Text Key="entity_description_2633" Value="Рабочие модули для ремонтной \nпушки +30 мощности" />
+  <Text Key="entity_name_2603" Value="Пушка Стандарт" />
+  <Text Key="entity_description_2603" Value="Снаряды для пушки \nстандартной мощности" />
+  <Text Key="entity_name_2642" Value="Пушка +10" />
+  <Text Key="entity_description_2642" Value="Снаряды для пушки \n+10 мощности" />
+  <Text Key="entity_name_2643" Value="Пушка +20" />
+  <Text Key="entity_description_2643" Value="Снаряды для пушки \n+20 мощности" />
+  <Text Key="entity_name_3852" Value="Пулемёт энрг Стандарт" />
+  <Text Key="entity_description_3852" Value="Патроны для энергетического \nпулемета стандартной мощности" />
+  <Text Key="entity_name_3853" Value="Пулемёт энрг +15" />
+  <Text Key="entity_description_3853" Value="Патроны для энергетического \nпулемета +15 мощности" />
+  <Text Key="entity_name_3854" Value="Пулемёт энрг +25" />
+  <Text Key="entity_description_3854" Value="Патроны для энергетического \nпулемета +25 мощности" />
+  <Text Key="entity_name_3855" Value="Гаубица Стандарт" />
+  <Text Key="entity_description_3855" Value="Снаряды для гаубицы \nстандартной мощности" />
+  <Text Key="entity_name_3856" Value="Гаубица +15" />
+  <Text Key="entity_description_3856" Value="Снаряды для гаубицы \n+15 мощности" />
+  <Text Key="entity_name_3857" Value="Гаубица +35" />
+  <Text Key="entity_description_3857" Value="Снаряды для гаубицы \n+35 мощности" />
+  <Text Key="entity_name_3858" Value="Гранатомет Стандарт" />
+  <Text Key="entity_description_3858" Value="Снаряды для гранатомета \nстандартной мощности" />
+  <Text Key="entity_name_3859" Value="Гранатомет +10" />
+  <Text Key="entity_description_3859" Value="Снаряды для гранатомета \n+10 мощности" />
+  <Text Key="entity_name_3860" Value="Гранатомет +20" />
+  <Text Key="entity_description_3860" Value="Снаряды для гранатомета \n+20 мощности" />
+  <Text Key="entity_name_2611" Value="Пушка энрг Стандарт" />
+  <Text Key="entity_description_2611" Value="Снаряды для пушки \nэнергетической стандартной мощности" />
+  <Text Key="entity_name_2912" Value="Пушка энрг +10" />
+  <Text Key="entity_description_2912" Value="Снаряды для пушки \nэнергетической +10 мощности" />
+  <Text Key="entity_name_4006" Value="Пушка энрг +20" />
+  <Text Key="entity_description_4006" Value="Снаряды для пушки \nэнергетической +20 мощности" />
+  <Text Key="entity_name_2609" Value="Гаубица энрг Стандарт" />
+  <Text Key="entity_description_2609" Value="Снаряды для гаубицы \nэнергетической стандартной мощности" />
+  <Text Key="entity_name_4010" Value="Гаубица энрг +15" />
+  <Text Key="entity_description_4010" Value="Снаряды для гаубицы \nэнергетической +15 мощности" />
+  <Text Key="entity_name_4011" Value="Гаубица энрг +35" />
+  <Text Key="entity_description_4011" Value="Снаряды для гаубицы \nэнергетической +35 мощности" />
+  <Text Key="entity_name_2608" Value="Гранатомет энрг Стандарт" />
+  <Text Key="entity_description_2608" Value="Снаряды для гранатомета \nэнергетического стандартной мощности" />
+  <Text Key="entity_name_4008" Value="Гранатомет энрг +10" />
+  <Text Key="entity_description_4008" Value="Снаряды для гранатомета \nэнергетического +10 мощности" />
+  <Text Key="entity_name_4009" Value="Гранатомет энрг +20" />
+  <Text Key="entity_description_4009" Value="Снаряды для гранатомета \nэнергетического +20 мощности" />
+  <Text Key="entity_name_2604" Value="Мортира Стандарт" />
+  <Text Key="entity_description_2604" Value="Снаряды для мортиры \nстандартной мощности" />
+  <Text Key="entity_name_4012" Value="Мортира +10" />
+  <Text Key="entity_description_4012" Value="Снаряды для мортиры \n+10 мощности" />
+  <Text Key="entity_name_4013" Value="Мортира +20" />
+  <Text Key="entity_description_4013" Value="Снаряды для мортиры \n+20 мощности" />
+  <Text Key="entity_name_2602" Value="Пулемёт крупнокалиберный +15" />
+  <Text Key="entity_description_2602" Value="Патроны для пулемета \nкрупнокалиберного +15 мощности" />
+  <Text Key="entity_name_2606" Value="Пулемёт крупнокалиберный Стандарт" />
+  <Text Key="entity_description_2606" Value="Патроны для пулемета \nкрупнокалиберного стандартной мощности" />
+  <Text Key="entity_name_4007" Value="Пулемёт крупнокалиберный +25" />
+  <Text Key="entity_description_4007" Value="Патроны для пулемета \nкрупнокалиберного +25 мощности" />
+  <!-- items/chips -->
+  <Text Key="entity_name_104" Value="Чип ЭНЕРГОСНАБЖЕНИЕ" />
+  <Text Key="entity_description_104" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_190" Value="Чип ТРЮМ" />
+  <Text Key="entity_description_190" Value="Чип для увеличения емкости трюма" />
+  <Text Key="entity_name_279" Value="Чип ПОЛЕ" />
+  <Text Key="entity_description_279" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_288" Value="Чип ДОБЫЧА" />
+  <Text Key="entity_description_288" Value="Чип ускорения процесса добычи" />
+  <Text Key="entity_name_390" Value="Чип БРОНЯ" />
+  <Text Key="entity_description_390" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_388" Value="Чип БРОНЯ v.2" />
+  <Text Key="entity_description_388" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_391" Value="Чип ТРЮМ v.2" />
+  <Text Key="entity_description_391" Value="Чип для увеличения емкости трюма" />
+  <Text Key="entity_name_463" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.2" />
+  <Text Key="entity_description_463" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_466" Value="Чип ДОБЫЧА v.2" />
+  <Text Key="entity_description_466" Value="Чип ускорения процесса добычи" />
+  <Text Key="entity_name_616" Value="Чип ПОЛЕ v.2" />
+  <Text Key="entity_description_616" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_1369" Value="Чип ПРОГРАММИРУЕМЫЙ" />
+  <Text Key="entity_description_1369" Value="Выдается за победу в ТОК боях. \nИмеет настраиваемые параметры" />
+  <Text Key="entity_name_617" Value="Чип БРОНЯ v.3" />
+  <Text Key="entity_description_617" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_835" Value="Чип ТРЮМ v.3" />
+  <Text Key="entity_description_835" Value="Чип для увеличения емкости трюма" />
+  <Text Key="entity_name_1076" Value="Чип ПОЛЕ v.3" />
+  <Text Key="entity_description_1076" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_1077" Value="Чип ДОБЫЧА v.3" />
+  <Text Key="entity_description_1077" Value="Чип ускорения процесса добычи" />
+  <Text Key="entity_name_1364" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.3" />
+  <Text Key="entity_description_1364" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_1712" Value="Чип ОГНЕСТРЕЛЬНОЕ" />
+  <Text Key="entity_description_1712" Value="Чип увеличения мощности \nдля огнестрельного оружия" />
+  <Text Key="entity_name_1713" Value="Чип РАКЕТНЫЙ КОМПЛЕКС" />
+  <Text Key="entity_description_1713" Value="Чип увеличения мощности \nдля ракетного оружия" />
+  <Text Key="entity_name_2103" Value="Чип ЭНЕРГЕТИЧЕСКОЕ" />
+  <Text Key="entity_description_2103" Value="Чип увеличения мощности \nдля энергетического оружия" />
+  <Text Key="entity_name_618" Value="Чип БРОНЯ v.4" />
+  <Text Key="entity_description_618" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_619" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.4" />
+  <Text Key="entity_description_619" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_1071" Value="Чип ПОЛЕ v.4" />
+  <Text Key="entity_description_1071" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_1714" Value="Чип ТРЮМ v.4" />
+  <Text Key="entity_description_1714" Value="Чип для увеличения емкости трюма" />
+  <Text Key="entity_name_2104" Value="Чип ДОБЫЧА v.4" />
+  <Text Key="entity_description_2104" Value="Чип ускорения процесса добычи" />
+  <Text Key="entity_name_2198" Value="Чип БРОНЯ v.5" />
+  <Text Key="entity_description_2198" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_2199" Value="Чип ДОБЫЧА v.5" />
+  <Text Key="entity_description_2199" Value="Чип ускорения процесса добычи" />
+  <Text Key="entity_name_2200" Value="Чип ПОЛЕ v.5" />
+  <Text Key="entity_description_2200" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_2722" Value="Чип ТРЮМ v.5" />
+  <Text Key="entity_description_2722" Value="Чип для увеличения емкости трюма" />
+  <Text Key="entity_name_2723" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.5" />
+  <Text Key="entity_description_2723" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_2177" Value="z_Чип ГДИС" />
+  <Text Key="entity_description_2177" Value="Чип увеличения брони робота" />
+  <Text Key="entity_name_2178" Value="z_Чип СБИС" />
+  <Text Key="entity_description_2178" Value="Чип увеличения скорости робота" />
+  <Text Key="entity_name_2179" Value="z_Чип ТЕМР" />
+  <Text Key="entity_description_2179" Value="Чип увеличения прочности робота" />
+  <Text Key="entity_name_2905" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.6" />
+  <Text Key="entity_description_2905" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_2908" Value="Чип ПОЛЕ v.6" />
+  <Text Key="entity_description_2908" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_3168" Value="Чип БРОНЯ v.6" />
+  <Text Key="entity_description_3168" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_2906" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.7" />
+  <Text Key="entity_description_2906" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_2909" Value="Чип ПОЛЕ v.7" />
+  <Text Key="entity_description_2909" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_3169" Value="Чип БРОНЯ v.7" />
+  <Text Key="entity_description_3169" Value="Чип для увеличения \nброневой защиты робота" />
+  <Text Key="entity_name_2907" Value="Чип ЭНЕРГОСНАБЖЕНИЕ v.8" />
+  <Text Key="entity_description_2907" Value="Чип увеличения мощности \nэнергоустановки робота" />
+  <Text Key="entity_name_2910" Value="Чип ПОЛЕ v.8" />
+  <Text Key="entity_description_2910" Value="Чип для усиления \nзащитных полей робота" />
+  <Text Key="entity_name_3170" Value="Чип БРОНЯ v.8" />
+  <Text Key="entity_description_3170" Value="Чип для увеличения \nброневой защиты робота" />
+  <!-- items/energy/drives -->
+  <Text Key="description_energy_drives" Value="Накопитель энергии, производимой реактором. \nПодходит для любого робота" />
+  <Text Key="entity_name_325" Value="Накопитель" />
+  <Text Key="entity_description_325" Value="{description_energy_drives}" />
+  <Text Key="entity_name_144" Value="Накопитель 4" />
+  <Text Key="entity_description_144" Value="{description_energy_drives}" />
+  <Text Key="entity_name_326" Value="Накопитель 7" />
+  <Text Key="entity_description_326" Value="{description_energy_drives}" />
+  <Text Key="entity_name_327" Value="Накопитель 9" />
+  <Text Key="entity_description_327" Value="{description_energy_drives}" />
+  <Text Key="entity_name_554" Value="Накопитель 12" />
+  <Text Key="entity_description_554" Value="{description_energy_drives}" />
+  <Text Key="entity_name_328" Value="Накопитель 16" />
+  <Text Key="entity_description_328" Value="{description_energy_drives}" />
+  <Text Key="entity_name_1867" Value="Накопитель 20М1" />
+  <Text Key="entity_description_1867" Value="{description_energy_drives}" />
+  <Text Key="entity_name_435" Value="Накопитель 24" />
+  <Text Key="entity_description_435" Value="{description_energy_drives}" />
+  <Text Key="entity_name_555" Value="Накопитель 27" />
+  <Text Key="entity_description_555" Value="{description_energy_drives}" />
+  <Text Key="entity_name_1868" Value="Накопитель 27М1" />
+  <Text Key="entity_description_1868" Value="{description_energy_drives}" />
+  <Text Key="entity_name_436" Value="Накопитель 30" />
+  <Text Key="entity_description_436" Value="{description_energy_drives}" />
+  <Text Key="entity_name_437" Value="Накопитель 34" />
+  <Text Key="entity_description_437" Value="{description_energy_drives}" />
+  <Text Key="entity_name_1869" Value="Накопитель 34М1" />
+  <Text Key="entity_description_1869" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2689" Value="Накопитель 44" />
+  <Text Key="entity_description_2689" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2690" Value="Накопитель 44М1" />
+  <Text Key="entity_description_2690" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2691" Value="Накопитель 54" />
+  <Text Key="entity_description_2691" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2692" Value="Накопитель 54М1" />
+  <Text Key="entity_description_2692" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2693" Value="Накопитель 64" />
+  <Text Key="entity_description_2693" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2694" Value="Накопитель 64М1" />
+  <Text Key="entity_description_2694" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2695" Value="Накопитель 74" />
+  <Text Key="entity_description_2695" Value="{description_energy_drives}" />
+  <Text Key="entity_name_2696" Value="Накопитель 74М1" />
+  <Text Key="entity_description_2696" Value="{description_energy_drives}" />
+  <Text Key="entity_name_3873" Value="Накопитель 84" />
+  <Text Key="entity_description_3873" Value="{description_energy_drives}" />
+  <Text Key="entity_name_3875" Value="Накопитель 84М1" />
+  <Text Key="entity_description_3875" Value="{description_energy_drives}" />
+  <Text Key="entity_name_4135" Value="Накопитель 94 М1" />
+  <Text Key="entity_description_4135" Value="{description_energy_drives}" />
+  <!-- items/energy/reactors -->
+  <Text Key="description_reactors" Value="Энергетическая силовая установка. \nПодходит для любого робота" />
+  <Text Key="entity_name_443" Value="Реактор" />
+  <Text Key="entity_description_443" Value="{description_reactors}" />
+  <Text Key="entity_name_1742" Value="Реактор" />
+  <Text Key="entity_description_1742" Value="{description_reactors}" />
+  <Text Key="entity_name_276" Value="Реактор 4" />
+  <Text Key="entity_description_276" Value="{description_reactors}" />
+  <Text Key="entity_name_444" Value="Реактор 7" />
+  <Text Key="entity_description_444" Value="{description_reactors}" />
+  <Text Key="entity_name_557" Value="Реактор 9" />
+  <Text Key="entity_description_557" Value="{description_reactors}" />
+  <Text Key="entity_name_459" Value="Реактор 12" />
+  <Text Key="entity_description_459" Value="{description_reactors}" />
+  <Text Key="entity_name_460" Value="Реактор 16" />
+  <Text Key="entity_description_460" Value="{description_reactors}" />
+  <Text Key="entity_name_1864" Value="Реактор 20М1" />
+  <Text Key="entity_description_1864" Value="{description_reactors}" />
+  <Text Key="entity_name_445" Value="Реактор 24" />
+  <Text Key="entity_description_445" Value="{description_reactors}" />
+  <Text Key="entity_name_450" Value="Реактор 27" />
+  <Text Key="entity_description_450" Value="{description_reactors}" />
+  <Text Key="entity_name_447" Value="Реактор 30" />
+  <Text Key="entity_description_447" Value="{description_reactors}" />
+  <Text Key="entity_name_1865" Value="Реактор 30М1" />
+  <Text Key="entity_description_1865" Value="{description_reactors}" />
+  <Text Key="entity_name_559" Value="Реактор 34" />
+  <Text Key="entity_description_559" Value="{description_reactors}" />
+  <Text Key="entity_name_374" Value="Реактор 38" />
+  <Text Key="entity_description_374" Value="{description_reactors}" />
+  <Text Key="entity_name_375" Value="Реактор 41" />
+  <Text Key="entity_description_375" Value="{description_reactors}" />
+  <Text Key="entity_name_1866" Value="Реактор 41М1" />
+  <Text Key="entity_description_1866" Value="{description_reactors}" />
+  <Text Key="entity_name_377" Value="Реактор 44" />
+  <Text Key="entity_description_377" Value="{description_reactors}" />
+  <Text Key="entity_name_378" Value="Реактор 47" />
+  <Text Key="entity_description_378" Value="{description_reactors}" />
+  <Text Key="entity_name_379" Value="Реактор 50" />
+  <Text Key="entity_description_379" Value="{description_reactors}" />
+  <Text Key="entity_name_2697" Value="Реактор 63" />
+  <Text Key="entity_description_2697" Value="{description_reactors}" />
+  <Text Key="entity_name_2698" Value="Реактор 63М1" />
+  <Text Key="entity_description_2698" Value="{description_reactors}" />
+  <Text Key="entity_name_2699" Value="Реактор 73" />
+  <Text Key="entity_description_2699" Value="{description_reactors}" />
+  <Text Key="entity_name_2700" Value="Реактор 73М1" />
+  <Text Key="entity_description_2700" Value="{description_reactors}" />
+  <Text Key="entity_name_3877" Value="Реактор 83" />
+  <Text Key="entity_description_3877" Value="{description_reactors}" />
+  <Text Key="entity_name_3879" Value="Реактор 83М1" />
+  <Text Key="entity_description_3879" Value="{description_reactors}" />
+  <Text Key="entity_name_4139" Value="Реактор 93 М1" />
+  <Text Key="entity_description_4139" Value="{description_reactors}" />
+  <!-- items/protection/armor -->
+  <Text Key="description_armors" Value="Броневая защита. \nПодходит для любого робота" />
+  <Text Key="entity_name_683" Value="Броня" />
+  <Text Key="entity_description_683" Value="{description_armors}" />
+  <Text Key="entity_name_376" Value="Броня 4" />
+  <Text Key="entity_description_376" Value="{description_armors}" />
+  <Text Key="entity_name_685" Value="Броня 8" />
+  <Text Key="entity_description_685" Value="{description_armors}" />
+  <Text Key="entity_name_686" Value="Броня 13" />
+  <Text Key="entity_description_686" Value="{description_armors}" />
+  <Text Key="entity_name_359" Value="Броня 18" />
+  <Text Key="entity_description_359" Value="{description_armors}" />
+  <Text Key="entity_name_363" Value="Броня 22" />
+  <Text Key="entity_description_363" Value="{description_armors}" />
+  <Text Key="entity_name_1861" Value="Броня 22М1" />
+  <Text Key="entity_description_1861" Value="{description_armors}" />
+  <Text Key="entity_name_364" Value="Броня 26" />
+  <Text Key="entity_description_364" Value="{description_armors}" />
+  <Text Key="entity_name_369" Value="Броня 29" />
+  <Text Key="entity_description_369" Value="{description_armors}" />
+  <Text Key="entity_name_1862" Value="Броня 29М1" />
+  <Text Key="entity_description_1862" Value="{description_armors}" />
+  <Text Key="entity_name_370" Value="Броня 33" />
+  <Text Key="entity_description_370" Value="{description_armors}" />
+  <Text Key="entity_name_360" Value="Броня 35" />
+  <Text Key="entity_description_360" Value="{description_armors}" />
+  <Text Key="entity_name_361" Value="Броня 38" />
+  <Text Key="entity_description_361" Value="{description_armors}" />
+  <Text Key="entity_name_362" Value="Броня 40" />
+  <Text Key="entity_description_362" Value="{description_armors}" />
+  <Text Key="entity_name_1863" Value="Броня 40М1" />
+  <Text Key="entity_description_1863" Value="{description_armors}" />
+  <Text Key="entity_name_365" Value="Броня 42" />
+  <Text Key="entity_description_365" Value="{description_armors}" />
+  <Text Key="entity_name_366" Value="Броня 45" />
+  <Text Key="entity_description_366" Value="{description_armors}" />
+  <Text Key="entity_name_367" Value="Броня 47" />
+  <Text Key="entity_description_367" Value="{description_armors}" />
+  <Text Key="entity_name_368" Value="Броня 50" />
+  <Text Key="entity_description_368" Value="{description_armors}" />
+  <Text Key="entity_name_2707" Value="Броня 50М1" />
+  <Text Key="entity_description_2707" Value="{description_armors}" />
+  <Text Key="entity_name_2706" Value="Броня 60М1" />
+  <Text Key="entity_description_2706" Value="{description_armors}" />
+  <Text Key="entity_name_2708" Value="Броня 60" />
+  <Text Key="entity_description_2708" Value="{description_armors}" />
+  <Text Key="entity_name_2709" Value="Броня 71" />
+  <Text Key="entity_description_2709" Value="{description_armors}" />
+  <Text Key="entity_name_2710" Value="Броня 71М1" />
+  <Text Key="entity_description_2710" Value="{description_armors}" />
+  <Text Key="entity_name_3885" Value="Броня 81" />
+  <Text Key="entity_description_3885" Value="{description_armors}" />
+  <Text Key="entity_name_3887" Value="Броня 81М1" />
+  <Text Key="entity_description_3887" Value="{description_armors}" />
+  <Text Key="entity_name_4117" Value="Броня 91 М1" />
+  <Text Key="entity_description_4117" Value="{description_armors}" />
+  <!-- items/protection/protective-field -->
+  <Text Key="description_protective_fields" Value="Энергетическая силовая защита. \nПодходит для любого робота" />
+  <Text Key="entity_name_337" Value="Защитное поле" />
+  <Text Key="entity_description_337" Value="{description_protective_fields}" />
+  <Text Key="entity_name_338" Value="Защитное поле 4" />
+  <Text Key="entity_description_338" Value="{description_protective_fields}" />
+  <Text Key="entity_name_339" Value="Защитное поле 7" />
+  <Text Key="entity_description_339" Value="{description_protective_fields}" />
+  <Text Key="entity_name_340" Value="Защитное поле 9" />
+  <Text Key="entity_description_340" Value="{description_protective_fields}" />
+  <Text Key="entity_name_341" Value="Защитное поле 12" />
+  <Text Key="entity_description_341" Value="{description_protective_fields}" />
+  <Text Key="entity_name_342" Value="Защитное поле 16" />
+  <Text Key="entity_description_342" Value="{description_protective_fields}" />
+  <Text Key="entity_name_577" Value="Защитное поле 20" />
+  <Text Key="entity_description_577" Value="{description_protective_fields}" />
+  <Text Key="entity_name_1870" Value="Защитное поле 20М1" />
+  <Text Key="entity_description_1870" Value="{description_protective_fields}" />
+  <Text Key="entity_name_343" Value="Защитное поле 24" />
+  <Text Key="entity_description_343" Value="{description_protective_fields}" />
+  <Text Key="entity_name_344" Value="Защитное поле 27" />
+  <Text Key="entity_description_344" Value="{description_protective_fields}" />
+  <Text Key="entity_name_345" Value="Защитное поле 30" />
+  <Text Key="entity_description_345" Value="{description_protective_fields}" />
+  <Text Key="entity_name_1871" Value="Защитное поле 30М1" />
+  <Text Key="entity_description_1871" Value="{description_protective_fields}" />
+  <Text Key="entity_name_346" Value="Защитное поле 34" />
+  <Text Key="entity_description_346" Value="{description_protective_fields}" />
+  <Text Key="entity_name_575" Value="Защитное поле 37" />
+  <Text Key="entity_description_575" Value="{description_protective_fields}" />
+  <Text Key="entity_name_576" Value="Защитное поле 40" />
+  <Text Key="entity_description_576" Value="{description_protective_fields}" />
+  <Text Key="entity_name_1872" Value="Защитное поле 40М1" />
+  <Text Key="entity_description_1872" Value="{description_protective_fields}" />
+  <Text Key="entity_name_578" Value="Защитное поле 43" />
+  <Text Key="entity_description_578" Value="{description_protective_fields}" />
+  <Text Key="entity_name_372" Value="Защитное поле 46" />
+  <Text Key="entity_description_372" Value="{description_protective_fields}" />
+  <Text Key="entity_name_373" Value="Защитное поле 50" />
+  <Text Key="entity_description_373" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2125" Value="Защитное поле 55" />
+  <Text Key="entity_description_2125" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2701" Value="Защитное поле 55М1" />
+  <Text Key="entity_description_2701" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2126" Value="Защитное поле 60" />
+  <Text Key="entity_description_2126" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2702" Value="Защитное поле 65" />
+  <Text Key="entity_description_2702" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2703" Value="Защитное поле 65М1" />
+  <Text Key="entity_description_2703" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2704" Value="Защитное поле 75" />
+  <Text Key="entity_description_2704" Value="{description_protective_fields}" />
+  <Text Key="entity_name_2705" Value="Защитное поле 75М1" />
+  <Text Key="entity_description_2705" Value="{description_protective_fields}" />
+  <Text Key="entity_name_3881" Value="Защитное поле 85" />
+  <Text Key="entity_description_3881" Value="{description_protective_fields}" />
+  <Text Key="entity_name_3883" Value="Защитное поле 85М1" />
+  <Text Key="entity_description_3883" Value="{description_protective_fields}" />
+  <Text Key="entity_name_4131" Value="Защитное поле 95 М1" />
+  <Text Key="entity_description_4131" Value="{description_protective_fields}" />
+  <!-- items/stencil -->
+  <Text Key="entity_name_3460" Value="Трафарет: Череп" />
+  <Text Key="entity_description_3460" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3461" Value="Трафарет: Кольцо" />
+  <Text Key="entity_description_3461" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3462" Value="Трафарет: Заливка" />
+  <Text Key="entity_description_3462" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3512" Value="Трафарет: Сердце" />
+  <Text Key="entity_description_3512" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3513" Value="Трафарет: Треф" />
+  <Text Key="entity_description_3513" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3515" Value="Трафарет: Звезда" />
+  <Text Key="entity_description_3515" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3516" Value="Трафарет: Серп и Молот" />
+  <Text Key="entity_description_3516" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3517" Value="Трафарет: Стрелка вправо" />
+  <Text Key="entity_description_3517" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3519" Value="Трафарет: Птица" />
+  <Text Key="entity_description_3519" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3524" Value="Трафарет: Узор 2" />
+  <Text Key="entity_description_3524" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3525" Value="Трафарет: Узор 3" />
+  <Text Key="entity_description_3525" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3526" Value="Трафарет: Узор 4" />
+  <Text Key="entity_description_3526" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3527" Value="Трафарет: Узор 5" />
+  <Text Key="entity_description_3527" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3528" Value="Трафарет: Узор 6" />
+  <Text Key="entity_description_3528" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3529" Value="Трафарет: Узор 7" />
+  <Text Key="entity_description_3529" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3530" Value="Трафарет: Узор " />
+  <Text Key="entity_description_3530" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3531" Value="Трафарет: Узор 8" />
+  <Text Key="entity_description_3531" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3532" Value="Трафарет: Узор 9" />
+  <Text Key="entity_description_3532" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3533" Value="Трафарет: Узор 10" />
+  <Text Key="entity_description_3533" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3534" Value="Трафарет: Узор 11" />
+  <Text Key="entity_description_3534" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3535" Value="Трафарет: Узор 12" />
+  <Text Key="entity_description_3535" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3536" Value="Трафарет: Узор 13" />
+  <Text Key="entity_description_3536" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3537" Value="Трафарет: Узор 14" />
+  <Text Key="entity_description_3537" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3538" Value="Трафарет: Узор 15" />
+  <Text Key="entity_description_3538" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3539" Value="Трафарет: Узор 16" />
+  <Text Key="entity_description_3539" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3540" Value="Трафарет: Узор 17" />
+  <Text Key="entity_description_3540" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3541" Value="Трафарет: Узор 18" />
+  <Text Key="entity_description_3541" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3542" Value="Трафарет: Узор 19" />
+  <Text Key="entity_description_3542" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3543" Value="Трафарет: Узор 20" />
+  <Text Key="entity_description_3543" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3544" Value="Трафарет: Узор 21" />
+  <Text Key="entity_description_3544" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3545" Value="Трафарет: Узор 22" />
+  <Text Key="entity_description_3545" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3546" Value="Трафарет: Узор 23" />
+  <Text Key="entity_description_3546" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3547" Value="Трафарет: Узор 24" />
+  <Text Key="entity_description_3547" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3548" Value="Трафарет: Узор 25" />
+  <Text Key="entity_description_3548" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3549" Value="Трафарет: Узор 26" />
+  <Text Key="entity_description_3549" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3552" Value="Трафарет: Цветок" />
+  <Text Key="entity_description_3552" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3553" Value="Трафарет: Узор 27" />
+  <Text Key="entity_description_3553" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3554" Value="Трафарет: Узор 28" />
+  <Text Key="entity_description_3554" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3555" Value="Трафарет: Узор 29" />
+  <Text Key="entity_description_3555" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3556" Value="Трафарет: Узор 30" />
+  <Text Key="entity_description_3556" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3560" Value="Трафарет: Бык" />
+  <Text Key="entity_description_3560" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3563" Value="Трафарет: Паук" />
+  <Text Key="entity_description_3563" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3564" Value="Трафарет: Паук 1" />
+  <Text Key="entity_description_3564" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3565" Value="Трафарет: Узор 31" />
+  <Text Key="entity_description_3565" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3567" Value="Трафарет: Узор 32" />
+  <Text Key="entity_description_3567" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3568" Value="Трафарет: Череп 1" />
+  <Text Key="entity_description_3568" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3569" Value="Трафарет: Череп 2" />
+  <Text Key="entity_description_3569" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3570" Value="Трафарет: Череп 3" />
+  <Text Key="entity_description_3570" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3571" Value="Трафарет: Череп 4" />
+  <Text Key="entity_description_3571" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3578" Value="Трафарет: Узор 33" />
+  <Text Key="entity_description_3578" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3579" Value="Трафарет: Узор 34" />
+  <Text Key="entity_description_3579" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3580" Value="Трафарет: Квадрат" />
+  <Text Key="entity_description_3580" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3581" Value="Трафарет: Квадрат скругленный" />
+  <Text Key="entity_description_3581" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3582" Value="Трафарет: Овал" />
+  <Text Key="entity_description_3582" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3583" Value="Трафарет: Шестиугольник" />
+  <Text Key="entity_description_3583" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3584" Value="Трафарет: Треугольник" />
+  <Text Key="entity_description_3584" Value="Рисунок для украшения робота" />
+  <Text Key="entity_name_3585" Value="Добавить слот для трафарета" />
+  <Text Key="entity_description_3585" Value="Предмет, покупаемый при нехватке \nбесплатных слотов для трафаретов, \nпредлагаемых в покрасочной мастерской" />
+  <!-- items/used/gifts -->
+  <Text Key="entity_name_2928" Value="Подарок" />
+  <Text Key="entity_description_2928" Value="Подарок можно купить в магазине, \nполучить или скрафтить во время эвента. \nСодержит лут, ресурсы или оружие" />
+  <Text Key="entity_name_3642" Value="Подарок Большой" />
+  <Text Key="entity_description_3642" Value="Подарок можно купить в магазине, \nполучить или скрафтить во время эвента. \nСодержит лут, ресурсы или оружие" />
+  <Text Key="entity_name_3918" Value="Подарок Огромный" />
+  <Text Key="entity_description_3918" Value="Подарок можно купить в магазине, \nполучить или скрафтить во время эвента. \nСодержит лут, ресурсы или оружие" />
+  <Text Key="entity_name_645" Value="Кольцо" />
+  <Text Key="entity_description_645" Value="Кольцо можно купить в магазине или получить \nво время эвента. Содержит кротолут, \nресурсы, апгрейды или оружие" />
+  <Text Key="entity_name_1060" Value="Сердечко" />
+  <Text Key="entity_description_1060" Value="Сердечко можно купить в магазине или получить \nво время эвента. Содержит кротолут, \nресурсы, апгрейды или оружие" />
+  <Text Key="entity_name_1067" Value="Цветы" />
+  <Text Key="entity_description_1067" Value="Цветы можно купить в магазине или получить \nво время эвента. Содержит кротолут, \nресурсы, апгрейды или оружие" />
+  <Text Key="entity_name_2936" Value="Кольцо " />
+  <Text Key="entity_description_2936" Value="Кольцо можно купить в магазине или получить \nво время эвента. Содержит кротолут, \nресурсы, апгрейды или оружие" />
+  <Text Key="entity_name_2937" Value="Поцелуй" />
+  <Text Key="entity_description_2937" Value="Этот предмет можно купить \nв магазине или получить во время эвента. \nСодержит кротолут, ресурсы, апгрейды или оружие" />
+  <Text Key="entity_name_2938" Value="Мишка" />
+  <Text Key="entity_description_2938" Value="Мишку можно купить в магазине или получить \nво время эвента. Содержит кротолут, \nресурсы, апгрейды или оружие" />
+  <Text Key="entity_name_2939" Value="Мишка " />
+  <Text Key="entity_description_2939" Value="Мишку можно купить в магазине или получить \nво время эвента. Содержит кротолут, \nресурсы, апгрейды или оружие" />
+  <!-- items/used/invisibility -->
+  <Text Key="entity_name_3847" Value="Невидимость 1 мин" />
+  <Text Key="entity_description_3847" Value="Делает тебя невидимкой для \nдругих игроков, если стоять на месте \nили если враг не использует меха-разведчика. \nВ бою невидимость заставляет врага \nчаще промахиваться" />
+  <Text Key="entity_name_3848" Value="Невидимость 5 мин" />
+  <Text Key="entity_description_3848" Value="Делает тебя невидимкой для \nдругих игроков, если стоять на месте \nили если враг не использует меха-разведчика. \nВ бою невидимость заставляет врага \nчаще промахиваться" />
+  <Text Key="entity_name_3849" Value="Невидимость 30 мин" />
+  <Text Key="entity_description_3849" Value="Делает тебя невидимкой для \nдругих игроков, если стоять на месте \nили если враг не использует меха-разведчика. \nВ бою невидимость заставляет врага \nчаще промахиваться" />
+  <!-- items/used/packs -->
+  <Text Key="entity_name_3520" Value="РЕМПАК БОЛЬШОЙ" />
+  <Text Key="entity_description_3520" Value="При распаковке получаешь \n400шт запчастей, восстанавливающих \n3900 хп каждая, вес после распаковки - 108000. \nОсторожнее." />
+  <Text Key="entity_name_3659" Value="РЕМПАК ОГРОМНЫЙ" />
+  <Text Key="entity_description_3659" Value="При распаковке получаешь \n400шт запчастей, восстанавливающих \n9000 хп каждая, вес после распаковки - 216000. \nОсторожнее." />
+  <Text Key="entity_name_3735" Value="ПАК ЗАЩИТА 100" />
+  <Text Key="entity_description_3735" Value="На 10 минут увеличивает \nстаты брони и полей" />
+  <Text Key="entity_name_3737" Value="ПАК БРОНЯ 100" />
+  <Text Key="entity_description_3737" Value="На 10 минут увеличивает \nстаты брони" />
+  <Text Key="entity_name_3739" Value="ПАК ПОЛЯ 100" />
+  <Text Key="entity_description_3739" Value="На 10 минут увеличивает \nстаты полей" />
+  <Text Key="entity_name_3743" Value="ПАК ПРОЧНОСТЬ 100" />
+  <Text Key="entity_description_3743" Value="На 10 минут увеличивает \nпрочность робота" />
+  <Text Key="entity_name_3744" Value="ПАК СКОРОСТЬ 100" />
+  <Text Key="entity_description_3744" Value="На 10 минут увеличивает \nскорость робота" />
+  <Text Key="entity_name_4107" Value="ПАК РЕСУРСЫ" />
+  <Text Key="entity_description_4107" Value="Внутри 100 гафния, \n1000 руды и по 3000 \nкристаллов каждого вида" />
+  <!-- items/used/repair -->
+  <Text Key="entity_name_284" Value="Комплект запчастей  МАЛЫЙ" />
+  <Text Key="entity_description_284" Value="Продается только в магазине. \nБывает необходим для крафта \nили апгрейда робота." />
+  <Text Key="entity_name_631" Value="Комплект запчастей СРЕДНИЙ" />
+  <Text Key="entity_description_631" Value="Продается в магазине или \nвыбивается из мобов и кротов. \nБывает необходим для крафта \nили апгрейда робота." />
+  <Text Key="entity_name_632" Value="Комплект запчастей БОЛЬШОЙ" />
+  <Text Key="entity_description_632" Value="Продается в магазине или \nвыбивается из мобов и кротов. \nБывает необходим для крафта \nили апгрейда робота." />
+  <Text Key="entity_name_3658" Value="Комплект запчастей ОГРОМНЫЙ" />
+  <Text Key="entity_description_3658" Value="Продается в магазине в виде пака, \nсоздается крафтом на Заводе \nили выбивается из мобов и кротов. \nБывает необходим для крафта \nили апгрейда робота." />
+  <!-- items/used/scanner -->
+  <Text Key="entity_name_3457" Value="Сканер 6000" />
+  <Text Key="entity_description_3457" Value="В течении 5 минут показывает \nвсе передвижения противника в области карты \n3*3 квадрата при нахождении сканирующего \nробота-разведчика в его середине. \nРезультат сканирования виден всем \nчленам твоей нации" />
+  <Text Key="entity_name_3458" Value="Сканер 20000" />
+  <Text Key="entity_description_3458" Value="В течении 5 минут показывает \nвсе передвижения противника в области карты \n5*5 квадратов при нахождении сканирующего \nробота-разведчика в его середине. \nРезультат сканирования виден всем \nчленам твоей нации" />
+  <Text Key="entity_name_3459" Value="Сканер карты" />
+  <Text Key="entity_description_3459" Value="В течении 5 минут показывает \nвсе передвижения противника по всей карте. \nРезультат сканирования виден всем \nчленам твоей нации" />
+  <Text Key="entity_name_3863" Value="Сканер карты 1 час" />
+  <Text Key="entity_description_3863" Value="В течении 1 часа показывает \nвсе передвижения противника по всей карте. \nРезультат сканирования виден всем \nчленам твоей нации" />
+  <Text Key="entity_name_3890" Value="Сканер карты индивидуальный" />
+  <Text Key="entity_description_3890" Value="В течении 5 минут показывает \nвсе передвижения противника, а также \nмонстров-боссов по всей карте. \nРезультат сканирования виден только тебе" />
+  <!-- items/used/set -->
+  <Text Key="entity_name_842" Value="Ёлка новогодняя " />
+  <Text Key="entity_description_842" Value="Красивое украшение. \nСтоит правда не вечно" />
+  <Text Key="entity_name_1124" Value="Рк защита малая" />
+  <Text Key="entity_description_1124" Value="Стреляет во все, что движется, \nи патронов не требует" />
+  <Text Key="entity_name_2669" Value="Стационарный доб модуль М3" />
+  <Text Key="entity_description_2669" Value="Добывает циклами по 3 кристалла \nза 5 минут. После 2х циклов автоудаляется \nв трюм установившего транспорта." />
+  <Text Key="entity_name_2675" Value="Стационарный доб модуль М6" />
+  <Text Key="entity_description_2675" Value="Добывает циклами по 6 кристаллов \nза 5 минут. После 2х циклов автоудаляется \nв трюм установившего транспорта." />
+  <Text Key="entity_name_2901" Value="Стационарный доб модуль М9 регл" />
+  <Text Key="entity_description_2901" Value="Добывает циклами по 9 кристаллов \nза 5 минут. После 2х циклов автоудаляется \nв трюм установившего транспорта." />
+  <Text Key="entity_name_2904" Value="Демонтируемая стена" />
+  <Text Key="entity_description_2904" Value="Дает временное укрытие от огня врагов" />
+  <Text Key="entity_name_2988" Value="Пулемет защита наций" />
+  <Text Key="entity_description_2988" Value="Дополнительная огневая точка, \nустанавливается и снимается транспортным \nроботом в комплекте до 3х шт одновременно. \nПри ее уничтожении восстановлению не подлежит." />
+  <Text Key="entity_name_2998" Value="Пулемет защита наций рем" />
+  <Text Key="entity_description_2998" Value="Дополнительная огневая точка, \nустанавливается и снимается транспортным \nроботом в комплекте до 2х шт одновременно. \nВ случае разрушения может быть \nвосстановлен установившим игроком." />
+  <Text Key="entity_name_3043" Value="ЭНЕРГОБЛОК рем" />
+  <Text Key="entity_description_3043" Value="Устанавливается на спецплощадке \nвозле бункеров наций. При разрушении всех \nблоков телепортация к бункеру невозможна. \nРазрушенный блок ремонту подлежит." />
+  <Text Key="entity_name_3048" Value="Пулемет оборона базы рем" />
+  <Text Key="entity_description_3048" Value="Дополнительная огневая точка, \nпредназначенная для защиты территории. \nДемонтировать невозможно. В случае разрушения \nвосстанавливается самостоятельно." />
+  <Text Key="entity_name_3678" Value="ЭНЕРГОБЛОК РАСШИРЕННЫЙ " />
+  <Text Key="entity_description_3678" Value="Устанавливается на спецплощадке \nвозле бункеров наций. При повреждениях \nремонтируется автоматически. При разрушении \nвсех блоков телепортация к бункеру невозможна. \nРазрушенный блок ремонту подлежит." />
+  <Text Key="entity_name_3915" Value="Демонтируемая стена БОЛЬШАЯ" />
+  <Text Key="entity_description_3915" Value="Дает временное укрытие от огня врагов" />
+  <!-- items/used/shockers -->
+  <Text Key="entity_name_285" Value="Шокер МАЛЫЙ" />
+  <Text Key="entity_description_285" Value="Аварийный восстановитель \nуровня энергии" />
+  <Text Key="entity_name_1778" Value="z_Батарейки Nuc-100" />
+  <Text Key="entity_description_1778" Value="Мощный источник энергии" />
+  <Text Key="entity_name_629" Value="Шокер СРЕДНИЙ" />
+  <Text Key="entity_description_629" Value="Аварийный восстановитель \nуровня энергии" />
+  <Text Key="entity_name_630" Value="Шокер БОЛЬШОЙ" />
+  <Text Key="entity_description_630" Value="Аварийный восстановитель \nуровня энергии" />
+  <!-- items/used/teleporting -->
+  <Text Key="entity_name_1684" Value="ТЕЛЕПОРТАТОР" />
+  <Text Key="entity_description_1684" Value="Переносит в последнее посещенное \nздание, исключая бункеры Базы кротов. \nОрганический лут, кристаллы, \nруду и гафний не переносит" />
+  <Text Key="entity_name_2958" Value="ТП ОБУЧАЮЩИЙ КРОТЫ" />
+  <Text Key="entity_description_2958" Value="Переносит на локацию, заселенную \nна 99% слабыми видами кротов. \nОбычный вход туда - телепорт на юге Полигона" />
+  <Text Key="entity_name_2959" Value="ТП КАТОРГА" />
+  <Text Key="entity_description_2959" Value="Переносит на локацию Каторга" />
+  <Text Key="entity_name_2949" Value="ТП МАГАЗИН ОПОРА" />
+  <Text Key="entity_description_2949" Value="Переносит на карту нации Опора" />
+  <Text Key="entity_name_2953" Value="ТП МАГАЗИН ТРЕБА" />
+  <Text Key="entity_description_2953" Value="Переносит на карту нации Треба" />
+  <Text Key="entity_name_2955" Value="ТП МАГАЗИН КРАДА" />
+  <Text Key="entity_description_2955" Value="Переносит на карту нации Крада" />
+  <Text Key="entity_name_2957" Value="ТП УКРЕПЛЕНИЕ КРОТОВ" />
+  <Text Key="entity_description_2957" Value="Переносит на карту Укрепление кротов" />
+  <Text Key="entity_name_2982" Value="ТП  БУНКЕР ЧЕРВЕЙ" />
+  <Text Key="entity_description_2982" Value="Переносит к бункеру на карте Черви" />
+  <Text Key="entity_name_3522" Value="ТП ПРОХОД К БАЗЕ КРОТОВ" />
+  <Text Key="entity_description_3522" Value="Переносит к началу карты \nПроход к базе кротов" />
+  <Text Key="entity_name_3662" Value="ТП ПЕРВАЯ БАЗА" />
+  <Text Key="entity_description_3662" Value="Переносит на базу новобранцев" />
+  <Text Key="entity_name_3663" Value="ТП ГРУППА" />
+  <Text Key="entity_description_3663" Value="При его активации \nроботом-разведчиком к месту его \nнахождения переносится состав \nего группы." />
+  <Text Key="entity_name_3664" Value="ТП ОТРЯД" />
+  <Text Key="entity_description_3664" Value="При его активации \nроботом-разведчиком к месту его \nнахождения переносятся все \nонлайн члены его отряда." />
+  <Text Key="entity_name_3665" Value="ТП СОЮЗ" />
+  <Text Key="entity_description_3665" Value="При его активации \nроботом-разведчиком к месту его \nнахождения переносятся все \nонлайн игроки союзных отрядов." />
+  <!-- items/weapons/bazooka -->
+  <Text Key="description_bazooka" Value="Дальнобойное оружие \nс мертвой зоной вблизи и \nнизкой скорострельностью" />
+  <Text Key="description_bazooka_big" Value="Дальнобойное оружие \nс мертвой зоной вблизи и \nнизкой скорострельностью, \nусиленное" />
+  <Text Key="entity_name_3824" Value="Гранатомет 40Б" />
+  <Text Key="entity_description_3824" Value="{description_bazooka}" />
+  <Text Key="entity_name_3825" Value="Гранатомет 40БМ1" />
+  <Text Key="entity_description_3825" Value="{description_bazooka_big}" />
+  <Text Key="entity_name_3826" Value="Гранатомет 50Б" />
+  <Text Key="entity_description_3826" Value="{description_bazooka}" />
+  <Text Key="entity_name_3827" Value="Гранатомет 50БМ1" />
+  <Text Key="entity_description_3827" Value="{description_bazooka_big}" />
+  <Text Key="entity_name_3830" Value="Гранатомет 60Б" />
+  <Text Key="entity_description_3830" Value="{description_bazooka}" />
+  <Text Key="entity_name_3832" Value="Гранатомет 60БМ1" />
+  <Text Key="entity_description_3832" Value="{description_bazooka_big}" />
+  <Text Key="entity_name_3834" Value="Гранатомет 70Б" />
+  <Text Key="entity_description_3834" Value="{description_bazooka}" />
+  <Text Key="entity_name_3836" Value="Гранатомет 70БМ1" />
+  <Text Key="entity_description_3836" Value="{description_bazooka_big}" />
+  <Text Key="entity_name_3838" Value="Гранатомет 80Б" />
+  <Text Key="entity_description_3838" Value="{description_bazooka}" />
+  <Text Key="entity_name_3840" Value="Гранатомет 80БМ1" />
+  <Text Key="entity_description_3840" Value="{description_bazooka_big}" />
+  <Text Key="entity_name_3842" Value="Гранатомет 90Б" />
+  <Text Key="entity_description_3842" Value="{description_bazooka}" />
+  <Text Key="entity_name_3844" Value="Гранатомет 90БМ1" />
+  <Text Key="entity_description_3844" Value="{description_bazooka_big}" />
+  <Text Key="entity_name_4175" Value="Гранатомет 95БМ1" />
+  <Text Key="entity_description_4175" Value="{description_bazooka_big}" />
+  <!-- items/weapons/bazooka-energy -->
+  <Text Key="description_bazooka_energy" Value="Дальнобойное оружие \nсредней скорострельности \nбез мертвой зоны вблизи" />
+  <Text Key="description_bazooka_energy_big" Value="Дальнобойное оружие \nсредней скорострельности \nбез мертвой зоны вблизи, \nусиленное" />
+  <Text Key="entity_name_4066" Value="Гранатомет энрг" />
+  <Text Key="entity_description_4066" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4067" Value="Гранатомет энрг 5" />
+  <Text Key="entity_description_4067" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4065" Value="Гранатомет энрг 10" />
+  <Text Key="entity_description_4065" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4068" Value="Гранатомет энрг 15" />
+  <Text Key="entity_description_4068" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4064" Value="Гранатомет энрг 20" />
+  <Text Key="entity_description_4064" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4063" Value="Гранатомет энрг 30" />
+  <Text Key="entity_description_4063" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4062" Value="Гранатомет энрг 40" />
+  <Text Key="entity_description_4062" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4061" Value="Гранатомет энрг 50" />
+  <Text Key="entity_description_4061" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4060" Value="Гранатомет энрг 60" />
+  <Text Key="entity_description_4060" Value="{description_bazooka_energy}" />
+  <Text Key="entity_name_4059" Value="Гранатомет энрг 70М1" />
+  <Text Key="entity_description_4059" Value="{description_bazooka_energy_big}" />
+  <Text Key="entity_name_4058" Value="Гранатомет энрг 80БМ1" />
+  <Text Key="entity_description_4058" Value="{description_bazooka_energy_big}" />
+  <Text Key="entity_name_3970" Value="Гранатомет энрг 90БМ1" />
+  <Text Key="entity_description_3970" Value="{description_bazooka_energy_big}" />
+  <Text Key="entity_name_4179" Value="Гранатомет энрг 95БМ1" />
+  <Text Key="entity_description_4179" Value="{description_bazooka_energy_big}" />
+  <!-- items/weapons/cannon -->
+  <Text Key="description_cannon" Value="Оружие средней скорострельности, \nс мертвой зоной вблизи, наносит большой урон \nна дальней дистанции" />
+  <Text Key="description_cannon_big" Value="Оружие средней скорострельности, \nс мертвой зоной вблизи, наносит большой урон \nна дальней дистанции, усиленное" />
+  <Text Key="entity_name_590" Value="Пушка" />
+  <Text Key="entity_description_590" Value="{description_cannon}" />
+  <Text Key="entity_name_277" Value="Пушка 2" />
+  <Text Key="entity_description_277" Value="{description_cannon}" />
+  <Text Key="entity_name_587" Value="Пушка 4" />
+  <Text Key="entity_description_587" Value="{description_cannon}" />
+  <Text Key="entity_name_584" Value="Пушка 6Б" />
+  <Text Key="entity_description_584" Value="{description_cannon}" />
+  <Text Key="entity_name_591" Value="Пушка 9Б" />
+  <Text Key="entity_description_591" Value="{description_cannon}" />
+  <Text Key="entity_name_583" Value="Пушка 12Б" />
+  <Text Key="entity_description_583" Value="{description_cannon}" />
+  <Text Key="entity_name_589" Value="Пушка 14Б" />
+  <Text Key="entity_description_589" Value="{description_cannon}" />
+  <Text Key="entity_name_848" Value="Пушка 16Б" />
+  <Text Key="entity_description_848" Value="{description_cannon}" />
+  <Text Key="entity_name_585" Value="Пушка 18Б" />
+  <Text Key="entity_description_585" Value="{description_cannon}" />
+  <Text Key="entity_name_849" Value="Пушка 20Б" />
+  <Text Key="entity_description_849" Value="{description_cannon}" />
+  <Text Key="entity_name_1841" Value="Пушка 20БМ1" />
+  <Text Key="entity_description_1841" Value="{description_cannon_big}" />
+  <Text Key="entity_name_586" Value="Пушка 24Б" />
+  <Text Key="entity_description_586" Value="{description_cannon}" />
+  <Text Key="entity_name_588" Value="Пушка 28Б" />
+  <Text Key="entity_description_588" Value="{description_cannon}" />
+  <Text Key="entity_name_2750" Value="Пушка 28БМ1" />
+  <Text Key="entity_description_2750" Value="{description_cannon_big}" />
+  <Text Key="entity_name_1061" Value="Пушка 30Б" />
+  <Text Key="entity_description_1061" Value="{description_cannon}" />
+  <Text Key="entity_name_1842" Value="Пушка 30БМ1" />
+  <Text Key="entity_description_1842" Value="{description_cannon_big}" />
+  <Text Key="entity_name_1063" Value="Пушка 40Б" />
+  <Text Key="entity_description_1063" Value="{description_cannon}" />
+  <Text Key="entity_name_1843" Value="Пушка 40БМ1" />
+  <Text Key="entity_description_1843" Value="{description_cannon_big}" />
+  <Text Key="entity_name_1062" Value="Пушка 50Б" />
+  <Text Key="entity_description_1062" Value="{description_cannon}" />
+  <Text Key="entity_name_2751" Value="Пушка 50БМ1" />
+  <Text Key="entity_description_2751" Value="{description_cannon_big}" />
+  <Text Key="entity_name_2028" Value="Пушка 60Б" />
+  <Text Key="entity_description_2028" Value="{description_cannon}" />
+  <Text Key="entity_name_2737" Value="Пушка 60БМ1" />
+  <Text Key="entity_description_2737" Value="{description_cannon_big}" />
+  <Text Key="entity_name_2735" Value="Пушка 70Б" />
+  <Text Key="entity_description_2735" Value="{description_cannon}" />
+  <Text Key="entity_name_2738" Value="Пушка 70БМ1" />
+  <Text Key="entity_description_2738" Value="{description_cannon_big}" />
+  <Text Key="entity_name_2736" Value="Пушка 80Б" />
+  <Text Key="entity_description_2736" Value="{description_cannon}" />
+  <Text Key="entity_name_2739" Value="Пушка 80БМ1" />
+  <Text Key="entity_description_2739" Value="{description_cannon_big}" />
+  <Text Key="entity_name_3777" Value="Пушка 90Б" />
+  <Text Key="entity_description_3777" Value="{description_cannon}" />
+  <Text Key="entity_name_3779" Value="Пушка 90БМ1" />
+  <Text Key="entity_description_3779" Value="{description_cannon_big}" />
+  <Text Key="entity_name_4208" Value="Пушка 90БМ2" />
+  <Text Key="entity_description_4208" Value="{description_cannon_big}" />
+  <Text Key="entity_name_4183" Value="Пушка 95БМ1" />
+  <Text Key="entity_description_4183" Value="{description_cannon_big}" />
+  <Text Key="entity_name_4209" Value="Пушка 95БМ2" />
+  <Text Key="entity_description_4209" Value="{description_cannon_big}" />
+  <!-- items/weapons/cannon-energ -->
+  <Text Key="description_cannon_energ" Value="Оружие средней скорострельности, \nс мертвой зоной вблизи, наносит большой \nурон на дальней дистанции" />
+  <Text Key="description_cannon_energ_big" Value="Оружие средней скорострельности, \nс мертвой зоной вблизи, наносит большой \nурон на дальней дистанции, \nусиленное" />
+  <Text Key="entity_name_4077" Value="Пушка энрг" />
+  <Text Key="entity_description_4077" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4078" Value="Пушка энрг 5" />
+  <Text Key="entity_description_4078" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4076" Value="Пушка энрг 10" />
+  <Text Key="entity_description_4076" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4079" Value="Пушка энрг 15" />
+  <Text Key="entity_description_4079" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4075" Value="Пушка энрг 20" />
+  <Text Key="entity_description_4075" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4074" Value="Пушка энрг 30" />
+  <Text Key="entity_description_4074" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4073" Value="Пушка энрг 40" />
+  <Text Key="entity_description_4073" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4072" Value="Пушка энрг 50" />
+  <Text Key="entity_description_4072" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4071" Value="Пушка энрг 60" />
+  <Text Key="entity_description_4071" Value="{description_cannon_energ}" />
+  <Text Key="entity_name_4070" Value="Пушка энрг 70М1" />
+  <Text Key="entity_description_4070" Value="{description_cannon_energ_big}" />
+  <Text Key="entity_name_4069" Value="Пушка энрг 80БМ1" />
+  <Text Key="entity_description_4069" Value="{description_cannon_energ_big}" />
+  <Text Key="entity_name_3972" Value="Пушка энрг 90БМ1" />
+  <Text Key="entity_description_3972" Value="{description_cannon_energ_big}" />
+  <Text Key="entity_name_4223" Value="Пушка энрг 90БМ2" />
+  <Text Key="entity_description_4223" Value="{description_cannon_energ_big}" />
+  <Text Key="entity_name_4187" Value="Пушка энрг 95БМ1" />
+  <Text Key="entity_description_4187" Value="{description_cannon_energ_big}" />
+  <Text Key="entity_name_4224" Value="Пушка энрг 95БМ2" />
+  <Text Key="entity_description_4224" Value="{description_cannon_energ_big}" />
+  <!-- items/weapons/empp -->
+  <Text Key="description_empp" Value="Оружие ближнего боя средней \nскорострельности, без мертвой зоны, \nбольшой урон на малых и средних дистанциях" />
+  <Text Key="description_empp_big" Value="Оружие ближнего боя средней \nскорострельности, без мертвой зоны, \nбольшой урон на малых и средних дистанциях, \nусиленное" />
+  <Text Key="entity_name_666" Value="Эмпп" />
+  <Text Key="entity_description_666" Value="{description_empp}" />
+  <Text Key="entity_name_1747" Value="Эмпп" />
+  <Text Key="entity_description_1747" Value="{description_empp}" />
+  <Text Key="entity_name_664" Value="Эмпп 2" />
+  <Text Key="entity_description_664" Value="{description_empp}" />
+  <Text Key="entity_name_670" Value="Эмпп 5" />
+  <Text Key="entity_description_670" Value="{description_empp}" />
+  <Text Key="entity_name_668" Value="Эмпп 7Б" />
+  <Text Key="entity_description_668" Value="{description_empp}" />
+  <Text Key="entity_name_669" Value="Эмпп 10Б" />
+  <Text Key="entity_description_669" Value="{description_empp}" />
+  <Text Key="entity_name_665" Value="Эмпп 13Б" />
+  <Text Key="entity_description_665" Value="{description_empp}" />
+  <Text Key="entity_name_852" Value="Эмпп 16Б" />
+  <Text Key="entity_description_852" Value="{description_empp}" />
+  <Text Key="entity_name_853" Value="Эмпп 18Б" />
+  <Text Key="entity_description_853" Value="{description_empp}" />
+  <Text Key="entity_name_2730" Value="Эмпп 18БМ1" />
+  <Text Key="entity_description_2730" Value="{description_empp_big}" />
+  <Text Key="entity_name_854" Value="Эмпп 21Б" />
+  <Text Key="entity_description_854" Value="{description_empp}" />
+  <Text Key="entity_name_1847" Value="Эмпп 21БМ1" />
+  <Text Key="entity_description_1847" Value="{description_empp_big}" />
+  <Text Key="entity_name_667" Value="Эмпп 25Б" />
+  <Text Key="entity_description_667" Value="{description_empp}" />
+  <Text Key="entity_name_2731" Value="Эмпп 25БМ1" />
+  <Text Key="entity_description_2731" Value="{description_empp_big}" />
+  <Text Key="entity_name_663" Value="Эмпп 29Б" />
+  <Text Key="entity_description_663" Value="{description_empp}" />
+  <Text Key="entity_name_1848" Value="Эмпп 29БМ1" />
+  <Text Key="entity_description_1848" Value="{description_empp_big}" />
+  <Text Key="entity_name_1073" Value="Эмпп 33Б" />
+  <Text Key="entity_description_1073" Value="{description_empp}" />
+  <Text Key="entity_name_2732" Value="Эмпп 33БМ1" />
+  <Text Key="entity_description_2732" Value="{description_empp_big}" />
+  <Text Key="entity_name_676" Value="Эмпп 37Б" />
+  <Text Key="entity_description_676" Value="{description_empp}" />
+  <Text Key="entity_name_2733" Value="Эмпп 37БМ1" />
+  <Text Key="entity_description_2733" Value="{description_empp_big}" />
+  <Text Key="entity_name_651" Value="Эмпп 41Б" />
+  <Text Key="entity_description_651" Value="{description_empp}" />
+  <Text Key="entity_name_1849" Value="Эмпп 41БМ1" />
+  <Text Key="entity_description_1849" Value="{description_empp_big}" />
+  <Text Key="entity_name_614" Value="Эмпп 45Б" />
+  <Text Key="entity_description_614" Value="{description_empp}" />
+  <Text Key="entity_name_2734" Value="Эмпп 45БМ1" />
+  <Text Key="entity_description_2734" Value="{description_empp_big}" />
+  <Text Key="entity_name_2032" Value="Эмпп 60Б" />
+  <Text Key="entity_description_2032" Value="{description_empp}" />
+  <Text Key="entity_name_2725" Value="Эмпп 60БМ1" />
+  <Text Key="entity_description_2725" Value="{description_empp_big}" />
+  <Text Key="entity_name_2726" Value="Эмпп 70Б" />
+  <Text Key="entity_description_2726" Value="{description_empp}" />
+  <Text Key="entity_name_2728" Value="Эмпп 70БМ1" />
+  <Text Key="entity_description_2728" Value="{description_empp_big}" />
+  <Text Key="entity_name_2727" Value="Эмпп 80Б" />
+  <Text Key="entity_description_2727" Value="{description_empp}" />
+  <Text Key="entity_name_2729" Value="Эмпп 80БМ1" />
+  <Text Key="entity_description_2729" Value="{description_empp_big}" />
+  <Text Key="entity_name_3765" Value="Эмпп 90Б" />
+  <Text Key="entity_description_3765" Value="{description_empp}" />
+  <Text Key="entity_name_3767" Value="Эмпп 90БМ1" />
+  <Text Key="entity_description_3767" Value="{description_empp_big}" />
+  <Text Key="entity_name_4203" Value="Эмпп 90БМ2" />
+  <Text Key="entity_description_4203" Value="{description_empp_big}" />
+  <Text Key="entity_name_4155" Value="Эмпп 95БМ1" />
+  <Text Key="entity_description_4155" Value="{description_empp_big}" />
+  <Text Key="entity_name_4204" Value="Эмпп 95БМ2" />
+  <Text Key="entity_description_4204" Value="{description_empp_big}" />
+  <!-- items/weapons/getter -->
+  <Text Key="entity_name_1840" Value="Ремонтная пушка 10Д" />
+  <Text Key="entity_description_1840" Value="Ремонтный модуль для \nмеха-добытчика" />
+  <Text Key="entity_name_2596" Value="Ремонтная пушка 10ДМ1" />
+  <Text Key="entity_description_2596" Value="Ремонтный модуль для \nмеха-добытчика,\nусиленный вариант" />
+  <Text Key="entity_name_1839" Value="Ремонтная пушка 17Д" />
+  <Text Key="entity_description_1839" Value="Ремонтный модуль для \nмеха-добытчика" />
+  <Text Key="entity_name_2592" Value="Ремонтная пушка 17ДМ1" />
+  <Text Key="entity_description_2592" Value="Ремонтный модуль для \nмеха-добытчика, \nусиленный вариант" />
+  <Text Key="entity_name_615" Value="Ремонтная пушка 25Д" />
+  <Text Key="entity_description_615" Value="Ремонтный модуль для \nмеха-добытчика" />
+  <Text Key="entity_name_613" Value="Ремонтная пушка 32ДМ1" />
+  <Text Key="entity_description_613" Value="Ремонтный модуль для \nмеха-добытчика, \nусиленный вариант" />
+  <Text Key="entity_name_1831" Value="Ремонтная пушка 40Д" />
+  <Text Key="entity_description_1831" Value="Ремонтный модуль для \nмеха-добытчика" />
+  <!-- items/weapons/gun -->
+  <Text Key="description_gun" Value="Оружие большой скорострельности, \nбез мертвой зоны, урон средний" />
+  <Text Key="description_gun_big" Value="Оружие большой скорострельности, \nбез мертвой зоны, урон средний, \nусиленное" />
+  <Text Key="entity_name_143" Value="Пулемёт" />
+  <Text Key="entity_description_143" Value="{description_gun}" />
+  <Text Key="entity_name_323" Value="Пулемёт" />
+  <Text Key="entity_description_323" Value="{description_gun}" />
+  <Text Key="entity_name_549" Value="Пулемёт 6Б" />
+  <Text Key="entity_description_549" Value="{description_gun}" />
+  <Text Key="entity_name_561" Value="Пулемёт 6Б" />
+  <Text Key="entity_description_561" Value="{description_gun}" />
+  <Text Key="entity_name_562" Value="Пулемёт 9Б" />
+  <Text Key="entity_description_562" Value="{description_gun}" />
+  <Text Key="entity_name_563" Value="Пулемёт 11Б" />
+  <Text Key="entity_description_563" Value="{description_gun}" />
+  <Text Key="entity_name_565" Value="Пулемёт 13Б" />
+  <Text Key="entity_description_565" Value="{description_gun}" />
+  <Text Key="entity_name_847" Value="Пулемёт 15Б" />
+  <Text Key="entity_description_847" Value="{description_gun}" />
+  <Text Key="entity_name_566" Value="Пулемёт 18Б" />
+  <Text Key="entity_description_566" Value="{description_gun}" />
+  <Text Key="entity_name_611" Value="Пулемёт 18БМ1" />
+  <Text Key="entity_description_611" Value="{description_gun_big}" />
+  <Text Key="entity_name_567" Value="Пулемёт 22Б" />
+  <Text Key="entity_description_567" Value="{description_gun}" />
+  <Text Key="entity_name_568" Value="Пулемёт 26Б" />
+  <Text Key="entity_description_568" Value="{description_gun}" />
+  <Text Key="entity_name_569" Value="Пулемёт 30Б" />
+  <Text Key="entity_description_569" Value="{description_gun}" />
+  <Text Key="entity_name_1780" Value="Пулемёт 30БМ1" />
+  <Text Key="entity_description_1780" Value="{description_gun_big}" />
+  <Text Key="entity_name_1069" Value="Пулемёт 40Б" />
+  <Text Key="entity_description_1069" Value="{description_gun}" />
+  <Text Key="entity_name_1838" Value="Пулемёт 40БМ1" />
+  <Text Key="entity_description_1838" Value="{description_gun_big}" />
+  <Text Key="entity_name_1544" Value="Пулемёт 50Б" />
+  <Text Key="entity_description_1544" Value="{description_gun}" />
+  <Text Key="entity_name_2754" Value="Пулемёт 50БМ1" />
+  <Text Key="entity_description_2754" Value="{description_gun_big}" />
+  <Text Key="entity_name_2026" Value="Пулемёт 60Б" />
+  <Text Key="entity_description_2026" Value="{description_gun}" />
+  <Text Key="entity_name_2755" Value="Пулемёт 60БМ1" />
+  <Text Key="entity_description_2755" Value="{description_gun_big}" />
+  <Text Key="entity_name_2752" Value="Пулемёт 70Б" />
+  <Text Key="entity_description_2752" Value="{description_gun}" />
+  <Text Key="entity_name_2756" Value="Пулемёт 70БМ1" />
+  <Text Key="entity_description_2756" Value="{description_gun_big}" />
+  <Text Key="entity_name_2753" Value="Пулемёт 80Б" />
+  <Text Key="entity_description_2753" Value="{description_gun}" />
+  <Text Key="entity_name_2757" Value="Пулемёт 80БМ1" />
+  <Text Key="entity_description_2757" Value="{description_gun_big}" />
+  <Text Key="entity_name_3753" Value="Пулемёт 90Б" />
+  <Text Key="entity_description_3753" Value="{description_gun}" />
+  <Text Key="entity_name_3755" Value="Пулемёт 90БМ1" />
+  <Text Key="entity_description_3755" Value="{description_gun_big}" />
+  <Text Key="entity_name_4143" Value="Пулемёт 95БМ1" />
+  <Text Key="entity_description_4143" Value="{description_gun_big}" />
+  <!-- items/weapons/gun-energ -->
+  <Text Key="description_gun_energ" Value="Оружие большой скорострельности, \nмертвой зоны нет, урон средний" />
+  <Text Key="description_gun_energ_big" Value="Оружие большой скорострельности, \nмертвой зоны нет, урон средний, \nусиленное" />
+  <Text Key="entity_name_3752" Value="Пулемёт энрг 40Б" />
+  <Text Key="entity_description_3752" Value="{description_gun_energ}" />
+  <Text Key="entity_name_3781" Value="Пулемёт энрг 40БМ1" />
+  <Text Key="entity_description_3781" Value="{description_gun_energ_big}" />
+  <Text Key="entity_name_3784" Value="Пулемёт энрг 50Б" />
+  <Text Key="entity_description_3784" Value="{description_gun_energ}" />
+  <Text Key="entity_name_3785" Value="Пулемёт энрг 50БМ1" />
+  <Text Key="entity_description_3785" Value="{description_gun_energ_big}" />
+  <Text Key="entity_name_3786" Value="Пулемёт энрг 60Б" />
+  <Text Key="entity_description_3786" Value="{description_gun_energ}" />
+  <Text Key="entity_name_3788" Value="Пулемёт энрг 60БМ1" />
+  <Text Key="entity_description_3788" Value="{description_gun_energ_big}" />
+  <Text Key="entity_name_3790" Value="Пулемёт энрг 70Б" />
+  <Text Key="entity_description_3790" Value="{description_gun_energ}" />
+  <Text Key="entity_name_3792" Value="Пулемёт энрг 70БМ1" />
+  <Text Key="entity_description_3792" Value="{description_gun_energ_big}" />
+  <Text Key="entity_name_3794" Value="Пулемёт энрг 80Б" />
+  <Text Key="entity_description_3794" Value="{description_gun_energ}" />
+  <Text Key="entity_name_3796" Value="Пулемёт энрг 80БМ1" />
+  <Text Key="entity_description_3796" Value="{description_gun_energ_big}" />
+  <Text Key="entity_name_3798" Value="Пулемёт энрг 90Б" />
+  <Text Key="entity_description_3798" Value="{description_gun_energ}" />
+  <Text Key="entity_name_3800" Value="Пулемёт энрг 90БМ1" />
+  <Text Key="entity_description_3800" Value="{description_gun_energ_big}" />
+  <Text Key="entity_name_4147" Value="Пулемёт энрг 95БМ1" />
+  <Text Key="entity_description_4147" Value="{description_gun_energ_big}" />
+  <!-- items/weapons/heavy-gun -->
+  <Text Key="description_heavy_gun" Value="Оружие большой скорострельности, \nмертвой зоны нет, урон средний" />
+  <Text Key="entity_name_4040" Value="Пулемёт крупнокалиберный 40" />
+  <Text Key="entity_description_4040" Value="{description_heavy_gun}" />
+  <Text Key="entity_name_4039" Value="Пулемёт крупнокалиберный 50" />
+  <Text Key="entity_description_4039" Value="{description_heavy_gun}" />
+  <Text Key="entity_name_4038" Value="Пулемёт крупнокалиберный 60" />
+  <Text Key="entity_description_4038" Value="{description_heavy_gun}" />
+  <Text Key="entity_name_4037" Value="Пулемёт крупнокалиберный 70М1" />
+  <Text Key="entity_description_4037" Value="{description_heavy_gun}" />
+  <Text Key="entity_name_4036" Value="Пулемёт крупнокалиберный 80БМ1" />
+  <Text Key="entity_description_4036" Value="{description_heavy_gun}" />
+  <Text Key="entity_name_3967" Value="Пулемёт крупнокалиберный 90БМ1" />
+  <Text Key="entity_description_3967" Value="{description_heavy_gun}" />
+  <Text Key="entity_name_4151" Value="Пулемёт крупнокалиберный 95БМ1" />
+  <Text Key="entity_description_4151" Value="{description_heavy_gun}" />
+  <!-- items/weapons/howitzer -->
+  <Text Key="description_howitzer" Value="Дальнобойное оружие очень низкой \nскорострельности, большая мертвая зона, \nстреляет навесом, наносит урон по площади" />
+  <Text Key="description_howitzer_big" Value="Дальнобойное оружие очень низкой \nскорострельности, большая мертвая зона, \nстреляет навесом, наносит урон по площади, \nусиленное" />
+  <Text Key="entity_name_3802" Value="Гаубица 40Б" />
+  <Text Key="entity_description_3802" Value="{description_howitzer}" />
+  <Text Key="entity_name_3803" Value="Гаубица 40БМ1" />
+  <Text Key="entity_description_3803" Value="{description_howitzer_big}" />
+  <Text Key="entity_name_3804" Value="Гаубица 50Б" />
+  <Text Key="entity_description_3804" Value="{description_howitzer}" />
+  <Text Key="entity_name_3805" Value="Гаубица 50БМ1" />
+  <Text Key="entity_description_3805" Value="{description_howitzer_big}" />
+  <Text Key="entity_name_3808" Value="Гаубица 60Б" />
+  <Text Key="entity_description_3808" Value="{description_howitzer}" />
+  <Text Key="entity_name_3810" Value="Гаубица 60БМ1" />
+  <Text Key="entity_description_3810" Value="{description_howitzer_big}" />
+  <Text Key="entity_name_3812" Value="Гаубица 70Б" />
+  <Text Key="entity_description_3812" Value="{description_howitzer}" />
+  <Text Key="entity_name_3814" Value="Гаубица 70БМ1" />
+  <Text Key="entity_description_3814" Value="{description_howitzer_big}" />
+  <Text Key="entity_name_3816" Value="Гаубица 80Б" />
+  <Text Key="entity_description_3816" Value="{description_howitzer}" />
+  <Text Key="entity_name_3818" Value="Гаубица 80БМ1" />
+  <Text Key="entity_description_3818" Value="{description_howitzer_big}" />
+  <Text Key="entity_name_3820" Value="Гаубица 90Б" />
+  <Text Key="entity_description_3820" Value="{description_howitzer}" />
+  <Text Key="entity_name_3822" Value="Гаубица 90БМ1" />
+  <Text Key="entity_description_3822" Value="{description_howitzer_big}" />
+  <Text Key="entity_name_4163" Value="Гаубица 95БМ1" />
+  <Text Key="entity_description_4163" Value="{description_howitzer_big}" />
+  <!-- items/weapons/howitzer-energ -->
+  <Text Key="description_howitzer_energ" Value="Дальнобойное оружие очень низкой \nскорострельности, большая мертвая зона, \nстреляет навесом, наносит урон по площади" />
+  <Text Key="description_howitzer_energ_big" Value="Дальнобойное оружие очень низкой \nскорострельности, большая мертвая зона, \nстреляет навесом, наносит урон по площади, \nусиленное" />
+  <Text Key="entity_name_4057" Value="Гаубица энрг 40" />
+  <Text Key="entity_description_4057" Value="{description_howitzer_energ}" />
+  <Text Key="entity_name_4056" Value="Гаубица энрг 50Б" />
+  <Text Key="entity_description_4056" Value="{description_howitzer_energ}" />
+  <Text Key="entity_name_4055" Value="Гаубица энрг 60Б" />
+  <Text Key="entity_description_4055" Value="{description_howitzer_energ}" />
+  <Text Key="entity_name_4054" Value="Гаубица энрг 70БМ1" />
+  <Text Key="entity_description_4054" Value="{description_howitzer_energ_big}" />
+  <Text Key="entity_name_4053" Value="Гаубица энрг 80БМ1" />
+  <Text Key="entity_description_4053" Value="{description_howitzer_energ_big}" />
+  <Text Key="entity_name_3968" Value="Гаубица энрг 90БМ1" />
+  <Text Key="entity_description_3968" Value="{description_howitzer_energ_big}" />
+  <Text Key="entity_name_4167" Value="Гаубица энрг 95БМ1" />
+  <Text Key="entity_description_4167" Value="{description_howitzer_energ_big}" />
+  <!-- items/weapons/laser -->
+<Text Key="description_laser" Value="Скорострельное оружие \nмалого радиуса действия, \nне требует боезапаса или навыков, \nурон указан в описании" />
+<Text Key="description_laser_big" Value="Скорострельное оружие \nмалого радиуса действия, \nне требует боезапаса или навыков, \nурон указан в описании, \nусиленное" />
+  <Text Key="entity_name_593" Value="Лазер" />
+  <Text Key="entity_description_593" Value="{description_laser}" />
+  <Text Key="entity_name_594" Value="Лазер 3" />
+  <Text Key="entity_description_594" Value="{description_laser}" />
+  <Text Key="entity_name_595" Value="Лазер 5" />
+  <Text Key="entity_description_595" Value="{description_laser}" />
+  <Text Key="entity_name_596" Value="Лазер 8" />
+  <Text Key="entity_description_596" Value="{description_laser}" />
+  <Text Key="entity_name_597" Value="Лазер 10" />
+  <Text Key="entity_description_597" Value="{description_laser}" />
+  <Text Key="entity_name_1621" Value="Лазер 11" />
+  <Text Key="entity_description_1621" Value="{description_laser}" />
+  <Text Key="entity_name_598" Value="Лазер 13" />
+  <Text Key="entity_description_598" Value="{description_laser}" />
+  <Text Key="entity_name_850" Value="Лазер 16" />
+  <Text Key="entity_description_850" Value="{description_laser}" />
+  <Text Key="entity_name_600" Value="Лазер 18" />
+  <Text Key="entity_description_600" Value="{description_laser}" />
+  <Text Key="entity_name_851" Value="Лазер 21" />
+  <Text Key="entity_description_851" Value="{description_laser}" />
+  <Text Key="entity_name_1844" Value="Лазер 21М1" />
+  <Text Key="entity_description_1844" Value="{description_laser_big}" />
+  <Text Key="entity_name_601" Value="Лазер 25" />
+  <Text Key="entity_description_601" Value="{description_laser}" />
+  <Text Key="entity_name_602" Value="Лазер 29" />
+  <Text Key="entity_description_602" Value="{description_laser}" />
+  <Text Key="entity_name_1845" Value="Лазер 29М1" />
+  <Text Key="entity_description_1845" Value="{description_laser_big}" />
+  <Text Key="entity_name_603" Value="Лазер 33" />
+  <Text Key="entity_description_603" Value="{description_laser}" />
+  <Text Key="entity_name_599" Value="Лазер 39" />
+  <Text Key="entity_description_599" Value="{description_laser}" />
+  <Text Key="entity_name_1846" Value="Лазер 39М1" />
+  <Text Key="entity_description_1846" Value="{description_laser_big}" />
+  <Text Key="entity_name_604" Value="Лазер 43" />
+  <Text Key="entity_description_604" Value="{description_laser}" />
+  <Text Key="entity_name_2030" Value="Лазер 60" />
+  <Text Key="entity_description_2030" Value="{description_laser}" />
+  <Text Key="entity_name_2760" Value="Лазер 60М1" />
+  <Text Key="entity_description_2760" Value="{description_laser_big}" />
+  <Text Key="entity_name_2758" Value="Лазер 70" />
+  <Text Key="entity_description_2758" Value="{description_laser}" />
+  <Text Key="entity_name_2761" Value="Лазер 70М1" />
+  <Text Key="entity_description_2761" Value="{description_laser_big}" />
+  <Text Key="entity_name_2759" Value="Лазер 80" />
+  <Text Key="entity_description_2759" Value="{description_laser}" />
+  <Text Key="entity_name_2762" Value="Лазер 80М1" />
+  <Text Key="entity_description_2762" Value="{description_laser_big}" />
+  <Text Key="entity_name_3757" Value="Лазер 90" />
+  <Text Key="entity_description_3757" Value="{description_laser}" />
+  <Text Key="entity_name_3759" Value="Лазер 90М1" />
+  <Text Key="entity_description_3759" Value="{description_laser_big}" />
+  <Text Key="entity_name_4171" Value="Лазер 95БМ1" />
+  <Text Key="entity_description_4171" Value="{description_laser_big}" />
+  <!-- items/weapons/mortar -->
+  <Text Key="description_mortar" Value="Мощное оружие среднего радиуса \nдействия, скорострельность средняя, \nмертвой зоны нет" />
+  <Text Key="entity_name_4022" Value="Мортира" />
+  <Text Key="entity_description_4022" Value="{description_mortar}" />
+  <Text Key="entity_name_4023" Value="Мортира 5" />
+  <Text Key="entity_description_4023" Value="{description_mortar}" />
+  <Text Key="entity_name_4021" Value="Мортира 10" />
+  <Text Key="entity_description_4021" Value="{description_mortar}" />
+  <Text Key="entity_name_4024" Value="Мортира 15" />
+  <Text Key="entity_description_4024" Value="{description_mortar}" />
+  <Text Key="entity_name_4020" Value="Мортира 20" />
+  <Text Key="entity_description_4020" Value="{description_mortar}" />
+  <Text Key="entity_name_4019" Value="Мортира 30" />
+  <Text Key="entity_description_4019" Value="{description_mortar}" />
+  <Text Key="entity_name_4018" Value="Мортира 40" />
+  <Text Key="entity_description_4018" Value="{description_mortar}" />
+  <Text Key="entity_name_4017" Value="Мортира 50" />
+  <Text Key="entity_description_4017" Value="{description_mortar}" />
+  <Text Key="entity_name_4016" Value="Мортира 60" />
+  <Text Key="entity_description_4016" Value="{description_mortar}" />
+  <Text Key="entity_name_4015" Value="Мортира 70М1" />
+  <Text Key="entity_description_4015" Value="{description_mortar}" />
+  <Text Key="entity_name_4014" Value="Мортира 80БМ1" />
+  <Text Key="entity_description_4014" Value="{description_mortar}" />
+  <Text Key="entity_name_3976" Value="Мортира 90БМ1" />
+  <Text Key="entity_description_3976" Value="{description_mortar}" />
+  <Text Key="entity_name_4218" Value="Мортира 90БМ2" />
+  <Text Key="entity_description_4218" Value="{description_mortar}" />
+  <Text Key="entity_name_4191" Value="Мортира 95БМ1" />
+  <Text Key="entity_description_4191" Value="{description_mortar}" />
+  <Text Key="entity_name_4219" Value="Мортира 95БМ2" />
+  <Text Key="entity_description_4219" Value="{description_mortar}" />
+  <!-- items/weapons/phaser -->
+  <Text Key="description_phaser" Value="Дальнобойное оружие большой \nскорострельности, урон средний, \nмертвой зоны нет" />
+  <Text Key="description_phaser_big" Value="Дальнобойное оружие большой \nскорострельности, урон средний, \nмертвой зоны нет, \nусиленное" />
+  <Text Key="entity_name_2891" Value="Фазер 40Б" />
+  <Text Key="entity_description_2891" Value="{description_phaser}" />
+  <Text Key="entity_name_2892" Value="Фазер 40БМ1" />
+  <Text Key="entity_description_2892" Value="{description_phaser_big}" />
+  <Text Key="entity_name_2890" Value="Фазер 50Б" />
+  <Text Key="entity_description_2890" Value="{description_phaser}" />
+  <Text Key="entity_name_2893" Value="Фазер 50БМ1" />
+  <Text Key="entity_description_2893" Value="{description_phaser_big}" />
+  <Text Key="entity_name_2889" Value="Фазер 60Б" />
+  <Text Key="entity_description_2889" Value="{description_phaser}" />
+  <Text Key="entity_name_2894" Value="Фазер 60БМ1" />
+  <Text Key="entity_description_2894" Value="{description_phaser_big}" />
+  <Text Key="entity_name_2888" Value="Фазер 70Б" />
+  <Text Key="entity_description_2888" Value="{description_phaser}" />
+  <Text Key="entity_name_2895" Value="Фазер 70БМ1" />
+  <Text Key="entity_description_2895" Value="{description_phaser_big}" />
+  <Text Key="entity_name_2887" Value="Фазер 80Б" />
+  <Text Key="entity_description_2887" Value="{description_phaser}" />
+  <Text Key="entity_name_2896" Value="Фазер 80БМ1" />
+  <Text Key="entity_description_2896" Value="{description_phaser_big}" />
+  <Text Key="entity_name_3761" Value="Фазер 90Б" />
+  <Text Key="entity_description_3761" Value="{description_phaser}" />
+  <Text Key="entity_name_3763" Value="Фазер 90БМ1" />
+  <Text Key="entity_description_3763" Value="{description_phaser_big}" />
+  <Text Key="entity_name_4159" Value="Фазер 95БМ1" />
+  <Text Key="entity_description_4159" Value="{description_phaser_big}" />
+  <!-- items/weapons/rk -->
+  <Text Key="description_rk" Value="Оружие средней скорострельности, \nмертвой зоны нет, равный урон на всей \nдистанции выстрела, основной удар \nпо броне цели" />
+  <Text Key="description_rk_big" Value="Оружие средней скорострельности, \nмертвой зоны нет, равный урон на всей \nдистанции выстрела, основной удар \nпо броне цели, усиленное" />
+  <Text Key="entity_name_646" Value="РК" />
+  <Text Key="entity_description_646" Value="{description_rk}" />
+  <Text Key="entity_name_517" Value="РК 3" />
+  <Text Key="entity_description_517" Value="{description_rk}" />
+  <Text Key="entity_name_518" Value="РК 5" />
+  <Text Key="entity_description_518" Value="{description_rk}" />
+  <Text Key="entity_name_519" Value="РК 9Б" />
+  <Text Key="entity_description_519" Value="{description_rk}" />
+  <Text Key="entity_name_520" Value="РК 12Б" />
+  <Text Key="entity_description_520" Value="{description_rk}" />
+  <Text Key="entity_name_521" Value="РК 15Б" />
+  <Text Key="entity_description_521" Value="{description_rk}" />
+  <Text Key="entity_name_522" Value="РК 17Б" />
+  <Text Key="entity_description_522" Value="{description_rk}" />
+  <Text Key="entity_name_523" Value="РК 19Б" />
+  <Text Key="entity_description_523" Value="{description_rk}" />
+  <Text Key="entity_name_524" Value="РК 21Б" />
+  <Text Key="entity_description_524" Value="{description_rk}" />
+  <Text Key="entity_name_1850" Value="РК 21БМ1" />
+  <Text Key="entity_description_1850" Value="{description_rk_big}" />
+  <Text Key="entity_name_525" Value="РК 24Б" />
+  <Text Key="entity_description_525" Value="{description_rk}" />
+  <Text Key="entity_name_647" Value="РК 27Б" />
+  <Text Key="entity_description_647" Value="{description_rk}" />
+  <Text Key="entity_name_649" Value="РК 31Б" />
+  <Text Key="entity_description_649" Value="{description_rk}" />
+  <Text Key="entity_name_1851" Value="РК 31БМ1" />
+  <Text Key="entity_description_1851" Value="{description_rk_big}" />
+  <Text Key="entity_name_654" Value="РК 37Б" />
+  <Text Key="entity_description_654" Value="{description_rk}" />
+  <Text Key="entity_name_653" Value="РК 41Б" />
+  <Text Key="entity_description_653" Value="{description_rk}" />
+  <Text Key="entity_name_1852" Value="РК 41БМ1" />
+  <Text Key="entity_description_1852" Value="{description_rk_big}" />
+  <Text Key="entity_name_657" Value="РК 47Б" />
+  <Text Key="entity_description_657" Value="{description_rk}" />
+  <Text Key="entity_name_2034" Value="РК 60Б" />
+  <Text Key="entity_description_2034" Value="{description_rk}" />
+  <Text Key="entity_name_2744" Value="РК 60БМ1" />
+  <Text Key="entity_description_2744" Value="{description_rk_big}" />
+  <Text Key="entity_name_2741" Value="РК 70Б" />
+  <Text Key="entity_description_2741" Value="{description_rk}" />
+  <Text Key="entity_name_2746" Value="РК 70БМ1" />
+  <Text Key="entity_description_2746" Value="{description_rk_big}" />
+  <Text Key="entity_name_2740" Value="РК 80Б" />
+  <Text Key="entity_description_2740" Value="{description_rk}" />
+  <Text Key="entity_name_2748" Value="РК 80БМ1" />
+  <Text Key="entity_description_2748" Value="{description_rk_big}" />
+  <Text Key="entity_name_3769" Value="РК 90Б" />
+  <Text Key="entity_description_3769" Value="{description_rk}" />
+  <Text Key="entity_name_3771" Value="РК 90БМ1" />
+  <Text Key="entity_description_3771" Value="{description_rk_big}" />
+  <Text Key="entity_name_4195" Value="РК 95БМ1" />
+  <Text Key="entity_description_4195" Value="{description_rk_big}" />
+  <!-- items/weapons/rk-energ -->
+  <Text Key="description_rk_energ" Value="Оружие средней скорострельности, \nмертвой зоны нет, равный урон на всей \nдистанции выстрела, основной удар \nпо полям цели" />
+  <Text Key="description_rk_energ_big" Value="Оружие средней скорострельности, \nмертвой зоны нет, равный урон на всей \nдистанции выстрела, основной удар \nпо полям цели, усиленное" />
+  <Text Key="entity_name_648" Value="РК энрг 6Б" />
+  <Text Key="entity_description_648" Value="{description_rk_energ}" />
+  <Text Key="entity_name_693" Value="РК энрг 8Б" />
+  <Text Key="entity_description_693" Value="{description_rk_energ}" />
+  <Text Key="entity_name_694" Value="РК энрг 10Б" />
+  <Text Key="entity_description_694" Value="{description_rk_energ}" />
+  <Text Key="entity_name_695" Value="РК энрг 13Б" />
+  <Text Key="entity_description_695" Value="{description_rk_energ}" />
+  <Text Key="entity_name_696" Value="РК энрг 14Б" />
+  <Text Key="entity_description_696" Value="{description_rk_energ}" />
+  <Text Key="entity_name_697" Value="РК энрг 16Б" />
+  <Text Key="entity_description_697" Value="{description_rk_energ}" />
+  <Text Key="entity_name_698" Value="РК энрг 19Б" />
+  <Text Key="entity_description_698" Value="{description_rk_energ}" />
+  <Text Key="entity_name_1853" Value="РК энрг 19БМ1" />
+  <Text Key="entity_description_1853" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_699" Value="РК энрг 22Б" />
+  <Text Key="entity_description_699" Value="{description_rk_energ}" />
+  <Text Key="entity_name_700" Value="РК энрг 24Б" />
+  <Text Key="entity_description_700" Value="{description_rk_energ}" />
+  <Text Key="entity_name_644" Value="РК энрг 27Б" />
+  <Text Key="entity_description_644" Value="{description_rk_energ}" />
+  <Text Key="entity_name_551" Value="РК энрг 31Б" />
+  <Text Key="entity_description_551" Value="{description_rk_energ}" />
+  <Text Key="entity_name_1854" Value="РК энрг 31БМ1" />
+  <Text Key="entity_description_1854" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_552" Value="РК энрг 35Б" />
+  <Text Key="entity_description_552" Value="{description_rk_energ}" />
+  <Text Key="entity_name_656" Value="РК энрг 40Б" />
+  <Text Key="entity_description_656" Value="{description_rk_energ}" />
+  <Text Key="entity_name_1855" Value="РК энрг 40БМ1" />
+  <Text Key="entity_description_1855" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_652" Value="РК энрг 45Б" />
+  <Text Key="entity_description_652" Value="{description_rk_energ}" />
+  <Text Key="entity_name_2036" Value="РК энрг 60Б" />
+  <Text Key="entity_description_2036" Value="{description_rk_energ}" />
+  <Text Key="entity_name_2745" Value="РК энрг 60БМ1" />
+  <Text Key="entity_description_2745" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_2742" Value="РК энрг 70Б" />
+  <Text Key="entity_description_2742" Value="{description_rk_energ}" />
+  <Text Key="entity_name_2747" Value="РК энрг 70БМ1" />
+  <Text Key="entity_description_2747" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_2743" Value="РК энрг 80Б" />
+  <Text Key="entity_description_2743" Value="{description_rk_energ}" />
+  <Text Key="entity_name_2749" Value="РК энрг 80БМ1" />
+  <Text Key="entity_description_2749" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_3773" Value="РК энрг 90Б" />
+  <Text Key="entity_description_3773" Value="{description_rk_energ}" />
+  <Text Key="entity_name_3775" Value="РК энрг 90БМ1" />
+  <Text Key="entity_description_3775" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_4213" Value="РК энрг 90БМ2" />
+  <Text Key="entity_description_4213" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_4199" Value="РК энрг 95БМ1" />
+  <Text Key="entity_description_4199" Value="{description_rk_energ_big}" />
+  <Text Key="entity_name_4214" Value="РК энрг 95БМ2" />
+  <Text Key="entity_description_4214" Value="{description_rk_energ_big}" />
+  <!-- items/weapons/transport -->
+  <Text Key="entity_name_1860" Value="Ремонтная пушка 10Т" />
+  <Text Key="entity_description_1860" Value="Ремонтный модуль для \nтранспортного робота" />
+  <Text Key="entity_name_2597" Value="Ремонтная пушка 10ТМ1" />
+  <Text Key="entity_description_2597" Value="Ремонтный модуль для \nтранспортного робота, \nусиленный вариант" />
+  <Text Key="entity_name_1859" Value="Ремонтная пушка 17Т" />
+  <Text Key="entity_description_1859" Value="Ремонтный модуль для \nтранспортного робота" />
+  <Text Key="entity_name_2593" Value="Ремонтная пушка 17ТМ1" />
+  <Text Key="entity_description_2593" Value="Ремонтный модуль для \nтранспортного робота, \nусиленный вариант" />
+  <Text Key="entity_name_1857" Value="Ремонтная пушка 25Т" />
+  <Text Key="entity_description_1857" Value="Ремонтный модуль для \nтранспортного робота" />
+  <Text Key="entity_name_1856" Value="Ремонтная пушка 32ТМ1" />
+  <Text Key="entity_description_1856" Value="Ремонтный модуль для \nтранспортного робота, \nусиленный вариант" />
+  <Text Key="entity_name_1858" Value="Ремонтная пушка 40Т" />
+  <Text Key="entity_description_1858" Value="Ремонтный модуль для \nтранспортного робота" />
+  <!-- modification/installation-skills -->
+  <Text Key="entity_name_3586" Value="Апгрейд уровень 1" />
+  <Text Key="entity_description_3586" Value="Микросхема для установки 1й ступени \nнавыков на оружие или оборудование. \nВыдается за квест, создается крафтом \nили выпадает из подарков" />
+  <Text Key="entity_name_3587" Value="Апгрейд уровень 2" />
+  <Text Key="entity_description_3587" Value="Микросхема для установки 2й ступени \nнавыков на оружие или оборудование. \nВыдается за квест, создается крафтом \nили выпадает из подарков" />
+  <Text Key="entity_name_3588" Value="Апгрейд уровень 3" />
+  <Text Key="entity_description_3588" Value="Микросхема для установки 3й ступени \nнавыков на оружие или оборудование. \nВыдается за квест, создается крафтом \nили выпадает из подарков" />
+  <Text Key="entity_name_3715" Value="Апгрейд уровень 4" />
+  <Text Key="entity_description_3715" Value="Микросхема для установки 4й ступени \nнавыков на оружие или оборудование. \nВыдается за квест, создается крафтом \nили выпадает из подарков" />
+  <Text Key="entity_name_3895" Value="Апгрейд уровень 5" />
+  <Text Key="entity_description_3895" Value="Микросхема для установки 5й ступени \nнавыков на оружие или оборудование. \nВыдается за квест, создается крафтом \nили выпадает из подарков" />
+  <!-- modification/temporary-upgrade -->
+  <Text Key="entity_name_3711" Value="Временный апгрейд СКОРОСТЬ" />
+  <Text Key="entity_description_3711" Value="На 10 минут увеличивает \nскорость робота" />
+  <Text Key="entity_name_3712" Value="Временный апгрейд ПРОЧНОСТЬ" />
+  <Text Key="entity_description_3712" Value="На 10 минут увеличивает \nпрочность робота" />
+  <Text Key="entity_name_3713" Value="Временный апгрейд БРОНЯ" />
+  <Text Key="entity_description_3713" Value="На 10 минут усиляет \nброню робота" />
+  <Text Key="entity_name_3714" Value="Временный апгрейд ПОЛЯ" />
+  <Text Key="entity_description_3714" Value="На 10 минут усиляет \nполя робота" />
+  <Text Key="entity_name_3734" Value="Временное увеличение стат брони и полей" />
+  <Text Key="entity_description_3734" Value="На 10 минут увеличивает \nпараметры брони и полей робота" />
 </Localization>
