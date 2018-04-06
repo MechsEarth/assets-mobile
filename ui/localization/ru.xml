@@ -563,7 +563,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="•• Огромный бонус покупки реглов ••\n            \c&lt;243 100 100&gt; +40%%%% на любую сумму\b\n                \c&lt;243 230 30&gt;Акция 19 и 20 марта\b\n•••           Узнать подробнее            •••" />
+  <Text Key="mainmenu_sale" Value="•• Отличный бонус покупки реглов ••\n            \c&lt;243 100 100&gt; +30%%%% на любую сумму\b\n                \c&lt;243 230 30&gt;Акция 7 и 8 апреля\b\n•••           Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
