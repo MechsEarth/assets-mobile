@@ -463,10 +463,12 @@
   <Text Key="options_disable_detail" Value="Disadle detalization" />
   <Text Key="options_disable_effect" Value="Disadle effects" />
   <Text Key="options_disable_vsync" Value="Disadle VSync" />
+  <Text Key="options_re_install" Value="Reinstall data" />
   <Text Key="options_use_min_fps" Value="Limit 30 FPS" />
   <Text Key="options_enable_debug" Value="Enable debugger" />
   <Text Key="options_distance" Value="Range of visibility" />
   <Text Key="options_distance_active" Value="Range of players" />
+  <Text Key="options_distance_camera" Value="Range of camera" />
   <Text Key="options_resolution" Value="Screen resolution" />
   <Text Key="options_range_antialiasing" Value="Anti-aliasing" />
   <Text Key="options_range_anisotropying" Value="Msaa" />
@@ -476,6 +478,7 @@
   <Text Key="options_move_type_control" Value="accuracy" />
   <Text Key="options_move_type_speed" Value="speed" />
   <Text Key="options_disable_light" Value="Disable light" />
+  <Text Key="options_disable_normal_map" Value="Disable normals" />
   <Text Key="options_shadow" Value="Quality of shadows" />
   <Text Key="options_shadow_0" Value="disable" />
   <Text Key="options_shadow_1" Value="low" />
@@ -484,9 +487,17 @@
   <Text Key="options_shadow_4" Value="excellent" />
   <Text Key="options_shadow_5" Value="ultra" />
   <Text Key="options_shadow_6" Value="ultra+" />
-  <Text Key="options_gamma" Value="Brightness" />  
+  <Text Key="options_gamma" Value="Brightness" />
+  <Text Key="options_quality_graphics" Value="Graphics quality" />
+  <Text Key="options_quality_graphics_0" Value="low" />
+  <Text Key="options_quality_graphics_1" Value="average" />
+  <Text Key="options_quality_graphics_2" Value="good" />
+  <Text Key="options_quality_graphics_3" Value="excellent" />
+  <Text Key="options_quality_graphics_4" Value="ultra" />
+  
   <Text Key="options_ping" Value="Ping: %d middle: %d FPS: %.1f" />
   <Text Key="options_note" Value="FOR THESE SETTINGS TO TAKE EFFECT, RESTART THE GAME" />
+  <Text Key="options_note_re_install" Value="AFTER RESTART, DATA GAME WILL BE DOWNLOADED AGAIN" />
 
   <Text Key="LGN_RSP_VERSION_WRONG" Value="\nRequired version \c&lt;190 60 60&gt;%.1d.%d.x\b upgrade the game client" />
   <Text Key="LGN_RSP_LGN_PWD_WRONG" Value="\nIncorrect identity" />
@@ -563,7 +574,7 @@
   <Text Key="mainmenu_wiki" Value="Knowledge base" />
   <Text Key="main_get_info" Value="Receiving data..." />
 
-  <Text Key="mainmenu_sale" Value="-----&gt;     %%%% Mega Sale %%%%     &lt;-----\n\n-       \c&lt;243 230 30&gt;Only on April 7 and 8\b     -\n•••            Learn more            •••" />
+  <Text Key="mainmenu_sale" Value="-----&gt;     %%%% Mega Sale %%%%     &lt;-----\n\n-       \c&lt;243 230 30&gt;Only on April 19 --- 22\b     -\n•••            Learn more            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Our page on Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Our group in Google+" />

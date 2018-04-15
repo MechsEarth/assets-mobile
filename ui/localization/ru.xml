@@ -462,10 +462,12 @@
   <Text Key="options_disable_detail" Value="Отключить детализацию" />
   <Text Key="options_disable_effect" Value="Отключить эффекты" />
   <Text Key="options_disable_vsync" Value="Отключить VSync" />
+  <Text Key="options_re_install" Value="Переустановить данные" />
   <Text Key="options_use_min_fps" Value="Ограничить 30 FPS" />
   <Text Key="options_enable_debug" Value="Включить отладку" />
   <Text Key="options_distance" Value="Дальность вида" />
   <Text Key="options_distance_active" Value="Дальность игроков" />
+  <Text Key="options_distance_camera" Value="Отдаление камеры" />
   <Text Key="options_resolution" Value="Разрешение" />
   <Text Key="options_range_antialiasing" Value="Сглаживание моделей" />
   <Text Key="options_range_anisotropying" Value="Сглаживание текстур" />
@@ -475,6 +477,7 @@
   <Text Key="options_move_type_control" Value="точность" />
   <Text Key="options_move_type_speed" Value="скорость" />  
   <Text Key="options_disable_light" Value="Отключить освещение" />
+  <Text Key="options_disable_normal_map" Value="Отключить нормали" />
   <Text Key="options_shadow" Value="Качество теней" />
   <Text Key="options_shadow_0" Value="выключены" />
   <Text Key="options_shadow_1" Value="низкое" />
@@ -484,9 +487,16 @@
   <Text Key="options_shadow_5" Value="ультра" />
   <Text Key="options_shadow_6" Value="ультра+" />
   <Text Key="options_gamma" Value="Яркость" />
+  <Text Key="options_quality_graphics" Value="Качество графики" />
+  <Text Key="options_quality_graphics_0" Value="низкое" />
+  <Text Key="options_quality_graphics_1" Value="среднее" />
+  <Text Key="options_quality_graphics_2" Value="хорошее" />
+  <Text Key="options_quality_graphics_3" Value="отличное" />
+  <Text Key="options_quality_graphics_4" Value="ультра" />
   
   <Text Key="options_ping" Value="Ping: %d средний: %d FPS: %.1f" />
   <Text Key="options_note" Value="ТРЕБУЕТСЯ ПЕРЕЗАПУСК ИГРЫ, ДЛЯ ПРИМЕНЕНИЯ НАСТРОЕК" />
+  <Text Key="options_note_re_install" Value="ПОСЛЕ ПЕРЕЗАПУСКА, ДАННЫЕ ИГРЫ БУДУТ СКАЧАНЫ ПО НОВОЙ" />
 
   <Text Key="LGN_RSP_VERSION_WRONG" Value="\nТребуется версия \c&lt;190 60 60&gt;%.1d.%d.x\b Обновите клиент" />
   <Text Key="LGN_RSP_LGN_PWD_WRONG" Value="\nНеверные идентификационные данные" />
@@ -563,7 +573,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="•• Отличный бонус покупки реглов ••\n            \c&lt;243 100 100&gt; +30%%%% на любую сумму\b\n                \c&lt;243 230 30&gt;Акция 7 и 8 апреля\b\n•••           Узнать подробнее            •••" />
+  <Text Key="mainmenu_sale" Value="======&gt;    \c&lt;0 0 0&gt;Черный апрель\b    &lt;======\n                      \c&lt;243 100 100&gt;Скидки до 70%%%%\b\n                  \c&lt;243 230 30&gt;Акция 19-22 апреля\b\n•••              Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
