@@ -573,7 +573,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value="======&gt;    \c&lt;0 0 0&gt;Черный апрель\b    &lt;======\n                      \c&lt;243 100 100&gt;Скидки до 70%%%%\b\n                  \c&lt;243 230 30&gt;Акция 19-22 апреля\b\n•••              Узнать подробнее            •••" />
+  <Text Key="mainmenu_sale" Value="====&gt;   Распродажа апгрейдов   &lt;====\n                      \c&lt;243 100 100&gt;Скидки до 80%%%%\b\n                  \c&lt;243 230 30&gt;  Акция 25-27 мая \b\n•••              Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
