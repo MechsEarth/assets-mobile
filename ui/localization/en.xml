@@ -59,7 +59,8 @@
   <Text Key="command_move_to" Value="follow" />
   <Text Key="command_stop_move" Value="stop" />
   <Text Key="command_attack_to" Value="attack" />
-  <Text Key="command_change_weapon" Value="change weapon" />
+  <Text Key="command_change_weapon_34" Value="change weapon 3-4" />
+  <Text Key="command_change_weapon_56" Value="change weapon 5-6" />
   <Text Key="command_nation_invite" Value="Invite in nation" />
 
 
@@ -574,7 +575,7 @@
   <Text Key="mainmenu_wiki" Value="Knowledge base" />
   <Text Key="main_get_info" Value="Receiving data..." />
 
-  <Text Key="mainmenu_sale" Value="-----&gt;     %%%% Mega Sale %%%%     &lt;-----\n\n-       \c&lt;243 230 30&gt;Only on May 25 --- 27\b     -\n•••            Learn more            •••" />
+  <Text Key="mainmenu_sale" Value="-----&gt;     %%%% Mega Sale %%%%     &lt;-----\n\n               \c&lt;243 230 30&gt;Just a few days\b     \n•••            Learn more            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Our page on Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Our group in Google+" />
@@ -682,6 +683,36 @@
   <Text Key="trade_offer_money1" Value="To offer REGLS" />
   <Text Key="trade_wnd_text" Value="TRADE" />
   <Text Key="trade_select_robot" Value="Robots" />
+
+  <Text Key="inv_inst_electronic1" Value="chip 1" />
+  <Text Key="inv_inst_electronic2" Value="chip 2" />
+  <Text Key="inv_inst_special1" Value="special 1" />
+  <Text Key="inv_inst_special2" Value="special 2" />
+  <Text Key="inv_inst_energy1" Value="energy 1" />
+  <Text Key="inv_inst_energy2" Value="energy 2" />
+  <Text Key="inv_inst_energy3" Value="energy 3" />
+  <Text Key="inv_inst_energy4" Value="energy 4" />
+  <Text Key="inv_inst_weapon1" Value="weapon 1" />
+  <Text Key="inv_inst_weapon2" Value="weapon 2" />
+  <Text Key="inv_inst_shield1" Value="shield 1" />
+  <Text Key="inv_inst_shield2" Value="shield 2" />
+  <Text Key="inv_inst_shield3" Value="shield 3" />
+  <Text Key="inv_inst_weapon1_bullet" Value="bullet 1" />
+  <Text Key="inv_inst_weapon2_bullet" Value="bullet 2" />
+  <Text Key="inv_inst_weapon3_bullet" Value="bullet 3" />
+  <Text Key="inv_inst_weapon4_bullet" Value="bullet 4" />
+  <Text Key="inv_inst_weapon3" Value="weapon 3" />
+  <Text Key="inv_inst_weapon4" Value="weapon 4" />
+  <Text Key="inv_inst_armour1" Value="armour 1" />
+  <Text Key="inv_inst_armour2" Value="armour 2" />
+  <Text Key="inv_inst_weapon5_bullet" Value="bullet 5" />
+  <Text Key="inv_inst_weapon6_bullet" Value="bullet 6" />
+  <Text Key="inv_inst_weapon5" Value="weapon 5" />
+  <Text Key="inv_inst_weapon6" Value="weapon 6" />
+  <Text Key="inv_inst_electronic3" Value="chip 3" />
+  <Text Key="inv_inst_electronic4" Value="chip 4" />
+  <Text Key="inv_inst_special3" Value="special 3" />
+  <Text Key="inv_inst_special4" Value="special 4" />
 
   <Text Key="repair_title" Value="Repair terminal" />
   <Text Key="repair_price_mech" Value="Price of repair:" />
