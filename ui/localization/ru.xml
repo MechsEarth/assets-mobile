@@ -574,7 +574,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-  <Text Key="mainmenu_sale" Value=" Поднять оборудование на 30%%%% дешевле\n       \c&lt;243 100 100&gt; +Купить реглов на 30%%%% больше\b\n                 \c&lt;243 230 30&gt;   Акция 23-24 июня \b\n•••              Узнать подробнее            •••" />
+<Text Key="mainmenu_sale" Value="====&gt;   Распродажа апгрейдов   &lt;====\n                      \c&lt;243 100 100&gt;Скидки до 80%%%%\b\n                  \c&lt;243 230 30&gt;  Акция 7-8 июля \b\n•••              Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
