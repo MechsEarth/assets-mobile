@@ -2,6 +2,6 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.4.21",
+    "version": "2.1.4.22",
     "engineVersion": "3.15"
 }
