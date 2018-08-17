@@ -574,7 +574,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-<Text Key="mainmenu_sale" Value="=&gt; Скидки на подъем оборудования  &lt;=\n  Прокачку роботов и покупку реглов\n             \c&lt;243 230 30&gt;    Акция 12-13 августа \b\n\c&lt;243 100 100&gt;•••              Узнать подробнее            •••" />
+<Text Key="mainmenu_sale" Value="=&gt;   Скидки на установку навыков    &lt;=\n      \c&lt;243 100 100&gt; До 80%%%%\b и +30%%%% покупка реглов\n                  \c&lt;243 230 30&gt;Акция 18-20 августа\b\n•••              Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
