@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.4.28",
+    "version": "2.1.4.29",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -5778,7 +5778,7 @@
             "size": 536
         },
         "ui/dialogs/main/Main.xml": {
-            "md5": "96a407da2050c0cbd4b786a036dca007",
+            "md5": "f8b1eab7854e35ae9ba5b2601ddaaa0f",
             "size": 3678
         },
         "ui/dialogs/main/MainContacts.xml": {
@@ -6158,7 +6158,7 @@
             "size": 1096839
         },
         "worlds/EntityPrototypes.bin": {
-            "md5": "d58d1df24c991e515d72ece9ac37ed91",
+            "md5": "673d3b98ecf12e84184ab54c997e4192",
             "size": 727766
         },
         "worlds/Nations.xml": {
