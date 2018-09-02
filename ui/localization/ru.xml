@@ -574,7 +574,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-<Text Key="mainmenu_sale" Value="=&gt;             Летняя Супер акция           &lt;=\n      \c&lt;243 100 100&gt;      Большие скидки на многое\n                  \c&lt;243 230 30&gt;Акция 25-27 августа\b\n•••              Узнать подробнее            •••" />
+<Text Key="mainmenu_sale" Value="=&gt;          Беспрецедентная акция        &lt;=\n      \c&lt;243 100 100&gt;      Бонус покупки реглов 50%%%%\n                  \c&lt;243 230 30&gt;Акция 1-3 сентября\b\n•••              Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
