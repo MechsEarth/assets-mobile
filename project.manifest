@@ -2,7 +2,7 @@
     "packageUrl": "http://assets-mobile.mechs.su/",
     "remoteManifestUrl": "http://assets-mobile.mechs.su/project.manifest",
     "remoteVersionUrl": "http://assets-mobile.mechs.su/version.manifest",
-    "version": "2.1.4.34",
+    "version": "2.1.4.35",
     "engineVersion": "3.15",
     "assets": {
         "ClientConfig.xml": {
@@ -5878,8 +5878,8 @@
             "size": 79199
         },
         "ui/localization/ru.xml": {
-            "md5": "cc9df76b5958788203383a3e82834bb5",
-            "size": 100585
+            "md5": "8ef70487e333be2d1629f42bf88eb715",
+            "size": 100581
         },
         "ui/ui.xml": {
             "md5": "2ef5beb1cd8746c68113d1bfb4ac61c6",
