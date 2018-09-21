@@ -574,7 +574,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-<Text Key="mainmenu_sale" Value="=&gt;    Конкурс на добычу ресурсов    &lt;=\n  \c&lt;243 100 100&gt; Скидка установки навыка добычи\n                  \c&lt;243 230 30&gt;Акция 18-21 сентября\b\n•••              Узнать подробнее            •••" />
+<Text Key="mainmenu_sale" Value="=&gt;   Скидка на установку навыков     &lt;=\n  \c&lt;243 100 100&gt;        Бонус покупки реглов 30%%%%\n                 \c&lt;243 230 30&gt;Акция 22-24 сентября\b\n•••              Узнать подробнее            •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
