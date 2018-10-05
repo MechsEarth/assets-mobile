@@ -574,7 +574,7 @@
   <Text Key="mainmenu_wiki" Value="База знаний" />
   <Text Key="main_get_info" Value="Получение данных.." />
 
-<Text Key="mainmenu_sale" Value="=&gt;  Заканчивается конкурс добычи   &lt;=\n  \c&lt;243 100 100&gt;    Скидка на прокачку робота 40%%%%\n                \c&lt;243 230 30&gt;Акция 29-30 сентября\b\n•••              Узнать подробнее            •••" />
+<Text Key="mainmenu_sale" Value="=&gt;       Покупай реглы в выходные      &lt;=\n  \c&lt;243 100 100&gt;  Очень выгодно, бонус покупки 40%%%%\n                 \c&lt;243 230 30&gt;Акция 6-8 октября\b\n•••            Узнать подробнее              •••" />
 
   <Text Key="tooltip_mainmenu_facebook" Value="Наша страница на Facebook" />
   <Text Key="tooltip_mainmenu_google-plus" Value="Наша группа в Google+" />
